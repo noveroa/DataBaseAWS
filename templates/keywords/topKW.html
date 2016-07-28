@@ -1,0 +1,51 @@
+<!-- extend tablej layout Returns a table of with the top Keywords over all conferences and years. With the given frequencies.  A Heat Map representation is also displayed -->
+{% extends "tableJ.html" %}
+
+{% block title %}Top 20 KeyWords{% endblock %}
+
+{% block contents %}
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style_tables.css') }}"width="100%">
+  <body>
+      <table id="TopKW" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>Top</th>
+        <th>HeatMap</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#TopKW').dataTable( {  
+            "colReorder" : true,
+            "rowReorder" : true,
+            "ajax" : '/api/data',
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": false,
+            "scrollY" : 600,
+            "deferRender" : false,
+            "scroller" : true,
+            "columns":  [
+                { "data": "Top"},
+                { "data": "HeatMap"},
+            ],
+            "ajax": {
+        "url":"/seeKWTop"
+            },
+         });   
+        });   
+   </script>
+<table BORDER="1">
+        <tr> 
+             <td > <a href="{{ url_for('search_kw') }}"><button>Search Keywords</button></a></td>
+             <td > <a href="{{ url_for('seeKWTrends') }}"><button>See A Trend</button></a></td>
+             <td > <a href="{{ url_for('topKW') }}"><button>See Top 20 Trend</button></a></td>
+        </tr>
+</table>
+{% endblock %}

@@ -1,0 +1,48 @@
+<!-- extend tablej layout Returns a table of with Affiliation Country and Cts  -->
+{% extends "tableJ.html" %}
+
+{% block title %}Country Affiliation Counts{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="TopKW" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>Country</th>
+        <th>Count</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#TopKW').dataTable( {  
+            "colReorder" : true,
+            "rowReorder" : true,
+            "ajax" : '/api/data',
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": false,
+            "columns":  [
+                { "data": "country"},
+                { "data": "count"},
+            ],
+            "ajax": {
+        "url":"/getCountryCounts"
+            },
+         });   
+        });   
+   </script>
+<table BORDER="1">
+        <tr> 
+             <td > <a href="{{ url_for('seeCountries') }}"><button>Visualize Country Counts</button></a></td>
+             <td > <a href="{{ url_for('seeCountriesGR') }}"><button>Visualize Country Counts and Conference</button></a></td>
+             <td > <a href="{{ url_for('seeAffil') }}"><button>Search Affiliations by Term</button></a></td>
+
+        </tr>
+</table>
+{% endblock %}

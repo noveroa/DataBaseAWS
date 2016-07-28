@@ -1,0 +1,129 @@
+<!-- extend tablej layout Given a keyword, Returns a table of paperIDs, titles, conferences, years, a table of the frequency of the given keywword per year/conference and a heatmap represenation.  -->
+{% extends "tableJ.html" %}
+
+{% block title %}KeywordTrend{% endblock %}
+
+{% block contents %}
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style_tables.css') }}"width="100%">
+<body>
+  <div id="confyr-container" class="absolute panel panel-default">
+
+    <input class="fp-value fp-target" value = "vulnerability">
+  </div>
+
+    <table id="example" class="display dataTable" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Table</th>
+                <th>Counts</th>
+                <th>Trend</th>
+                <th>url</th>
+            </tr>
+        </thead>
+        
+    </table>
+</body>
+
+
+<script>
+    function getURLParameter(parameterName) {
+        var uri = URI(window.location.href)
+        return uri.search(true)[parameterName]
+    }
+
+function removeURLParameter(parameterName) {
+    var uri = URI(window.location.href);
+    
+    uri.removeSearch(parameterName);
+    
+    navigateToURI(uri);
+}
+
+function setURLParameter(parameterName, parameterValue) {
+    var uri = URI(window.location.href);
+    
+    if (parameterValue)
+        uri.setSearch(parameterName, parameterValue);
+    else
+        uri.removeSearch(parameterName);
+    
+    navigateToURI(uri);
+}
+
+function navigateToURI(uri) {
+    var _url = uri.path() + uri.search();
+    // here we decode the URI because then Chrome will show the URL in a nicer way even if it url-encodes it behind the scenes
+    _url = decodeURIComponent(_url);
+    
+    history.pushState({}, "", _url);
+}
+
+function doit(table) {
+    var $confyrContainer = $('#confyr-container');
+    var $target = $confyrContainer.find('.fp-target');
+    var url = "/seeKWTrend/" + $target.val() ;
+    
+    $.ajax({
+        url: url, 
+        dataType: 'json',
+        type: 'GET',
+    }).done(function(data) {
+        // do your changes here
+    }).fail(function() {
+        alert("failed");
+        // we can change stuff now!
+        $target.val("vulnerability");
+    });
+
+    // or reload the table
+    // https://datatables.net/reference/api/ajax.url().load()
+    table.ajax.url( url ).load();
+}
+
+
+$(document).ready(function () {
+    var $confyrContainer = $('#confyr-container');
+    var $target = $confyrContainer.find('.fp-target');
+    
+    // Make the table
+    var table = $('#example').DataTable( {
+      ajax: "/seeKWTrend/" + $target.val(),
+      dataSrc: "data", // prop in the return json 
+      "colReorder" : true,
+      "scrollY" : 550,
+      "scroller" : true,
+      "bLengthChange": false,
+      "bFilter": true,
+      "bSort": true, 
+      "aaSorting": [],
+      "bInfo": false,
+      "bJQueryUI": true,
+      "bAutoWidth": true,
+      "columns": [
+            { "data": "table" },
+            { "data": "cts" },
+            { "data": "trend" },
+            { "data": "url" }
+         ],
+    } );  
+
+
+    $target.change(function () {
+        setURLParameter("target", $target.val());
+        doit(table);
+    });
+    
+})
+</script>
+<table BORDER="1">
+        <tr> <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdowns by Year</button></a></td>
+             <td > <a href="{{ url_for('search_kw') }}"><button>Search Keywords</button></a></td>
+             <td > <a href="{{ url_for('seeKWTrends') }}"><button>Look at Another Trend</button></a></td>
+        </tr>
+</table>
+
+{% endblock %}
+
+
+
+

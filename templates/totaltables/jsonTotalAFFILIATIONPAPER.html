@@ -1,0 +1,38 @@
+<!-- extend tablej layout -->
+{% extends "tableJ.html" %}
+
+{% block title %}Papers and Their Affiliations{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="AFFILIATIONPAPER" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>paperID</th>
+        <th>affilID</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#AFFILIATIONPAPER').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "paperID" },
+                { "data": "affilID" },
+                
+            ],
+            "ajax": {
+        "url":"/jsonTotal/AFFILIATIONPAPER",
+            },
+         });   
+        });   
+   </script>
+{% endblock %}

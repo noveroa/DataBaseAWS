@@ -1,0 +1,75 @@
+<!-- Template Master master.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DataBase Project _ ANovero</title>
+    <img src="{{ url_for('static', filename='Images/smallLogo.jpeg') }}"/>
+    
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron/jumbotron.css" rel="stylesheet">
+    
+    
+  </head>
+ 
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="{{ url_for('index') }}"><button>Home</button></a></li>
+            <li role="presentation"><a href="mailto:novero.a@gmail.com?Subject=Hello%20from%20DatabaseApp" target="_top" ><button>SendEmail</button></a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">{% block title %}{% endblock %}</h3>
+      </div>
+ 
+      <div class="jumbotron">  
+    
+    <body>
+        {% block content %}{% endblock %}
+    
+
+    
+    <table BORDER="2">
+        <Caption color = "white" > Let's Navigate </Caption>
+        
+        <tr> 
+            <td > <a href="{{ url_for('index') }}"><button>Home</button></a></td>
+            <td>  <a href="{{ url_for('getUsers') }}"><button>Users</button></a></td>
+            <td > <a href="{{ url_for('aboutme') }}"><button>AboutMe!</button></a></td>
+            <td > <a href="{{ url_for('jsonContents') }}"><button>What Do We Have?</button></a></td>   
+        </tr>
+        <tr>
+            <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdown</button></a></td>
+            <td > <a href="{{ url_for('jsonContentsconf') }}"><button>Visual Conference Breakdown</button></a></td>
+            <td > <a href="{{ url_for('jsonPaperKW') }}"><button>Papers and their Keywords</button></a></td>
+            <td > <a href="{{ url_for('seeKWTrends') }}"><button>Find a Keyword</button></a></td>
+            <td > <a href="{{ url_for('KWcloud') }}"><button>A Keyword Cloud</button></a></td>
+        </tr>
+            <td > <a href="{{ url_for('authoredpapers') }}"><button>Authors and their Papers</button></a></td>
+            <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Paper's Authors</button></a></td>
+            <td > <a href="{{ url_for('seeAuthorsName') }}"><button>Author's Papers</button></a></td>
+            <td > <a href="{{ url_for('auCloud') }}"><button>Authors Cloud</button></a></td>
+            <td > <a href="{{ url_for('seeAuthorsSpot') }}"><button>Bubble Chart Author Counts by Conference</button></a></td>
+            <td > <a href="{{ url_for('seeAuthorsArea') }}"><button>Area Plot Author Counts by Conference</button></a></td>
+        <tr>
+        </tr>
+        <tr>
+         <td > <a href="{{ url_for('seeAffil') }}"><button>Search Affiliations by Term</button></a></td>
+         <td > <a href="{{ url_for('seeCountryCounts') }}"><button>Table of Country Counts</button></a></td>
+         <td > <a href="{{ url_for('seeCountries') }}"><button>Visualize Country Counts</button></a></td>
+         <td > <a href="{{ url_for('seeCountriesGR') }}"><button>Bubble Chart Country Counts by Conference</button></a></td>
+         <td > <a href="{{ url_for('seeCountriesAreaPlot') }}"><button>Area Plot Country Counts by Conference</button></a></td>
+        </tr>
+    </table>
+
+    </body>
+<footer class="footer">
+    <p>&copy; Aileen Novero 2015</p>
+</footer>
+        </div>
+      </div>
+    </body>
+</html>

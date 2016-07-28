@@ -1,0 +1,56 @@
+<!-- extend tablej layout  Non searched displays a given conference and year paperID, title, abstract-->
+{% extends "tableJ.html" %}
+
+{% block title %}ConferenceYear{% endblock %}
+
+{% block contents %}
+<style>
+    caption, th, td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #fff;
+        border-bottom: 1px solid #ddd;
+        }
+     caption {
+        font-weight: bold;
+        font-size: 1.1em;
+     }
+</style>
+<h2> Conference: {{entry[0]}} Year: {{entry[1]}} </h2>
+  <body>
+      <table id="ConferenceYear" class="dataTable sig-datatable" width="100%">
+      <thead>
+        
+        <th>paperID</th>
+        <th>Title</th>
+        <th>Abstract</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#ConferenceYear').dataTable( {  
+            "colReorder" : true,
+            "rowReorder" : true,
+            "ajax" : '/api/data',
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "paperID"},
+                { "data": "Title"},
+                { "data" : "Abstract"},
+            ],
+            "ajax": {
+        "url":"/jsonconfyrpapers/{{entry[0]}}/{{entry[1]}}",
+            },
+         });   
+        });   
+   </script>
+{% endblock %}

@@ -1,0 +1,50 @@
+ 
+<!-- extend tablej layout -->
+{% extends "tableJ.html" %}
+
+{% block title %}PAPERS{% endblock %}
+
+{% block contents %}   
+  <body>
+      <table id="PAPER" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>paperID</th>
+        <th>title</th>
+        <th>pubYear</th>
+        <th>confName</th>
+        <th>authors</th>
+        <th>affiliation</th>
+        <th>abstract</th>
+        <th>terms</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#PAPER').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "paperID" },
+                { "data": "title" },
+                { "data": "pubYear" },
+                { "data": "confName" },
+                { "data": "authors" },
+                { "data": "affiliation" },
+                { "data": "abstract" },
+                { "data": "terms" },
+            ],
+            "ajax": {
+        "url":"/jsonTotal/PAPER",
+            },
+         });   
+        });   
+   </script>
+{% endblock %}

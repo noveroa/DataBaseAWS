@@ -1,0 +1,37 @@
+ <!-- extend tablej layout -->
+{% extends "tableJ.html" %}
+
+{% block title %}KEYS{% endblock %} 
+
+{% block contents %}
+  <body>
+      <table id="KEYS" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>keyID</th>
+        <th>keyword</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#KEYS').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "keyID" },
+                { "data": "keyword" },
+            ],
+            "ajax": {
+        "url":"/jsonTotal/KEYS",
+            },
+         });   
+        });   
+   </script>
+{% endblock %}

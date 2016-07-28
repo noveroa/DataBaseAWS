@@ -1,0 +1,37 @@
+<!-- extend tablej layout -->
+{% extends "tableJ.html" %}
+
+{% block title %}Affiliations{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="AFFILIATIONS" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>affilID</th>
+        <th>affiliation</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#AFFILIATIONS').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "affilID" },
+                { "data": "affiliation" },
+            ],
+            "ajax": {
+        "url":"/jsonTotal/AFFILIATIONS",
+            },
+         });   
+        });   
+   </script>
+{% endblock %}

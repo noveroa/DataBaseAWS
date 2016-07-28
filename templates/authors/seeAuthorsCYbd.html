@@ -1,0 +1,58 @@
+<!-- extend tablej layout Returns a tables of Authors, paperIds, paper Titles of the given conference and year. AuthorYrCount is the number of papers ascribed to the row's author-->
+{% extends "tablej.html" %}
+
+{% block title %}PublishedAuthors{% endblock %}
+
+{% block contents %}
+<h2> Conference: {{entry[0]}}  Year: Conference: {{entry[1]}}</h2>
+  <body>
+      <table id="PublishedAuthors" class="dataTable sig-datatable">
+      <thead>
+        <th>Author</th>
+        <th>paperID</th>
+        <th>Title</th>
+        <th>AuthorCt</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#PublishedAuthors').dataTable( {
+            "buttons" : ["print"],  
+            "colReorder" : true,
+            "ajax" : '/api/data',
+            "scrollY" : 800,
+            "deferRender" : true,
+            "scroller" : false,
+            "bLengthChange": true,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "Author"},
+                { "data" : "paperID"},
+                { "data": "Title"},
+                { "data": "AuthorYrCount"}
+            ],
+            "ajax": {
+        "url":"/confyrAuthor_bd/{{entry[0]}}/{{entry[1]}}",
+            },
+         });   
+        });   
+   </script>
+
+<table BORDER="1">
+        <tr> <td > <a href="{{ url_for('confbreakdown') }}"><button>Back to Conference Breakdowns by Year</button></a></td>
+             <td > <a href="{{ url_for('search_kw') }}"><button>Search Keywords</button></a></td>
+             <td > <a href="{{ url_for('seeAuthorsName') }}"><button>Find Author's Other Papers</button></a></td>
+             <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Paper's Authors by ID</button></a></td>
+        </tr>
+</table>
+
+ 
+{% endblock %}

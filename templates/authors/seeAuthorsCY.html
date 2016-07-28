@@ -1,0 +1,45 @@
+<!-- extend tablej layout Returns a tables of Papers,Authors merged grouped by Conference and Year. Used for inspection-->
+{% extends "tablej.html" %}
+
+{% block title %}AuthoredPapers{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="AuthoredPapers" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>Group</th>
+        <th>AuthoredPapers</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#AuthoredPapers').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "Group" },
+                { "data": "AuthoredPapers" }
+            ],
+            "ajax": {
+        "url":"/confyrAuthor",
+            },
+         });   
+        });   
+   </script>
+
+<table BORDER="1">
+        <tr> <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdowns by Year</button></a></td>
+             <td > <a href="{{ url_for('search_kw') }}"><button>Search Keywords</button></a></td>
+             <td > <a href="{{ url_for('authoredpapers') }}"><button>Look at Authored Papers</button></a></td>
+            <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Another Paper's Authors</button></a></td>
+        </tr>
+</table>
+{% endblock %}

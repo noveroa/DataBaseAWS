@@ -1,0 +1,40 @@
+ 
+<!-- extend tablej layout -->
+{% extends "tableJ.html" %}
+
+{% block title %}PUBLICATIONS{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="PUBLICATIONS" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>pubID</th>
+        <th>confName</th>
+        <th>year</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#PUBLICATIONS').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "pubID" },
+                { "data": "confName" },
+                { "data": "year" },
+            ],
+            "ajax": {
+        "url":"/jsonTotal/PUBLICATIONS",
+            },
+         });   
+        });   
+   </script>
+{% endblock %}

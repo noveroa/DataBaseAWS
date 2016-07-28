@@ -1,0 +1,39 @@
+<!-- extends master.html template.  Rudimentary information about site Author -->
+<!DOCTYPE html>
+
+{% extends "master.html" %}
+{% block content %}
+
+<style>
+    h2 {
+    color : darkblue;
+    text-align: center;
+    font-size: 200%;
+    }
+    h3 {
+    color : grey;
+    font-size: 100%;
+    }
+    
+
+    p.outset {border-style: outset;}
+
+</style>
+
+<body>
+<h2>About Me</h2>
+
+<h3> Aileen Novero</h3>
+<h3> NorthEasternUniversity - Seattle</h3>
+<h3> Cambridge, MA</h3>
+       
+<table>
+<CAPTION>Links</CAPTION>
+    <tr>
+
+    <td><p class="outset"><a href="https://www.linkedin.com/in/aileen-novero-7a814615" ><button>LinkedIn</button></a></p></td>
+    <td><p class="outset"><a href="https://github.com/noveroa"><button>GitHub</button></a><p></td>
+    <td><p class="outset"><a href="mailto:novero.a@gmail.com?Subject=Hello%20from%20DatabaseApp" target="_top">Send Mail</a></p></td>
+    </tr>    
+</table>    
+{% endblock %}

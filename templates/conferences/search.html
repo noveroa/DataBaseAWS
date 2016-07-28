@@ -1,0 +1,151 @@
+<!-- extend tablej layout.  Given a conference and year, displays the paperID, Titles, and abstracts attributed to that grouping  -->
+{% extends "tableJ.html" %}
+
+{% block title %}Conference by Year{% endblock %}
+
+{% block contents %}
+
+  <body>
+  <div id="confyr-container" class="absolute panel panel-default">
+    <select class="fp-value fp-target">
+      <option name="QoSA">QoSA</option>
+      <option name="ECSA">ECSA</option>
+      <option name="WICSA">WICSA</option>
+    </select>
+    <input type="int" class="fp-value fp-threshold" min="2003" max="2014"
+           step="1" value="2010">
+  </div>
+
+    <table id="example" class="display dataTable" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>paperID</th>
+                <th>Title</th>
+                <th>Abstract</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>paperID</th>
+                <th>Title</th>
+                <th>Abstract</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+<script>
+    function getURLParameter(parameterName) {
+        var uri = URI(window.location.href)
+        return uri.search(true)[parameterName]
+    }
+
+function removeURLParameter(parameterName) {
+    var uri = URI(window.location.href);
+    
+    uri.removeSearch(parameterName);
+    
+    navigateToURI(uri);
+}
+
+function setURLParameter(parameterName, parameterValue) {
+    var uri = URI(window.location.href);
+    
+    if (parameterValue)
+        uri.setSearch(parameterName, parameterValue);
+    else
+        uri.removeSearch(parameterName);
+    
+    navigateToURI(uri);
+}
+
+function navigateToURI(uri) {
+    var _url = uri.path() + uri.search();
+    // here we decode the URI because then Chrome will show the URL in a nicer way even if it url-encodes it behind the scenes
+    _url = decodeURIComponent(_url);
+    
+    history.pushState({}, "", _url);
+}
+
+function doit(table) {
+    var $confyrContainer = $('#confyr-container');
+    var $threshold = $confyrContainer.find('.fp-threshold');
+    var $target = $confyrContainer.find('.fp-target');
+    var url = "/search/" + $threshold.val()+ "/" + $target.val() ;
+    
+    $.ajax({
+        url: url, 
+        dataType: 'json',
+        type: 'GET',
+    }).done(function(data) {
+        // do your changes here
+    }).fail(function() {
+        alert("failed");
+        // we can change stuff now!
+        $target.val("ECSA");
+        $threshold.val("2010");
+    });
+
+    // or reload the table
+    // https://datatables.net/reference/api/ajax.url().load()
+    table.ajax.url( url ).load();
+}
+
+
+$(document).ready(function () {
+    var $confyrContainer = $('#confyr-container');
+    var $threshold = $confyrContainer.find('.fp-threshold');
+    var $target = $confyrContainer.find('.fp-target');
+    
+    //get fp-threshold from URL else use default
+    var threshold = 2010; // default
+    var _thresh = getURLParameter("threshold");
+    if (_thresh && $.isNumeric(_thresh)) {
+        _thresh = parseFloat(_thresh);
+        if (_thresh > 2003 && _thresh <= 2015)
+            threshold = _thresh;
+        else
+            showAlert('Years avalable for 2004 to 2015');
+    }
+    $threshold.val(threshold);
+    
+    // Make the table
+    var table = $('#example').DataTable( {
+      ajax: "/search/" + $threshold.val() + "/" + $target.val(),
+      dataSrc: "data", // prop in the return json 
+            "colReorder" : true,
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns": [
+                { "data": "paperID" },
+                { "data": "Title" },
+                { "data": "Abstract" }
+         ],
+    } );
+
+    $threshold.change(function () {
+        threshold = $threshold.val();
+        setURLParameter("threshold", threshold);
+        doit(table);
+    });
+
+
+    $target.change(function () {
+        setURLParameter("target", $target.val());
+        doit(table);
+    });
+    
+
+})
+</script>
+<table BORDER="1">
+        <tr> <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdowns by Year</button></a></td>
+             <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Another Paper's Authors</button></a></td>
+        </tr>
+</table>  
+{% endblock %}

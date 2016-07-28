@@ -1,0 +1,119 @@
+<!-- extend tablej layout Returns a table of paperIds, affiliations, and link to the paperID metadata given an affilation search term-->
+{% extends "tableJ.html" %}
+
+{% block title %}Paper Affiliations by Search Term{{title}}{% endblock %}
+
+{% block contents %}
+<body>
+  <div id="confyr-container" class="absolute panel panel-default">
+
+    <input class="fp-value fp-target" value = "United States" >
+  </div>
+
+    <table id="example" class="display dataTable" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>paperID</th>
+                <th>Affiliation</th>
+                <th>Link to Paper</th>
+            </tr>
+        </thead>
+
+    </table>
+</body>
+
+<script>
+    function getURLParameter(parameterName) {
+        var uri = URI(window.location.href)
+        return uri.search(true)[parameterName]
+    }
+
+function removeURLParameter(parameterName) {
+    var uri = URI(window.location.href);
+    
+    uri.removeSearch(parameterName);
+    
+    navigateToURI(uri);
+}
+
+function setURLParameter(parameterName, parameterValue) {
+    var uri = URI(window.location.href);
+    
+    if (parameterValue)
+        uri.setSearch(parameterName, parameterValue);
+    else
+        uri.removeSearch(parameterName);
+    
+    navigateToURI(uri);
+}
+
+function navigateToURI(uri) {
+    var _url = uri.path() + uri.search();
+    // here we decode the URI because then Chrome will show the URL in a nicer way even if it url-encodes it behind the scenes
+    _url = decodeURIComponent(_url);
+    
+    history.pushState({}, "", _url);
+}
+
+function doit(table) {
+    var $confyrContainer = $('#confyr-container');
+    var $target = $confyrContainer.find('.fp-target');
+    var url = "/searchAffiliation/" + $target.val() ;
+    
+    $.ajax({
+        url: url, 
+        dataType: 'json',
+        type: 'GET',
+    }).done(function(data) {
+        // do your changes here
+    }).fail(function() {
+        alert("failed");
+        // we can change stuff now!
+        $target.val("United States");
+    });
+
+    // or reload the table
+    // https://datatables.net/reference/api/ajax.url().load()
+    table.ajax.url( url ).load();
+}
+
+
+$(document).ready(function () {
+    var $confyrContainer = $('#confyr-container');
+    var $target = $confyrContainer.find('.fp-target');
+    
+    // Make the table
+    var table = $('#example').DataTable( {
+      ajax: "/searchAffiliation/" + $target.val(),
+      dataSrc: "data", // prop in the return json 
+          "colReorder" : true,
+          "bLengthChange": false,
+          "bFilter": true,
+          "bSort": true, 
+          "aaSorting": [],
+          "bInfo": false,
+          "bJQueryUI": true,
+          "bAutoWidth": true,
+          "columns": [
+            { "data": "paperID" },
+            { "data": "affiliation" },
+            { "data": "getPaper" }
+         ],
+    } );  
+
+
+    $target.change(function () {
+        setURLParameter("target", $target.val());
+        doit(table);
+    });
+    
+})
+</script>
+<table BORDER="1">
+        <tr>
+            <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Paper's Authors by ID</button></a></td>
+
+        </tr>
+</table>
+
+{% endblock %}

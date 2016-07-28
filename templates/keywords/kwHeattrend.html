@@ -1,0 +1,52 @@
+<!-- Index template and html, extends master.html, Area Plot visualization of affiliation countries and counts grouped by Conference-->
+
+{% extends "master.html" %}
+
+{% block content %}
+<style>
+h2 {
+    color : darkblue;
+    text-align: center;
+    font-size: 200%;
+    }
+h3 {
+    color : grey;
+    font-size: 100%;
+    }    
+a {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+    
+img {
+    margin : auto;
+    max-width: 100%;
+    height: 100%;
+}
+</style>
+
+
+<h2>HeatMap: </h2>
+
+<a target="_blank">
+  <img src="{{ url_for('static', filename='Images/test.png" width="1000" height="1000">
+</a>
+
+
+<table BORDER="1">
+    <CAPTION>Let's Look Around</CAPTION>
+        <tr> 
+             <td > <a href="{{ url_for('seeCountryCounts') }}"><button>Table of Country Counts</button></a></td>
+             <td > <a href="{{ url_for('seeAffil') }}"><button>Search Affiliations by Term</button></a></td>
+             <td > <a href="{{ url_for('seeCountries') }}"><button>Visualize Total Counts</button></a></td>
+             <td > <a href="{{ url_for('seeCountriesGR') }}"><button>Bubble Chart Country Counts by Conference</button></a></td>
+        </tr>
+</table>
+{% endblock %}

@@ -1,0 +1,57 @@
+<!-- extend tablej layout Displays each conference (ECSA, WICSA, QoSA) and the paper cts, and visual representations of cts by pie and bar charts-->
+{% extends "tableJ.html" %}
+
+{% block title %}AllConfs{% endblock %}
+
+{% block contents %}
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style_tables.css') }}"width="100%">
+  <body>
+      <table id="AllConfs" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>conf</th>
+        <th>counts</th>
+        <th>Pie</th>
+        <th>Bar</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#AllConfs').dataTable( {
+            "buttons" : ["print"],  
+            "colReorder" : true,
+            "rowReorder" : true,
+            "ajax" : '/api/data',
+            "scrollY" : 500,
+            "deferRender" : true,
+            "scroller" : true,
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "conf"},
+                { "data": "counts"},
+                { "data": "Pie"}, 
+                { "data": "Bar" }
+            ],
+            "ajax": {
+        "url":"/jsonContentsconf",
+            },
+         });   
+        });   
+   </script>
+
+<table BORDER="1">
+        <tr> <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdowns by Year</button></a></td>
+             <td > <a href="{{ url_for('search') }}"><button>Search Conferences</button></a></td>
+        </tr>
+</table>
+
+ 
+{% endblock %}

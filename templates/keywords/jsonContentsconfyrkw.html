@@ -1,0 +1,56 @@
+<!-- extend tablej layout Given a keyword, Returns a table of top keywords of a given conf/year with cts table, bar, and pir chart representations  -->
+{% extends "tableJ.html" %}
+
+{% block title %}BreakDownKeywords{% endblock %}
+
+{% block contents %}
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style_tables.css') }}"width="100%">
+<h2> Conference: {{entry[0]}} Year: {{entry[1]}} </h2>
+<h3> Top 10 Keywords </h3>
+  <body>
+      <table id="BreakDownKeywords" class="dataTable sig-datatable">
+      <thead>
+        <th>Keyword Counts</th>
+        <th>Pie Chart</th>
+        <th>Bar Plot</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#BreakDownKeywords').dataTable( {
+            "buttons" : ["print"],  
+            "colReorder" : true,
+            "ajax" : '/api/data',
+            "scrollY" : 550,
+            "deferRender" : false,
+            "scroller" : true,
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "Counts"},
+                { "data": "Pie"}, 
+                { "data": "Bar" }
+            ],
+            "ajax": {
+        "url":"/jsonContentskeys/{{entry[0]}}/{{entry[1]}}",
+            },
+         });   
+        });   
+   </script>
+
+<table BORDER="1">
+        <tr> <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdowns by Year</button></a></td>
+             <td > <a href="{{ url_for('search_kw') }}"><button>Search Keywords</button></a></td>
+        </tr>
+</table>
+
+ 
+{% endblock %}

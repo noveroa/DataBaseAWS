@@ -1,0 +1,38 @@
+<!-- extend tablej layout -->
+{% extends "tableJ.html" %}
+
+{% block title %}PapersandAuthors{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="PAPERAUTHOR" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>paperID</th>
+        <th>authorName</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#PAPERAUTHOR').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "paperID" },
+                { "data": "authorName" },
+                
+            ],
+            "ajax": {
+        "url":"/jsonTotal/PAPERAUTHOR",
+            },
+         });   
+        });   
+   </script>
+{% endblock %}

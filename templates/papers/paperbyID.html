@@ -1,0 +1,51 @@
+<!-- extend tablej layout  Returns the title, conference, publicatoin year and abstract of a given paperID-->
+{% extends "tableJ.html" %}
+
+{% block title %}Paper {{entry}}{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="Paper" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>Title</th>
+        <th>Conference</th>  
+        <th>Publication Year</th>
+        <th>abstract</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#Paper').dataTable( {
+            "colReorder" : true,
+            "rowReorder" : true,
+            "ajax" : '/api/data',
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "title" },
+                { "data": "confName" },
+                { "data": "pubYear" },
+                { "data": "abstract" }
+            ],
+            "ajax": {
+        "url":"/jsonPaperID/{{entry}}",
+            },
+         });   
+        });   
+   </script>
+
+<table BORDER="1">
+        <tr>
+            <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Paper's Authors by ID</button></a></td>
+
+        </tr>
+</table>
+{% endblock %}

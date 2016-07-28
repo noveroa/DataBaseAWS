@@ -1,0 +1,39 @@
+<!-- extend tablej layout -->
+{% extends "tableJ.html" %}
+
+{% block title %}CONFERENCES{% endblock %} 
+
+{% block contents %}
+  <body>
+      <table id="CONFERENCES" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>confName</th>
+        <th>confID</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#CONFERENCES').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "confName" },
+                { "data": "confID" },
+            ],
+            "ajax": {
+        "url":"/jsonTotal/CONFERENCES",
+            },
+         });   
+        });   
+   </script>
+  <h3> <a href="{{ url_for('jsonContentsconf') }}"><button>Conference Stats</button></a></h3>
+{% endblock %} 

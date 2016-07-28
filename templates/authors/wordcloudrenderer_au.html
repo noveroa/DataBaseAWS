@@ -1,0 +1,59 @@
+<!-- Index template and html, extends master.html, generates a broken link icon -->
+
+{% extends "master.html" %}
+
+{% block content %}
+<style>
+h2 {
+    color : darkblue;
+    text-align: center;
+    font-size: 200%;
+    }
+h3 {
+    color : grey;
+    font-size: 100%;
+    }    
+a {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+a:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+    
+img {
+    margin : auto;
+    max-width: 100%;
+    height: 100%;
+}
+</style>
+
+
+<h2>Authors in the Cloud</h2>
+
+<a target="_blank">
+  <img src="{{ url_for('static', filename='Images/auCloud.png" width="1000" height="300">
+</a>
+
+
+<table BORDER="1">
+    <CAPTION>Let's Look Around</CAPTION>
+        <tr> 
+             <td > <a href="{{ url_for('jsonContents') }}"><button>DataBase Datum and Tables</button></a></td>
+             <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdowns by Year</button></a></td>
+             <td > <a href="{{ url_for('jsonContentsconf') }}"><button>Visual Conference Breakdown</button></a></td>
+             <td > <a href="{{ url_for('jsonPaperKW') }}"><button>Papers and their Keywords</button></a></td>
+             <td > <a href="{{ url_for('search_kw') }}"><button>Search Keywords</button></a></td>
+             <td > <a href="{{ url_for('seeKWTrends') }}"><button>Find and See A KeyWord's Trend</button></a></td>
+             <td > <a href="{{ url_for('topKW') }}"><button>See Top 20 Trend</button></a></td>
+             <td > <a href="{{ url_for('authoredpapers') }}"><button>Authors and their Papers</button></a></td>
+             <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Paper's Authors by ID</button></a></td>
+             <td > <a href="{{ url_for('seeAuthorsName') }}"><button>Find Author's Papers by Name</button></a></td>
+        </tr>
+</table>
+{% endblock %}
+

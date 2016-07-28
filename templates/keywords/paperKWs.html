@@ -1,0 +1,52 @@
+<!-- extend tablej layout Returns a table of paperIDs and the keywords associated with it -->
+{% extends "tableJ.html" %}
+
+{% block title %}Paper and their Keywords{% endblock %}
+
+{% block contents %}
+
+  <body>
+      <table id="paperKW" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>paperID</th>
+        <th>keywords</th>
+        <th>Link to Paper Information</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#paperKW').dataTable( {
+            "buttons" : ["print"],  
+            "colReorder" : true,
+            "rowReorder" : true,
+            "ajax" : '/api/data',
+            "deferRender" : true,
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": false,
+            "columns":  [
+                { "data": "paperID"},
+                { "data": "keywords"},
+                { "data": "getPaper"},
+            ],
+            "ajax": {
+        "url":"/papers/keywords",
+            },
+         });   
+        });   
+   </script>
+<table BORDER="1">
+        <tr> 
+            <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Paper's Authors</button></a></td>
+            <td > <a href="{{ url_for('search_kw') }}"><button>Search For a Keyword</button></a></td>
+            <td > <a href="{{ url_for('seeKWTrends') }}"><button>See A Trend</button></a></td>
+        </tr>
+</table>
+{% endblock %}

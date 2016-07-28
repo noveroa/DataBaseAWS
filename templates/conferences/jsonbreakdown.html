@@ -1,0 +1,51 @@
+<!-- extend tablej layout  Displays each conference and year with links to the papers, authors, and top keywords-->
+{% extends "tableJ.html" %}
+
+{% block title %}Breakdown{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="Breakdown" class="dataTable sig-datatable">
+      <thead>
+        <th>Conference</th>
+        <th>Year</th>
+        <th>Papers</th>
+        <th>Authors</th>
+        <th>TopKeywords</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#Breakdown').dataTable( {
+            "colReorder" : true,
+            "rowReorder" : true,
+            "ajax" : '/api/data',
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "conference" },
+                { "data": "year" },
+                { "data": "paperbreakdown" },
+                { "data": "authors" },
+                { "data": "kwbreakdown" }
+            ],
+            "ajax": {
+        "url":"/jsonconfyrbreakdown",
+            },
+         });   
+        });   
+   </script>
+
+<table BORDER="1">
+        <tr> <td > <a href="{{ url_for('jsonContentsconf') }}"><button>Back to Conferences</button></a></td>
+        </tr>
+</table>
+{% endblock %}
