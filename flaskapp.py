@@ -1023,7 +1023,7 @@ def seeAuthorsArea():
     groupedAu = getGrCts(topauthors, selection, column = 'authorName')
     try:
         image = images.areaPlot(groupedAu, xlabel = 'Authors', ylabel = 'counts', 
-                            filename = os.path.join(app.static_folder, 'static/Images/authorAP.png')
+                            filename = os.path.join(app.static_folder, 'Images/authorAP.png')
                             )
         return render_template('authors/seeAuthorsArea.html')
     except:
