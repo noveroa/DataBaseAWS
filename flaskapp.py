@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+import matplotlib # at very start!  Put it in app.py
+# Force matplotlib to not use any Xwindows backend.
+matplotlib.use('agg')
 from flask import Flask
 import os
 import sqlite3
@@ -6,6 +9,8 @@ import pandas as pd
 import numpy as np
 import seaborn
 import matplotlib
+matplotlib.use('agg')
+import matplotlib.pyplot as plt
 from collections import Counter
 
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
@@ -948,9 +953,17 @@ def getGrCts(data_frame, selection, column):
 @app.route('/auCloud', methods=('GET',))
 def auCloud():
 #    Renders Authors word cloud in html - creates and SAVES a newimage eachtime
-    wordCloud =  wcg.cloud('au',"static/Images/auCloud.png")
-    return render_template('authors/wordcloudrenderer_au.html')
-
+    try:
+      wordCloud =  wcg.cloud('au',os.path.join(app.static_folder,
+                                   "Images/auCloud.png"))
+      return render_template('authors/wordcloudrenderer_au.html')
+    except:
+      import traceback, sys, StringIO
+      err = sys.stderr
+      buffer = sys.stderr = StringIO.StringIO()
+      traceback.print_exc()
+      sys.stderr = err
+      return buffer.getvalue()
 
 @app.route('/seeAuthorsSpot', methods=('GET',))
 def seeAuthorsSpot():
@@ -970,7 +983,6 @@ def seeAuthorsArea():
     
     
     return render_template('authors/seeAuthorsArea.html')
-
 
 
 if __name__ == '__main__':
