@@ -8,8 +8,6 @@ import sqlite3
 import pandas as pd
 import numpy as np
 import seaborn
-import matplotlib
-matplotlib.use('agg')
 import matplotlib.pyplot as plt
 from collections import Counter
 
@@ -23,25 +21,11 @@ wcg = reload(wcg)
 
 app = Flask(__name__)
 
-PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
 
-DATABASE = '/var/www/html/flaskapp/EmpData.db' #os.path.join(PROJECT_ROOT, 'EmpData.db')#path = os.path.dirname(os.path.realpath(_
+DATABASE = '/var/www/html/flaskapp/EmpData.db'
 DATABASE2 = '/var/www/html/flaskapp/Abstracts_DB2.db'
-#PATH = '/var/www/html/flaskapp/'
-DEBUG = True
-#SECRET_KEY = 'development key'
-#USERNAME = 'admin'
-#PASSWORD = 'default'
-#print path
-#mydb = "EmpData.db"
-#print mydb
-#print(DATABASE)
 
-#@app.route('/')
-#def hello_world():
-#    
-#    printthis = 'Hello :' + matplotlib.__version__ + Flask.__doc__
-#    return printthis
+DEBUG = True
 
 def connect_db():
 #    Connects to the specific database.
@@ -79,14 +63,6 @@ def close_db(error):
 #   Closes the database again at the end of the request.
     if hasattr(g, DATABASE2):
         g.sqlite_db.close()
-
-#@app.route('/index')
-#def index():
-#    """ 
-#    Renders aboutme page html for '/' the index page
-#    """
-#    return render_template('index.html')
-
 
 @app.route('/countme/<input_str>')
 def count_me(input_str):
@@ -530,7 +506,7 @@ def seeKWTrend(kw, grouper = 'keyword'):
     #data_frame = m[m['keyword'].str.contains(kw)==True]
     data_frame.query(query2, inplace = True)
     new = data_frame.copy()
-    
+     
     def findKWTrend(df, kw, KWgrouper = ["pubYear", "confName"]):
         #labels = {'ECSA' : 0,
                   #'QoSA' : 1,
@@ -538,11 +514,19 @@ def seeKWTrend(kw, grouper = 'keyword'):
         df = df.groupby(KWgrouper)['keyword'].count().reset_index(name="counts")
         #df['confCode'] = df.confName.apply(lambda name: labels[name])
         try:
-            image = images.getHeatMap2(df, annotation = True, filename = "static/Images/test.png")
+            image = images.getHeatMap2(df, annotation = True, 
+                                       filename = os.path.join(app.static_folder, "Images/test.png")
+                                       )
             html = "kwHeattrend"
             return df, images.getHeatMap(df, annotation = True), html
+        
         except:
-            return df, 'no data', 'error'
+            import traceback, sys, StringIO
+            err = sys.stderr
+            buffer = sys.stderr = StringIO.StringIO()
+            traceback.print_exc()
+            sys.stderr = err
+            return buffer.getvalue()
         
     
     df, image, html = findKWTrend(new, kw)
@@ -553,7 +537,7 @@ def seeKWTrend(kw, grouper = 'keyword'):
                'url' : "<a href='%s'<button>SeeHeatMap</button>></a>" %html  
                }]
     
-    return jsonify(dict(data = myentry))    
+    return jsonify(dict(data = myentry))   
 
 @app.route('/kwHeattrend', methods=('GET',))
 def seeKWTrendheat():
@@ -579,23 +563,31 @@ def seeKWTop(top = 20):
     mTop = m[m['keyword'].isin(topWds.index)]
     
     mTop['counts'] = mTop.groupby(['confName', 'pubYear', 'keyword'])['keyword'].transform('count')
+ 
+    try:
+        image = images.getHeatMap2(mTop, indexCol='keyword', cols = ['confName', 'pubYear'],
+                                   vals = 'counts',
+                                   filename = os.path.join(app.static_folder,'Images/topheat.png')
+                                   )
+        
     
-    image = images.getHeatMap2(mTop, indexCol='keyword', cols = ['confName', 'pubYear'], 
-                               vals = 'counts', 
-                               filename = 'static/Images/topheat.png')
-    
-    html = "topheat"
-    topWds.reset_index(inplace = True)
-    topWds.rename(columns = {'confName' : 'OverallCount'}, inplace = True)
-    cts = topWds[['keyword', 'OverallCount']]
-    
-    
-    
-    return jsonify(dict(data = 
-                        [{'Top' : cts.to_html(classes = 'counts'),
-                       'HeatMap' : "<a href='%s'<button>SeeHeatMap</button>></a>" %html}]
-                       )
-                    )
+        html = "/topheat"
+        topWds.reset_index(inplace = True)
+        topWds.rename(columns = {'confName' : 'OverallCount'}, inplace = True)
+        cts = topWds[['keyword', 'OverallCount']]
+        
+        return jsonify(dict(data = 
+                            [{'Top' : cts.to_html(classes = 'counts'),
+                              'HeatMap' : "<a href='%s'<button>SeeHeatMap</button>></a>" %html}])
+                      )
+    except:
+        import traceback, sys, StringIO
+        err = sys.stderr
+        buffer = sys.stderr = StringIO.StringIO()
+        traceback.print_exc()
+        sys.stderr = err
+        return buffer.getvalue()
+        
 
 @app.route('/topKW', methods=('GET',))
 def topKW():
@@ -610,9 +602,18 @@ def topheat():
 
 @app.route('/KWcloud', methods=('GET',))
 def KWcloud():
-#    Renders KWs word cloud in html - creates and SAVES a newimage eachtime
-    wordCloud =  wcg.cloud('kw',"static/Images/kwCloud.png")
-    return render_template('keywords/wordcloudrender.html')
+#   Renders KWs word cloud in html - creates and SAVES a newimage eachtime
+    try:
+        wordCloud =  wcg.cloud('kw',os.path.join(app.static_folder,
+                                   "Images/kwCloud.png"))
+        return render_template('keywords/wordcloudrender.html')
+    except:
+        import traceback, sys, StringIO
+        err = sys.stderr
+        buffer = sys.stderr = StringIO.StringIO()
+        traceback.print_exc()
+        sys.stderr = err
+        return buffer.getvalue()
 
 def getAffiliation():
     
@@ -667,13 +668,24 @@ def getBasicAffiliationCount():
             count = len(affildf[affildf['affiliation'].str.contains(c or c.lower())==True])
             if count > 0:
                 counts[c] = count
-        image = images.getaffilbar(xaxis = counts.keys(), 
-                                   yaxis = counts.values())
+        try:
+            
+            image = images.getaffilbar(xaxis = counts.keys(),
+                                       yaxis = counts.values(),
+                                       filename = os.path.join(app.static_folder, "Images/countryaffiliation.png")
+                                       )
         
     
         
-        return counts, image
-    
+            return counts, image
+        except:
+            import traceback, sys, StringIO
+            err = sys.stderr
+            buffer = sys.stderr = StringIO.StringIO()
+            traceback.print_exc()
+            sys.stderr = err
+            return buffer.getvalue()
+        
 @app.route('/seeCountries', methods=('GET',))
 def seeCountries():
 #    Renders getBasicAffiliationCount() as html
@@ -724,20 +736,40 @@ def countryGr():
     
 @app.route('/seeCountriesGR', methods=('GET',))
 def seeCountriesGR():
-#    Renders countryGr() as a Bubble Chart and as html
-    image = images.createSpot(countryGr())
+#   Renders countryGr() as a Bubble Chart and as html
+    try:
+        image = images.createSpot(countryGr(), 
+                                  filename = os.path.join(app.static_folder, "Images/testCtsGroup.png")
+                                  )
     
-    return render_template('papers/seeCountriesGR.html')
-
+        return render_template('papers/seeCountriesGR.html')
+    
+    except:
+        import traceback, sys, StringIO
+        err = sys.stderr
+        buffer = sys.stderr = StringIO.StringIO()
+        traceback.print_exc()
+        sys.stderr = err
+        return buffer.getvalue()
+    
 @app.route('/seeCountriesAreaPlot', methods=('GET',))
 def seeCountriesAreaPlot():
 #    Renders countryGr() as an AreaPlot and as html
-    image = images.areaPlot(countryGr(), 
-                            xlabel = 'Countries', 
-                            ylabel = 'Counts', 
-                            filename = 'static/Images/countryAP.png')
+    try: 
+        image = images.areaPlot(countryGr(),
+                                xlabel = 'Countries',
+                                ylabel = 'Counts',
+                                filename = os.path.join(app.static_folder,'Images/countryAP.png')
+                                )
     
-    return render_template('papers/seeCountriesAreaPlot.html')
+        return render_template('papers/seeCountriesAreaPlot.html')
+    except:
+        import traceback, sys, StringIO
+        err = sys.stderr
+        buffer = sys.stderr = StringIO.StringIO()
+        traceback.print_exc()
+        sys.stderr = err
+        return buffer.getvalue()
 
 
 def getAuthorsTotal():
@@ -952,37 +984,55 @@ def getGrCts(data_frame, selection, column):
 
 @app.route('/auCloud', methods=('GET',))
 def auCloud():
-#    Renders Authors word cloud in html - creates and SAVES a newimage eachtime
+#   Renders Authors word cloud in html - creates and SAVES a newimage eachtime
     try:
-      wordCloud =  wcg.cloud('au',os.path.join(app.static_folder,
+        wordCloud =  wcg.cloud('au',os.path.join(app.static_folder,
                                    "Images/auCloud.png"))
-      return render_template('authors/wordcloudrenderer_au.html')
+        return render_template('authors/wordcloudrenderer_au.html')
     except:
-      import traceback, sys, StringIO
-      err = sys.stderr
-      buffer = sys.stderr = StringIO.StringIO()
-      traceback.print_exc()
-      sys.stderr = err
-      return buffer.getvalue()
+        import traceback, sys, StringIO
+        err = sys.stderr
+        buffer = sys.stderr = StringIO.StringIO()
+        traceback.print_exc()
+        sys.stderr = err
+        return buffer.getvalue()
 
 @app.route('/seeAuthorsSpot', methods=('GET',))
 def seeAuthorsSpot():
-#    Renders countryGr() as an Bubble and as html
+#   Renders countryGr() as an Bubble and as html
     topauthors, selection = getAuthorTop20(top = 20)
     groupedAu = getGrCts(topauthors, selection, column = 'authorName')
-    image = images.createSpot(groupedAu, xlabel = 'Author', filename = 'static/Images/authorBubble.png')
-    
-    return render_template('authors/seeAuthorsSpot.html')
+    try:
+        image = images.createSpot(groupedAu, xlabel = 'Author', 
+                                  filename = os.path.join(app.static_folder, 'Images/authorBubble.png')
+                                  )
+        return render_template('authors/seeAuthorsSpot.html')
+    except:
+        import traceback, sys, StringIO
+        err = sys.stderr
+        buffer = sys.stderr = StringIO.StringIO()
+        traceback.print_exc()
+        sys.stderr = err
+        return buffer.getvalue()
+          
 
 @app.route('/seeAuthorsArea', methods=('GET',))
 def seeAuthorsArea():
 #    Renders countryGr() as an AreaPlot and as html
     topauthors, selection = getAuthorTop20(top = 20)
     groupedAu = getGrCts(topauthors, selection, column = 'authorName')
-    image = images.areaPlot(groupedAu, xlabel = 'Authors', ylabel = 'counts', filename = 'static/Images/authorAP.png')
-    
-    
-    return render_template('authors/seeAuthorsArea.html')
+    try:
+        image = images.areaPlot(groupedAu, xlabel = 'Authors', ylabel = 'counts', 
+                            filename = os.path.join(app.static_folder, 'static/Images/authorAP.png')
+                            )
+        return render_template('authors/seeAuthorsArea.html')
+    except:
+        import traceback, sys, StringIO
+        err = sys.stderr
+        buffer = sys.stderr = StringIO.StringIO()
+        traceback.print_exc()
+        sys.stderr = err
+        return buffer.getvalue()
 
 
 if __name__ == '__main__':

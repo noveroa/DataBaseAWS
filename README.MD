@@ -15,4 +15,4 @@ Here I have the codes used to launch the AWS server.  make sure you have the app
 
 
 **** Some notes for configuration: note matplotlibrc, needs to be run with the backend set as agg!  (I changed it in both the shared ubuntu matplotlib and the conda env if to run in a separate environment'
-
+****Also note, write to permissions needed to be changed explicitly in static folder
