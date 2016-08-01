@@ -57,7 +57,7 @@ def getBar(df, conference, xaxis, yaxis, orientation, ylabel = 'count', xlabel =
 
 
 def getHeatMap(data_frame, indexCol = 'confName', cols = 'pubYear', vals = 'counts', annotation = False):
-    plt.cla()
+    
     plt.xticks(rotation=90)
     fig = sns.heatmap(data_frame.pivot_table(index=indexCol, 
                                              columns=cols, 
@@ -68,7 +68,7 @@ def getHeatMap(data_frame, indexCol = 'confName', cols = 'pubYear', vals = 'coun
     
     
     io = StringIO()
-    plt.tight_layout()
+    
     plt.savefig(io, format='png')
     img = base64.encodestring(io.getvalue())
    

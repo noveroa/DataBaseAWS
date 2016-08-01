@@ -17,7 +17,6 @@
                 <th>Table</th>
                 <th>Counts</th>
                 <th>Trend</th>
-                <th>url</th>
             </tr>
         </thead>
         
@@ -70,7 +69,7 @@ function doit(table) {
     }).done(function(data) {
         // do your changes here
     }).fail(function() {
-        alert("failed");
+        alert("Keyword not found, failed");
         // we can change stuff now!
         $target.val("vulnerability");
     });
@@ -102,8 +101,7 @@ $(document).ready(function () {
       "columns": [
             { "data": "table" },
             { "data": "cts" },
-            { "data": "trend" },
-            { "data": "url" }
+            { "data": "trend" }
          ],
     } );  
 

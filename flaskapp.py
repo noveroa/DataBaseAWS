@@ -269,7 +269,7 @@ def getPapersConfYrTable():
             entry['paperbreakdown'] =  "<a href='%s'<button>See Papers</button>></a>" %html
             html2 =  "confKWbreakdown/"+ conf + '/' + str(year)
             entry['kwbreakdown'] =  "<a href='%s'<button>Top 10 Keywords</button>></a>" %html2
-            html3 =  "jsonconfyrAuthorbd/"+ conf + '/' + str(year)
+            html3 =  "/jsonconfyrAuthorbd/"+ conf + '/' + str(year)
             entry['authors'] =  "<a href='%s'<button>Authors</button>></a>" %html3
             
             entries.append(entry)
@@ -502,23 +502,18 @@ def seeKWTrend(kw, grouper = 'keyword'):
     query2 = '"%s" == keyword' %kw
     
     data_frame = m.copy()
-    ##could use this if want approx equality
-    #data_frame = m[m['keyword'].str.contains(kw)==True]
     data_frame.query(query2, inplace = True)
     new = data_frame.copy()
+    print new.head()
      
     def findKWTrend(df, kw, KWgrouper = ["pubYear", "confName"]):
-        #labels = {'ECSA' : 0,
-                  #'QoSA' : 1,
-                  #'WICSA' : 2}
+        
         df = df.groupby(KWgrouper)['keyword'].count().reset_index(name="counts")
-        #df['confCode'] = df.confName.apply(lambda name: labels[name])
+        
         try:
-            image = images.getHeatMap2(df, annotation = True, 
-                                       filename = os.path.join(app.static_folder, "Images/test.png")
-                                       )
-            html = "kwHeattrend"
-            return df, images.getHeatMap(df, annotation = True), html
+            image = images.getHeatMap(df, annotation = True)
+            
+            return df, image
         
         except:
             import traceback, sys, StringIO
@@ -526,15 +521,16 @@ def seeKWTrend(kw, grouper = 'keyword'):
             buffer = sys.stderr = StringIO.StringIO()
             traceback.print_exc()
             sys.stderr = err
-            return buffer.getvalue()
+            print buffer.getvalue()
+            
+            return df, buffer.getvalue()
         
     
-    df, image, html = findKWTrend(new, kw)
+    df, image = findKWTrend(new, kw)
     
     myentry = [{'table' : new.to_html(classes = 'counts'),
                'cts' : df.to_html(classes = 'counts'),
-               'trend'  : image,
-               'url' : "<a href='%s'<button>SeeHeatMap</button>></a>" %html  
+               'trend'  : image 
                }]
     
     return jsonify(dict(data = myentry))   
