@@ -23,7 +23,7 @@ app = Flask(__name__)
 
 
 DATABASE = '/var/www/html/flaskapp/EmpData.db'
-DATABASE2 = '/var/www/html/flaskapp/Abstracts_DB2.db'
+DATABASE2 = '/var/www/html/flaskapp/Abstracts_aug1.db'
 
 DEBUG = True
 
