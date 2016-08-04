@@ -41,7 +41,7 @@ def prep_Aucloud():
     
     return entries
 
-def cloud(cloudtext, outputfile = PATH +'static/Images/cloud.png'):
+def cloud(cloudtext, outputFile):
     '''
     : param NONE
     : output : Returns a saved .png file of the generated wordcloud.  Creating/saving
@@ -73,7 +73,7 @@ def cloud(cloudtext, outputfile = PATH +'static/Images/cloud.png'):
     plt.axis("off")
     #plt.show()
     # store Image?
-    wc.to_file(outputfile)
+    wc.to_file(outputFile)
     
     return wc
 

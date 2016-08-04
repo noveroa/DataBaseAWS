@@ -16,7 +16,7 @@ from flask import abort,  jsonify
 
 import images as images
 images = reload(images)
-import wordcloud_generator as wcg
+import wordcloud_generator2 as wcg
 wcg = reload(wcg)
 
 app = Flask(__name__)
@@ -603,7 +603,7 @@ def KWcloud():
 #   Renders KWs word cloud in html - creates and SAVES a newimage eachtime
     try:
         wordCloud =  wcg.cloud('kw',
-                               os.path.join(app.static_folder,"Images/kwCloud.png"))
+                               outputFile = os.path.join(app.static_folder,"Images/kwCloud.png"))
         return render_template('keywords/wordcloudrender.html')
     except:
         logError(True)
@@ -973,8 +973,9 @@ def getGrCts(data_frame, selection, column):
 def auCloud():
 #   Renders Authors word cloud in html - creates and SAVES a newimage eachtime
     try:
-        wordCloud =  wcg.cloud('au',os.path.join(app.static_folder,
-                                   "Images/auCloud.png"))
+        wordCloud =  wcg.cloud('au', 
+                               outputFile = os.path.join(app.static_folder,
+                                                         "Images/auCloud.png"))
         return render_template('authors/wordcloudrenderer_au.html')
     except:
         logError(True)
