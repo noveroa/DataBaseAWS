@@ -608,6 +608,24 @@ def KWcloud():
     except:
         logError(True)
         return render_template('extras/error.html')
+@app.route('/create_KWCloudGroup/<grouper>/<grouptype>', methods=('GET',))
+def create_KWCloudGroup(grouper, grouptype):
+    if grouper == 'pubYear':
+        grouptype = int(grouptype)
+        
+    wordCloud = wcg.cloud(cloudtext = 'kw',
+                    grouper = grouper, 
+                    group = grouptype, 
+                    outputFile = os.path.join(app.static_folder,"Images/kwGroupedCloud.png"),
+                    grouped = True
+                    )
+    print(grouper, grouptype)
+    
+    return render_template('keywords/wordcloudGrouprender.html', entry = grouptype)
+@app.route('/wordCloudSearcher2')
+def directionstoSearchCloud():
+    #   Renders html with instructions to find a new keyword cloud
+    return render_template("keywords/directions.html")
 
 def getAffiliation():
     

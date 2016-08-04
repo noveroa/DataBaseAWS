@@ -1,0 +1,75 @@
+<!-- extends master.html template.  Rudimentary information about site Author -->
+<!DOCTYPE html>
+
+{% extends "master.html" %}
+{% block content %}
+
+<style>
+    h2 {
+    color : darkblue;
+    text-align: center;
+    font-size: 200%;
+    }
+    h3 {
+    color : darkblue;
+    font-size: 100%;
+    }
+    img {
+    margin : auto;
+    max-width: 100%;
+    max-height: 10%;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+    p.outset {border-style: outset;}
+    body { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+    table.dataframe, .dataframe th, .dataframe td {
+      border: none;
+      border-bottom: 1px solid #C8C8C8;
+      border-collapse: collapse;
+      width: 100%;
+      text-align:left;
+      padding: 10px;
+      margin-bottom: 40px;
+      font-size: 0.9em;
+    }
+    tr:nth-child(odd){ background-color:#eee; }
+    tr:nth-child(even){ background-color:#fff; }
+
+    tr:hover{background-color:#f5f5f5}
+</style>
+
+<body>
+<h2>Instructions</h2>
+<p>In order to view a cloud, you will need to point your browser to:</p>
+
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>url</th>
+      <th>Group</th>
+      <th>Type</th>
+    </tr>
+    <tr>
+      <td>create_KWCloudGroup/</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>create_KWCloudGroup/</td>
+      <td>confName</td>
+      <td>Conference: WICSA, ECSA, QoSA</td>
+    </tr>
+    <tr>
+      <td>create_KWCloudGroup/</td>
+      <td>pubYear</td>
+      <td>Publication Year: 1999 - 2014</td>
+    </tr>
+  </table>
+</div>
+
+</body>
+<img src="{{ url_for('static', filename='Images/colorBars.png') }}"/>  
+{% endblock %}
