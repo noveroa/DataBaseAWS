@@ -21,7 +21,7 @@ wcg = reload(wcg)
 
 app = Flask(__name__)
 
-
+#current Databases being accessed:
 DATABASE = '/var/www/html/flaskapp/EmpData.db'
 DATABASE2 = '/var/www/html/flaskapp/Abstracts_aug1.db'
 
@@ -57,6 +57,16 @@ def getTotalPD(db):
         print ('Database : ', df.shape)
         
     return df
+
+def logError(start):
+#   Explicitely Prints error to the errorlog. @/var/log/apache2/error.log
+    assert start
+    import traceback, sys, StringIO
+    err = sys.stderr
+    buffer = sys.stderr = StringIO.StringIO()
+    traceback.print_exc()
+    sys.stderr = err
+    print buffer.getvalue()
 
 @app.teardown_appcontext
 def close_db(error):
@@ -137,7 +147,8 @@ def jasonhtml(table):
 @app.route("/jsonContents", methods = ('GET',))
 def getContents():
 #   param NONE 
-#   output : Returns a json dictionary of the table names, entry counts, and links to tables of all table names in the database
+#   output : Returns a json dictionary of the table names, entry counts, and 
+#            links to tables of all table names in the database
     with sqlite3.connect(DATABASE2) as con:
     
         cursor = con.cursor()
@@ -495,42 +506,37 @@ def seeKWTrend(kw, grouper = 'keyword'):
 #    : param param str: keyword string to be searched for
 #    : output : Returns a json dicitonary of a table with the given keyword's associated 
 #                papers, counts per conference and year,
-#                and a heatmap representation
+##                and a heatmap representation
     print('My keyword: ' , kw)
     m, f = getPapersKWgroup(grouper)
     
     query2 = '"%s" == keyword' %kw
     
     data_frame = m.copy()
+    ##could use this if want approx equality
+    #data_frame = m[m['keyword'].str.contains(kw)==True]
     data_frame.query(query2, inplace = True)
     new = data_frame.copy()
-    print new.head()
-     
+    
     def findKWTrend(df, kw, KWgrouper = ["pubYear", "confName"]):
-        
-        df = df.groupby(KWgrouper)['keyword'].count().reset_index(name="counts")
-        
         try:
-            image = images.getHeatMap(df, annotation = True)
+            df = df.groupby(KWgrouper)['keyword'].count().reset_index(name="counts")
             
-            return df, image
-        
+            images.getHeatMap2(df, annotation = True,
+                               filename = os.path.join(app.static_folder,'Images/test.png')
+                              )
+            html = "/kwHeattrend"
+            return df, html
         except:
-            import traceback, sys, StringIO
-            err = sys.stderr
-            buffer = sys.stderr = StringIO.StringIO()
-            traceback.print_exc()
-            sys.stderr = err
-            print buffer.getvalue()
-            
-            return df, buffer.getvalue()
+            logError(True)
+            return render_template('extras/error.html')
         
     
-    df, image = findKWTrend(new, kw)
+    df, html = findKWTrend(new, kw)
     
     myentry = [{'table' : new.to_html(classes = 'counts'),
                'cts' : df.to_html(classes = 'counts'),
-               'trend'  : image 
+               'url' : "<a href='%s'<button>SeeHeatMap</button>></a>" %html  
                }]
     
     return jsonify(dict(data = myentry))   
@@ -577,12 +583,8 @@ def seeKWTop(top = 20):
                               'HeatMap' : "<a href='%s'<button>SeeHeatMap</button>></a>" %html}])
                       )
     except:
-        import traceback, sys, StringIO
-        err = sys.stderr
-        buffer = sys.stderr = StringIO.StringIO()
-        traceback.print_exc()
-        sys.stderr = err
-        return buffer.getvalue()
+        logError(True)
+        return render_template('extras/error.html')
         
 
 @app.route('/topKW', methods=('GET',))
@@ -600,16 +602,12 @@ def topheat():
 def KWcloud():
 #   Renders KWs word cloud in html - creates and SAVES a newimage eachtime
     try:
-        wordCloud =  wcg.cloud('kw',os.path.join(app.static_folder,
-                                   "Images/kwCloud.png"))
+        wordCloud =  wcg.cloud('kw',
+                               os.path.join(app.static_folder,"Images/kwCloud.png"))
         return render_template('keywords/wordcloudrender.html')
     except:
-        import traceback, sys, StringIO
-        err = sys.stderr
-        buffer = sys.stderr = StringIO.StringIO()
-        traceback.print_exc()
-        sys.stderr = err
-        return buffer.getvalue()
+        logError(True)
+        return render_template('extras/error.html')
 
 def getAffiliation():
     
@@ -675,12 +673,8 @@ def getBasicAffiliationCount():
         
             return counts, image
         except:
-            import traceback, sys, StringIO
-            err = sys.stderr
-            buffer = sys.stderr = StringIO.StringIO()
-            traceback.print_exc()
-            sys.stderr = err
-            return buffer.getvalue()
+            logError(True)
+            return render_template('extras/error.html')
         
 @app.route('/seeCountries', methods=('GET',))
 def seeCountries():
@@ -741,12 +735,8 @@ def seeCountriesGR():
         return render_template('papers/seeCountriesGR.html')
     
     except:
-        import traceback, sys, StringIO
-        err = sys.stderr
-        buffer = sys.stderr = StringIO.StringIO()
-        traceback.print_exc()
-        sys.stderr = err
-        return buffer.getvalue()
+        logError(True)
+        return render_template('extras/error.html')
     
 @app.route('/seeCountriesAreaPlot', methods=('GET',))
 def seeCountriesAreaPlot():
@@ -760,13 +750,8 @@ def seeCountriesAreaPlot():
     
         return render_template('papers/seeCountriesAreaPlot.html')
     except:
-        import traceback, sys, StringIO
-        err = sys.stderr
-        buffer = sys.stderr = StringIO.StringIO()
-        traceback.print_exc()
-        sys.stderr = err
-        return buffer.getvalue()
-
+        logError(True)
+        return render_template('extras/error.html')
 
 def getAuthorsTotal():
     with sqlite3.connect(DATABASE2) as con:
@@ -946,7 +931,11 @@ def jsonconfyrAuthorbd(conf, year):
     return render_template('authors/seeAuthorsCYbd.html', entry = [conf, year]) 
 
 def getAuthorTop20(top = 20, column = 'authorName'):
-    
+#        : param top Int : Number representing the top group to be calculated
+#                default: 20
+#        : param column str : Name of the column being queried
+#        : output : Returns a python Pandas DataFrame containing top authors and their counts 
+#                 : Returns an list of the authors representing the top submitters.
     with sqlite3.connect(DATABASE2) as con:
         
         sqlcmd = "SELECT * FROM PAPERAUTHOR"
@@ -966,7 +955,9 @@ def getAuthorTop20(top = 20, column = 'authorName'):
         return temp, selection
     
 def getGrCts(data_frame, selection, column):
-    
+#        : param data_frame Pandas DataFrame : 
+#        : param selection array : Array of values to be queried, filtered from dataframe
+#        : output : Returns a python Pandas DataFrame containing selection and counts     
     grouped = {}
     for group in data_frame.groups.keys():
         temp = data_frame.get_group(group)
@@ -986,12 +977,8 @@ def auCloud():
                                    "Images/auCloud.png"))
         return render_template('authors/wordcloudrenderer_au.html')
     except:
-        import traceback, sys, StringIO
-        err = sys.stderr
-        buffer = sys.stderr = StringIO.StringIO()
-        traceback.print_exc()
-        sys.stderr = err
-        return buffer.getvalue()
+        logError(True)
+        return render_template('extras/error.html')
 
 @app.route('/seeAuthorsSpot', methods=('GET',))
 def seeAuthorsSpot():
@@ -1004,12 +991,8 @@ def seeAuthorsSpot():
                                   )
         return render_template('authors/seeAuthorsSpot.html')
     except:
-        import traceback, sys, StringIO
-        err = sys.stderr
-        buffer = sys.stderr = StringIO.StringIO()
-        traceback.print_exc()
-        sys.stderr = err
-        return buffer.getvalue()
+        logError(True)
+        return render_template('extras/error.html')
           
 
 @app.route('/seeAuthorsArea', methods=('GET',))
@@ -1023,13 +1006,8 @@ def seeAuthorsArea():
                             )
         return render_template('authors/seeAuthorsArea.html')
     except:
-        import traceback, sys, StringIO
-        err = sys.stderr
-        buffer = sys.stderr = StringIO.StringIO()
-        traceback.print_exc()
-        sys.stderr = err
-        return buffer.getvalue()
-
+        print logError(True)
+        return render_template('extras/error.html')
 
 if __name__ == '__main__':
    
