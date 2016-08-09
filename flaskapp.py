@@ -1027,6 +1027,33 @@ def seeAuthorsArea():
     except:
         print logError(True)
         return render_template('extras/error.html')
+        
+import RESTful
+
+def openJfile(jfile):
+    '''
+        : param jfile str/unicode : json file name (located in static folder/data)
+        : output : Opens and returns json file as pandas dataframe
+    '''
+    
+    json_url =  os.path.join(app.static_folder,  "data/" + str(jfile))
+    
+    return RESTful.jsonDF(json_url)
+
+@app.route('/queries', methods=['GET'])
+def myquery():
+    e = RESTful.retrievals(mydb, 'CONFERENCES', 'confName', 'confID', 'confID', 3)
+    
+    return jsonify(dict(data=e))
+
+@app.route('/insertJfile/<jfile>', methods=['GET'])
+def insertJFiletoDB(jfile):
+    '''
+        : param jfile str/unicode : json file name (located in static folder/data)
+        : output : Opens and renders json file as pandas dataframe in html format
+    '''
+    
+    return openJfile(jfile).to_html()
 
 if __name__ == '__main__':
    
