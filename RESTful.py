@@ -5,13 +5,13 @@ import sys
 import sqlite3 as sql
 import pandas as pd
 
-DEFAULTDB = 'Abstracts_aug1.db'
+DEFAULTDB = '/var/www/html/flaskapp/Abstracts_aug1.db'
 #DEFAULTJSON = "json4.json"
 
 def jsonDF(jsonFile):
     '''Create a pandas dataframe from a Json File
     '''
-    f = open(jsonFile, "r+")
+    f = open(jsonFile, "r")
     return pd.read_json(f, orient='index')
 
 def sqlCMDToPD(table, 
