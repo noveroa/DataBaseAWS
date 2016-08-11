@@ -6,7 +6,7 @@ import sqlite3 as sql
 import pandas as pd
 
 DEFAULTDB = '/var/www/html/flaskapp/Abstracts_aug1.db'
-#DEFAULTJSON = "json4.json"
+
 
 def jsonDF(jsonFile):
     '''Create a pandas dataframe from a Json File
@@ -35,13 +35,13 @@ def sqlCMDToPD(table,
         
         return df
 
-def getContents():
+def getContents(db):
     '''
     : param NONE
     : output : Returns a json dictionary of the table names, entry counts, and links to tables 
                 of all table names in the database
     ''' 
-    with sql.connect(mydb) as con:
+    with sql.connect(db) as con:
     
         cursor = con.cursor()
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
@@ -72,7 +72,7 @@ def insertcheckRecord(db, df, table = 'CONFERENCES', un = 'confName' ):
     param table str : Table Name to insert into, if does not exist will create
     param un str : unique column to check for entry to create a new pk, if not will just append
     '''
-    t = sqlCMDToPD(table, mydb)
+    t = sqlCMDToPD(table, db)
     if df[un][0] not in t[un].unique():
         insert_toTable(db, df[un], table)
     else:
@@ -88,7 +88,7 @@ def insertcheckRecordTWO(db, df, table = 'PUBLICATIONS', un = 'confName', un1 = 
     param un str : unique column to check for entry to create a new pk, if not will just append
     param un1 str : unique column2 to check for entry to create a new pk, if fail un, if not will just append
     '''
-    t = sqlCMDToPD(table, mydb)
+    t = sqlCMDToPD(table, db)
     if df[un][0] not in t[un].unique():
         print df[un][0], 'is new'
         insert_toTable(db, df[[un, un1]], table)
@@ -110,12 +110,12 @@ def insertValues(db, table, value1, value2):
     param value str : unique value entered into table
     '''
     with sql.connect(db) as con:
-        try:
-            con.execute("INSERT INTO {tn} VALUES('%s','%s')".format(tn=table)%(value1, value2))
-            print('%s %s inserted into %s')%(value1, value2, table)
-        except:
-            con.execute("INSERT INTO {tn} VALUES(Null,'%s')".format(tn=table)%(value2))
-            print('%s inserted into %s, single entry')%(value2, table)
+        if value1:
+            print (con.execute("INSERT INTO {tn} VALUES(?, ?)".format(tn=table), (value1,value2)))
+            print('Composite Entry', value1, value2)
+        else:
+            con.execute("INSERT INTO {tn} VALUES(Null,{val2});".format(tn=table, val2 = value2))
+            print('Single Entry ', value2)
 
         
 def enterValueCheck_nested(db, table, values, cn):
@@ -127,15 +127,16 @@ def enterValueCheck_nested(db, table, values, cn):
     '''
     keys = []
     tableDF = sqlCMDToPD(table, db)
-    for i, ky in enumerate(values):
-        for key in ky.split(','):
-            if key not in tableDF[cn].unique():
-                print key, 'is new'
-                insertValues(db, table, None, key)
+    for i, l in enumerate(values):
+        for v in l.split(','):
+            if eval(v) not in tableDF[cn].unique():
+                print v, 'is new'
+                insertValues(db, table, None, v)
             else:
-                print key, 'already exists in table'
+                print v, 'Already Entered'
             
-            keys.append(key)
+            keys.append(v)
+        print keys
         return keys
 
 def compositeCreation(db, table1, col, values, parentID, comptable):
@@ -150,10 +151,11 @@ def compositeCreation(db, table1, col, values, parentID, comptable):
     param comptable str : Table Name of composite table
     '''
     t = sqlCMDToPD(table1, db)
-    tmp = t.query('{cn} in @values'.format(cn = col))[col]
-    for v in tmp.values:
-        print v, paperK
-        insertValues(db, comptable, parentID, v)
+    vals = [str(eval(u)) for u in values]
+    tmp = t.query('{cn} in @vals'.format(cn = col))[col]
+    for i,v in enumerate(tmp.values):
+        print v, values[i]
+        insertValues(db, comptable, parentID, repr(values[i].strip()))
         
 def getPK(db, table, pkCol):
     '''retrieve the PRIMARY KEY
@@ -178,8 +180,9 @@ def deleteRowPK(db, table, pkcol, entryID):
     with sql.connect(db) as con:
         
         con.execute("DELETE FROM {tn} WHERE {idf}={my_id}".format(tn=table, idf=pkcol, my_id=entryID))
-
+        return 'deleted {idf} : {my_id} from {tn}'.format(tn=table, idf=pkcol, my_id=entryID)
         con.commit()
+        
 
 def deleteRowOTHER(db, table, cn, entry):
     '''Deleting a Record
@@ -189,18 +192,18 @@ def deleteRowOTHER(db, table, cn, entry):
     param entry str : the str to be used to find and remove records (removes all records
     '''
     with sql.connect(db) as con:
-        
         con.execute("DELETE FROM {tn} WHERE {idf}='%s'".format(tn=table, idf=cn)%entry)
-
+        return 'deleted {col} : {e}  from {tn}'.format(tn = table, col = cn, e = entry)
         con.commit()
+        
         
 def entryintotables(db, jsonfile):
     '''Inserting a Record from a JsonFile
     param  db str : Database name to connect to
     param jsonfile str : name of Json File to be read into the database
     '''
-    f = open(jsonfile, "r+")
-    jdf = pd.read_json(f, orient='index')
+    jdf = jsonDF(jsonfile) 
+    
     #TOTALABSTRACTS, check and then insert if needed, uniqueness based on Abstract column
     insert_toTable(db, jdf, table = 'ABSTRACTSTOTAL')
     
@@ -229,7 +232,7 @@ def entryintotables(db, jsonfile):
     
     #PAPER
     jdf.rename(columns = {'year' : 'pubYear'}, inplace = True)
-    insert_toTable(mydb, jdf, 'PAPER')
+    insert_toTable(db, jdf, 'PAPER')
     paperID  = getPK(db, 'PAPER', 'paperID') 
     
     #COMPOSITE TABLE UPDATES
@@ -241,10 +244,10 @@ def entryintotables(db, jsonfile):
     
     #AFFILIATIONPAPER
     affilationID = getPK(db, 'AFFILIATIONS', 'affilID' )
-    insertValues(mydb, "AFFILIATIONPAPER", paperID, affilationID)
+    insertValues(db, "AFFILIATIONPAPER", paperID, affilationID)
     
     
-    return jdf, keys, authors
+    return sqlCMDToPD('ABSTRACTSTOTAL', db).tail()
 
 def retrievals(db, table_name, column_2, column_3, id_column, some_id ):
     entries = []

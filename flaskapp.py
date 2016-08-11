@@ -23,7 +23,7 @@ app = Flask(__name__)
 
 #current Databases being accessed:
 DATABASE = '/var/www/html/flaskapp/EmpData.db'
-DATABASE2 = '/var/www/html/flaskapp/Abstracts_aug1.db'
+DATABASE2 = '/var/www/html/flaskapp/Abstracts_aug4.db'
 
 DEBUG = True
 
@@ -85,7 +85,7 @@ def count_me(input_str):
 @app.route('/')
 def index():
 #    Renders aboutme page html for '/' the index page
-
+    
     return render_template('index.html')
 
 @app.route('/aboutme/')
@@ -1036,20 +1036,55 @@ def openJfile(jfile):
     
     json_url =  os.path.join(app.static_folder,  "data/" + str(jfile))
     
-    return RESTful.jsonDF(json_url)
+    return json_url
+
 
 @app.route('/queries', methods=['GET'])
-def myquery():
-    e = RESTful.retrievals(DATABASE2, 'CONFERENCES', 'confName', 'confID', 'confID', 3)
-    
+def myquery(db = DATABASE2):
+    e = RESTful.retrievals(db, 'CONFERENCES', 'confName', 'confID', 'confID', 3)
+
     return jsonify(dict(data=e))
 
+@app.route('/seeJfile/<jfile>', methods=['GET'])
+def seeJsonDF(jfile):
+    '''
+        : param jfile str/unicode : json file name (located in static folder/data)
+        : output : Opens and renders json file as pandas dataframe in html format
+    '''
+    f = openJfile(jfile)
+    
+    return RESTful.jsonDF(f).to_html()
+
 @app.route('/insertJfile/<jfile>', methods=['GET'])
-def insertJFiletoDB(jfile):
-#        : param jfile str/unicode : json file name (located in static folder/data)
-#        : output : Opens and renders json file as pandas dataframe in html format
-   
-    return openJfile(jfile).to_html()
+def insertJFiletoDB(jfile, db = DATABASE2):
+    '''
+        : param jfile str/unicode : json file name (located in static folder/data)
+        : output : Opens and renders json file as pandas dataframe in html format
+    '''
+    f = openJfile(jfile)
+    
+    return RESTful.entryintotables(db, f).to_html()
+
+
+@app.route('/delete/<table>/<cn>/<param>', methods=['GET'])
+def deletefromDB(table, cn, param, db = DATABASE2):
+#        : param  db str : Database name to connect to
+#        : param  table str : Table Name to delete from
+#        : param  cn str : column name being used for deletion comparason
+#        : param  param int/str : value to lok up and delete row
+    
+    result = 'ERROR IN STR DELETION, look at column name or str value'
+    if str(param).isdigit():
+        try:          
+            result = RESTful.deleteRowPK(db, table, cn, int(param))   
+        except:
+            pass
+    else:
+        try:
+            result = RESTful.deleteRowOTHER(db, table, cn,  param)
+        except:
+            pass
+    return result
 
 if __name__ == '__main__':
    
