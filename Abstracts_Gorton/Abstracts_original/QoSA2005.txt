@@ -1,0 +1,256 @@
+5. Reexamining the role of interactions in software architecture
+Hofmeister, Christine
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 3712 LNCS, p 1, 2005; ISSN: 03029743, E-ISSN: 16113349; DOI: 10.1007/11558569_1; Conference: 1st International Conference on the Quality of Software Architectures, QoSA 2005, and 2nd International Workshop on Software Quality, SOQUA 2005, Sep 20 - 22 2005; Publisher: Springer Verlag
+Abstract: No abstract available
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+6. Are successful test cases useless or not?
+Chen, T.Y.
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 3712 LNCS, p 2-3, 2005; ISSN: 03029743, E-ISSN: 16113349; Conference: 1st International Conference on the Quality of Software Architectures, QoSA 2005, and 2nd International Workshop on Software Quality, SOQUA 2005, Sep 20 - 22 2005; Publisher: Springer Verlag
+Abstract: No abstract available (1 refs)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+8. The architect�s dilemma - will reference architectures help?
+Haft, M. (1); Humm, B. (1); Siedersleben, J. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 106-22, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) sd&m Res., Munich, Germany
+Abstract: Effective standard architectures promise to improve the efficiency of software projects and the quality of resulting systems. However, hardly any standard architecture has become established in practise to date. They are either too general or too specific to be effective - the architect�s dilemma. Reference architectures have a less binding character than standard architectures and still are of high value. This paper presents exemplary parts of the Quasar reference architecture for business information systems, the result of more than seven years of architectural research at sd&m. (19 refs)
+Inspec controlled terms: business data processing - information systems - project management - software architecture - software quality
+Uncontrolled terms: software projects - software quality - architect dilemma - Quasar reference architecture - business information systems
+Classification Code: C6110B Software engineering techniques - C7100 Business and administrative computing
+IPC Code: G06F9/44 - G06Q10/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+9. Supporting security sensitive architecture design
+Babar, M.A. (1); Wang, X.; Gorton, I.
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 140-54, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Nat. ICT Australia, Sydney, NSW, Australia
+Abstract: Security is an important quality attribute required in many software intensive systems. However, software development methodologies do not provide sufficient support to address security related issues. Furthermore, the majority of the software designers do not have adequate expertise in the security domain. Thus, security is often treated as an add-on to the designed architecture. Such ad-hoc practices to deal with security issues can result in a system that is vulnerable to different types of attacks. The security community has discovered several security sensitive design patterns, which can be used to compose a security sensitive architecture. However, there is little awareness about the relationship between security and software architecture. Our research has identified several security patterns along with the properties that can be achieved through those patterns. This paper presents those patterns and properties in a framework that can provide appropriate support to address security related issues during architecture processes. (35 refs)
+Inspec controlled terms: object-oriented programming - security of data - software architecture - software quality
+Uncontrolled terms: security sensitive architecture design - software quality - software intensive system - software development methodology - design patterns - software architecture
+Classification Code: C6110B Software engineering techniques - C6110J Object-oriented programming - C6130S Data security
+IPC Code: G06F9/44 - G06F21/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+10. On the estimation of software reliability of component-based dependable distributed systems
+Dimov, A. (1); Punnekkat, S.
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 171-87, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dept. of Inf. Technol., Sofia Univ., Sofia, Bulgaria
+Abstract: Component based development, which had been successful in enterprise computing, shows promises to be a good development model for automotive systems. This is possible if several dependability concerns of the embedded systems can be properly addressed by the models, frameworks and integration platforms. SaveCCM is a component model for automotive systems developed by employing component based system design. Our ongoing research is related to estimation of software reliability for this model. In this paper, we provide a survey of the state of the art on research techniques for the estimation of system reliability based on component reliabilities and architectures. We further discuss their pros and cons with reference to our architectural model and discuss some practical considerations. Based on this we also present the basics of our approach to reliability modeling of SaveCCM architectures. (24 refs)
+Inspec controlled terms: embedded systems - object-oriented programming - software architecture - software quality - software reliability
+Uncontrolled terms: software reliability estimation - component-based development - distributed systems - automotive system - embedded system - SaveCCM architecture
+Classification Code: C6110B Software engineering techniques - C6110J Object-oriented programming
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+11. Automated model-based testing of ? simulation models with TorX
+van Osch, M. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 227-41, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dept. of Math. & Comput. Sci., Eindhoven Univ. of Technol., Eindhoven, Netherlands
+Abstract: Simulation models are used for performance optimization and validation of embedded systems. However, these models are usually not validated in a structural, formal way. This paper describes a method for testing a ?-model using the model-based test-tool TorX. The method is explained by using a simple example. After that, we describe the results of a case study performed on a simulation model of an industrial system. (19 refs)
+Inspec controlled terms: embedded systems - formal verification - program testing - software tools
+Uncontrolled terms: automated model-based testing - ? simulation model - TorX model-based test-tool - embedded system
+Classification Code: C6150G Diagnostic, testing, debugging and evaluating systems - C6115 Programming support - C6110F Formal methods
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+12. Jartege: a tool for random generation of unit tests for Java classes
+Oriat, C. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 242-56, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) LSR, IMAG, Grenoble, France
+Abstract: This paper presents Jartege, a tool which allows random generation of unit tests for Java classes specified in JML. JML (Java Modeling Language) is a specification language for Java which allows one to write invariants for classes, and pre- and postconditions for operations. As in the JML-JUnit tool, we use JML specifications on the one hand to eliminate irrelevant test cases, and on the other hand as a test oracle. Jartege randomly generates test cases, which consist of a sequence of constructor and method calls for the classes under test. The random aspect of the tool can be parameterized by associating weights to classes and operations, and by controlling the number of instances which are created. The practical use of Jartege is illustrated by a small case study. (34 refs)
+Inspec controlled terms: formal specification - formal verification - Java - program testing - software tools - specification languages
+Uncontrolled terms: Jartege tool - unit test random generation - Java classes - Java Modeling Language - specification language - JML-JUnit tool - JML specification
+Classification Code: C6110J Object-oriented programming - C6110F Formal methods - C6150G Diagnostic, testing, debugging and evaluating systems - C6115 Programming support
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+13. Predicting mean service execution times of software components based on Markov models
+Happe, J. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 53-70, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Software Eng. Group, Oldenburg Univ., Oldenburg, Germany
+Abstract: One of the aims of component-based software engineering is the reuse of existing software components in different deployment contexts. With the redeployment of a component, its performance changes, since it depends on the performance of external services, the underlying hardware and software, and the operational profile. Therefore, performance prediction models are required that are able to handle these dependencies and use the properties of component-based software systems. Parametric contracts model the relationship of provided and required services of a component. In this paper, we analyse the influence of external services on the service execution time applying parametric contracts and a performance prediction algorithm based on Markov chains. We verbalise the assumptions of this approach and evaluate their validity with an experiment. We will see that most of the assumptions hold only under certain constraints. (18 refs)
+Inspec controlled terms: formal verification - Markov processes - object-oriented programming - software performance evaluation - software reusability
+Uncontrolled terms: mean service execution time prediction - software components - Markov models - component-based software engineering - performance prediction models - parametric contract model
+Classification Code: C6110J Object-oriented programming - C6110B Software engineering techniques - C6110R Software performance evaluation - C6110F Formal methods - C1140J Markov processes
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+14. Quality assurance in performance: evaluating mono benchmark results
+Kalibera, T. (1); Bulej, L. (1); Tuma, P. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 271-88, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dept. of Software Eng., Charles Univ., Prague, Prague, Czech Republic
+Abstract: Performance is an important aspect of software quality. To prevent performance degradation during software development, performance can be monitored and software modifications that damage performance can be reverted or optimized. Regression benchmarking provides means for an automated monitoring of performance, yielding a list of software modifications potentially associated with performance changes. We focus on locating individual modifications as causes of individual performance changes and present three methods that help narrow down the list of modifications potentially associated with a performance change. We illustrate the entire process on a real world project. (20 refs)
+Inspec controlled terms: program testing - quality assurance - software performance evaluation - software quality - system monitoring
+Uncontrolled terms: quality assurance - software quality - software development - software performance - software modifications - regression benchmarking
+Classification Code: C6110R Software performance evaluation - C6110B Software engineering techniques - C6150G Diagnostic, testing, debugging and evaluating systems
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+15. DoSAM - domain-specific software architecture comparison model
+Bergner, K. (1); Rausch, A.; Sibling, M.; Ternite, T.
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 4-20, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) 4Soft GmbH, Munich, Germany
+Abstract: The architecture of an IT system is of crucial importance for its success. In order to assess architecture�s fitness, a number of standardized architecture evaluation methods have been proposed. Most of them are intended for the evaluation of a single architecture at a certain point in time. Furthermore, the results are often highly dependent on the person performing the evaluation. Thus, such methods cannot be used to compare and rate different architectures. The DoSAM method instead provides an evaluation framework for comparing different software architectures in a certain domain. After adapting this framework to the application domain at hand once, it can then be used repeatedly for all future evaluations in a methodical and reproducible way. (12 refs)
+Inspec controlled terms: software architecture - software performance evaluation
+Uncontrolled terms: domain-specific software architecture comparison model - architecture evaluation methods
+Classification Code: C6110B Software engineering techniques - C6110R Software performance evaluation
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+16. Automatic test generation for n-way combinatorial testing
+Changhai Nie (1); Baowen Xu (1); Liang Shi (1); Guowei Dong (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 203-11, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dept. of Comput. Sci. & Eng., Southeast Univ., Nanjing, Nanjing, China
+Abstract: N-way combinatorial testing is a specification-based testing criterion, which requires that for a system consisting of a few parameters, every combination of valid values of arbitrary n (n2) parameters be covered by at least one test. In this paper, we propose two different tests generation algorithms based on the combinatorial design for the n-way combination testing. We show that the produced tests can cover all the combinations of parameters to the greatest degree with the small quantity. We implemented the automatic test generators based on the algorithms and obtained some valuable empirical results. (8 refs)
+Inspec controlled terms: formal specification - formal verification - program testing
+Uncontrolled terms: automatic test generation - n-way combinatorial testing - specification-based testing
+Classification Code: C6150G Diagnostic, testing, debugging and evaluating systems - C6110F Formal methods
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+17. Exploring quality attributes using architectural prototyping
+Bardram, J.E. (1); Christensen, H.B. (1); Corry, A.V. (1); Hansen, K.M. (1); Ingstrup, M. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 155-70, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dept. of Comput. Sci., Aarhus Univ., Aarhus, Denmark
+Abstract: A central tenet of software architecture design is to base this on a formulation of desired quality attributes, such as buildability, performance, and availability of the target system. Thus there is a need for architectural evaluation - ensuring the architecture�s support for desired quality attributes - and a variety of evaluation techniques have been developed, described, and used. Architectural prototyping is an experimental approach that creates executable �skeleton� systems to investigate architectural qualities of a future system. Architectural prototyping is a learning vehicle for exploring an architectural design space as well as an evaluation technique. The contribution of this paper is to explore the evaluation aspect of architectural prototypes from an analytical standpoint. We present an analysis and discussion of architectural prototyping in the context of two well-established quality frameworks. Our analysis concludes that architectural prototyping is a viable evaluation technique that may evaluate architectural quality attributes and especially valuable in cases where the balance between opposing qualities must be assessed. (29 refs)
+Inspec controlled terms: software architecture - software prototyping - software quality
+Uncontrolled terms: software quality attribute - software architectural prototyping - software architecture design - software architectural evaluation
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+19. Automated generation and evaluation of dataflow-based test data for object-oriented software
+Oster, N. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 212-26, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dept. of Software Eng., Erlangen-Nurnberg Univ., Erlangen, Germany
+Abstract: In this research paper, an approach to fully automating the generation of test data for object-oriented programs fulfilling dataflow-based testing criteria and the subsequent evaluation of its fault-detection capability are presented. The underlying aim of the generation is twofold: to achieve a given dataflow coverage measure and to minimize the effort to reach this goal in terms of the number of test cases required. In order to solve the inherent conflict of this task, hybrid self-adaptive and multi-objective evolutionary algorithms are adopted. Our approach comprises the following steps: a preliminary activity provides support for the automatic instrumentation of source code in order to record the relevant dataflow information. Based on the insight gained hereby, test data sets are continuously enhanced towards the goals mentioned above. Afterwards, the generated test set is evaluated by means of mutation testing. Progress achieved so far in our ongoing project will be described in this paper. (13 refs)
+Inspec controlled terms: data flow analysis - object-oriented programming - program testing - software fault tolerance
+Uncontrolled terms: automated generation - dataflow-based test data - object-oriented software - test data generation - object-oriented programs - fault-detection capability - test cases - multiobjective evolutionary algorithm - source code - mutation testing
+Classification Code: C6110J Object-oriented programming - C6150G Diagnostic, testing, debugging and evaluating systems - C6110B Software engineering techniques
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+20. FlexTest: an aspect-oriented framework for unit testing
+Sokenou, D. (1); Vosgen, M. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 257-70, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Inst. fur Softwaretech. & Theor. Informa., Tech. Univ. Berlin, Berlin, Germany
+Abstract: This paper examines whether test problems that occur specifically during unit testing of object-oriented programs can be solved using the aspect-oriented programming paradigm. It presents the various problems in unit testing, shows conventional solutions and describes aspect-oriented solutions to the problems. The aspect-oriented solutions are supported by the unit test framework FlexTest of which the paper gives an overview. (18 refs)
+Inspec controlled terms: object-oriented programming - program testing
+Uncontrolled terms: FlexTest - aspect-oriented framework - unit testing - object-oriented programs
+Classification Code: C6150G Diagnostic, testing, debugging and evaluating systems - C6110J Object-oriented programming
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+21. Architectural reuse in software systems in-house integration and merge - experiences from industry
+Land, R. (1); Crnkovic, I. (1); Larsson, S. (1); Blankers, L. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 123-39, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dept. of Comput. Sci. & Electron., Malardalen Univ., Vasteras, Sweden
+Abstract: When organizations cooperate closely, for example after a company merger, there is typically a need to integrate their in-house developed software into one coherent system, preferably by reusing from all of the existing systems. The parts that can be reused may be arbitrarily small or large, ranging from code snippets to large self-containing components. Not only implementations can be reused however; sometimes it may be more appropriate to only reuse experiences in the form of architectural solutions and requirements. In order to investigate the circumstances under which different types of reuse are appropriate, we have performed a multiple case study, consisting of nine cases. Our conclusions are, summarized: reuse of components from one system requires reuse of architectural solutions from the same system; merge of architectural solutions cannot occur unless the solutions already are similar, or if some solutions from one are incorporated into the other. In addition, by hierarchically decomposing the systems we make the same observations. Finally, among the cases we find more architectural similarities than might had been expected, due to common domain standards and common solutions within a domain. Although these observations, when presented, should not be surprising, our experiences from the cases show that in practice organizations have failed to recognize when the necessary prerequisites for reuse have not been present. (21 refs)
+Inspec controlled terms: business data processing - formal specification - software architecture - software reusability
+Uncontrolled terms: architectural reuse - software system - in-house developed software - coherent system - self-containing components - architectural solution merge
+Classification Code: C6110B Software engineering techniques - C6110F Formal methods - C7100 Business and administrative computing
+IPC Code: G06F9/44 - G06Q10/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+22. An architecture-centric approach for producing quality systems
+Bertolino, A. (1); Bucchiarone, A. (1); Gnesi, S. (1); Muccini, H.
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 21-37, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Istituto di Scienza e Tecnologie dell�Informazione, CNR, Pisa, Italy
+Abstract: Software architecture has been advocated as an effective means to produce quality systems. In this paper, we argue that integration between analysis conducted at different stages of development is still lacking. Hence we propose an architecture-centric approach which, by combining different technologies and tools for analysis and testing, supports a seamless tool-supported approach to validate required properties. The idea is to start from the requirements, produce a validated model of the SA, and then use the SA to derive a set of conformance test cases. In this paper, we outline the process, and discuss how some existing tools, namely QuARS, MooTEST, CowTEST and UIT, could be exploited to support the approach. The integrated framework is under development. (35 refs)
+Inspec controlled terms: formal specification - formal verification - program testing - software architecture - software quality - software tools
+Uncontrolled terms: software architecture - quality systems - architecture-centric approach - conformance test cases - QuARS - MooTEST - CowTEST - UIT
+Classification Code: C6110B Software engineering techniques - C6110F Formal methods - C6150G Diagnostic, testing, debugging and evaluating systems - C6115 Programming support
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+23. An XML-based language to support performance and reliability modeling and analysis in software architectures
+Grassi, V. (1); Mirandola, R. (1); Sabetta, A. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 71-87, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dipt. di Inf., Tor Vergata Univ., Rome, Italy
+Abstract: In recent years, the focus of software development has progressively shifted upward, in the direction of the abstract level of architecture specification. However, while the functional properties of the systems have been extensively dealt with in the literature, relatively less attention has been given until recently to the specification and analysis at the architectural level of quality attributes such as performance and reliability. The contribution of this paper is twofold: first we discuss the type of information that should be provided at the architectural level in order to successfully address the problem of performance and reliability modeling and analysis of software systems; based on this discussion, we define an extension of the xADL architectural language that enables the support for stochastic modeling and analysis of performance and reliability in software architectures. (22 refs)
+Inspec controlled terms: formal specification - software architecture - software performance evaluation - software quality - software reliability - specification languages - XML
+Uncontrolled terms: XML-based language - software architectures - software development - software specification - software quality attributes - software performance - software reliability - software system analysis - xADL architectural language - stochastic modeling
+Classification Code: C6110B Software engineering techniques - C6110R Software performance evaluation - C6110F Formal methods
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+24. Formal definition of metrics upon the CORBA component model
+Goulao, M. (1); Abreu, F.B. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 88-105, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Dept. de Inf., FCT/UNL, Lisbon, Portugal
+Abstract: In this paper, we present a formalization of the definition of metrics to assess quality attributes of CORBA components and assemblies. The focus is on the formalization technique, rather than on the evaluation of the metrics themselves. We represent a component assembly as an instantiation of the CORBA component model metamodel. The resulting meta-object diagram can then be traversed using Object Constraint Language clauses. With these clauses, we construct a formal and executable definition of the metrics. We demonstrate the expressiveness of our technique by formally defining metrics proposed informally by several authors on different aspects of components and assemblies� quality attributes. We provide a formal and executable definition of metrics for CORBA components and assemblies is an enabling precondition to allow for independent scrutiny of such metrics, which is, in turn, essential to increase practitioners� confidence on predictable quality attributes. (35 refs)
+Inspec controlled terms: distributed object management - formal specification - formal verification - object-oriented programming - software metrics - software quality
+Uncontrolled terms: CORBA component model - quality attributes - meta-object diagram - Object Constraint Language clauses
+Classification Code: C6110J Object-oriented programming - C6150N Distributed systems software - C6110S Software metrics - C6110F Formal methods - C6110B Software engineering techniques
+IPC Code: G06F9/44 - G06F9/46
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+25. Empirical evaluation of model-based performance prediction methods in software development
+Koziolek, H. (1); Firus, V. (1)
+Source: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures,QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings (Lecture Notes in Computer Science Vol.3712), p 188-202, 2005; ISBN-10: 3-540-29033-8; Conference: Quality of Software Architectures and Software Quality. First International Conference on the Quality of Software Architectures, QoSA 2005 and Second International Workshop on Software Quality, SOQUA 2005. Proceedings, 20-22 Sept. 2005, Erfurt, Germany; Publisher: Springer-Verlag, Berlin, Germany
+Author affiliation: (1) Software Eng. Group, Oldenburg Univ., Oldenburg, Germany
+Abstract: Predicting the performance of software architectures during early design stages is an active field of research in software engineering. It is expected that accurate predictions minimize the risk of performance problems in software systems by a great extent. This would improve quality and save development time and costs of subsequent code fixings. Although a lot of different methods have been proposed, none of them have gained widespread application in practice. In this paper we describe the evaluation and comparison of three approaches for early performance predictions (software performance engineering (SPE), capacity planning (CP) and umlPSI). We conducted an experiment with 31 computer science students. Our results show that SPE and CP are suited for supporting performance design decisions in our scenario. CP is also able to validate performance goals as stated in requirement documents under certain conditions. We found that SPE and CP are matured, yet lack the proper tool support that would ease their application in practice. (17 refs)
+Inspec controlled terms: formal specification - formal verification - software architecture - software performance evaluation - software quality
+Uncontrolled terms: model-based performance prediction method - software development - software architectures - software engineering - software performance engineering - capacity planning
+Classification Code: C6110B Software engineering techniques - C6110R Software performance evaluation - C6110F Formal methods
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2006, IEE
+Data Provider: Engineering Village
+
+200000. end
+end

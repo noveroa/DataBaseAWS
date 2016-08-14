@@ -1,0 +1,611 @@
+1. Architecture-centric modeling of design decisions for validation and traceability
+K�ster, Martin (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 184-191, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_16; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) FZI Research Center for Information Technologies, Software Engineering, Haid-und-Neu-Str. 10-14, 76131 Karlsruhe, Germany
+Abstract: Access to previously made architectural design decisions allows for faster understanding and more educated decisions during software evolution. Templates and ontologies have been proposed to document such decisions. In this paper we argue that documenting the architectural design decisions can be intertwined with a standard architecture documentation process. For that, we propose architecture-specific decision types equipped with OCL constraints capable for decision conformance checks. We present an initial evaluation based on a preliminary case study with a typical three-tier web-application and the decisions associated with its implementation. � 2013 Springer-Verlag. (12 refs)
+Main heading: Software architecture
+Controlled terms: Architectural design - Model checking
+Uncontrolled terms: Architectural design decisions - Architectural models - Architecture-centric - constraint checking - Design decisions - Software Evolution - Standard architecture - traceability
+Classification Code: 402 Buildings and Towers - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+2. Toward industry friendly software architecture evaluation
+Li, Zhao (1); Zheng, Jiang (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 328-331, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_31; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) ABB US Corporate Research Center, 940 Main Campus Drive, Raleigh, NC 27606, United States
+Abstract: Due to the increasingly complexity of industry software products, software architecture evaluation is getting important to effectively identify potential risks and ensure the quality goals of the resulting system are well addressed in the design phase. However, despite the plethora of evaluation approaches proposed in academia, few of them have proven suitable to evaluate architecture designs of wide spread industry applications. As the initial efforts of addressing this issue, this paper identifies the gaps between an ideal industry friendly software architecture evaluation approach and existing evaluation methods. � 2013 Springer-Verlag. (4 refs)
+Main heading: Software architecture
+Controlled terms: Industrial applications - Industry - Product design
+Uncontrolled terms: Architecture analysis - Architecture designs - Architecture evaluation - Evaluation approach - Evaluation methods - Industry applications - Software architecture evaluation - Software products
+Classification Code: 723.1 Computer Programming - 911 Cost and Value Engineering; Industrial Economics - 912 Industrial Engineering and Management - 913 Production Planning and Control; Manufacturing - 913.1 Production Engineering
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+3. Towards a multi-scale modeling for architectural deployment based on bigraphs
+Gassara, Amal (1); Bouassida Rodriguez, Ismael (1, 2, 3); Jmaiel, Mohamed (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 122-129, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_11; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) ReDCAD, University of Sfax, B.P. 1173, 3038 Sfax, Tunisia (2) CNRS, LAAS, 7 Avenue du colonel Roche, F-31400 Toulouse, France (3) Univ. de Toulouse, LAAS, F-31400 Toulouse, France
+Abstract: With the evolution of distributed systems in size and complexity, software deployment remains a challenging task. Despite the existence of several approaches, most of them use informal models that lack a solid mathematic foundation. In this paper, we propose a bigraphical based approach for modeling and formalizing the deployment of distributed applications. This approach relies on multi-scale modeling. So, we start by modeling the first scale with a bigraph. This bigraph is enriched, through a series of reaction rules, until reaching the last scale that represents the deployment architecture. � 2013 Springer-Verlag. (9 refs)
+Main heading: Software architecture
+Controlled terms: Artificial intelligence - Computer science
+Uncontrolled terms: Bigraphs - Deployment - Deployment architecture - Distributed applications - Distributed systems - Mathematic foundation - Multi-scale Modeling - Software deployment
+Classification Code: 721 Computer Circuits and Logic Elements - 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+4. Swap fairness for thrashing mitigation
+Goichon, Fran�ois (1); Salagnac, Guillaume (1); Fr�not, St�phane (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 311-315, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_27; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) University of Lyon, INSA-Lyon, CITI-INRIA, F-69621, Villeurbanne, France
+Abstract: The swap mechanism allows an operating system to work with more memory than available RAM space, by temporarily flushing some data to disk. However, the system sometimes ends up spending more time swapping data in and out of disk than performing actual computation. This state is called thrashing. Classical strategies against thrashing rely on reducing system load, so as to decrease memory pressure and increase global throughput. Those approaches may however be counterproductive when tricked into advantaging malicious or long-standing processes. This is particularily true in the context of shared hosting or virtualization, where multiple users run uncoordinated and selfish workloads. To address this challenge, we propose an accounting layer that forces swap fairness among processes competing for main memory. It ensures that a process cannot monopolize the swap subsystem by delaying the swap operations of abusive processes, reducing the number of system-wide page faults while maximizing memory utilization. � 2013 Springer-Verlag. (15 refs)
+Main heading: Random access storage
+Controlled terms: Software architecture
+Uncontrolled terms: Main memory - Memory pressure - Memory utilization - Multiple user - Reducing systems - Shared hosting - Virtualizations
+Classification Code: 722.1 Data Storage, Equipment and Techniques - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+5. Benefits and drawbacks of reference architectures
+Mart�nez-Fern�ndez, Silverio (1); Ayala, Claudia P. (1); Franch, Xavier (1); Martins Marques, Helena (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 307-310, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_26; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) GESSI Research Group, Universitat Polit�cnica de Catalunya, Barcelona, Spain (2) Everis, Barcelona, Spain
+Abstract: Reference architectures (RA) have been studied to create a consistent notion of what constitutes them as well as their benefits and drawbacks. However, few empirical studies have been conducted to provide evidence that support the claims made. To increase this evidence, this paper investigates the actual industrial practice of using RAs. The study consists of a survey with 28 stakeholders from everis, a multinational consulting company based in Spain. We report the findings and contextualize them with previous research. � 2013 Springer-Verlag. (8 refs)
+Main heading: Software architecture
+Controlled terms: Artificial intelligence - Computer science
+Uncontrolled terms: Consulting companies - Contextualize - Empirical Software Engineering - Empirical studies - Industrial practices - Reference architecture - Software reference architectures
+Classification Code: 721 Computer Circuits and Logic Elements - 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+6. Model-based tool support for consistent three-way merging of EMF models
+Schw�gerl, Felix (1); Uhrig, Sabrina (1); Westfechtel, Bernhard (1)
+Source: ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, 2013, ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop; ISBN-13: 9781450320368; DOI: 10.1145/2491279.2491281; Conference: Workshop on ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, July 2, 2013 - July 2, 2013; Sponsor: ACM Special Interest Group on Software Engineering (SIGSOFT); Centre National De La Recherche Scientifique (CNRS); ACM Special Interest Group on Programming Languages (SIGPLAN); University Montpellier 2 (UM2); Association Internationale pour les Technologies Objects (AITO); Publisher: Association for Computing Machinery
+Author affiliation: (1) University of Bayreuth, Universit�tsstr. 30, 95440 Bayreuth, Germany
+Abstract: Inadequate version control has been identified as a major obstacle to the application of model-driven software engineering. In particular, sophisticated support for merging model versions is urgently needed. We present a tool for merging of EMF models which may be applied to instances of arbitrary Ecore models. The tool advances the state of the art by guaranteeing a consistent merge result. Furthermore, it detects and resolves not only context-free, but also context-sensitive conflicts. Our merge tool is model-based; it relies on EMF for its implementation. Initial experiences gained from its application confirm that the merge tool operates both accurately and efficiently. � 2013 ACM. (28 refs)
+Main heading: Tools
+Controlled terms: Mergers and acquisitions - Merging - Software engineering
+Uncontrolled terms: Context-free - Context-sensitive - ITS applications - Model-based tools - Model-driven software engineerings - State of the art - Version control
+Classification Code: 603 Machine Tools - 605 Small Tools and Hardware - 723.1 Computer Programming - 912 Industrial Engineering and Management
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+7. An EMF-based toolkit for reasoning on web services evolution
+Vara, Juan Manuel (1); Verde, Jenifer (1); Andrikopoulos, Vasilios (2); Bollati, Ver�nica (1); Marcos, Esperanza (1)
+Source: ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, 2013, ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop; ISBN-13: 9781450320368; DOI: 10.1145/2491279.2491283; Conference: Workshop on ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, July 2, 2013 - July 2, 2013; Sponsor: ACM Special Interest Group on Software Engineering (SIGSOFT); Centre National De La Recherche Scientifique (CNRS); ACM Special Interest Group on Programming Languages (SIGPLAN); University Montpellier 2 (UM2); Association Internationale pour les Technologies Objects (AITO); Publisher: Association for Computing Machinery
+Author affiliation: (1) Kybele Research Group, University Rey Juan Carlos, Madrid, Spain (2) Institute of Architecture of Application Systems, University of Stuttgart, Germany
+Abstract: During the last years, the area of Service Science Management and Engineering (SSME) is one of those fields that have benefit from the advantages brought by Model-Driven Engineering in terms of leveraging the abstraction level at which software is conceived, designed or even implemented. One of the key issues in SSME is evolution, given the non-trivial nature of updating widely distributed and heterogeneous systems. In this context, this work introduces an EMF-based toolkit that bundles different DSLs, injectors/extractors and transformations to put into practice and explore some formal theories on the evolution of Web Services. � 2013 ACM. (31 refs)
+Main heading: Web services
+Controlled terms: Websites
+Uncontrolled terms: Abstraction level - Formal theory - Heterogeneous systems - Model transformation - Model-driven Engineering - Service compatibility - Service evolutions - Service science
+Classification Code: 716 Telecommunication; Radar, Radio and Television - 717 Optical Communication - 718 Telephone Systems and Related Technologies; Line Communications - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+8. MTC Flow: A tool to design, develop and deploy model transformation chains
+Alvarez, Camilo (1); Casallas, Rubby (1)
+Source: ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, 2013, ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop; ISBN-13: 9781450320368; DOI: 10.1145/2491279.2491286; Conference: Workshop on ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, July 2, 2013 - July 2, 2013; Sponsor: ACM Special Interest Group on Software Engineering (SIGSOFT); Centre National De La Recherche Scientifique (CNRS); ACM Special Interest Group on Programming Languages (SIGPLAN); University Montpellier 2 (UM2); Association Internationale pour les Technologies Objects (AITO); Publisher: Association for Computing Machinery
+Author affiliation: (1) Universidad de Los Andes, Bogot� D.C., Colombia
+Abstract: This paper presents a tool called MTC Flow, which allows model-driven developers to design, develop, test and deploy Model Transformation Chains (MTCs). The tool offers a graphical DSL for defining MTC workflow models independently of the technologies that support the transformations. Using basic concepts such as metamodels, models and transformations (M2M, M2T and T2M) the user defines, executes and tests his MTC easily in the same development environment. MTC Flow has an abstraction layer to implement technology support. It facilitates the interoperability of model transformation and validation using the existing technologies without changes. Additionally, once the MTC is finished, MTC Flow offers an option to deploy it in any environment that support JAVA technology. The tool supports modularity and alternative execution paths of the MTCs. It was built on top of the Eclipse Modeling Framework (EMF) and the Graphical Modeling Framework (GMF). The tool offers a development environment using the extending capabilities of the Eclipse platform. We illustrate how MTC Flow supports MTCs development process using an example. � 2013 ACM. (10 refs)
+Main heading: Tools
+Controlled terms: Chains - Interoperability - Mathematical models
+Uncontrolled terms: Abstraction layer - Development environment - Development process - Eclipse modeling framework - Graphical modeling frameworks - Model transformation - Model transformation chains - Technology support
+Classification Code: 723 Computer Software, Data Handling and Applications - 718 Telephone Systems and Related Technologies; Line Communications - 717 Optical Communication - 921 Mathematics - 716 Telecommunication; Radar, Radio and Television - 603 Machine Tools - 602.1 Mechanical Drives - 605 Small Tools and Hardware
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+9. Fokus!MBT: A multi-paradigmatic test modeling environment
+Wendland, Marc-Florian (1); Hoffmann, Andreas (1); Schieferdecker, Ina (1)
+Source: ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, 2013, ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop; ISBN-13: 9781450320368; DOI: 10.1145/2491279.2491282; Conference: Workshop on ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, July 2, 2013 - July 2, 2013; Sponsor: ACM Special Interest Group on Software Engineering (SIGSOFT); Centre National De La Recherche Scientifique (CNRS); ACM Special Interest Group on Programming Languages (SIGPLAN); University Montpellier 2 (UM2); Association Internationale pour les Technologies Objects (AITO); Publisher: Association for Computing Machinery
+Author affiliation: (1) Fraunhofer Institut FOKUS, Kaiserin-Augusta-Alle 31, 10589 Berlin, Germany
+Abstract: UML modeling environments for doing model-based testing are often not very comfortable to use and burden some knowledge about the internals of UML to the users, respectively test engineers. Test engineers, however, are seldom experts in UML, thus, the gain of efficiency model-based testing approaches entail, is reduced by a too generic tooling. The tool Fokus!MBT, developed by the competence center MOTION of Fraunhofer FOKUS, is a multi-paradigmatic test modeling environment based on the UML Testing Profile, an OMG-adopted industry-driven notation for model-based testing. Fokus!MBT simplifies the creation and authoring of test models with methodology-specific support. It is built on top of Eclipse Papyrus, a powerful open source UML modeling environment, which, in turn, relies on the Eclipse Modeling Framework and the Graphical Modeling Framework. This paper provides deep insights into the basic concepts and technical realization of Fokus!MBT as well as into the lessons we have learned during development and application. � 2013 ACM. (36 refs)
+Main heading: Unified Modeling Language
+Uncontrolled terms: Development and applications - Eclipse modeling framework - Fokus!MBT - Graphical modeling frameworks - Model based testing - Model-based testing approaches - Test Modeling - UML testing profiles
+Classification Code: 723.1.1 Computer Programming Languages
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+10. ACadeMics tooling with Eclipse: ACME�13 workshop summmary
+Di Ruscio, Davide (1); Kolovos, Dimitrios (2); Rose, Louis (2); Al-Hilank, Samir (3)
+Source: ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, 2013, ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop; ISBN-13: 9781450320368; DOI: 10.1145/2491279.2491280; Conference: Workshop on ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, July 2, 2013 - July 2, 2013; Sponsor: ACM Special Interest Group on Software Engineering (SIGSOFT); Centre National De La Recherche Scientifique (CNRS); ACM Special Interest Group on Programming Languages (SIGPLAN); University Montpellier 2 (UM2); Association Internationale pour les Technologies Objects (AITO); Publisher: Association for Computing Machinery
+Author affiliation: (1) Department of Computer Science and Mathematics, University of L�Aquila, L�Aquila, Italy (2) Department of Computer Science, University of York, York, United Kingdom (3) Develop Group Basys GmbH, Erlangen, Germany
+Abstract: The Eclipse platform has played a very significant role in the evolution of software engineering research over the last few years as it has provided mature infrastructure for the development of orthogonal but interoperable prototypes in areas including model driven engineering, code analysis, data visualisation, software measurement and testing and language development. The academic community has in turn embraced Eclipse and has contributed several tools back as open source projects (such as IMP, GEF3D, Mylyn, ATL, Epsilon etc) - some of which have been brought under the umbrella of the Eclipse Foundation. � 2013 Authors.
+Main heading: Education
+Controlled terms: Data visualization - Software engineering
+Uncontrolled terms: Academic community - Code analysis - Eclipse foundations - Language development - Model-driven Engineering - Open source projects - Software Measurement
+Classification Code: 723 Computer Software, Data Handling and Applications - 901.2 Education
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+11. Towards tool support for pattern-based secure and dependable systems development
+Hamid, Brahim (1); Ziani, Adel (1); Geisel, Jacob (1)
+Source: ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, 2013, ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop; ISBN-13: 9781450320368; DOI: 10.1145/2491279.2491285; Conference: Workshop on ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, July 2, 2013 - July 2, 2013; Sponsor: ACM Special Interest Group on Software Engineering (SIGSOFT); Centre National De La Recherche Scientifique (CNRS); ACM Special Interest Group on Programming Languages (SIGPLAN); University Montpellier 2 (UM2); Association Internationale pour les Technologies Objects (AITO); Publisher: Association for Computing Machinery
+Author affiliation: (1) IRIT, University of Toulouse, 118 Route de Narbonne, 31062 Toulouse Cedex 9, France
+Abstract: In our work, we promote a new discipline for secure and dependable system engineering using a pattern as its first class citizen: Pattern-Based System Engineering (PBSE). Therefore, PBSE addresses two kind of processes: the one of pattern development and the one of system development with patterns. To interconnect these two processes we promote a structured model-based repository of patterns and their related property models. This paper presents the SEMCO MDE Tool Suite development status conducted in the context of the FP7 TERESA project aiming to support the automation of building, storing and processing reusable artifacts (S&D patterns and property models). This tool promotes the PBSE methodology in the domain of assistance to the trusted embedded system engineering. A video tutorial presenting the SEMCO MDE Tool Suite is provided under: http://www.semcomdt.org/semco/demo/video-semco/toolsuite/ToolSuiteIRIT. mp4. � 2013 ACM. (12 refs)
+Main heading: Tools
+Controlled terms: Embedded systems - Systems engineering
+Uncontrolled terms: dependability - Meta model - Model-driven Engineering - pattern - repository - security
+Classification Code: 603 Machine Tools - 605 Small Tools and Hardware - 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications - 912 Industrial Engineering and Management - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+12. GraCoT, a tool for co-creation of models and metamodels in specific domains
+G�mez, Paola (1); S�nchez, Mario (1); Villalobos, Jorge (1)
+Source: ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, 2013, ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop; ISBN-13: 9781450320368; DOI: 10.1145/2491279.2491284; Conference: Workshop on ACadeMics Tooling with Eclipse, ACME 2013 - A Joint ECMFA/ECSA/ECOOP Workshop, July 2, 2013 - July 2, 2013; Sponsor: ACM Special Interest Group on Software Engineering (SIGSOFT); Centre National De La Recherche Scientifique (CNRS); ACM Special Interest Group on Programming Languages (SIGPLAN); University Montpellier 2 (UM2); Association Internationale pour les Technologies Objects (AITO); Publisher: Association for Computing Machinery
+Author affiliation: (1) Universidad de Los Andes, Department of Systems and Computing Engineering, Bogot�, Colombia
+Abstract: In many domains, models are created based on predefined metamodels which abstract the structure of the domain in question. However, there are specific domains, like Enterprise Architecture (EA) projects, where a metamodel cannot be defined in advance to the creation of the model. Unfortunately, in this situation using standard frameworks, like EMF, generates some inconveniences in the construction of the model and the metamodel because these frameworks do not support the manipulation of metamodels at runtime. In this paper, we propose a strategy to co-create metamodels and models in an incremental and simultaneous way. This proposal is supported by a dynamic approach that separates the linguistic and the ontological conformity concerns of metamodeling. This strategy has been implemented in a graphical editor called GraCoT, which also provides interactive assistance to guide the users during the co-creation process. � 2013 ACM. (17 refs)
+Main heading: Models
+Uncontrolled terms: Co-creation - conformity problems - Dynamic approaches - Enterprise Architecture - Meta model - Models and metamodels - Standard frameworks - User assistance
+Classification Code: 902.1 Engineering Graphics
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+13. What shall we tell the children (about inheritance)?
+Black, Andrew P. (1)
+Source: Proceedings of MASPEGHI 2013: MechAnisms for SPEcialization, Generalization and InHerItance Workshop - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013, p 17-25, 2013, Proceedings of MASPEGHI 2013: MechAnisms for SPEcialization, Generalization and InHerItance Workshop - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013; ISBN-10: 1450320467, ISBN-13: 9781450320467; DOI: 10.1145/2489828.2489831; Conference: 5th Workshop on MechAnisms for SPEcialization, Generalization and inHerItance, MASPEGHI 2013 - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013, July 1, 2013 - July 1, 2013; Sponsor: Association Internationale pour les Technologies Objets (AITO); Centre National de la Rechercue Scientifique (CNRS); University Montpellier 2 (UM2); Publisher: Association for Computing Machinery
+Author affiliation: (1) Portland State University, United States
+Abstract: Since the groundbreaking work of Kamin, Reddy, and particularly Cook in the late 1980s, there has been broad agreement that the meaning of inheritance in object-oriented programming languages can be best explained using generator functions and their fixpoints. Consequently, it is a little surprising to realise that no current mainstream programming language actually explains inheritance to its users in this way. Instead, most languages make up a �story� that purports to explain inheritance, but that on closer inspection contains serious flaws. It is as if, being asked to explain the facts of life to our children, we are so embarrassed by the truth that we make up a story about storks, knowing even as we do so that it defies the laws not only of biology but also of physics. This paper explores both the truth and the fictions about how objects are brought into the world. My hope is that future programming languages can tell the children, if not the whole truth, then at least a partial truth that is consistent with the laws of mathematics. Copyright � 2013 ACM 978-1-4503-2046-7/13/07. . . $15.00. (19 refs)
+Main heading: Object oriented programming
+Controlled terms: Semantics
+Uncontrolled terms: Fixpoints - Generator function - Immutable objects - Object initialisation - Object-oriented programming languages - Partial truth
+Classification Code: 723.1 Computer Programming - 903.2 Information Dissemination
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+14. Wyvern: A simple, typed, and pure object-oriented language
+Nistor, Ligia (1); Kurilova, Darya (1); Balzer, Stephanie (1); Chung, Benjamin (1); Potanin, Alex (1); Aldrich, Jonathan (1)
+Source: Proceedings of MASPEGHI 2013: MechAnisms for SPEcialization, Generalization and InHerItance Workshop - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013, p 9-16, 2013, Proceedings of MASPEGHI 2013: MechAnisms for SPEcialization, Generalization and InHerItance Workshop - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013; ISBN-10: 1450320467, ISBN-13: 9781450320467; DOI: 10.1145/2489828.2489830; Conference: 5th Workshop on MechAnisms for SPEcialization, Generalization and inHerItance, MASPEGHI 2013 - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013, July 1, 2013 - July 1, 2013; Sponsor: Association Internationale pour les Technologies Objets (AITO); Centre National de la Rechercue Scientifique (CNRS); University Montpellier 2 (UM2); Publisher: Association for Computing Machinery
+Author affiliation: (1) Carnegie Mellon University, United States
+Abstract: The simplest and purest practical object-oriented language designs today are seen in dynamically-typed languages, such as Smalltalk and Self. Static types, however, have potential benefits for productivity, security, and reasoning about programs. In this paper, we describe the design ofWyvern, a statically typed, pure object-oriented language that attempts to retain much of the simplicity and expressiveness of these iconic designs. Our goals lead us to combine pure object-oriented and functional abstractions in a simple, typed setting. We present a foundational object-based language that we believe to be as close as one can get to simple typed lambda calculus while keeping objectorientation. We show how this foundational language can be translated to the typed lambda calculus via standard encodings.We then define a simple extension to this language that introduces classes and show that classes are no more than sugar for the foundational object-based language. Our future intention is to demonstrate that modules and other object-oriented features can be added to our language as not more than such syntactical extensions while keeping the object-oriented core as pure as possible. The design of Wyvern closely follows both historical and modern ideas about the essence of object-orientation, suggesting a new way to think about a minimal, practical, typed core language for objects. Copyright � 2013 ACM 978-1-4503-2046-7/13/07. . . $15.00. (24 refs)
+Main heading: Design
+Controlled terms: Computational mechanics - Differentiation (calculus)
+Uncontrolled terms: First-class classes - Functional abstractions - Object oriented - Object-based languages - Object-oriented features - Object-oriented languages - Reasoning about programs - Static type checking
+Classification Code: 408 Structural Design - 921 Mathematics - 921.2 Calculus
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+15. Inheritance versus parameterization
+Ernst, Erik (1)
+Source: Proceedings of MASPEGHI 2013: MechAnisms for SPEcialization, Generalization and InHerItance Workshop - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013, p 26-29, 2013, Proceedings of MASPEGHI 2013: MechAnisms for SPEcialization, Generalization and InHerItance Workshop - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013; ISBN-10: 1450320467, ISBN-13: 9781450320467; DOI: 10.1145/2489828.2489832; Conference: 5th Workshop on MechAnisms for SPEcialization, Generalization and inHerItance, MASPEGHI 2013 - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013, July 1, 2013 - July 1, 2013; Sponsor: Association Internationale pour les Technologies Objets (AITO); Centre National de la Rechercue Scientifique (CNRS); University Montpellier 2 (UM2); Publisher: Association for Computing Machinery
+Author affiliation: (1) Aarhus University, Denmark
+Abstract: This position paper argues that inheritance and parameterization differ in their fundamental structure, even though they may emulate each other in many ways. Based on this, we claim that certain mechanisms, e.g., final classes, are in conflict with the nature of inheritance, and hence causes language designs to be less generalizable and more prone to semantic conflicts, and hence we recommend that these mechanisms should be optimized for playing different roles in language design. (7 refs)
+Main heading: Parameterization
+Controlled terms: Semantics
+Uncontrolled terms: Conceptual comparison - Fundamental structures - Inheritance - Language design - Position papers - Semantic conflict
+Classification Code: 903.2 Information Dissemination - 921 Mathematics
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+16. Subclack: Feature-oriented programming with behavioral feature interfaces
+Th�m, Thomas (1); Apel, Sven (2); Zelend, Andreas (3); Schr�ter, Reimar (1); M�ller, Bernhard (3)
+Source: Proceedings of MASPEGHI 2013: MechAnisms for SPEcialization, Generalization and InHerItance Workshop - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013, p 1-8, 2013, Proceedings of MASPEGHI 2013: MechAnisms for SPEcialization, Generalization and InHerItance Workshop - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013; ISBN-10: 1450320467, ISBN-13: 9781450320467; DOI: 10.1145/2489828.2489829; Conference: 5th Workshop on MechAnisms for SPEcialization, Generalization and inHerItance, MASPEGHI 2013 - In Conjunction with the Colocated Conferences, ECOOP, ECMFA and ECSA 2013, July 1, 2013 - July 1, 2013; Sponsor: Association Internationale pour les Technologies Objets (AITO); Centre National de la Rechercue Scientifique (CNRS); University Montpellier 2 (UM2); Publisher: Association for Computing Machinery
+Author affiliation: (1) University of Magdeburg, Germany (2) University of Passau, Germany (3) University of Augsburg, Germany
+Abstract: Feature-oriented programming extends object-oriented programming to support feature modularity. Feature modules typically cut across class boundaries to implement end-uservisible features. Customized program variants can be composed automatically given a selection of desired feature modules. We propose behavioral feature interfaces based on design by contract for precise localization of faulty feature modules. There are three different approaches for feature-module composition, which are considered to be equivalent in the literature. We discuss advantages and disadvantages for each approach with regard to behavioral feature interfaces. Based on our insights, we present Subclack as a new approach for feature-module composition combining the advantages of all existing approaches. In our examples, we use contracts defined in an feature-oriented extension of the Java Modeling Language, and discuss how they can be checked by means of runtime assertions. (33 refs)
+Main heading: Behavioral research
+Controlled terms: Object oriented programming
+Uncontrolled terms: Behavioral features - Design by contracts - Explicit contract refinement - Feature-oriented programming - Java Modeling Language - Runtime assertion
+Classification Code: 723.1 Computer Programming - 971 Social Sciences
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+88. Run-time support to manage architectural variability specified with CVL
+Pascual, Gustavo G. (1, 2); Pinto, M�nica (1, 2); Fuentes, Lidia (1, 2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 282-298, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_24; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Departamento de Lenguajes Y Ciencias de la Computaci�n, University of M�laga, M�laga, Spain (2) CAOSD Group, Spain
+Abstract: The execution context in which pervasive systems or mobile computing run changes continuously. Hence, applications for these systems should be adapted at run-time according to the current context. In order to implement a context-aware dynamic reconfiguration service, most approaches usually require to model at design-time both the list of all possible configurations and the plans to switch among them. In this paper we present an alternative approach for the automatic run-time generation of application configurations and the reconfiguration plans. The generated configurations are optimal regarding different criteria, such as functionality or resource consumption (e.g. battery or memory). This is achieved by: (1) modelling architectural variability at design-time using Common Variability Language (CVL), and (2) using a genetic algorithm that finds at run-time nearly-optimal configurations using the information provided by the variability model. We also specify a case study and we use it to evaluate our approach, showing that it is efficient and suitable for devices with scarce resources. � 2013 Springer-Verlag. (22 refs)
+Main heading: Genetic algorithms
+Controlled terms: Dynamic models - Software architecture - Ubiquitous computing
+Uncontrolled terms: Architectural variability - Context - CVL - Dynamic re-configuration - Pervasive systems
+Classification Code: 723.1 Computer Programming - 723.5 Computer Applications - 921 Mathematics
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+89. Team situational awareness and architectural decision making with the software architecture warehouse
+Nowak, Marcin (1); Pautasso, Cesare (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 146-161, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_13; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Faculty of Informatics, University of Lugano, Switzerland
+Abstract: The core of the design of software architecture is all about architectural decision making. A high-quality design outcome sets high requirements, not only on the skills and knowledge of the design team members, but also on the management of the decision making process. We claim that in order to deliver high quality decisions, the design team needs to obtain a high level of situational awareness. To address this, we present an analysis of the problem of team situational awareness in design workshops and propose a model on how stakeholder positions help to build consensus within the argumentation viewpoint of architectural decisions. We show how the Software Architecture Warehouse tool has been extended to support the argumentation viewpoint within its live design document metaphor to provide support for co-located and distributed design workshops. � 2013 Springer-Verlag. (22 refs)
+Main heading: Software architecture
+Controlled terms: Decision making - Design - Warehouses
+Uncontrolled terms: Architectural decision - Architectural decision makings - Decision making process - Design documents - Design outcomes - Design workshops - Distributed design - Situational awareness
+Classification Code: 402.1 Industrial and Agricultural Buildings - 408 Structural Design - 723.1 Computer Programming - 912.2 Management
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+90. Towards an architecture for managing big semantic data in real-time
+Cuesta, Carlos E. (1); Mart�nez-Prieto, Miguel A. (2, 3, 4); Fern�ndez, Javier D. (2, 3, 4)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 45-53, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_5; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) VorTIC3 Research Group, Dept. of Comp. Languages and Systems II, Rey Juan Carlos University, Madrid, Spain (2) DataWeb Research, Dept. of Computer Science, University of Valladolid, Segovia, Spain (3) DataWeb Research, Dept. of Computer Science, University of Valladolid, Valladolid, Spain (4) Dept. of Computer Science, University of Chile, Santiago, Chile
+Abstract: Big Data Management has become a critical task in many application systems, which usually rely on heavyweight batch processes to process large amounts of data. However, batch architectures are not an adequate choice for the design of real-time systems, where expected response times are several orders of magnitude underneath. This paper outlines the foundations for defining an architecture able to deal with such an scenario, fulfilling the specific needs of real-time systems which expose big RDF datasets. Our proposal (Solid) is a tiered architecture which separates the complexities of Big Data management from their real-time data generation and consumption. Big semantic data are stored and indexed in a compressed way following the Rdf/Hdt proposal; while at the same time, real-time requirements are addressed using NoSQL technology. Both are efficient layers, but their approaches are quite different and their combination is not easy. Two additional layers are required to achieve an overall high performance, satisfying real-time needs, and able to work even in a mobile context. � 2013 Springer-Verlag. (16 refs)
+Main heading: Architecture
+Controlled terms: Batch data processing - Information management - Real time systems - Software architecture
+Uncontrolled terms: Application systems - Critical tasks - Large amounts of data - Mobile context - Orders of magnitude - Real time requirement - Real-time data - Tiered architecture
+Classification Code: 402 Buildings and Towers - 722.4 Digital Computers and Systems - 723 Computer Software, Data Handling and Applications - 903.2 Information Dissemination
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+91. Specifying system architecture from SysML requirements and component interfaces
+Chouali, Samir (1); Carrillo, Oscar (1); Mountassir, Hassan (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 348-352, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_36; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Femto-ST Institute, University of Franche-Comt�, Besan�on, France
+Abstract: We propose to map functional system requirements, specified with SysML, directly into system architecture, by exploiting the composition relation between component interfaces. Our research challenge is to guarantee formally that the final system fulfill the set of all requirements. Our approach is based on component-based systems (CBS) specified with SysML models and Interface Automata (IA) to capture their behaviors. From a SysML Requirement Diagram (RD), we build a Block Definition Diagram (BDD) to specify system architecture, by taking, one by one, the lowest level of requirements. At each new added requirement, we add a new component satisfying this requirement, by the composition, in the partial architecture obtained in a precedent step. Then we verify whether the new component is compatible with the components in the partial architecture, and if the requirements are preserved. � 2013 Springer-Verlag. (10 refs)
+Main heading: Architecture
+Controlled terms: Automata theory - Chemical analysis - Software architecture
+Uncontrolled terms: Component based systems - Component interfaces - Interface automata - Requirement diagram - Requirements - Research challenges - SysML - System architectures
+Classification Code: 402 Buildings and Towers - 723 Computer Software, Data Handling and Applications - 801 Chemistry - 804 Chemical Products Generally
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+92. Controlled experiment on the supportive effect of architectural component diagrams for design understanding of novice architects
+Haitzer, Thomas (1); Zdun, Uwe (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 54-71, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_6; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Research Group Software Architecture, University of Vienna, Austria
+Abstract: Today, architectural component models are often used as a central view of architecture descriptions. So far, however, only a very few rigorous empirical studies relating to the use of component models in architectural descriptions of software systems have been conducted. In this paper, we present the results of a controlled experiment regarding the supportive effect of architectural component diagrams for design understandability. In particular, the goal of the experiment was to determine whether architectural component diagrams, provided in addition to a non-trivial software system�s source code, have a supportive effect on the ability of novice architects to answer design and architecture related questions about that system. Our study provides initial evidence that architectural component diagrams have a supportive effect for understanding the software design and architecture, if a direct link from the component diagram�s elements to the problem that requires understanding can be made. If such a direct link cannot be made, we found evidence that it should not be assumed that architectural component diagrams help in design understanding, for instance only by providing a big picture view or some general kind of orientation. � 2013 Springer-Verlag. (38 refs)
+Main heading: Architecture
+Controlled terms: Computer software - Experiments - Graphic methods - Software architecture
+Uncontrolled terms: Architectural components - Architectural descriptions - Architecture description - Component diagrams - Controlled experiment - Design understanding - Empirical studies - Software design and architectures
+Classification Code: 402 Buildings and Towers - 723 Computer Software, Data Handling and Applications - 901.3 Engineering Research
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+93. Describing cloud applications architectures
+Cavalcante, Everton (1); Medeiros, Ana Luisa (1); Batista, Thais (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 320-323, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_29; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) DIMAp - Department of Informatics and Applied Mathematics, UFRN - Federal University of Rio Grande Do Norte, Natal, Brazil
+Abstract: The architecture of cloud applications differs from traditional software architectures mainly regarding their basic architectural elements, the services, the metadata about the services for expressing information related to quality parameters and pricing models, and the constraints over the applications and the used services. This paper presents Cloud-ADL, a seamless extension of the ACME ADL to support the architectural representation of cloud applications by relying on the existing ACME abstractions. In addition, it defines contracts to modularly encapsulate typical contract information of cloud applications, such as quality parameters, pricing model of the services, and constraints. Finally, Cloud-ADL also supports the dynamic reconfiguration of cloud applications through programmed changes, which can be foreseen at design time and specified at the ADL level. � 2013 Springer-Verlag. (9 refs)
+Main heading: Software architecture
+Controlled terms: Dynamic models
+Uncontrolled terms: Architectural element - Architectural representation - Cloud applications - Design time - Dynamic re-configuration - Pricing models - Quality parameters
+Classification Code: 723.1 Computer Programming - 921 Mathematics
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+94. Towards extensive software architecture erosion repairs
+Mair, Matthias (1); Herold, Sebastian (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 299-306, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_25; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Clausthal University of Technology, Department of Informatics, Julius-Albert-Strasse 4, 38678 Clausthal-Zellerfeld, Germany
+Abstract: Software architecture erosion can reduce the quality of software systems significantly. It is hence of great importance to repair erosion efficiently, for example, by means of refactoring. However, existing refactoring approaches do not address architecture erosion holistically. In this paper, we describe the problem of optimally repairing software architecture erosion and investigate the applicability and limitations of current refactoring approaches. We argue that a heuristic search for adequate repairs using formalized and explicit knowledge of software engineers could overcome those limitations. This paper outlines an approach we have been starting to investigate in our recent research and also aims at stimulating a discussion about further research challenges in repairing software architecture erosion. � 2013 Springer-Verlag. (25 refs)
+Main heading: Repair
+Controlled terms: Computer software maintenance - Erosion - Heuristic algorithms - Software architecture
+Uncontrolled terms: Architecture erosion - Explicit knowledge - Heuristic search - Quality of softwares - Recent researches - Refactorings - Research challenges
+Classification Code: 407 Maritime and Port Structures; Rivers and Other Waterways - 483 Soil Mechanics and Foundations - 723 Computer Software, Data Handling and Applications - 723.1 Computer Programming - 913.5 Maintenance
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+95. Software reference architectures - Exploring their usage and design in practice
+Angelov, Samuil (1); Trienekens, Jos (2); Kusters, Rob (3)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 17-24, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_2; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Software Engineering Team, Fontys University of Applied Sciences, Eindhoven, Netherlands (2) Information Systems Group, School of Industrial Engineering, Eindhoven University of Technology, Eindhoven, Netherlands (3) Management Science Faculty, Open University, Heerlen, Netherlands
+Abstract: Software reference architectures have been around for quite some years. They have been designed and used with varying success. We have conducted an exploratory survey among software architects and developers to establish the extent to which SRA have penetrated among practitioners and to identify the benefits and problems practitioners face when using and designing SRA. In this article, we present our findings. � 2013 Springer-Verlag. (25 refs)
+Main heading: Software architecture
+Controlled terms: Surveying - Surveys
+Uncontrolled terms: Exploratory surveys - Reference architecture - Software architects - Software reference architectures
+Classification Code: 405.3 Surveying - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+96. PANDArch: A pluggable automated non-intrusive dynamic architecture conformance checker
+De Silva, Lakshitha (1); Balasubramaniam, Dharini (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 240-248, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_21; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) School of Computer Science, University of St. Andrews, St Andrews, KY16 9SX, United Kingdom
+Abstract: The software architecture of a system is often used to guide and constrain its implementation. While the code structure of an initial implementation is likely to conform to its intended architecture, its dynamic properties cannot be fully checked until deployment. Routine maintenance and changing requirements can also lead to a deployed system deviating from this architecture over time. Both static and dynamic checks are thus required to ensure that an implementation conforms to its prescriptive architecture throughout its lifespan. However, runtime conformance checking strategies typically alter the implementation of an application, increasing its size and affecting its performance and maintainability. In this paper, we describe the design of a novel dynamic conformance-checking framework that is pluggable and non-intrusive, thereby limiting any overheads to those periods when checking is activated. An implementation of this framework with Java as the target language and its early evaluation are also presented. � 2013 Springer-Verlag. (14 refs)
+Main heading: Architecture
+Controlled terms: Software architecture
+Uncontrolled terms: Code structure - Conformance checking - Deployed systems - Dynamic architecture - Dynamic property - Early evaluation - Routine maintenance - Target language
+Classification Code: 402 Buildings and Towers - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+97. Analysis support for TADL2 timing constraints on EAST-ADL models
+Goknil, Arda (1); Suryadevara, Jagadish (2); Peraldi-Frati, Marie-Agn�s (1); Mallet, Fr�d�ric (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 89-105, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_8; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) AOSTE Team, UNS-I3S-INRIA, Sophia-Antipolis, France (2) Formal Modeling and Analysis Group, M�lardalen University, V�ster�s, Sweden
+Abstract: It is critical to analyze characteristics of real-time embedded systems, such as timing behavior, early in the development. In the automotive domain, EAST-ADL is a concrete example of the model-based approach for the architectural modeling of real-time systems. The Timing Augmented Description Language v2 (TADL2) allows for the specification of timing constraints on top of EAST-ADL models. In this paper we propose a formal validation & verification methodology for timing behaviors given with TADL2. The formal semantics of the timing constraints is given as a mapping to the Clock Constraint Specification Language (CCSL), a formal language that implements the MARTE Time Model. Based on such a mapping, the validation is carried out by the simulation of TADL2 specifications. The simulation allows for a rapid prototyping of TADL2 specifications. The verification is performed based on a TADL2 mapping to timed automata modeling using the Uppaal model-checker. The whole process is illustrated on a Brake-By-Wire application. � 2013 Springer-Verlag. (20 refs)
+Main heading: Mapping
+Controlled terms: Automata theory - Formal languages - Model checking - Rapid prototyping - Real time systems - Software architecture - Specification languages - Specifications
+Uncontrolled terms: Architectural modeling - Automotive domains - Clock constraints - Description languages - Model based approach - Real-time embedded systems - Timing constraints - Verification methodology
+Classification Code: 722 Computer Systems and Equipment - 722.4 Digital Computers and Systems - 723 Computer Software, Data Handling and Applications - 902.1 Engineering Graphics - 902.2 Codes and Standards
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+98. Concurrent object-oriented development with behavioral design patterns
+Morandi, Benjamin (1); West, Scott (1); Nanz, Sebastian (1); Gomaa, Hassan (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 25-32, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_3; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) ETH Zurich, Switzerland (2) George Mason University, United States
+Abstract: Architectural modeling using the Unified Modeling Language (UML) can support the development of concurrent applications, but the problem of mapping the model to a concurrent implementation remains. This paper defines a scheme to map concurrent UML designs to a concurrent object-oriented program. Using the COMET method for the architectural design of concurrent object-oriented systems, each component and connector is annotated with a stereotype indicating its behavioral design pattern. For each of these patterns, a reference implementation is provided using SCOOP, a concurrent object-oriented programming model. Given the strong execution guarantees of the SCOOP model, which is free of data races by construction, this development method eliminates a source of intricate concurrent programming errors. � 2013 Springer-Verlag. (15 refs)
+Main heading: Software architecture
+Controlled terms: Object oriented programming - Unified Modeling Language
+Uncontrolled terms: Architectural modeling - Concurrent object-oriented programming - Concurrent object-oriented programs - Concurrent programming - Design Patterns - Development method - Object-oriented system - Reference implementation
+Classification Code: 723.1 Computer Programming - 723.1.1 Computer Programming Languages
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+99. The role of quality attributes in service-based systems architecting: A survey
+Ameller, David (1); Galster, Matthias (2); Avgeriou, Paris (3); Franch, Xavier (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 200-207, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_18; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Universitat Polit�cnica de Catalunya (UPC), Barcelona, Spain (2) University of Canterbury, Christchurch, New Zealand (3) University of Groningen, Netherlands
+Abstract: Quality attributes (QA) play a fundamental role when architecting software systems. However, in contrast to QA in traditional software systems, the role of QA when architecting service-based systems (SBS) has not yet been studied in depth. Thus, we conducted a descriptive survey to explore how QA are treated during the architecting of SBS. Data were collected using an online questionnaire targeted at participants with architecting experience. Our survey shows that QA and functional requirements of SBS are mostly considered equally important. Also, QA are usually treated explicitly rather than implicitly. Furthermore, dependability and performance appear to be the most important QA in the context of SBS. Our results partially show that general findings on QA also apply to the domain of SBS. On the other hand, we did not find a confirmation that QA are primary drivers for the architecting of SBS, or that certain application domains would focus on particular QA. � 2013 Springer-Verlag. (21 refs)
+Main heading: Surveys
+Controlled terms: Computer software - Software architecture - Surveying
+Uncontrolled terms: architecting - Functional requirement - Online questionnaire - Quality attributes - Service-based systems - Software systems
+Classification Code: 405.3 Surveying - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+100. A lightweight language for software product lines architecture description
+Silva, Eduardo (1); Medeiros, Ana Luisa (1); Cavalcante, Everton (1); Batista, Thais (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 114-121, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_10; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) DIMAp - Department of Informatics and Applied Mathematics, UFRN - Federal University of Rio Grande Do Norte, Natal, Brazil
+Abstract: The architecture description of a software product line (SPL) is essential to make it clear how the architecture realizes the feature model and to represent both the domain and application engineering architectural artefacts. However, most architecture description languages (ADLs) for SPL have limited support regarding variability management and they do not express the relationship between features and the architecture, besides the lack of tools for graphical and textual modelling and a non-clear separation between the domain and application engineering activities. In order to overcome these deficiencies, this paper presents LightPL-ACME, an ADL whose main goal is to be a simple, lightweight language for the SPL architecture description, and enable the association between the architectural specification and the artefacts involved in the SPL development process, including the relationship with the feature model and the representation of both domain and application engineering elements. � 2013 Springer-Verlag. (13 refs)
+Main heading: Architecture
+Controlled terms: Computer software - Professional aspects - Software architecture - Software design
+Uncontrolled terms: ACME - Application engineering - Architectural specifications - Architecture description - Architecture description languages - LightPL-ACME - Software Product Line - Software product lines
+Classification Code: 402 Buildings and Towers - 723 Computer Software, Data Handling and Applications - 901.1 Engineering Professional Aspects
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+101. Towards a bigraph-based model for context-aware adaptive systems
+Cherfia, Taha Abdelmoutaleb (1); Belala, Fa�za (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 340-343, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_34; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Department of Software Technologies and Information Systems, University of Constantine II, Constantine, Algeria
+Abstract: In the last decade, context-aware computing has become the central focus of the ubiquitous computing where computers disappear in the background of people�s everyday life activities. Context-aware adaptive systems are able to adapt themselves according to the gathered context information. In this context, many approaches have been proposed in order to model the former systems but only few of them tackle at the same time all the features of these systems. This paper presents a formal modeling approach based on Bigraphical Reactive Systems to deal with both the structural and behavioral aspects of context-aware adaptive systems. It provides a clear separation between the context-aware information that affect the system and the system itself. Indeed, we specify the context and the system using two distinct bigraphs, then we combine them using the bigraphs composition operation to represent the whole system. � 2013 Springer-Verlag. (7 refs)
+Main heading: Adaptive systems
+Controlled terms: Software architecture - Ubiquitous computing
+Uncontrolled terms: Bigraphical reactive systems - Bigraphs - Context information - Context-Aware - Context-aware computing - Context-aware informations - Formal modeling
+Classification Code: 723.1 Computer Programming - 723.5 Computer Applications - 731.1 Control Systems
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+102. Towards automated deployment of distributed adaptation systems
+Zouari, Mohamed (1, 2); Bouassida Rodriguez, Ismael (1, 2, 3)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 336-339, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_33; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) CNRS, LAAS, 7 Avenue du Colonel Roche, F-31400 Toulouse, France (2) Univ. de Toulouse, LAAS, F-31400 Toulouse, France (3) ReDCAD, University of Sfax, B.P. 1173, 3038 Sfax, Tunisia
+Abstract: The development of a single software product is inefficient when groups of product are related since the development cost could be high. In addition, some products need to be self-adaptive in order to take into account the execution context changes. In this case, the implementation and management of the adaptation mechanisms variability is challenging especially for distributed systems due to the distribution issues. We address in this paper such issues by proposing a method for the software engineering of distributed adaptation systems. We propose an architectural model for distributed management of dynamic adaptation. We define also a graph grammar based approach to automate the tasks needed to construct and configure the adaptation system. � 2013 Springer-Verlag. (3 refs)
+Main heading: Formal languages
+Controlled terms: Context sensitive grammars - Graph theory - Software architecture
+Uncontrolled terms: Adaptation mechanism - Architectural models - Automated deployment - Distributed adaptation - Distributed management - Dynamic adaptations - Graph grammar - Software architectural
+Classification Code: 721.1 Computer Theory, Includes Formal Logic, Automata Theory, Switching Theory, Programming Theory - 723.1 Computer Programming - 921.4 Combinatorial Mathematics, Includes Graph Theory, Set Theory
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+103. Architectural decision-making in enterprises: Preliminary findings from an exploratory study in Norwegian electricity industry
+Anvaari, Mohsen (1); Conradi, Reidar (1); Jaccheri, Letizia (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 162-175, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_14; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Norwegian University of Science and Technology, Trondheim, Norway
+Abstract: Motivation: The current literature in the architectural knowledge domain has made a significant contribution related to documenting software architectural decisions. However, not many studies have been conducted to assess the architectural decision-making and decision reuse processes through empirical investigations. Besides, the effect of the relationships among the actors in a software ecosystem on the architectural decisions-making process of each actor is not well studied. Goal: The objective of this paper is to identify the main processes and issues on the architectural decision-making in largescale enterprises by considering the relationships among the enterprises and other actors of the ecosystem. Method: We conducted semi-structured interviews with six Norwegian companies in the software ecosystem of electricity industry. Results: Regarding the architectural decision-making process, the findings are in line with previous empirical studies, showing that most of the companies are not using well-known academic approaches such as ATAM, they are rather using their own procedures. The study also shows that the relationships among the actors of a software ecosystem could significantly affect the architectural-decision making process in each of the actors, for example, by limiting their alternative solutions. Finally, the results confirm that it is advantageous for the enterprises to reuse the architectural decisions across their various projects or for cooperative companies to reuse the decisions across their similar projects. Conclusion: Improving the reusable architectural decision frameworks by considering the relationships among the actors in a software ecosystem would be beneficial for the industry. � 2013 Springer-Verlag. (22 refs)
+Main heading: Computer software reusability
+Controlled terms: Application programs - Decision making - Ecosystems - Electric industry - Software architecture
+Uncontrolled terms: Architectural decision makings - Electricity industry - Empirical studies - Enterprise applications - Software ecosystems
+Classification Code: 454.3 Ecology and Ecosystems - 704 Electric Components and Equipment - 705 Electric Generators and Motors - 706 Electric Transmission and Distribution - 723 Computer Software, Data Handling and Applications - 912.2 Management
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+104. Architectural slicing: Towards automatic harvesting of architectural prototypes
+Christensen, Henrik Brbak (1); Hansen, Klaus Marius (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 316-319, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_28; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Department of Computer Science, Aarhus University, Aarhus, Denmark (2) Department of Computer Science (DIKU), University of Copenhagen, Copenhagen, Denmark
+Abstract: Architectural prototyping is a widely used practice, concerned with taking architectural decisions through experiments with lightweight implementations. However, many architectural decisions are only taken when systems are already (partially) implemented. This is problematic in the context of architectural prototyping since experiments with full systems are complex and expensive and thus architectural learning is hindered. In this paper, we propose a novel technique for harvesting architectural prototypes from existing systems, �architectural slicing�, based on dynamic program slicing. Given a system and a slicing criterion, architectural slicing produces an architectural prototype that contains the elements in the architecture that are dependent on the elements in the slicing criterion. � 2013 Springer-Verlag. (7 refs)
+Main heading: Architecture
+Controlled terms: Experiments - Software architecture
+Uncontrolled terms: Architectural decision - Existing systems - Novel techniques - ON dynamics - Slicing criterion
+Classification Code: 402 Buildings and Towers - 723.1 Computer Programming - 901.3 Engineering Research
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+105. Building correct by construction SOA design patterns: Modeling and refinement
+Tounsi, Imen (1); Hadj Kacem, Mohamed (1); Hadj Kacem, Ahmed (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 33-44, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_4; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) ReDCAD-Research Unit, University of Sfax, Sfax, Tunisia
+Abstract: Modeling SOA design patterns with a standard formal notation avoids misunderstanding by software architects and helps endow design methods with refinement approaches for mastering system architectures complexity. In this paper, we propose a formal architecture-centric approach that aims to model message-oriented SOA design patterns with the SoaML standard language. Pattern models are developed in a stepwise manner which are then automatically translated into Event-B specifications that can be proved using the Rodin theorem prover. These two steps are performed before undertaking the effective coding of a design pattern providing correct by construction solutions. Our approach is experimented through pattern examples. � 2013 Springer-Verlag. (12 refs)
+Main heading: Software architecture
+Controlled terms: Theorem proving
+Uncontrolled terms: Architecture-centric - Correct-by-construction - Design Patterns - Event-b methods - Formal notations - Mastering systems - Pattern transformations - Software architects
+Classification Code: 723.1 Computer Programming - 921 Mathematics
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+106. Composition-centered architectural pattern description language
+Ton That, Minh Tu (1); Sadou, Salah (1); Oquendo, Flavio (1); Borne, Isabelle (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 1-16, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_1; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Universit� de Bretagne Sud, IRISA, Vannes, France
+Abstract: Architectural patterns are important artefacts containing specialized design knowledge to build good-quality systems. Complex systems often exhibit several architectural patterns in their design which leads to the need of architectural pattern composition. Unfortunately, information about the composition of patterns tend to be vaporized right after the composition process which causes problems of traceability and reconstructability of patterns. This paper proposes a pattern description language that first, facilitates several types of pattern merging operation and second, allows the traceability of pattern composition. More specifically, the approach consists of a proper description of pattern that supports composition operations and a two-step pattern design process that helps to preserve pattern composition information. � 2013 Springer-Verlag. (22 refs)
+Main heading: Software architecture
+Controlled terms: Product design
+Uncontrolled terms: Architectural pattern - Design knowledge - Pattern composition - Pattern description - Pattern designs
+Classification Code: 723.1 Computer Programming - 913.1 Production Engineering
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+107. Difficulty of architectural decisions - A survey with professional architects
+Tofan, Dan (1); Galster, Matthias (2); Avgeriou, Paris (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 192-199, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_17; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) University of Groningen, Netherlands (2) University of Canterbury, New Zealand
+Abstract: Much research exists on architectural decisions, but little work describes architectural decisions in the real-world. In this paper, we present the results of a survey with 43 architects from industry. We study characteristics of 86 real-world architectural decisions and factors that contribute to their difficulty. Also, we compare decisions made by junior architects and senior architects. Finally, we compare good and bad architectural decisions. Survey results indicate that architectural decisions take an average time of eight working days. Dependencies between decisions and the effort required to analyze decisions are major factors that contribute to their difficulty. Compared to senior architects, junior architects spend a quarter of the time on making a decision. Good architectural decisions tend to include more decision alternatives than bad decisions. Finally, we found that 86% of architectural decisions are group decisions. � 2013 Springer-Verlag. (10 refs)
+Main heading: Software architecture
+Controlled terms: Architecture - Surveys
+Uncontrolled terms: Architectural decision - Group decision - Major factors - Real-world
+Classification Code: 402 Buildings and Towers - 405.3 Surveying - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+108. Making the right decision: Supporting architects with design decision data
+Van Der Ven, Jan Salvador (1); Bosch, Jan (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 176-183, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_15; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) University of Groningen, Groningen, Netherlands (2) Chalmers University of Technology, Gothenborg, Sweden
+Abstract: Software architects are often forced to make design decisions based on limited information. In this paper, we present an approach that allows software architects to study information about design decisions made by hundreds or more software architects by automatically analyzing the version management data of large open-source repositories. The contribution is, first, that it develops a conceptual model to reason about the automatic derivation of specifically medium level architectural design decisions. Second, we show that it is indeed possible to derive these design decisions automatically from open source projects. This provides a basis for statistical and quantitative reasoning about software architecture design decisions that allows software architects to make better-informed decisions. � 2013 Springer-Verlag. (13 refs)
+Main heading: Software architecture
+Controlled terms: Architecture - Design
+Uncontrolled terms: Architectural design decisions - Architectural knowledge - Automatic derivation - Components - Design decisions - Open source projects - Quantitative reasoning - Software architecture design
+Classification Code: 402 Buildings and Towers - 408 Structural Design - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+109. Claims and evidence for architecture-based self-adaptation: A systematic literature review
+Weyns, Danny (1); Ahmad, Tanvir (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 249-265, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_22; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Department of Computer Science, Linnaeus University, Vaxjo, Sweden
+Abstract: Engineering the upcoming generation of software systems and guaranteeing the required qualities is complex due to the inherent uncertainties at design time, such as new user needs and changing availability of resources. Architecture-based self-adaptation is a promising approach to tackle these challenges. In this approach, a system maintains a model of itself and adapts itself to realize particular quality objectives using a feedback loop. Despite a vast body of work, no systematic study has been performed on the claims associated with architecture-based self-adaptation and the evidence that exists for these claims. As such insight is important for researchers and engineers, we performed a systematic literature review covering 20 leading software engineering conferences and journals in the field, resulting in 121 studies used for data collection. The review shows that self-adaptation is primarily used to improve performance, reliability, and flexibility. The tradeoffs implied by self-adaptation have not received much attention, and evidence is mainly obtained from simple examples. From the study, we derive a number of recommendations for future research in architecture-based self-adaptive systems. � 2013 Springer-Verlag. (18 refs)
+Main heading: Architecture
+Controlled terms: Software architecture
+Uncontrolled terms: Architecture-based - Data collection - Improve performance - Self adaptation - Self-adaptive system - Software systems - Systematic literature review - Systematic study
+Classification Code: 402 Buildings and Towers - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+110. Towards an optimized software architecture for component adaptation at middleware level
+Pramsohler, Thomas (1); Schenk, Simon (2); Baumgarten, Uwe (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 266-281, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_23; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) BMW Forschung und Technik GmbH, M�nchen, Germany (2) Technische Universit�t M�nchen, Lehrstuhl f�r Betriebssysteme, Garching bei M�nchen, Germany
+Abstract: The amount of software in the automotive domain is steadily increasing. Existing functions are adapted or enhanced on a regular basis. Often, such adaptations do not allow to keep the interfaces of the concerned components stable, leading to incompatibilities with former systems. In this contribution, we propose an optimized adaptation software architecture to deal with mismatching interfaces. We extend existing middleware solutions with transparent adapter loading capabilities. This enables for seamless adapter integration on those systems. As adapter model we use a finite-state machine aside with a domain specific language. By extracting static adaptations from the state machine we achieve state reduction and performance gain. The approach is evaluated using an automotive case-study. � 2013 Springer-Verlag. (16 refs)
+Main heading: Behavioral research
+Controlled terms: Loading - Middleware - Optimization - Software architecture
+Uncontrolled terms: Automotive domains - Behavioral adaptation - Component adaptation - Domain specific languages - Performance Gain - Software component - Software composition - Static adaptation
+Classification Code: 672 Naval Vessels - 723.1 Computer Programming - 921.5 Optimization Techniques - 971 Social Sciences
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+111. Maintaining architectural conformance during software development: A practical approach
+Dimech, Claire (1); Balasubramaniam, Dharini (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 208-223, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_19; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) School of Computer Science, University of St. Andrews, St Andrews KY16 9SX, United Kingdom
+Abstract: Software architecture provides a high-level design that serves as the basis for system implementation and communication among stakeholders. However, changes in requirements and lack of conformance checks during development can cause the implemented architecture to deviate from the intended one. Such architecture degradation can cause rapid software aging and high maintenance costs. Conformance checking to detect inconsistencies between a model and its corresponding implementation is one of the strategies used to minimise architecture degradation. Existing conformance checking tools often require formal architecture specifications, which are not usually available outwith academic settings, or manual intervention in the process, which affects their viability. This paper describes an automated approach that uses mappings between architecture models in UML and corresponding implementations in Java to check conformance. These notations have been chosen for their adoption in industry. A customisable tool called Card, which implements this approach, is also introduced and evaluated. � 2013 Springer-Verlag. (25 refs)
+Main heading: Model checking
+Controlled terms: Software architecture - Tools
+Uncontrolled terms: Architecture models - Architecture specification - Automated approach - Conformance checking - Conformance checking tools - Implemented architectures - Manual intervention - System implementation
+Classification Code: 603 Machine Tools - 605 Small Tools and Hardware - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+112. Classification of design decisions - An expert survey in practice
+Miesbauer, Cornelia (1); Weinreich, Rainer (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 130-145, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_12; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Johannes Kepler University, Linz, Austria
+Abstract: Support for capturing architectural knowledge has been identified as an important research challenge. As the basis for an approach for recovering design decisions and capturing their rationale we have performed an expert survey in practice to gain insights into the different kinds, influence factors, and sources for design decisions and also on how they are currently captured in practice. The survey has been performed with software architects, software team leads, and senior developers from six different companies in Austria with more than 10 years of experience in software development on average. The survey confirms earlier work by other authors on design decision classification and influence factors but also identifies additional kinds of decisions and influence factors not mentioned in this previous work. In addition, we gained insight into the practice of capturing, the relative importance of different decisions and influence factors, and on potential sources for recovering decisions. � 2013 Springer-Verlag. (23 refs)
+Main heading: Software architecture
+Controlled terms: Design - Knowledge management - Surveys
+Uncontrolled terms: Architectural knowledge - Design decisions - Expert survey - On potentials - Research challenges - Software architects - Software architecture knowledge managements - Software teams
+Classification Code: 405.3 Surveying - 408 Structural Design - 723.1 Computer Programming - 723.5 Computer Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+113. Software architecture documentation for developers: A survey
+Rost, Dominik (1); Naab, Matthias (1); Lima, Crescencio (2); Von Flach Garcia Chavez, Christina (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 72-88, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_7; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Fraunhofer Institute for Experimental Software Engineering, Kaiserslautern, Germany (2) Fraunhofer Project Center on Software and Systems Engineering, Department of Computer Science, Federal University of Bahia, Bahia, Brazil
+Abstract: Software architecture has become an established discipline in industry. Nevertheless, the available documentation of architecture is often not perceived as adequate by developers. As a foundation for the improvement of methods and tools around architecture documentation, we conducted a survey with 147 industrial participants, investigating their current problems and wishes for the future. Participants from different countries in Europe, Asia, North and South America shared their experiences. This paper presents the results of the survey. The results confirmed the common belief that architecture documentation is most frequently outdated and inconsistent and backed it up with data. Further, developers perceive difficulties with a �one-size-fits-all� architecture documentation, which does not adequately provide information for their specific task and context. Developers seek for more interactive ways of working with architecture documentation that allow finding needed information more easily with extended navigation and search possibilities. � 2013 Springer-Verlag. (23 refs)
+Main heading: Surveys
+Controlled terms: Architecture - Industry - Software architecture - Surveying - System program documentation
+Uncontrolled terms: Current problems - developers - implementation - Improvement of methods - Interactive way - South America - Specific tasks
+Classification Code: 402 Buildings and Towers - 405.3 Surveying - 723.1 Computer Programming - 911 Cost and Value Engineering; Industrial Economics - 912 Industrial Engineering and Management - 913 Production Planning and Control; Manufacturing
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+114. MVIC - An MVC extension for interactive, multimodal applications
+Hesenius, Marc (1); Gruhn, Volker (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 324-327, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_30; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Paluno - The Ruhr Institute for Software Technology, University of Duisburg-Essen, Gerlingstr. 16, 45127 Essen, Germany
+Abstract: MVC is considered an important architectural patterns when it comes to interactive applications since its invention in the days of Smalltalk. However, interaction with computers has changed. Touch-screens are as natural to users nowadays as mouse and keyboard have been for the past decades of computing and HCI-researchers keep on developing more interaction modalities. Multimodal applications pose major challenges to software engineers who have to deal with different ways for users to express the same intention. MVC does not incorporate the flexibility needed to cope with multimodal applications as it makes the controller component responsible for interaction interpretation and managing the application flow. We propose MVIC, an extension to MVC dedicated to provide a solid software architecture for multimodal, interactive applications by introducing a dedicated interaction component. � 2013 Springer-Verlag. (5 refs)
+Main heading: Application programs
+Controlled terms: Interactive devices - Software architecture - Touch screens
+Uncontrolled terms: Architectural pattern - Interactive applications - Multi-modal - Multimodal application - Smalltalk
+Classification Code: 722.2 Computer Peripheral Equipment - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+115. Supporting consistency between architectural design decisions and component models through reusable architectural knowledge transformations
+Lytra, Ioanna (1); Tran, Huy (1); Zdun, Uwe (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 224-239, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_20; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Faculty of Computer Science, Software Architecture Group, University of Vienna, Austria
+Abstract: In recent years, the software architecture community has proposed to use architectural design decisions (ADDs) for capturing the design rationale and the architectural knowledge (AK). As software systems evolve both ADDs and architectural designs need to be documented and maintained. This is a tedious and time-consuming task because of the lack of systematic and automated support for bridging between ADDs and designs. As a result, decisions and designs become inconsistent over time. We propose to alleviate this problem by introducing an AK transformation language supporting reusable AK transformations from pattern-based ADDs to component-and-connector models. In addition, we devise reusable consistency checking rules for verifying the consistency between decisions and designs. Through the use of model-driven transformations, as well as reusable, pattern-based decision models, we ensure the reusability of our approach. We apply our approach in an industrial case study and show that it offers high reusability, is largely automated and scalable, and can deal with the complexity of large numbers of recurring decisions. � 2013 Springer-Verlag. (25 refs)
+Main heading: Software architecture
+Controlled terms: Architectural design - Industrial applications - Reusability
+Uncontrolled terms: Architectural design decisions - Architectural knowledge - Architecture community - Automated support - Consistency checking - Industrial case study - Time-consuming tasks - Transformation languages
+Classification Code: 402 Buildings and Towers - 452.3 Industrial Wastes - 723.1 Computer Programming - 913 Production Planning and Control; Manufacturing
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+116. SysADL: A SysML profile for software architecture description
+Leite, Jair (1); Oquendo, Fl�vio (2); Batista, Thais (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 106-113, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_9; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) UFRN - Federal University of Rio Grande Do Norte, Natal, Brazil (2) IRISA, University of South Brittany, Vannes, France
+Abstract: In this paper we propose SysADL, a SysML profile for expressing architecture descriptions using the well-known and consolidated abstractions from the ADL community. We present the SysADL constructs for describing architectures and demonstrate its use in the context of a case study. � 2013 Springer-Verlag. (8 refs)
+Main heading: Software architecture
+Controlled terms: Artificial intelligence - Computer science - Connectors (structural)
+Uncontrolled terms: Architecture description languages - Components - Configuration - Profile - SysML
+Classification Code: 408.2 Structural Members and Shapes - 721 Computer Circuits and Logic Elements - 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+117. Towards continuous reference architecture conformance analysis
+Buchgeher, Georg (1); Weinreich, Rainer (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 332-335, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_32; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Software Competence Center, Hagenberg, Austria (2) Johannes Kepler University, Linz, Austria
+Abstract: Reference architectures (RA) are reusable architectures for artifacts in a particular domain. They can serve as a basis for designing new architectures, but also as a means for quality control during system development. Quality control is performed through checking the conformance of systems in development to (company-wide) reference architectures. If performed manually, reference architecture conformance checking is a time- and resource-intensive process. In this paper we outline an approach for reference architecture conformance checking of application architectures in the banking domain. Reference architectures are defined on the basis of reusable rules, consisting of roles and of constraints on roles and role relationships. Conformance checking can be performed semi-automatically and continuously by automating important steps like the extraction of the actual application architecture, the binding of reference architecture roles to the elements of a specific application architecture, and the evaluation of the reference architecture rules for an application architecture. � 2013 Springer-Verlag. (9 refs)
+Main heading: Architecture
+Controlled terms: Computer software reusability - Quality control - Software architecture
+Uncontrolled terms: Application architecture - Conformance Analysis - Conformance checking - Reference architecture - Reusable architectures - System development
+Classification Code: 402 Buildings and Towers - 723 Computer Software, Data Handling and Applications - 913.3 Quality Assurance and Control
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+118. Characterising software platforms from an architectural perspective
+Eklund, Ulrik (1, 2); Olsson, Carl Magnus (2); Ljungblad, Marcus (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 7957 LNCS, p 344-347, 2013, Software Architecture - 7th European Conference, ECSA 2013, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783642390302; DOI: 10.1007/978-3-642-39031-9_35; Conference: 7th European Conference on Software Architecture, ECSA 2013, July 1, 2013 - July 5, 2013; Sponsor: ORACLE; Bouygues Telecom; IBM Research; Typesafe; La Region Languedoc-Roussillon; Publisher: Springer Verlag
+Author affiliation: (1) Volvo Car Group, Sweden (2) Malm� University, Sweden
+Abstract: With demands of speed in software development it is of interest to build on available software platforms that incorporate the necessary non-competitive functionalities and focus the development effort on adding features to a competitive product. This paper proposes that we move from an API-oriented focus and instead suggest four architectural concerns for describing software platforms as more relevant. � 2013 Springer-Verlag. (6 refs)
+Main heading: Software architecture
+Controlled terms: Artificial intelligence - Computer science
+Uncontrolled terms: Software platforms
+Classification Code: 721 Computer Circuits and Logic Elements - 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+200000. end
+end

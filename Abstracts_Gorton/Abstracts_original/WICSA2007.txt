@@ -1,0 +1,604 @@
+1. Training initiative for new Software/Enterprise architects: An ontological approach
+Fraga, Anabel (1); Llorens, Juan (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.48; Article number: 4077036; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Universidad Carlos III de Madrid, Av. Universidad, 30, Legon�s, Madrid, Spain
+Abstract: In this paper, we describe the importance of new Software/Enterprise architects in the discipline of Software Architecture and Enterprise Architecture. Both are often idealized as super heroes with a lot of qualities that are very infrequent in contemporary people. The Enterprise/Software Architect role could be assumed by a group of people able to manage the qualities for the role. In any case, even a group or a single person must be educated in the discipline by training courses, new methodologies of learning, or traditional university studies. In order to improve the process of becoming a new architect we propose a methodology based on ontological structures and reinforcement learning. � 2007 IEEE. (22 refs)
+Main heading: Software architecture
+Controlled terms: Data structures - Engineering education - Information management - Learning systems - Ontology
+Uncontrolled terms: Enterprise Architecture - Enterprise/Software Architect - Ontological structures - Training courses
+Classification Code: 723.1 Computer Programming - 723.2 Data Processing and Image Processing - 723.4 Artificial Intelligence - 723.5 Computer Applications - 901.2 Education - 912.2 Management
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+2. Decision-oriented modeling of product line architectures
+Dhungana, Deepak (1); Rabiser, Rick (1); Gr�nbacher, Paul (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.21; Article number: 4077039; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Christian Doppler Laboratory for Automated Software Engineering, Johannes Kepler University, Linz, Austria
+Abstract: Understanding and modeling architectural variability is fundamental in product line engineering. Various extensions have been proposed to architecture description languages (ADLs) to deal with variability. Although these extensions are useful, we argue in this paper that decisions need to be treated as first-class citizens for modeling architectural variability. Decisions that have to be taken by different stakeholders during product derivation are an essential source to understand the variability at different levels (e.g., features, architecture, and implementation). We outline a decision-oriented approach to variability modeling and illustrate it with an example from our ongoing research collaboration with Siemens VAI. � 2007 IEEE. (12 refs)
+Main heading: Software architecture
+Controlled terms: Computer programming languages - Computer supported cooperative work - Decision support systems - Engineering research - Mathematical models
+Uncontrolled terms: Architectural variability - Architecture description languages (ADL) - Product line architectures
+Classification Code: 723.1 Computer Programming - 723.1.1 Computer Programming Languages - 723.5 Computer Applications - 901.3 Engineering Research - 912.2 Management - 921 Mathematics
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+3. Setting up architect team
+Sarang, Poornachandra (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.38; Article number: 4077035; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Univ. Dept. of Computer Science, University of Mumbai, Director Architecture, Kynetia, Spain
+Abstract: An in-house architecture team helps the organizations in meeting the challenges of the ever-changing IT industry. The paper after briefly discussing the importance of architecture describes the desired structure for an architect team and defines the roles and responsibilities of the various team members. The paper defines the expectations from the organization during the team building process and suggests the required investments and the time lines for setting up the team. � 2007 IEEE. (15 refs)
+Main heading: Software architecture
+Controlled terms: Electronic states - Electronics industry - Information dissemination - Information technology - Investments
+Uncontrolled terms: Architect teams - Architecture teams - Team members
+Classification Code: 933.3 Electronic Structure of Solids - 911.2 Industrial Economics - 903.2 Information Dissemination - 903 Information Science - 723.5 Computer Applications - 723.1 Computer Programming - 712 Electronic and Thermionic Materials
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+4. Tool support for architectural decisions
+Jansen, Anton (1); Van Der Ven, Jan (1); Avgeriou, Paris (1); Hammer, Dieter K. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.47; Article number: 4077021; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) University of Groningen, Department of Mathematics and Computing Science, PO Box 800, 9700AV Groningen, Netherlands
+Abstract: In contrast to software architecture models, architectural decisions are often not explicitly documented, and therefore eventually lost. This contributes to major problems such as high-cost system evolution, stakeholders miscommunication, and limited reusability of core system assets. An approach is outlined that systematically and semiautomatically documents architectural decisions and allows them to be effectively shared by the stakeholders. A first attempt is presented that partially implements the approach by binding architectural decisions, models and the system implementation. The approach is demonstrated with an example demonstrating its usefulness with regards to some industrial use cases. � 2007 IEEE. (33 refs)
+Main heading: Software architecture
+Controlled terms: Automation - Decision theory - Information use - Mathematical models - Problem solving
+Uncontrolled terms: Architectural decisions - Software architecture models - Stakeholders miscommunication
+Classification Code: 961 Systems Science - 921 Mathematics - 903.3 Information Retrieval and Use - 731 Automatic Control Principles and Applications - 723.5 Computer Applications - 723.4 Artificial Intelligence - 723.1 Computer Programming
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+5. The duties, skills, and knowledge of software architects
+Clements, Paul (1); Kazman, Rick (2); Klein, Mark (1); Devesh, Divya (3); Reddy, Shivani (4); Verma, Prageti (4)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.41; Article number: 4077037; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Carnegie Mellon Software Engineering Institute (2) Carnegie Mellon Software Engineering Institute, University of Hawaii (3) Indian Institute of Technology Guwahati (4) Symbiosis Center for Information Technology
+Abstract: This paper focuses on the human aspects of architecting software - in particular, the duties, skills, and knowledge of software architects. We present the results of a survey of approximately 200 public sources of information aimed at professional software architects that we conducted in the summer of 2006. We summarize what those sources have to say about the duties, skills, and knowledge that competent architects must perform and have. � 2007 IEEE. (6 refs)
+Main heading: Software architecture
+Controlled terms: Approximation theory - Computer science - Information technology - Information use - Knowledge based systems
+Uncontrolled terms: Competent architects - Professional software architects
+Classification Code: 921.6 Numerical Methods - 903.3 Information Retrieval and Use - 903 Information Science - 723.5 Computer Applications - 723.4.1 Expert Systems - 723.1 Computer Programming - 721 Computer Circuits and Logic Elements
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+6. The impact of requirements knowledge and experience on software architecting: An empirical study
+Ferrari, Remo (1); Madhavji, Nazim H. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.42; Article number: 4077033; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Department of Computer Science, University of Western Ontario, London, Ont. N6A 5B7, Canada
+Abstract: While the relationship between Requirements Engineering and Software Architecture (SA) has been studied increasingly in the past five years in terms of methods, tools, development models, and paradigms, that in terms of the human agents conducting these processes has barely been explored. This paper describes the impact of requirements knowledge and experience (RKE) on SA tasks. Specifically, it describes an exploratory, empirical study involving a number of architecting teams, some with requirements background and others without, all architecting from the same set of requirements. The overall results of this study suggest that architects with RKE perform better than those without, and specific areas of architecting are identified where these differences manifest. We discuss the possible implications of the findings on the areas of training, education and technology. � 2007 IEEE. (20 refs)
+Main heading: Software architecture
+Controlled terms: Computer aided software engineering - Human computer interaction - Knowledge based systems - Mathematical models - Requirements engineering
+Uncontrolled terms: Development models - Requirements knowledge and experience (RKE) - Requirements knowledge impact
+Classification Code: 722.2 Computer Peripheral Equipment - 723.1 Computer Programming - 723.4.1 Expert Systems - 723.5 Computer Applications - 921 Mathematics
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+8. Architecting pervasive computing systems for privacy: a survey
+Cardoso, R.S. (1); Issarny, V. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 218-21, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) INRIA Rocquencourt, Le Chesnay, France
+Abstract: In pervasive computing systems, a higher number of interactions will be mediated by computers, amplifying the menace to privacy. Privacy protection in pervasive environments is still a big issue, despite the growing number of works on this subject as evidenced by this survey. In this paper, we propose a taxonomy for privacy invasion attacks, classify existing privacy enhancing technologies according to the protection provided for those attacks, and introduce a service-oriented privacy-enhanced architecture for pervasive computing. (29 refs)
+Inspec controlled terms: data privacy - software architecture - ubiquitous computing
+Uncontrolled terms: pervasive computing system - privacy protection - taxonomy - privacy invasion attack - service-oriented privacy-enhanced architecture
+Classification Code: C6130S Data security - C6110B Software engineering techniques - C6150N Distributed systems software
+IPC Code: G06F9/44 - G06F9/46 - G06F21/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+9. Constructing a reading guide for software product audits
+de Boer, R.C. (1); van Vliet, H. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 116-25, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Dept. of Comput. Sci., Vrije Univ., Amsterdam, Netherlands
+Abstract: Architectural knowledge is reflected in various artifacts of a software product. In the case of a software product audit this architectural knowledge needs to be uncovered and its effects assessed, in order to evaluate the quality of the software product. A particular problem is to find and comprehend the architectural knowledge that resides in the software product documentation. The amount of documents, and the differences in for instance target audience and level of abstraction, make it a difficult job for the auditors to find their way through the documentation. This paper discusses how the use of a technique called latent semantic analysis can guide the auditors through the documentation to the architectural knowledge they need. Using latent semantic analysis, we effectively construct a reading guide for software product audits. (20 refs)
+Inspec controlled terms: software architecture - software metrics - software quality - system documentation - user manuals
+Uncontrolled terms: reading guide construction - software product audit - software product architecture - software product quality evaluation - software product documentation - latent semantic analysis
+Classification Code: C6110B Software engineering techniques - C6110S Software metrics
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+10. Tackling offshore communication challenges with agile architecture-centric development
+Kornst�dt, Andreas (1); Sauer, Joachim (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.39; Article number: 4077045; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Software Engineering Group, Department of Informatics, University of Hamburg, Vogt-K�lln-Str. 30, 22527 Hamburg, Germany
+Abstract: Offshoring is not as popular as it seems. According to a recent German survey, only 1.5% of all outsourcing activities target offshore locations. This is a remarkably small figure taking into account the widely published purported benefits of offshoring. In this paper we demonstrate that communication problems are at the core of offshoring woes. This does not come as a surprise as they also play a major role in onshore projects. Based on our experience in tackling these challenges with our well established communication-centered agile design and development approach, we present case-study-reinforced advice for successful offshore projects. We show that a common view of the underlying architecture is of paramount importance for these projects. � 2007 IEEE. (10 refs)
+Main heading: Software architecture
+Controlled terms: Agile manufacturing systems - Computer aided design - Offshore structures - Project management - Reinforcement learning
+Uncontrolled terms: Agile designs - Communication problems - Offshore projects
+Classification Code: 674.2 Marine Drilling Rigs and Platforms - 723.1 Computer Programming - 723.4 Artificial Intelligence - 723.5 Computer Applications - 912.2 Management - 913.4 Manufacturing
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+11. Designing domain-specific software architecture (DSSA): Towards a new approach
+De Almeida, Eduardo Santana (1); Alvaro, Alexandre (1); Garcia, Vinicius Cardoso (1); Nascimento, Leandro (1); Meira, Silvio Lemos (1); Lucr�dio, Daniel (2)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.22; Article number: 4077047; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Federal University of Pernambuco, C.E.S.A.R., Recife Center for Advanced Studies and Systems (2) Universidade de S�o Paulo, Instituto de Ci�ncias Matem�ticas e de Computa�� o (ICMC)
+Abstract: Since the first works involving software reuse, domain engineering is considered a key process to develop reusable and flexible software. However, the results have shown that there is still much to do before the vision of domain engineering is completely achieved. Among the reasons for this problem, we may highlight the lack of a process to support the design of domain-specific software architectures. This paper presents such an approach, based on a well defined set of principles, guidelines and metrics. � 2007 IEEE. (20 refs)
+Main heading: Software architecture
+Controlled terms: Computer aided design - Computer software reusability - Computer vision - Domain decomposition methods - Problem solving
+Uncontrolled terms: Designing domain-specific software architecture (DSSA) - Domain engineering - Flexible softwares
+Classification Code: 723.1 Computer Programming - 723.4 Artificial Intelligence - 723.5 Computer Applications - 741.2 Vision - 921.6 Numerical Methods
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+12. Risk themes discovered through architecture evaluations
+Bass, Len (1); Nord, Robert (1); Wood, William (1); Zubrow, David (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.37; Article number: 4077018; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Software Engineering Institute, Carnegie Mellon University, Pittsburgh, PA 15213, United States
+Abstract: The output of 18 software architecture evaluations are analyzed to find patterns in the risk themes identified in the evaluations. The major results are: A categorization of risk themes The observation that twice as many risk themes are risks of �omission� as are risks of �commission�. A failure to find a relationship between the business and mission goals of a system and the risk themes from an evaluation of that system. A failure to find a relationship between the domain of a system being evaluated and the risk themes associated with the development of that system. The results of this investigation have application to practitioners by suggesting activities on which developers should put greater focus. They also have application to researchers by suggesting further areas of investigation. � 2007 IEEE. (11 refs)
+Main heading: Software architecture
+Controlled terms: Engineering research - Failure analysis - Pattern recognition - Risk assessment - Systems engineering
+Uncontrolled terms: Mission goals - Risk themes - Risks omission
+Classification Code: 961 Systems Science - 921 Mathematics - 914.1 Accidents and Accident Prevention - 901.3 Engineering Research - 723.5 Computer Applications - 723.1 Computer Programming - 716 Telecommunication; Radar, Radio and Television
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+13. Assessing a multi-site development organization for architectural compliance
+Clerc, Viktor (1); Lago, Patricia (1); Van Vliet, Hans (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.16; Article number: 4077027; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Department of Computer Science, Vrije Universiteit, Amsterdam, Netherlands
+Abstract: Multi-site development organizations require coordination and communication efforts between different sites to ensure successful distributed development. These efforts need to be guided by a set of principles and statements on the software architecture that must be complied with throughout the organization: architectural rules. It is of paramount importance that multi-site development organizations incorporate measures in the architecting process to secure compliance with these rules throughout the organization. We describe a method to assess the degree to which compliance measures are secured in multi-site development organizations. We share our experience in applying this method in a large development organization in the consumer electronics domain. � 2007 IEEE. (14 refs)
+Main heading: Software architecture
+Controlled terms: Codes (symbols) - Distributed computer systems - Logic programming - Multi agent systems - Program compilers
+Uncontrolled terms: Architectural compliance - Architectural rules - Multi-site development organizations
+Classification Code: 722.4 Digital Computers and Systems - 723.1 Computer Programming - 723.2 Data Processing and Image Processing - 723.5 Computer Applications
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+15. Inside architecture evaluation: analysis and representation of optimization potential
+Florentz, B. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 36-45, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Inst. for Programming & Reactive Syst., Tech. Univ. Braunschweig, Braunschweig, Germany
+Abstract: The share of software in embedded systems has been growing permanently in the recent years. Thus, software architecture as well as its evaluation has become an important part of embedded systems design to define, assess, and assure architecture and system quality. Furthermore, design space exploration can be based on architecture evaluation. To achieve an efficient exploration process, architectural decisions need to be well considered. In this paper, analysis of architecture evaluation is performed to uncover dependencies of the quality attributes which are the first class citizens of architecture evaluation. With an explicit representation of such dependencies, valuable changes of an architecture can be calculated. Next to the exploration support, the analysis results help to document architecture knowledge and make architectural decisions explicit and traceable. The development process can now be based on dependable and well documented architectural decisions. Effects of changes become more predictable. Time and costs can be saved by avoiding suboptimal changes. (15 refs)
+Inspec controlled terms: embedded systems - optimisation - software architecture - software performance evaluation - software quality
+Uncontrolled terms: software architecture evaluation analysis - optimization potential representation - embedded system design - software system quality attribute - design space exploration - architectural decision documentation
+Classification Code: C6110B Software engineering techniques - C6110R Software performance evaluation - C1180 Optimisation techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA) - Theoretical or Mathematical (THR)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+16. Adaptation and distribution of pipeline-based context-aware Web architectures
+Hinz, M. (1); Pietschmann, S. (1); Umbach, M. (1); Meissner, K. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 156-65, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Dept. of Comput. Sci., Dresden Univ. of Technol., Dresden, Germany
+Abstract: The dynamic generation of context-aware applications for the ubiquitous Web is very time consuming and causes significant server load. Therefore, optimizing the efficiency of the publishing process and reducing server load by dynamically configuring system components are key factors for the commercial success of context-aware Web applications. To meet this challenge, this paper presents a framework that dynamically adjusts the architecture of pipeline-based context-aware Web systems either by adapting or omitting server tasks, distributing load within server clusters, or migrating load to client devices. The system adaptation and distribution are performed according to varying load rates and system context states that are monitored permanently. Furthermore, the paper also presents experiences gained by the implementation of prototypes and illustrates several useful application scenarios that are supported by the proposed mechanisms. (21 refs)
+Inspec controlled terms: Internet - ubiquitous computing
+Uncontrolled terms: pipeline-based context-aware Web architectures - ubiquitous Web - server tasks - server clusters
+Classification Code: C6150N Distributed systems software - C7210N Information networks
+IPC Code: G06F9/46
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+17. A comparison of static architecture compliance checking approaches
+Knodel, J. (1); Popescu, D.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 126-35, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Fraunhofer Inst. for Exp. Software Eng. (IESE), Kaiserslautern, Germany
+Abstract: The software architecture is one of the most important artifacts created in the lifecycle of a software system. It enables, facilitates, hampers, or interferes directly the achievement of business goals, functional and quality requirements. One instrument to determine how adequate the architecture is for its intended usage is architecture compliance checking. This paper compares three static architecture compliance checking approaches (reflexion models, relation conformance rules, and component access rules) by assessing their applicability in 13 distinct dimensions. The results give guidance on when to use which approach. (21 refs)
+Inspec controlled terms: program verification - software architecture - software quality
+Uncontrolled terms: static architecture compliance checking - software architecture - software system - business goals - functional requirements - quality requirements
+Classification Code: C6150G Diagnostic, testing, debugging and evaluating systems - C6110F Formal methods - C6110B Software engineering techniques
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+18. Middleware-induced architectural style modelling for architecture exploration
+Giesecke, Simon (1); Bornhold, Johannes (1); Hasselbring, Wilhelm (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.29; Article number: 4077038; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Carl von Ossietzky University of Oldenburg, Software Engineering Group, 26111 Oldenburg, Germany
+Abstract: The MIDARCH Method is a software design method for exploring software architecture alternatives that use different middleware platforms. First, candidate architectures are modelled based on different architectural styles that are induced by the respective middleware platforms. Candidate styles are chosen using a taxonomy of such styles. The goal is the evaluation of candidate architectures with respect to a goal/question/metric quality model. We illustrate the modelling approach using the Apache Cocoon Web component framework and related technologies, and a taxonomy of their associated styles. � 2007 IEEE. (10 refs)
+Main heading: Software architecture
+Controlled terms: Information use - Mathematical models - Middleware - Taxonomies - World Wide Web
+Uncontrolled terms: Architectural styles - Architecture exploration - Metric quality models - Middleware platforms
+Classification Code: 716 Telecommunication; Radar, Radio and Television - 723.1 Computer Programming - 723.5 Computer Applications - 903 Information Science - 903.3 Information Retrieval and Use - 921 Mathematics
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+20. A framework for the assessment and selection of software components and connectors in COTS-based architectures
+Bhuta, Jesal (1); Mattmann, Chris A. (1, 2); Medvidovic, Nenad (1); Boehm, Barry (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.2; Article number: 4077023; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Computer Science Department, University of Southern California, Los Angeles, CA 90089 (2) Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109
+Abstract: Software systems today are composed from prefabricated commercial components and connectors that provide complex functionality and engage in complex interactions. Unfortunately, because of the distinct assumptions made by developers of these products, successfully integrating them into a software system can be complicated, often causing budget and schedule overruns. A number of integration risks can often be resolved by selecting the �right � set of COTS components and connectors that can be integrated with minimal effort. In this paper we describe a framework for selecting COTS software components and connectors ensuring their interoperability in softwareintensive systems. Our framework is built upon standard definitions of both COTS components and connectors and is intended for use by architects and developers during the design phase of a software system. We highlight the utility of our framework using a challenging example from the data-intensive systems domain. Our preliminary experience in using the framework indicates an increase in interoperability assessment productivity by 50% and accuracy by 20%. � 2007 IEEE. (23 refs)
+Main heading: Software architecture
+Controlled terms: Computational complexity - Functional analysis - Interactive computer graphics - Interoperability - Large scale systems - Microfabrication
+Uncontrolled terms: Complex interactions - Software components - Software intensive systems - Software systems
+Classification Code: 961 Systems Science - 921 Mathematics - 913.4 Manufacturing - 723.5 Computer Applications - 723.1 Computer Programming - 721.1 Computer Theory, Includes Formal Logic, Automata Theory, Switching Theory, Programming Theory - 716 Telecommunication; Radar, Radio and Television
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+21. Working session: Software architecture competence
+Clements, Paul (1); Kazman, Rick (2); Klein, Mark (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.50; Article number: 4077044; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Carnegie Mellon Software Engineering Institute (2) Carnegie Mellon Software Engineering Institute, University of Hawaii
+Abstract: Much research in the software architecture field has focused on the purely technical aspects of architecting: architectural styles, documentation, analysis, architecture description languages, reverse engineering, and so forth. In this working session we seek to explore a less exhaustively studied, but equally important, realm: architectural competence. What defines a competent software architect? And equally important, what defines an architecturally competent software development organization? In particular, we seek to better understand the following issues: What do architects actually do on a day-to-day basis? What skills and knowledge must a competent architect have? What does it mean to be a competent architect? What can an organization do to get the best performance from its software architects? How can we measure architectural competence of an individual or an organization and how can we increase this? Our goal for this working session is to propose an initial �theory� of architectural competence, even if very informally rendered, and then provide some practical guidance deriving from that theory to practicing architects (and to those who aspire to be architects), as well as technical managers in software development organizations. � 2007 IEEE. (1 refs)
+Main heading: Software architecture
+Controlled terms: Engineering research - Information management - Information technology - Knowledge based systems - User interfaces
+Uncontrolled terms: Architectural competence - Architectural styles - Technical managers - Working session
+Classification Code: 912.2 Management - 903 Information Science - 901.3 Engineering Research - 723.5 Computer Applications - 723.4.1 Expert Systems - 723.1 Computer Programming - 722.2 Computer Peripheral Equipment
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+23. A model-driven approach to extract views from an architecture description language
+Oliveira, C. (1); Wermelinger, M.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 76-85, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Dept. of Comput. Sci., Univ. of Leicester, Leicester, United Kingdom
+Abstract: A common approach to defining architectural views is to have independent heterogeneous representations that are tailored to each view�s purpose, but this makes reconciling views into an overall architectural description harder. In this paper we put forward a complementary (not alternative) approach in which some views are derived from a given architecture description language (ADL) in a systematic way, by listing the design questions each view should answer. The approach is based on constructing the language�s metamodel and extending it with the entities and associations needed to capture and explicitly relate the required views. (23 refs)
+Inspec controlled terms: high level languages - software architecture
+Uncontrolled terms: model-driven approach - architecture description language - independent heterogeneous representations - metamodel
+Classification Code: C6110B Software engineering techniques - C6140D High level languages
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+25. Flexible software development: From software architecture to process
+Balasubramaniam, Dharini (1); Morrison, Ron (1); Greenwood, R. Mark (2); Warboys, Brian (2)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.24; Article number: 4077031; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) School of Computer Science, University of St Andrews, United Kingdom (2) School of Computer Science, University of Manchester, United Kingdom
+Abstract: Modern software development practices show that there is significant diversity in the product, process and geographical location of software development due to economical, technical and logistical constraints. Such diverse development demands flexibility in the software engineering methodology. In this paper, we propose the Cellular Development Methodology (CDM), an architecture-driven approach to flexible software development. CDM derives the development process and its architecture from the software architecture of product. The software development process is structured and customised as a network of cooperating cells. Our contribution is a cellular approach to software development based on the software architecture of the end product whereby a network of configurable cells yield customisable, potentially distributed software development processes which in turn produce software that is highly tailored to user requirements. � 2007 IEEE. (31 refs)
+Main heading: Software architecture
+Controlled terms: Cellular automata - Constraint theory - Network security - Product development - User interfaces
+Uncontrolled terms: Cellular Development Methodology (CDM) - Configurable cell network - Distributed software development
+Classification Code: 721.1 Computer Theory, Includes Formal Logic, Automata Theory, Switching Theory, Programming Theory - 722.2 Computer Peripheral Equipment - 723.1 Computer Programming - 723.5 Computer Applications - 921 Mathematics - 961 Systems Science
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+26. An integrated QoS-aware service development and management framework
+Zhou, Jiehan (1); Niemel�, Eila (1); Savolainen, Pekka (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.8; Article number: 4077030; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) VTT Technical Research Centre of Finland, Kaitov�yl� 1, 90571 Oulu, Finland
+Abstract: Quality-aware service delivery has been receiving increasing attention in both software architecture and service management. Our approach values software and service quality assurance, ranging from quality assessment in software architecting to quality matching in service discovery. This paper proposes an integrated QoS-aware service management method, which examines the �service as a software� development and the �software as a service� management against QoS requirements. Moreover, we design an integrated QoS-aware service management infrastructure which promises complete software and service workflow management coupled with a QoS ontology development. We develop the QoS property ontology from the viewpoints of technical quality and managerial quality information management. � 2007 IEEE. (45 refs)
+Main heading: Quality of service
+Controlled terms: Computer science - Information management - Information technology - Quality assurance - Software architecture
+Uncontrolled terms: Quality matching - Service development - Service management - Service workflows
+Classification Code: 913.3 Quality Assurance and Control - 912.2 Management - 903 Information Science - 723.5 Computer Applications - 723.1 Computer Programming - 721 Computer Circuits and Logic Elements - 716 Telecommunication; Radar, Radio and Television
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+30. Architecting fault tolerant systems
+Muccini, H.; Pelliccione, P.; Romanovsky, A.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 249, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: While typical solutions focus on fault tolerance (and specifically, exception handling) during the design and implementation phases of the software life-cycle (e.g., Java and Windows NT exception handling), more recently the need for explicit exception handling solutions during the entire life cycle has been advocated by some researchers. Several solutions have been proposed for fault tolerance via exception handling at the software architecture and component levels. This paper describes how the two concepts of fault tolerance and software architectures have been integrated so far. It is structured in two parts (overview on fault tolerance and exception handling, and integrating fault tolerance into software architecture) and is based on a survey study on architecting fault tolerant systems where more than fifteen approaches have been analyzed and classified. This paper concludes by identifying those issues that remain still open and require deeper investigation.
+Inspec controlled terms: exception handling - software architecture - software fault tolerance
+Uncontrolled terms: fault tolerant systems - software life-cycle - exception handling solutions - software architecture
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+31. Requirements and scenarios: running aspect-oriented software architectures
+Navarro, E. (1); Letelier, P.; Ramos, I.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 205-9, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Dept. of Comput. Syst., UCLM, Albacete, Spain
+Abstract: The intertwining of Requirements and Software Architectures must be based on solid traceability mechanisms in order to effectively maintain the consistency between the two specifications. A new issue has come to the fore in this area: Aspect-Oriented Software Development (AOSD). Achieving the separation of concerns from the very beginning of software development along with their proper traceability throughout the lifecycle is mandatory in terms of quality and maintainability. ATRIUM is a methodology that is defined to guide the development of architectures from requirements and using AOSD techniques as its cornerstone. In this work, we present how ATRIUM uses a scenario technique that provides traceability support. ATRIUM pays special attention to non-functional requirements, their crosscutting relationships, and how they can derive aspects in the software architecture. (19 refs)
+Inspec controlled terms: formal specification - object-oriented programming - program diagnostics - software architecture - software maintenance - software prototyping - software quality
+Uncontrolled terms: aspect-oriented software architecture - solid traceability mechanism - aspect-oriented software development - software quality - software maintainability - software requirement - software lifecycle
+Classification Code: C6110J Object-oriented programming - C6110B Software engineering techniques - C6110F Formal methods - C6150G Diagnostic, testing, debugging and evaluating systems
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+32. An architectural style for AJAX
+Mesbah, A. (1); van Deursen, A. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 96-105, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Software Evolution Res. Lab., Delft Univ. of Technol., Delft, Netherlands
+Abstract: A new breed of Web application, dubbed AJAX, is emerging in response to a limited degree of interactivity in large-grain stateless Web interactions. At the heart of this new approach lies a single page interaction model that facilitates rich interactivity. We have studied and experimented with several AJAX frameworks trying to understand their architectural properties. In this paper, we summarize three of these frameworks and examine their properties and introduce the Spiar architectural style. We describe the guiding software engineering principles and the constraints chosen to induce the desired properties. The style emphasizes user interface component development, and intermediary delta-communication between client/server components, to improve user interactivity and ease of development. In addition, we use the concepts and principles to discuss various open issues in AJAX frameworks and application development. (31 refs)
+Inspec controlled terms: client-server systems - Internet - Java - software architecture - user interfaces - XML
+Uncontrolled terms: asynchronous JavaScript - Web application - single page interaction model - SPIAR architectural style - software engineering - user interface component development - client-server component - XML
+Classification Code: C6110J Object-oriented programming - C6130D Document processing techniques - C6110B Software engineering techniques - C7210N Information networks - C6180 User interfaces - C6150N Distributed systems software
+IPC Code: G06F9/44 - G06F9/46 - G06F17/21
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+33. Non-functional modeling and validation in model-driven architecture
+Cortellessa, V. (1); Di Marco, A. (1); Inverardi, P. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 214-17, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Dipt. di Inf., Univ. of L�Aquila, L�Aquila, Italy
+Abstract: Software models are, in most cases, considered as functional abstractions of systems. They represent the backbone of transformational processes aimed at code generation. On the other end, modeling is a traditional activity in the field of non-functional validation of software/hardware systems, although non-functional models found on different notations (such as Petri Nets) and embed additional information (such as the operational profile) with respect to software models. In this paper we widen the scope of model-driven architecture by introducing a Non-Functional-MDA framework that, beside the typical model transformations for code generation, embeds new types of model transformations that allow to generate non-functional models. For an uniform integration of these practices, we define Platform Independent/Specific Models in the non-functional domain. (11 refs)
+Inspec controlled terms: object-oriented programming - program compilers - program verification
+Uncontrolled terms: model-driven architecture - code generation - nonfunctional modeling - nonfunctional validation - functional abstraction - transformational process
+Classification Code: C6110J Object-oriented programming - C6150C Compilers, interpreters and other processors - C6110F Formal methods - C6150G Diagnostic, testing, debugging and evaluating systems
+IPC Code: G06F9/44 - G06F9/45 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+35. Assessing the architectonics of large, software-intensive systems using a knowledge-based approach
+Del Rosso, Christian (1); Maccari, Alessandro (2)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.17; Article number: 4077019; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) Nokia Research Center, P.O Box 407, 00045, Finland (2) Nokia Networks, Via Bombay 5, 00144, Roma, Italy
+Abstract: This paper presents an assessment case study on the evolutionary capability of a large software system using a knowledge-based approach. The knowledge-based assessment is based on interviews with selected stakeholders of a software system. We have used this to assess the capability of the software architecture to evolve in one large Nokia software system. We have found that this approach proves to be effective in large organizations where development teams are distributed in different time-zones, with cultural differences and with limited person-to person communication. The lessons learned and the advantages of using this approach are presented. � 2007 IEEE. (26 refs)
+Main heading: Software architecture
+Controlled terms: Knowledge acquisition - Knowledge based systems - Large scale systems - Telecommunication networks
+Uncontrolled terms: Architectonics - Cultural differences - Knowledge based assessment - Software intensive systems
+Classification Code: 716 Telecommunication; Radar, Radio and Television - 723.1 Computer Programming - 723.4.1 Expert Systems - 961 Systems Science
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+36. Architecture assessment model for system evolution
+Bhattacharya, S. (1); Perry, D.E. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 86-95, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Empirical Software Eng. Lab., Univ. of Texas at Austin, Austin, TX, United States
+Abstract: Even though there has been some research on system evolution, there is no well defined vocabulary to indicate deviation of a system from desired goals. Further, there are no objective measures to indicate whether changes incorporated into a system as part of its evolution violates the integrity of the architectural design. Also, little research has been done to categorize the aspects of a software system that is subject to deviation as the system evolves. In this paper we develop a model for tracking software evolution and propose measures that will objectively indicate the extent of deviation or divergence in a software system. We also categorize the different aspects of software, changes to which can significantly impact usability as well as conceptual coherence. (15 refs)
+Inspec controlled terms: software architecture
+Uncontrolled terms: architecture assessment model - system evolution - architectural design - software system
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+37. Aligning architectural approaches towards an SOA-based enterprise architecture
+Radhakrishnan, R.; Sriraman, B.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 244, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: Summary form only given. This tutorial will provide an overview of architecture patterns, approaches, and service oriented architecture (SOA) principles. The following topics will be discussed and illustrated with sample scenarios: model driven architecture enabling; service oriented architectures; identity enabled networks - the core service building block for service oriented architectures; event driven architecture augmenting service oriented architectures; component based architecture supplementing service oriented architectures; and utility computing architecture supporting service oriented architectures. (0 refs)
+Inspec controlled terms: software architecture
+Uncontrolled terms: SOA-based enterprise architecture - model driven architecture - service oriented architectures - core service building block - event driven architecture - component based architecture - utility computing architecture
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+38. Architectural misalignment: an experience report
+Bass, M. (1); Mikulovic, V.; Bass, L.; James, H.; Marcelo, C.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 176-84, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Siemens Corp. Res.Inc., Princeton, NJ, United States
+Abstract: It has been well documented that there is a correlation between the structure of an architecture and the organization that produces it. More concretely there is a correlation between task interdependencies and coordination among the people or teams realizing these tasks. The amount of coordination needed among teams is related to the nature of these task interdependencies. As the scale and complexity of organization and systems grow it is not uncommon to have factors such as geographic boundaries, organization boundaries, cultural differences, and so forth impede the ability of certain individuals or teams to coordinate effectively. While there is some understanding of the factors that impede the ability of teams to coordinate, the factors that cause task interdependence in software systems is less well understood. The current view is that it is the interactions across module boundaries (assuming a module is assigned as a task or work item to a single team) that cause task interdependence; we have found that this view is not sufficient. In this paper we present three cases where additional architectural mechanisms created task interdependencies that the organizations were unable to accommodate. We go on to discuss the implications of these findings and suggest future research activities. (13 refs)
+Inspec controlled terms: interactive systems - project management - software architecture
+Uncontrolled terms: architectural misalignment - task interdependency - geographic boundary - organization boundary - cultural difference - software system - project management - interactive system
+Classification Code: C0310F Software management - C6180 User interfaces - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+39. Performance analysis of distributed software systems: approaches based on queueing theory
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 245, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: A distributed software system uses a complex system of resources which work together to process a request. A typical web-based request flows through various servers including Web servers, database servers, Java application servers, etc, deployed on various hardware platforms. Such a request encounters various forms of delays at and between these servers: communication delay, processing delay and queueing delay. Queueing delay is incurred at every point where there is any contention for resources, e.g. for acquiring a thread, or the CPU, or the lock to a log file. Queueing delay depends on the rate at which requests arrive for that particular resource, which in turn depends on the user behavior, the flow of the request, and the deployment of the servers. Given the number and type of soft and hard resources that make up a distributed system, it is a non-trivial task to quantify these delays. To address this problem, a number of methodologies and tools have been proposed, which allow a distributed system to be specified at a high level, and which generate and solve an underlying model using queueing theory techniques, to answer questions such as what the response time of a request is, what the bottleneck server is, and so on. In this tutorial we will review the state-of-the art in methods and tools for modeling and analyzing distributed software systems. This includes: Motivating examples of web-based multi-tier server systems Queueing systems primer (M/M/c/K, M/G/1 etc). Simple examples of application of queueing theory to software servers Introductory example of the �layered queueing network� method Overview of generalized software performance modeling methods and tools Real-life applicability of modeling methodologies: comparisons with measured performance. (0 refs)
+Inspec controlled terms: Internet - queueing theory - software performance evaluation
+Uncontrolled terms: performance analysis - distributed software systems - queueing theory - Web-based request flows - queueing delay - Web-based multi-tier server systems
+Classification Code: C6150N Distributed systems software - C6110R Software performance evaluation - C1140C Queueing theory
+IPC Code: G06F9/44 - G06F9/46
+Treatment: Practical (PRA) - Theoretical or Mathematical (THR)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+40. An architectural framework for non functional requirements in enterprise SOA adoption
+Kulkarni, N.; Padmanabhuni, S.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 242, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: Summary form only given. Service oriented architecture (SAO) is latest trend in trying to bridge the gap between business strategists and IT architects. Architecting services from an enterprise perspective does not just involve identifying and fitting pieces together, but managing and addressing cross cutting concerns or non functional requirements (NFRs). With most of the discussion on SOA being around abstracting the business functions as reuse-able services, IT architects have to additionally worry about the existing system qualities. So, a flat view over services has to be complimented with an approach of looking into these additional obligations, which adds a new dimension of complexity during the adoption of SOA. This tutorial is intended to provide our insights into managing this complexity throughout the different phases of SOA adoption, by minimizing the risk through calculated assumptions. We will initially set the context of the different phases of service adoption. We will then present an approach for managing the complexities of NFRs through earlier defined adoption phases. We will conclude with a discussion of the essential artifacts and tools for guiding service design. (0 refs)
+Inspec controlled terms: business data processing - software architecture
+Uncontrolled terms: enterprise SOA - service oriented architecture - business strategists - IT architects - nonfunctional requirements - reuse-able services
+Classification Code: C7100 Business and administrative computing - C6110B Software engineering techniques - D2010 Business and professional IT applications
+IPC Code: G06F9/44 - G06Q10/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+41. Best practices for writing and managing performance, reliability, and availability requirements
+Bondi, A.B.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 248, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: Summary form only given. Functional requirements refer to how a piece of a system functions or what it does given specific inputs. Nonfunctional requirements (NFRs) refer to such business and engineering needs as performance, reliability, availability, stability, usability, compatibility with interfaces, and security. They are crucial inputs for architects and system designers when performing such tasks as specifying information flows, defining deployment scenarios, choosing software platforms, sizing system configurations, determining required levels of redundancy, and identifying system measurement instrumentation. NFRs that have been clearly and succinctly written contribute to the success of a project by reducing the time required to understand them and to devise and implement procedures for ensuring and verifying that they have been met. By contrast, poorly written NFRs can lead to confusion among developers and architects, resulting in much wasted time, or to the failure and cancellation of a project, especially if the delivered system crashes often or runs too slowly. The focus of this tutorial is quantitative nonfunctional requirements relating to performance, reliability, and availability (PRA). In this tutorial, we shall look at criteria for high-quality PRA NFRs, including algebraic consistency, measurability, testability, and linkage to business and engineering needs. We shall show methods for presenting and managing PRA NFRs that will improve their chances of being accepted by architects, developers, contract negotiators, and purchasers; and of their being successfully implemented and tested. Attendees will be invited to participate in exercises in which they will interpret and draft PRA NFRs and develop procedures for validating them. (0 refs)
+Inspec controlled terms: software management - software performance evaluation - software reliability - systems analysis
+Uncontrolled terms: reliability - availability requirements - functional requirements - nonfunctional requirements - deployment scenarios - software platforms - sizing system configurations - performance management
+Classification Code: C6110B Software engineering techniques - C6110R Software performance evaluation
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+43. Do architecture design methods meet architects� needs?
+Falessi, Davide (1); Cantone, Giovanni (1); Kruchten, Philippe (2)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 2007, 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07; ISBN-10: 0769527442, ISBN-13: 9780769527444; DOI: 10.1109/WICSA.2007.23; Article number: 4077022; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture, WICSA�07, January 6, 2007 - January 9, 2007; Publisher: Inst. of Elec. and Elec. Eng. Computer Society
+Author affiliation: (1) University of Rome Tor Vergata, DISP, Rome, Italy (2) University of British Columbia, ECE, Vancouver, Canada
+Abstract: Several Software Architecture Design Methods (SADM) have been published, reviewed, and compared. But these surveys and comparisons are mostly centered on intrinsic elements of the design method, and they do not compare them from the perspective of the actual needs of software architects. We would like to analyze the completeness of SADM from an architect�s point of view. To do so, we define nine categories of software architects� needs, propose an ordinal scale for evaluating the degree to which a given SADM meets the needs, and then apply this to a small set of SADMs. The contribution of the paper is twofold: (i) to provide a different and useful frame of reference for architects to select SADM, and (H) to suggest SADM areas of improvements. We found two answers to our question: �do architectural design methods meet the needs of the architect?� Yes, all architect�s needs are met by one or another SADM, but No, no architectural design method meets simultaneously all the needs of an architect. This approach may lead to improvements of existing SADMs. � 2007 IEEE. (49 refs)
+Main heading: Software architecture
+Controlled terms: Computational efficiency - Computer aided design - Computer graphics - Information use - Numerical methods
+Uncontrolled terms: Intrinsic elements - Ordinal scales - Software Architecture Design Methods (SADM)
+Classification Code: 723.1 Computer Programming - 723.5 Computer Applications - 903.3 Information Retrieval and Use - 921 Mathematics - 921.6 Numerical Methods
+Treatment: Theoretical (THR)
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+49. Framework for the assessment and selection of software components and connectors in COTS-based architectures
+Bhuta, J. (1); Mattmann, C.A. (1); Medvidovic, N. (1); Boehm, B. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 66-75, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Comput. Sci. Dept., Univ. of Southern California, Los Angeles, CA, United States
+Abstract: Software systems today are composed from prefabricated commercial components and connectors that provide complex functionality and engage in complex interactions. Unfortunately, because of the distinct assumptions made by developers of these products, successfully integrating them into a software system can be complicated, often causing budget and schedule overruns. A number of integration risks can often be resolved by selecting the �right� set of COTS components and connectors that can be integrated with minimal effort. In this paper we describe a framework for selecting COTS software components and connectors ensuring their interoperability in software-intensive systems. Our framework is built upon standard definitions of both COTS components and connectors and is intended for use by architects and developers during the design phase of a software system. We highlight the utility of our framework using a challenging example from the data-intensive systems domain. Our preliminary experience in using the framework indicates an increase in interoperability assessment productivity by 50% and accuracy by 20%. (23 refs)
+Inspec controlled terms: object-oriented programming - open systems - software architecture - software packages
+Uncontrolled terms: software component assessment - software component selection - COTS-based architecture - software connector selection - interoperability - software-intensive system
+Classification Code: C6110B Software engineering techniques - C6150N Distributed systems software - C6110J Object-oriented programming
+IPC Code: G06F9/44 - G06F9/46
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+55. What makes software architecture-based testing distinguishable
+Muccini, H. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 229-32, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Dipt. di Inf., Univ. of L�Aquila, L�Aquila, Italy
+Abstract: Has software architecture-based testing any characteristic which makes it unique with respect to other testing techniques? This recurrent question will be analyzed in this short paper, providing some initial solution, while leaving ample space for discussion. (0 refs)
+Inspec controlled terms: program testing - software architecture
+Uncontrolled terms: software architecture-based testing - specification-based testing
+Classification Code: C6110B Software engineering techniques - C6150G Diagnostic, testing, debugging and evaluating systems
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+56. The architecture-requirements interaction
+Miller, J.A. (1); Madhavji, N.H. (1)
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 210-13, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Author affiliation: (1) Dept. of Comput. Sci., Univ. of Western Ontario, London, ON, Canada
+Abstract: The interaction between software architecture (SA) and requirements engineering (RE) processes is generating interest within the research community. We explored the role of SA documentation in requirements decision-making. This paper describes the findings from this study. (7 refs)
+Inspec controlled terms: decision making - software architecture - systems analysis
+Uncontrolled terms: architecture-requirements interaction - software architecture - requirements engineering processes - requirements decision-making
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+57. Architecture design for globally distributed projects
+Bass, M.; Sangwan, R.; Smith, M.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 241, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: This paper talks through the practices and infrastructure that was used on the experimental Global Studio Project (GSP). While the architecture activities are highlighted, related practices such as project management, requirements engineering and integration and test in a distributed environment will also be discussed as lessons learned. (0 refs)
+Inspec controlled terms: project management - software engineering
+Uncontrolled terms: Global Studio Project - globally distributed projects - architecture activities - project management - requirements engineering - distributed environments
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+59. An introduction to effectively evaluating software architectures
+Bass, L.; Nord, R.L.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 240, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: Summary form only given. Software architecture has become a widely-accepted conceptual basis for the development of non-trivial software in all application areas and by organizations of all sizes. Effectively evaluating architecture is as important as crafting it in order to have assurance that it successfully addresses the target system qualities, which in turn, help fulfill the business goals of the system. We present the Architecture Tradeoff Analysis Method (ATAM), a practical and comprehensive approach for evaluating software architectures that is based on the principles of quality attributes and architectural tactics. We have gained experience with the approach by analyzing the architecture of several systems, and the ATAM is now a standard practice in many large companies. (0 refs)
+Inspec controlled terms: software architecture - software quality
+Uncontrolled terms: software architectures - nontrivial software development - architecture tradeoff analysis method - quality attributes - architectural tactics
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+62. Refactoring methods
+Murthy, P.; Rajaram, T.; Hemanth, S.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 243, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: This tutorial provides an introduction to the problems faced in software evolution, and why we need to be concerned about refactoring design and code on a continuous basis. Such refactoring helps ensure that software is more easily changeable, and the costs of development and maintenance are reduced. This tutorial addresses (a) refactoring techniques that a developer can employ during design and coding and (b) static analysis techniques that detect opportunities for refactoring. (0 refs)
+Inspec controlled terms: software maintenance
+Uncontrolled terms: refactoring methods - software evolution - static analysis techniques
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+66. Pattern oriented software architecture: patterns for resource management
+Jain, P.; Kircher, M.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 247, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: This tutorial uses design patterns to present techniques for implementing effective and efficient resource management in a system. The tutorial is based on the third volume of the POSA (pattern-oriented software architecture) series. The tutorial presents a thorough introduction to resource management along with two case studies in which the patterns are applied to the domains of ad hoc networking and mobile radio networks. The presented patterns are independent of any implementation technique, such as .NET, Java or C++, even though the examples are given in Java and C++. The patterns are grouped by different areas of resource management and address the complete lifecycle of resources: acquisition, management, and release. (0 refs)
+Inspec controlled terms: object-oriented programming - resource allocation - software architecture
+Uncontrolled terms: pattern-oriented software architecture - resource management - design pattern - ad hoc networking - mobile radio network
+Classification Code: C6150J Operating systems - C6110J Object-oriented programming - C6110B Software engineering techniques
+IPC Code: G06F9/44 - G06F9/46
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+68. Producing software architecture documentation to suit your needs
+Stafford, J.; Clements, P.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 239, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: The Views and Beyond (V&B) approach to software architecture provides practical guidance on the what, why, and how of creating IEEE 1471-2000 compliant documentation for your software architecture that will be used for years to come. The approach is based on the well-known concept of views and is presented in the context of prevailing prescriptive models for architecture, including the unified process and UML 2.0, which has improved support for representing key architectural elements over its predecessors. In this paper, students will be introduced to the views and beyond approach and will gain hands-on experience creating a new architectural style using the V&B style guide and learn how to document an architectural view in that style using the V&B view template. This paper concludes with a discussion of tool support for architectural documentation and a demo of a Web-based documentation system. (0 refs)
+Inspec controlled terms: IEEE standards - Internet - software architecture - system documentation - Unified Modeling Language
+Uncontrolled terms: Views and Beyond approach - software architecture documentation - IEEE 1471-2000 - UML 2.0 - architectural view - V&B view template - Web-based documentation system
+Classification Code: C6110B Software engineering techniques - C6150N Distributed systems software - C6110F Formal methods
+IPC Code: G06F9/44 - G06F9/46
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+70. Integrating architecture-centric methods into object-oriented analysis and design
+Sangwan, R.; El Houda, Z.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 238, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: Summary form only given. Architecture has been established as a key to developing software systems that meet quality expectations of their stakeholders. Object-Oriented Analysis and Design (OOAD) methodologies, however, treat architecture only indirectly or implicitly. The quality of systems developed using such methodologies, thus, depends largely on the skill level and experience of its architect. It has been suggested, therefore, that augmenting these methodologies with software architecture-centric methods such as the Quality Attribute Workshop (QAW) and Attribute Driven Design (ADD) can provide explicit and methodical guidance to an architect in creating systems with desirable qualities. (0 refs)
+Inspec controlled terms: object-oriented programming - software architecture - software quality
+Uncontrolled terms: software architecture-centric method - object-oriented analysis - object-oriented design - software system development - software system quality
+Classification Code: C6110B Software engineering techniques - C6110J Object-oriented programming
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+71. Lightweight dependency models to manage software architecture
+Sangal, N.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 246, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: Summary form only given. This tutorial will present a practical technique for managing the architecture of large software systems using Dependency Models. We will demonstrate that the matrix representation used by these models provides a unique view of the architecture and is highly scalable compared to the directed graph approaches that are common today. We will also show a variety of matrix algorithms that can be applied to analyze and organize the system into a form that reflects key architectural patterns and highlights problematic dependencies. We will illustrate our approach by applying it to real applications each consisting of hundreds or thousands of subsystems. The dependency model will be formally specified using design rules which enable architectural violations to be identified automatically. Finally, actual dependency models will be created for multiple generations of a software application to highlight how architecture evolves and how it often begins to degrade. (0 refs)
+Inspec controlled terms: directed graphs - matrix algebra - software architecture
+Uncontrolled terms: lightweight dependency models - software architecture - large software systems - matrix representation - directed graph - matrix algorithms - architectural patterns - architectural violations
+Classification Code: C6110B Software engineering techniques - C1110 Algebra - C1160 Combinatorial mathematics
+IPC Code: G06F9/44
+Treatment: Practical (PRA) - Theoretical or Mathematical (THR)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+73. Architecture knowledge management: concepts, technologies, challenges
+Gorton, I.; Babar, A.
+Source: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), p 237, 2007; ISBN-10: 0-7695-2744-2; Conference: 2007 Working IEEE/IFIP Conference on Software Architecture (WICSA�07), 6-9 Jan. 2007, Mumbai, India; Publisher: IEEE, Piscataway, NJ, USA
+Abstract: Summary form only given. In this tutorial, we highlight the benefits and challenges in capturing and managing software architecture knowledge for supporting an architecture-centric software development process. We discuss various approaches to characterize software architecture knowledge based on the requirements of a particular domain. We describe various concepts and approaches to manage the software architecture knowledge from both management and technical perspectives. We also demonstrate the utility of captured architecture knowledge to support software architecture activities with a case study covering the use of architecture knowledge management techniques and tools in an industrial project. The specific architecture knowledge management technology used during the tutorial is BRedB, a software tool developed in National ICT Australia. Finally, the ways in which Wikis can be used to manage architecture knowledge are discussed. (0 refs)
+Inspec controlled terms: knowledge management - software architecture - software development management - software tools
+Uncontrolled terms: software architecture knowledge management technology - architecture-centric software development process - BRedB software tool - National ICT Australia - Wikis
+Classification Code: C0310F Software management - C6115 Programming support - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2008, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+200000. end
+end

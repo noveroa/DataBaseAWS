@@ -1,0 +1,920 @@
+1. Flexibility in ecosystem architectures
+Da Silva Amorim, Simone (1); McGregor, John D. (2); De Almeida, Eduardo Santana (3); Von Flach G. Chavez, Christina (4)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642817; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Federal Institute of Education, Science and Technology of Bahia, Salvador, BA 40110, Brazil (2) Strategic Software Engineering Research Group, Clemson University, Clemson, SC 29634, United States (3) Federal University of Bahia, Fraunhofer Project Center for Software and Systems Engineering, Salvador, BA 40170, Brazil (4) Federal University of Bahia, Salvador, BA 40170, Brazil
+Abstract: Quality attributes are important to creating, understanding, and evaluating software architectures. The architectural attributes and challenges for ecosystem architectures are different from one-off systems. The study of those aspects that influence quality attributes in this new environment can help to understand these architectures. In previous work, we hypothesized that the architecture for an ecosystem should be extensible, scalable, and flexible and reported initial investigations into extensibility and scalability. In this paper, we report on our investigation into flexibility. We analyze various features that impact how to design flexible architectures. We highlight that flexibility for ecosystems is not only a technical issue, but a business issue as well. We classified features that affect flexibility into business and technical dimensions. We adapted a software system metric for flexibility to measure the flexibility of an ecosystem�s architecture. � 2014 ACM. (18 refs)
+Main heading: Computer software selection and evaluation
+Controlled terms: Design - Ecosystems - Information management - Management - Measurements - Product design - Quality assurance - Software architecture
+Uncontrolled terms: Data abstraction - Design tools and techniques - Product metrics - Software ecosystems - Software quality assurance
+Classification Code: 408 Structural Design - 454.3 Ecology and Ecosystems - 723.1 Computer Programming - 912.2 Management - 913.1 Production Engineering - 913.3 Quality Assurance and Control - 941 Acoustical and Optical Measuring Instruments - 942 Electric and Electronic Measuring Instruments - 943 Mechanical and Miscellaneous Measuring Instruments - 944 Moisture, Pressure and Temperature, and Radiation Measuring Instruments
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+2. eCITY+: A tool to analyze software architectural relations through interactive visual support
+Khan, Taimur (1); Humayoun, Shah Rukh (1); Amrhein, Karsten (1); Barthel, Henning (2); Ebert, Achim (1); Liggesmeyer, Peter (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642839; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) University of Kaiserslautern, 67663 Kaiserslautern, Germany (2) Fraunhofer IESE, Fraunhofer-Platz 1, 67663 Kaiserslautern, Germany
+Abstract: Current tools to analyze software architecture structure and its evolution tend to focus more towards exploring the architectural elements, their quality measures, and their evolution as compared to the information contained in the inter-dependencies of the system itself. In this tool demo paper, we present our eCITY+ tool that provides an interactive visualization aimed at assisting software engineers and architects to additionally comprehend the architectural ties between software components. Further, it shows how these relations evolve over time. To achieve these goals, eCITY+ represents architectural relationships as hierarchical edge bundles on top of an evolving software city metaphor and unravels the evolution of these relations through the use of animations. Additionally, we present a discussion on the challenges while implementing these ideas in the large. � 2014 Authors. (15 refs)
+Main heading: Software architecture
+Controlled terms: Reverse engineering - Visualization
+Uncontrolled terms: Architectural element - Inter-dependencies - Interactive visualizations - Quality measures - Software architectural - Software component - Software dependencies - Software Evolution
+Classification Code: 723 Computer Software, Data Handling and Applications - 902.1 Engineering Graphics
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+3. On the characterization of missions of systems-of-systems
+Silva, Eduardo (1); Cavalcante, Everton (1, 2); Batista, Thais (1); Oquendo, Flavio (2); Delicato, Flavia C. (3); Pires, Paulo F. (3)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642829; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) DIMAp, Federal University of Rio Grande Do Norte, Natal, Brazil (2) IRISA-UMR CNRS, Universit� de Bretagne-Sud, Vannes, France (3) DCC/PPGI, Universidade Federal Do Rio de Janeiro, Rio de Janeiro, Brazil
+Abstract: A system-of-systems (SoS) can be understood as a set of complex, independent, heterogeneous constituent systems, which are composed to form a larger and more complex system aiming at accomplishing a given mission. Each constituent system accomplishes its own individual mission and is able to collaboratively contribute to the accomplishment of the global mission of the SoS. Despite the importance and central role played by missions in SoS, the current literature lacks of studies focused on analyzing such missions and their specificities. The existing initiatives are domain-specific and are still in an initial stage of development. In this context, the main goal of this paper is to present a study about how missions of SoS can be defined, specified, represented, and implemented. Due to the limitations of the existing proposals for SoS, we have performed a systematic mapping on missions of systems, in a broader extent, aiming at identifying elements that can be brought to SoS. In this paper, we discuss such elements related to missions and other important issues that must be considered when shifting from single and monolithic systems to SoS. � 2014 ACM. (28 refs)
+Main heading: Systems engineering
+Controlled terms: Mapping - Software architecture
+Uncontrolled terms: Domain specific - Global missions - Missions - Monolithic systems - SoS - System-of-systems - Systematic mapping - Systems-of-systems
+Classification Code: 723.1 Computer Programming - 902.1 Engineering Graphics - 912 Industrial Engineering and Management - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+5. Towards faster method search through static ecosystem analysis
+Spasojevic, Boris (1); Lungu, Mircea (1); Nierstrasz, Oscar (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642814; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) University of Bern, Switzerland
+Abstract: Software developers are often unsure of the exact name of the method they need to use to invoke the desired behavior in a given context. This results in a process of searching for the correct method name in documentation, which can be lengthy and distracting to the developer. We can decrease the method search time by enhancing the documentation of a class with the most frequently used methods. Usage frequency data for methods is gathered by analyzing other projects from the same ecosystem - written in the same language and sharing dependencies. We implemented a proof of concept of the approach for Pharo Smalltalk and Java. In Pharo Smalltalk, methods are commonly searched for using a code browser tool called �Nautilus�, and in Java using a web browser displaying HTML based documentation - Javadoc. We developed plugins for both browsers and gathered method usage data from open source projects, in order to increase developer productivity by reducing method search time. A small initial evaluation has been conducted showing promising results in improving developer productivity. � 2014 ACM. (21 refs)
+Main heading: Ecosystems
+Controlled terms: Open source software - Productivity - Software architecture - Static analysis
+Uncontrolled terms: Code browser tools - Ecosystem analysis - Frequency data - Method search - Open source projects - Proof of concept - Search time - Software developer
+Classification Code: 454.3 Ecology and Ecosystems - 723.1 Computer Programming - 913.1 Production Engineering
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+6. Live visualization of large software landscapes for ensuring architecture conformance
+Fittkau, Florian (1); Stelzer, Phil (1); Hasselbring, Wilhelm (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642831; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Software Engineering Group, Kiel University, 24098 Kiel, Germany
+Abstract: Large software landscapes are complex Systems-of-Systems. Systems are added to, modified in, or removed from the landscape at runtime. Architectural erosion typically occurs in such landscapes, resulting in increased maintenance and operation costs. Continuous monitoring can help to ensure the architecture conformance in such large landscapes. However, the emerging huge amounts of monitoring data have to be processed and presented in a scalable visualization. In this paper, we present ExplorViz which aims for providing such a scalable live visualization of large software landscapes. We demonstrate how our visualization can be used for ensuring architecture conformance. Furthermore, we describe an applicability evaluation of ExplorViz concerning the prerequisite of scalability in our monitoring solution. � 2014 ACM. (17 refs)
+Main heading: Data visualization
+Controlled terms: Monitoring - Software architecture - Visualization
+Uncontrolled terms: Applicability evaluation - Continuous monitoring - Large Software Landscapes - Maintenance and operation - Runtimes - Scalable visualization - Software visualization - Systems-of-systems
+Classification Code: 723.1 Computer Programming - 723.5 Computer Applications - 902.1 Engineering Graphics - 941 Acoustical and Optical Measuring Instruments - 942 Electric and Electronic Measuring Instruments - 943 Mechanical and Miscellaneous Measuring Instruments - 944 Moisture, Pressure and Temperature, and Radiation Measuring Instruments
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+7. A domain-specific language for XML security standards
+Schefer-Wenzl, Sigrid (1); Feiertag, Katharina (2)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642821; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Competence Center for IT-Security, University of Applied Sciences Campus Vienna, Vienna, Austria (2) University of Applied Sciences Campus Vienna, Vienna, Austria
+Abstract: A domain-specific language (DSL) is designed for a certain problem domain. Its notation is tailored to the relevant concepts and features of that domain. In this paper, we present a basis for a DSL for XML security standards. In particular, we focus on three prominent examples, i.e. XML Signature, XML Encryption, and SAML that are integrated into a common DSL. The main goals of our DSL are to make it easily comprehensible for security domain experts, easily applicable for people being familiar with at least one GPL, and easily extensible for further XML standards. � 2014 ACM. (15 refs)
+Main heading: XML
+Controlled terms: Problem oriented languages - Software architecture - Standards
+Uncontrolled terms: Concepts and features - Domain specific languages - Problem domain - Security domains - XML encryption - XML security - XML signature - XML standards
+Classification Code: 723 Computer Software, Data Handling and Applications - 902.2 Codes and Standards
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+8. When ecosystems collide: Making systems of systems work
+Da Silva Amorim, Simone (1); De Almeida, Eduardo Santana (2); McGregor, John D. (3); Von Flach G. Chavez, Christina (4)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642832; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Federal Institute of Education, Science and Technology of Bahia, Salvador, BA 40110, Brazil (2) Federal University of Bahia, Fraunhofer Project Center for Software and Systems Engineering, Reuse in Software Engineering (RiSE) Labs., Salvador, BA 40170, Brazil (3) Strategic Software Engineering Research Group, Clemson University, Clemson, SC 29634, United States (4) Federal University of Bahia, Salvador, BA 40170, Brazil
+Abstract: The objective of this research is to identify issues that arise when software systems from different ecosystems are composed into a system of systems. Whether it is an explicit, managed ecosystem or the implicit ecosystem of collaborators, competitors, and users that surrounds any organization, the community of organizations has momentum in a particular direction. When a system of systems is composed using systems from each of several ecosystems the differences in communities can prevent satisfactory integration. We examine the case of a portion of the infrastructure needed to support automated driving. We use Maier�s criteria that identify challenges for systems of systems as starting points for investigations into differences among ecosystems. We found points of commonality that tie together the ecosystems include use of common standards, membership by large organizations in multiple ecosystems, and influences of the outside business environment. We also found points of variation including whether the systems have compatible real-time expectations, terms of licenses, frequency of new releases, and architectural assumptions. Developers of a system of systems benefit from being aware of the similarities and differences among the ecosystems from which their systems originate because both the similarities and differences help developers anticipate the evolutionary trajectories of the individual systems. � 2014 ACM. (15 refs)
+Main heading: Ecosystems
+Controlled terms: Real time systems - Software architecture - Systems engineering
+Uncontrolled terms: Automated driving - Business environments - Individual systems - Large organizations - Software ecosystems - Software systems - System of systems - Systems of systems
+Classification Code: 454.3 Ecology and Ecosystems - 722.4 Digital Computers and Systems - 723.1 Computer Programming - 912 Industrial Engineering and Management - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+9. Adaptive risk management with ontology linked evidential statistics and SDN
+Juhola, Arto (1); Ahola, Titta (1); Ahola, Kimmo (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642805; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) VTT Technical Research Centre of Finland, Vuorimiehentie 3, 02044 VTT, Finland
+Abstract: New technologies have increased the dynamism of distributed systems; advances such as Software Defined Networking (SDN) and cloud computing enable unprecedented service flexibility and scalability. By their nature, they are in a constant state of flux, presenting tough challenges for system security. Here an adaptive - in real time - risk management system capable of keeping abreast of these developments is considered. This paper presents an on-going work on combining a hierarchical threat ontology, real-time risk analysis, and SDN to an efficient whole. The main contribution of this paper is on finding the suitable architectures, components, necessary requirements, and favorable modifications on the systems and system modelling (including the models involving the security analysis) to reach this goal. � 2014 ACM. (34 refs)
+Main heading: Distributed computer systems
+Controlled terms: Network architecture - Network security - Risk analysis - Risk assessment - Risk management - Software architecture
+Uncontrolled terms: Adaptive security - Dempster-Schafer - Dezert-Smarandache - Fuzzy C mean - SDN
+Classification Code: 722.4 Digital Computers and Systems - 723 Computer Software, Data Handling and Applications - 911 Cost and Value Engineering; Industrial Economics - 912 Industrial Engineering and Management - 912.2 Management - 914 Safety Engineering - 914.1 Accidents and Accident Prevention - 922 Statistical Methods - 922.1 Probability Theory
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+10. Governance mechanisms for healthcare apps
+Manikas, Konstantinos (1); Hansen, Klaus Marius (1); Kyng, Morten (2)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642813; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Department of Computer Science (DIKU), University of Copenhagen, Denmark (2) Department of Computer Science, Aarhus University, Alexandra Institute, Denmark
+Abstract: The introduction of the �app store� concept has challenged the way software is distributed and marketed: developers have easier access to customers, while customers have easy access to innovative applications. Apps today are increasingly focusing on more �mission-critical� areas like healthcare with the Apple AppStore counting more than 40,000 apps under the category �health & fitness�. This rapid development of healthcare apps increases the necessity of governance as, currently, healthcare apps are not thoroughly governed. The U.S. Food and Drug Administration and the European Commission only have policies for apps that are medical devices. In this paper, we approach the problem of how to govern healthcare and medical apps by addressing the risks the use of these apps pose, while at the same time inviting for development of new apps. To do so we (i) analyze four cases of healthcare app governance/regulation, (ii) propose the analysis of the app governance from three perspectives: aim, impact, and revenues, (iii) apply the proposed analysis in the app of the healthcare domain, and (iv) identify the governing actors and propose governance policies. � 2014 ACM. (24 refs)
+Main heading: Application programs
+Controlled terms: Biomedical equipment - Health care - Software architecture
+Uncontrolled terms: App stores - European Commission - Food and Drug Administration - Governance mechanisms - Healthcare domains - Medical Devices
+Classification Code: 461.7 Health Care - 462.1 Biomedical Equipment, General - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+11. Scientific research software ecosystems
+Monteith, J. Yates (1); McGregor, John D. (1); Ingram, John E. (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642812; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Strategic Software Engineering Research Group, Clemson University, Clemson, SC 29634, United States
+Abstract: In the past 70 years, science research methods have expanded from test tubes and beakers to include simulations in software. Scientific software is produced in a larger environment of collaboration that includes not only software developers, but also scientists who both use and extend the software for their research endeavors. The objective of this research is to understand the factors that promote and inhibit ecosystem formation and sustainment specific to scientific research software development. We have identified a set of relevant problems inhibiting sustainability in the scientific software context, including development, evolution and maintenance, as well as funding and leadership. We have collected data and used existing business, software, and innovation analysis techniques to examine the artifacts from several scientific research projects. We interviewed significant actors in select scientific ecosystems. We describe the differences between scientific software ecosystems and commercial software ecosystems, our initial results from interviews and data analysis, and we provide a set of recommendations and approaches towards handling software sustainability. Data suggests an ecosystem strategy can contribute to the survivability and sustainability of research software; however, such a strategy, which may distract from sustainability, requires thought and effort be given to establishing and nurturing the ecosystem, which in turn distract from the research mission. At this stage these initial results point us to future potentially fruitful investigations. � 2014 ACM. (26 refs)
+Main heading: Software design
+Controlled terms: Ecosystems - Software architecture - Software testing - Sustainable development
+Uncontrolled terms: Commercial software - Innovation analysis - Science policies - Science research - Scientific researches - Scientific softwares - Software developer - Software ecosystems
+Classification Code: 454.3 Ecology and Ecosystems - 723.5 Computer Applications - 911.2 Industrial Economics
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+13. The ECSA project
+Sporea, Dan (1); Sporea, Adelina (1); Mihai, Laura (1); Stancalie, Andrei (1)
+Source: International Conference on Transparent Optical Networks, 2014, ICTON 2014 - 16th International Conference on Transparent Optical Networks; E-ISSN: 21627339; ISBN-13: 9781479956005; DOI: 10.1109/ICTON.2014.6876656; Article number: 6876656; Conference: 16th International Conference on Transparent Optical Networks, ICTON 2014, July 6, 2014 - July 10, 2014; Publisher: IEEE Computer Society
+Author affiliation: (1) National Institute for Laser, Plasma and Radiation Physics, 409 Atomistilor St, RO-077125 Magurele, Romania
+Abstract: Three years ago, the Agreement for the Romanian association to the European Space Agency was signed, and the Romanian Space Agency launched the Program �Space Technology and Advanced Research� to support original research of interest for space applications. Considering the possibility to use quantum cascade lasers (QCLs) in space-borne applications (i.e. free space optical communication and spectroscopic instrumentation) we promoted the project �Evaluation of Components for Space Applications - ECSA�, dealing with the assessment of mid-IR components under charge particles and photon irradiation, for possible use in space missions. Our paper presents the ESCA project philosophy, the setups for the assessment of operating characteristics in the case of QCLs, mid-IR detectors (both photovoltaic and photoconductive) and optical materials (transmission and reflection measurements), and the planned irradiation activities. � 2014 IEEE. (13 refs)
+Main heading: Photovoltaic effects
+Controlled terms: Irradiation - Optical materials - Photoconductivity - Quantum cascade lasers - Space applications - Space flight - Transparent optical networks
+Uncontrolled terms: Free Space Optical communication - Irradiation effect - Operating characteristics - Photoconductive detectors - Photovoltaic detector - Quantum cascade lasers (QCLs) - Reflection measurements - Spectroscopic instrumentation
+Classification Code: 656 Space Flight - 656.1 Space Flight - 716 Telecommunication; Radar, Radio and Television - 717 Optical Communication - 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications - 741.1 Light/Optics - 741.3 Optical Devices and Systems - 744.1 Lasers, General
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+24. DSL-based architecting and DSL-based architectures
+Sobernig, Stefan (1); Strembeck, Mark (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642818; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Institute for Information Systems and New Media, WU Vienna, Austria
+Abstract: The International Workshop on DSL Architecting and DSL-based Architectures (DADA�14) aims at exploring current perspectives on DSL architecting and on DSL-based architectures in research and industry. The workshop is co-located with the 8th European Conference on Software Architecture (ECSA�14) in Vienna, Austria. � 2014 ACM. (7 refs)
+Main heading: Software architecture
+Controlled terms: Computer programming languages - DSL - Industrial research
+Uncontrolled terms: Co-located - Design decisions - Design documentation - Domain specific languages - International workshops - Vienna , Austria
+Classification Code: 716 Telecommunication; Radar, Radio and Television - 723 Computer Software, Data Handling and Applications - 901.3 Engineering Research
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+29. Semi-automated Design Guidance Enhancer (SADGE): A Framework for Architectural Guidance Development
+Anvaari, M. (1); Zimmermann, O. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 41-9, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_4; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Norwegian Univ. of Sci. & Technol., Trondheim, Norway (2) Univ. of Appl. Sci. of Eastern Switzerland, Rapperswil, Switzerland
+Abstract: Architectural decision making is a non-trivial task for architects in the software development projects. Researchers have developed several concepts, methods and tools to assist practitioners in their decision making and decision capturing activities. One of these approaches is a decision identification technique that creates architectural guidance models from decisions made in previous projects and from knowledge about a domain found in the literature. To apply this technique, significant manual knowledge engineering effort has to be invested initially. In this paper, we introduce a framework that automatically extracts architectural knowledge entities from architectural related documents by applying natural language processing. A knowledge engineer then manually post processes and fine-tunes the extracted knowledge entities. We applied evaluation techniques from the information retrieval community to measure the sensitivity and accuracy of the framework. Our results show that the automatic approach has the highest recall and shortest processing time while the semi-automatic approach has the highest precision. (16 refs)
+Inspec controlled terms: decision making - information retrieval - knowledge acquisition - natural language processing - software architecture
+Uncontrolled terms: architectural knowledge entity extraction - evaluation techniques - information retrieval community - natural language processing - architectural related documents - manual knowledge engineering - decision identification technique - decision capturing activity - software development projects - architectural decision making - architectural guidance development framework - SADGE - semiautomated design guidance enhancer
+Classification Code: C6110B Software engineering techniques - C6180N Natural language processing - C6170K Knowledge engineering techniques - C7250R Information retrieval techniques
+IPC Code: G06F9/44 - G06F15/18 - G06F17/20 - G06F17/30 - G06N5/04
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+30. Gossiping Components for Cyber-Physical Systems
+Bures, T. (1); Gerostathopoulos, I. (1); Hnetynka, P. (1); Keznikl, J. (1); Kit, M. (1); Plasil, F. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 250-66, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_23; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Fac. of Math. & Phys., Charles Univ. in Prague, Prague, Czech Republic
+Abstract: Developing software for dynamic cyber-physical systems (CPS) is a complex task. One has to deal with the dynamicity and unreliability of the physical environment where the software resides in, while, at the same time, provide sufficient levels of dependability and scalability. Although emerging software engineering abstractions, such as dynamic ad-hoc component ensembles, provide a convenient way to structure software for dynamic CPS, they need to be mapped to robust decentralized execution schemes in real-life settings. A particular challenge in this context is the robust distributed data dissemination in dynamic networks. Gossip-based communication stands as a promising solution to this challenge. We argue, that exploitation of application-specific information, software architecture in particular, has a large potential for improving the robustness and performance of gossip-based communication. This paper proposes a synergy between high-level architectural models and low-level communication models to effectively enable application-specific gossiping in component-based systems. The synergy is exemplified on the DEECo component model which is tailored to the needs and specifics of CPS, and evaluated on an emergency coordination case study with realistic network configurations. (28 refs)
+Inspec controlled terms: object-oriented programming - software architecture
+Uncontrolled terms: gossiping components - software development - dynamic cyber-physical systems - software engineering abstractions - software dependability - software scalability - dynamic ad-hoc component ensembles - dynamic CPS - robust decentralized execution schemes - robust distributed data dissemination - gossip-based communication - application-specific information exploitation - software architecture - high-level architectural models - low-level communication models - component-based systems - DEECo component model - emergency coordination case study - dynamic networks
+Classification Code: C6110J Object-oriented programming - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+31. Combining Architectural Design Decisions and Legacy System Evolution
+Gerdes, S. (1); Lehnert, S. (2); Riebisch, M. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 50-7, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_5; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Univ. Hamburg, Hamburg, Germany (2) Tech. Univ. Ilmenau, Ilmenau, Germany
+Abstract: Software development is characterized by ongoing design decisions that must take into account numerous requirements, goals, and constraints. When changing long-living and legacy systems, former decisions have to be considered. In order to minimize the risk of taking wrong or misleading decisions an explicit representation of the relevant aspects is crucial. Architectural decision modeling has proven to be an effective means to represent these aspects, the required knowledge, and properties of a potential solution. However, existing approaches do not sufficiently cover the ongoing evolution of decisions and artifacts. They fail in particular to represent relations to existing systems on a fine-grained level to allow for impact analysis and a later comprehension of decisions. Furthermore, the effort for capturing and modeling of design decisions has to be reduced. In our paper we integrate existing approaches for software architectural design decision making. We extend them by fine-grained traceability to elements of existing systems and explicit means for modeling the evolution of decisions. We show how relevant decisions can easily be identified and developers are supported in decision making. (16 refs)
+Inspec controlled terms: decision making - risk management - software architecture - software maintenance - software process improvement
+Uncontrolled terms: legacy system evolution - software development - risk minimization - explicit representation - architectural decision modeling - impact analysis - software architectural design decision making - fine-grained traceability - decision evolution modeling
+Classification Code: C0310F Software management - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+32. Adapting enterprise architecture at a software development company and the resultant benefits
+Jamro�z, K. (1); Pitulej, D. (2); Werewka, J. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 170-85, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_16; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) ATSI S.A. (Adv. Technol. Syst. Int.), Zabierzo�w, Poland (2) Dept. of Appl. Comput. Sci., AGH Univ. of Sci. & Technol., Krako�w, Poland
+Abstract: This publication presents an approach to developing an enterprise architecture at a software development company. That type of company differs from other companies in relation to software usage and development, hence a corresponding approach should be used. An efficient solution based on own experience is proposed in this paper. The solution includes the following main set of activities: defining a motivation model, adapting architecture modeling tools, IT landscape creation products, building architecture capabilities in the organization, implementing standards and guidelines, applying architecture governance, defining the architect�s roles, managing risks, using architecture governance. The proposed solution is introduced in an iterative way in the software development company. (28 refs)
+Inspec controlled terms: DP industry - risk management - software architecture - software houses
+Uncontrolled terms: enterprise architecture development - software development company - software usage - motivation model - IT landscape creation products - architecture capabilities - architecture modeling tools - architecture governance - risk management
+Classification Code: C0310F Software management - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+33. Modeling the Interactions between Decisions within Software Architecture Knowledge
+Soliman, M. (1); Riebisch, M. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 33-40, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_3; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Univ. Hamburg, Hamburg, Germany
+Abstract: Software architecture is developed as a result of a selection process for software architectural solutions. The complexity, diversity and evolution nature of architectural solutions� interactions forces the architect to make critical design decisions based only on his own experience. Even though, the same design problem has already been addressed by another architect in a similar situation. In this paper, we are presenting a model for reusable software architectural knowledge to support the architect within the design process in understanding the relationship between the different architectural solutions, and how they impact the architectural design reasoning. In addition, the model acts as a base for organizational software architectural knowledge sharing. Our contribution in this paper is classifying and modeling the solutions and decisions� interactions, as well as how the design decision can be used as a reusable element for sharing the architectural experience. (11 refs)
+Inspec controlled terms: decision making - inference mechanisms - software architecture - software reusability
+Uncontrolled terms: interaction modeling - software architectural solutions - critical design decision making - reusable software architectural knowledge model - architectural design reasoning - organizational software architectural knowledge sharing
+Classification Code: C6110B Software engineering techniques - C6170K Knowledge engineering techniques - C0310F Software management
+IPC Code: G06F9/44 - G06F15/18 - G06N5/04
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+34. How Do Software Architects Specify and Validate Quality Requirements?
+Caracciolo, A. (1); Lungu, M.F. (1); Nierstrasz, O. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 374-89, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_32; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Software Composition Group, Univ. of Bern, Bern, Switzerland
+Abstract: Software architecture is the result of a design effort aimed at ensuring a certain set of quality attributes. As we show, quality requirements are commonly specified in practice but are rarely validated using automated techniques. In this paper we analyze and classify commonly specified quality requirements after interviewing professionals and running a survey. We report on tools used to validate those requirements and comment on the obstacles encountered by practitioners when performing such activity (e.g., insufficient tool-support; poor understanding of user�s needs). Finally we discuss opportunities for increasing the adoption of automated tools based on the information we collected during our study (e.g., using a business-readable notation for expressing quality requirements; increasing awareness by monitoring non-functional aspects of a system). (21 refs)
+Inspec controlled terms: software architecture - software quality
+Uncontrolled terms: software architecture - quality attributes - automated techniques
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+35. Using policies for handling complexity of event-driven architectures
+Freudenreich, T. (1); Appel, S. (1); Frischbier, S. (1); Buchmann, A.P. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 114-29, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_12; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Databases & Distrib. Syst., Tech. Univ. Darmstadt, Darmstadt, Germany
+Abstract: Cyber-physical systems and the Internet of Things illustrate the proliferation of sensors. The full potential of ubiquitous sensors can only be realized, if sensors and traditional data sources are integrated into one system. This leads to large, complex systems which are harder to use and manage, and where maintaining desired behavior is increasingly difficult. We suggest a novel approach to handle the complexity of these systems: users focus on the desired behavior of the system and use a declarative policy language (DPL) to state these behaviors. An enhanced message-oriented middleware processes the policies and automatically generates components which execute the policies. We compared our approach against other approaches in a case study and found that it does indeed simplify the use of cyber-physical systems. (30 refs)
+Inspec controlled terms: computational complexity - Internet of Things - message passing - middleware - program diagnostics - software architecture
+Uncontrolled terms: complexity handling policies - event-driven architectures - Cyber-physical systems - Internet of Things - sensor proliferation - ubiquitous sensors - complex systems - declarative policy language - DPL - message-oriented middleware - automatic component generation - policy execution
+Classification Code: C6110B Software engineering techniques - C6110J Object-oriented programming - C6150G Diagnostic, testing, debugging and evaluating systems - C6190V Mobile, ubiquitous and pervasive computing
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+36. Towards an Improved Stakeholder Management for Software Reference Architectures
+Angelov, S. (1); Hilliard, R.
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 90-7, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_9; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Software Eng., Fontys Univ. of Appl. Sci., Eindhoven, Netherlands
+Abstract: A recent survey on software reference architectures (RA) indicates their widespread usage. Among the leading problems when designing and using RA, practitioners point to various aspects of stakeholder management (e.g., stakeholder identification, involvement). In this paper, we identify and analyze issues that lie at the basis of the problems reported in stakeholder management, with a goal to improve the state of the practice. (32 refs)
+Inspec controlled terms: software architecture - software management
+Uncontrolled terms: RA - software reference architectures - improved stakeholder management
+Classification Code: C6110B Software engineering techniques - C0310F Software management
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+37. fUML-driven design and performance analysis of software agents for wireless sensor network
+Berardinelli, L. (1); Marco, A. (1); Pace, S. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 324-39, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_28; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Dept. of Inf. Eng., Comput. Sci. & Math., Univ. of L�Aquila, L�Aquila, Italy
+Abstract: The growing request for high-quality applications for wireless sensor network (wsn) demands model-driven approaches that facilitate the design and the early validation of extra-functional properties by combining design and analysis models. for this purpose, uml and several analysis-specific languages can be chosen and weaved through translational approaches. however, the complexity brought by the underlying technological spaces may hinder the adoption of uml-based approaches in the wsn domain. the recently introduced foundational uml (fuml) standard provides a formal semantics to a strict uml subset, enabling the execution of uml models.Leveraging fUML, we realize the Agilla Modeling Framework, an executable fUML model library, to conveniently design agent-based software applications for WSN and analyze their performance through the execution of the corresponding fUML model. A running case study is provided to show our framework at work. (23 refs)
+Inspec controlled terms: program diagnostics - program verification - programming language semantics - software agents - software performance evaluation - Unified Modeling Language - wireless sensor networks
+Uncontrolled terms: fUML-driven design - performance analysis - software agents - wireless sensor networks - high-quality applications - WSN - model-driven approach - extra-functional property validation - analysis model - design model - analysis-specific language - translational approach - fUML standard - formal semantics - UML subset - UML model execution - Agilla modeling framework - executable fUML model library - agent-based software application design
+Classification Code: B7230 Sensing devices and transducers - C7410H Computerised instrumentation - C6110B Software engineering techniques - C6170 Expert systems and other AI software and techniques - C6110F Formal methods - C6110R Software performance evaluation - C6150G Diagnostic, testing, debugging and evaluating systems
+IPC Code: G06F9/44 - G06F11/36 - G06F15/18 - H04W84/18
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+38. Architecture-Based Code Generation: From p-ADL Architecture Descriptions to Implementations in the Go Language
+Cavalcante, E. (1); Oquendo, F. (2); Batista, T. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 130-45, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_13; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) DIMAp, Fed. Univ. of Rio Grande do Norte, Natal, Brazil (2) IRISA, Univ. de Bretagne-Sud, Vannes, France
+Abstract: Architecture description languages (ADLs) should consider both structural and runtime perspectives of software architectures, an important requirement for current software systems. However, most existing ADLs are disconnected from the runtime level, thus entailing architectural mismatches and inconsistencies between architecture and implementation. With the emergence of the new generation programming languages for large-scale, dynamic, and distributed systems, this problem becomes worse since most existing ADLs do not capture the features of this type of language. In this context, we investigate the generation of source code in the Go programming language from architecture descriptions in the p-ADL language as they are both based on the p-calculus process algebra. We define the correspondences between p-ADL and Go elements and present how architecture descriptions in p-ADL can be automatically translated to their respective implementations in Go through a real-world flood monitoring system. (21 refs)
+Inspec controlled terms: pi calculus - program compilers - programming languages - software architecture - source code (software)
+Uncontrolled terms: architecture-based code generation - p-ADL architecture descriptions - architecture description languages - software architectures - software systems - runtime level - distributed systems - Go programming language - p-calculus process algebra - real-world flood monitoring system - source code generation
+Classification Code: C6140 Programming languages - C6150C Compilers, interpreters and other processors - C6110B Software engineering techniques - C4210 Formal logic
+IPC Code: G06F9/44 - G06F9/45
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+39. A Property Description Framework for Composable Software
+Fro�mmgen, A. (1); Lehn, M. (1); Buchmann, A. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 267-82, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_24; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Databases & Distrib. Syst. Group (DVS), Tech. Univ. Darmstadt, Darmstadt, Germany
+Abstract: The composition of software components can be used to fit specific application needs. Finding feasible and, moreover, optimal compositions demands extensive domain knowledge from the developer-with respect to both application requirements and used components. Frameworks can provide support for the composition selection based on requirements, component properties, and their dependencies. Their description, however, becomes complex in practice. In this paper, we propose the ProDesc framework. It contains a property description language with a bespoke type system for describing properties of software components and their operations. ProDesc can express compositional variability, including dependencies of properties on the environment and on other components. A UML-like graphical notation and transformations to feature diagrams support the software developer. The most suitable component composition is selected based on a utility function, which is evaluated during runtime. Our approach raises the abstraction level, leads to a clear separation of concerns, reduces the development time, and facilitates optimized software. (23 refs)
+Inspec controlled terms: graph grammars - object-oriented programming - software engineering - specification languages
+Uncontrolled terms: property description framework - composable software - software component composition - optimal composition demands - application requirements - composition selection - ProDesc framework - property description language - bespoke type system - compositional variability - UML-like graphical notation - UML-like graphical transformations - software developer - utility function - development time reduction
+Classification Code: C6110J Object-oriented programming - C0310F Software management - C6110F Formal methods - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+40. Recommending Refactorings to Re-establish Architectural Consistency
+Herold, S. (1); Mair, M. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 390-7, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_33; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Lero-The Irish Software Eng. Res. Centre, Univ. of Limerick, Limerick, Ireland (2) Dept. of Inf., Clausthal Univ. of Technol., Clausthal-Zellerfeld, Germany
+Abstract: Keeping the software architecture of a system and its implementation consistent can be tough. The larger and more complex a software system is, the more likely software architecture erosion occurs. This effect can lead to a decrease of quality with respect to adaptability, maintainability, or reusability.Refactorings can help to reverse software architecture erosion through systematically applying them to resolve architecture violations. However, it can be difficult in complex systems to manually resolve all violations in an efficient way due to the complex interdependencies between them.In this paper, we propose a new approach to the automatic recommendation of refactorings to resolve architecture violations based on a meta-heuristic search for an efficient set of refactorings. The approach is applied to resolve architectural dependency violations using the �move class� refactoring. (15 refs)
+Inspec controlled terms: software architecture - software maintenance - software quality
+Uncontrolled terms: architectural consistency - software system - software refactorings - software architecture erosion - complex systems - complex interdependencies - automatic recommendation - meta-heuristic search - architectural dependency violations - move class refactoring
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+41. Safety Perspective for Supporting Architectural Design of Safety-Critical Systems
+Gu�rbu�z, H.G. (1); Tekinerdogan, B. (1); Pala Er, N. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 365-73, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_31; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Dept. of Comput. Eng., Bilkent Univ., Ankara, Turkey
+Abstract: Various software architecture viewpoint approaches have been introduced to model the architecture views for stakeholder concerns. To address quality concerns in software architecture views, an important approach is to define architectural perspectives that include a collection of activities, tactics and guidelines that require consideration across a number of the architectural views. Several architectural perspectives have been defined for selected quality concerns. In this paper we propose the Safety Perspective that is dedicated to ensure that the safety concern is properly addressed in the architecture views. The proposed safety perspective can assist the system and software architects in designing, analyzing and communicating the decisions regarding safety concerns. We illustrate the safety perspective for a real industrial case study and discuss the lessons learned. (15 refs)
+Inspec controlled terms: safety-critical software - software architecture
+Uncontrolled terms: safety-critical systems - quality concerns - safety perspective - safety concern - software architects - decision design - software architecture design - software architecture modeling - decision communication - decision analysis
+Classification Code: C6110B Software engineering techniques - C6130S Data security
+IPC Code: G06F9/44 - G06F21/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+42. Ontology-Driven Pattern Selection and Matching in Software Design
+Di Noia, T. (1); Mongiello, M. (1); Di Sciascio, E. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 82-9, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_8; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Dipt. di Ing. Elettr. e Dell�Inf., Politec. di Bari, Bari, Italy
+Abstract: Design patterns are a meaningful technology for supporting the construction and modeling of software systems. Besides their use is related to the non-functional requirements fulfillment that is also an open challenge in the field of software design. In this work we propose a theoretical approach for modeling relationships and sequences of patterns and for modeling the taxonomy that relates patterns with ensured non-functional requirements for given application contexts. The approach is based on the use of Description Logics for modeling the domain of patterns and for reasoning tasks on the modeled domain. We developed a framework for supporting the architectural modeling phase and used it to verify the effectiveness of both the patterns conceptualization and the use of non-standard reasoning tasks for querying the pattern ontology. (9 refs)
+Inspec controlled terms: description logic - inference mechanisms - object-oriented methods - ontologies (artificial intelligence) - pattern matching - query processing - software architecture
+Uncontrolled terms: ontology-driven pattern selection - ontology-driven pattern matching - design patterns - software system modeling - software system construction - nonfunctional requirements - software design - pattern sequences - taxonomy modeling - description logic - pattern domain modeling - architectural modeling - pattern conceptualization - nonstandard reasoning tasks - pattern ontology querying
+Classification Code: C6110B Software engineering techniques - C6170K Knowledge engineering techniques - C6110F Formal methods
+IPC Code: G06F9/44 - G06F15/18 - G06N5/04
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+43. Suitability of Software Architecture Decision Making Methods for Group Decisions
+Rekha, V.S. (1); Muccini, H. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 17-32, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_2; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Amrita Sch. of Bus., Amrita Vishwa Vidyapeetham, Coimbatore, India (2) Dept. of Eng., Comput. Sci., & Math., Univ. of L�Aquila, L�Aquila, Italy
+Abstract: Software architecture design decisions are central to the architecting process. Hence, the software architecture community has been constantly striving towards making the decision-making process robust and reliable to create high-quality architectures. Surveys of practitioners has demonstrated that most decisions made by them are group decisions. Hence, for any tool or method to be useful to them, it must include provision for making group decisions.In this paper we analyse if and how current software architecture decision-making techniques support Group Decision Making (GDM). We use an evaluation framework with eight criteria, identified by the GDM community, to evaluate selected SA decision-making techniques in order to check their adequacy and suitability to support group decisions. As per our analysis, most of the selected methods in their current form are not yet fully suitable for group decision making and may need to integrate more aspects like provision for stakeholders to explicitly indicate their preferences, conflict resolution mechanisms, and group decision rules meant to specify how stakeholders� preferences are taken into account. (39 refs)
+Inspec controlled terms: decision making - software architecture
+Uncontrolled terms: software architecture decision making methods - group decision making - architecting process - high-quality architectures - GDM community - SA decision-making techniques - conflict resolution mechanisms - group decision rules - stakeholder preferences
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+44. Interoperability-related architectural problems and solutions in information systems: a scoping study
+Abukwaik, H. (1); Taibi, D. (1); Rombach, D. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 308-23, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_27; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Univ. of Kaiserslautern, Kaiserslautern, Germany
+Abstract: [Context] With the increasing industrial demands for seamless exchange of data and services among information systems, architectural solutions are a promising research direction which supports high levels of interoperability at early development stages. [Objectives] This research aims at identifying the architectural problems and before-release solutions of interoperability on its different levels in information systems, and exploring the interoperability metrics and research methods used to evaluate identified solutions. [Methods] We performed a scoping study in five digital libraries and descriptively analyzed the results of the selected studies. [Results] From the 22 studies included, we extracted a number of architectural interoperability problems on the technical, syntactical, semantic, and pragmatic levels. Many problems are caused by systems� heterogeneity on data representation, meaning or context. The identified solutions include standards, ontologies, wrappers, or mediators. Evaluation methods to validate solutions mostly included toy examples rather than empirical studies. [Conclusions] Progress has been made in the software architecture research area to solve interoperability problems. Nevertheless, more researches need to be spent on solutions for the higher levels of interoperability accompanied with proper empirical evaluation for their effectiveness and usefulness. (18 refs)
+Inspec controlled terms: information systems - open systems - software architecture
+Uncontrolled terms: interoperability-related architectural problems - information systems - before-release solutions - system heterogeneity - data representation - standards - ontologies - wrappers - mediators - software architecture - pragmatic levels - semantic levels - syntactical levels - technical levels
+Classification Code: C7100 Business and administrative computing - C6110B Software engineering techniques - C6190 Distributed systems software
+IPC Code: G06F9/44 - G06Q10/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+45. Runtime Enforcement of Dynamic Security Policies
+Horcas, J.-M. (1); Pinto, M. (1); Fuentes, L. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 340-56, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_29; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Andalucia Tech, Univ. de Malaga, Ma�laga, Spain
+Abstract: The security policies of an application can change at runtime due to several reasons, as for example the changes on the user preferences, the lack of enough resources in mobile environments or the negotiation of security levels between the interacting parties. As these security policies change, the application code that copes with the security functionalities should be adapted in order to enforce at runtime the changing security policies. In this paper we present the design, implementation and evaluation of a runtime security adaptation service. This service is based on the combination of autonomic computing and aspect-oriented programming, where the security functionalities are implemented as aspects that are dynamically configured, deployed or un-deployed by generating and executing a security adaptation plan. This service is part of the INTER-TRUST framework, a complete solution for the definition, negotiation and run-time enforcement of security policies. (28 refs)
+Inspec controlled terms: aspect-oriented programming - security of data - software fault tolerance
+Uncontrolled terms: runtime enforcement - dynamic security policies - user preferences - mobile environments - security level negotiation - application code - security functionality - runtime security adaptation service - autonomic computing - aspect-oriented programming - inter-trust framework
+Classification Code: C6130S Data security - C6110J Object-oriented programming - C6110B Software engineering techniques
+IPC Code: G06F9/44 - G06F21/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+46. Scalable Architectures for Platform-as-a-Service Clouds: Performance and Cost Analysis
+Huanhuan Xiong (1); Fowley, F. (1); Pahl, C. (1); Moran, N. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 226-33, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_21; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) IC4-The Irish Centre for Cloud Comput. & Commerce, Dublin City Univ., Dublin, Ireland (2) Microsoft Ireland, Dublin, Ireland
+Abstract: Scalability is a significant feature of cloud computing, which addresses to increase or decrease the capacities of allocated virtual resources at application, platform, database and infrastructure level on demand. We investigate scalable architecture solutions for cloud PaaS that allow services to utilize the resources dynamically and effectively without directly affecting users. We have implemented scalable architectures with different session state management solutions, deploying an online shopping cart application in a PaaS solution, and measuring the performance and cost for three server-side session state providers: Caching, SQL database and NoSQL database. A commercial solution with its supporting state management components has been used. Particularly when re-architecting software for the cloud, the trade-off between performance, scalability and cost implications needs to be discussed. (20 refs)
+Inspec controlled terms: cache storage - cloud computing - resource allocation - retail data processing - software architecture - software cost estimation - software management - software performance evaluation - SQL - systems re-engineering - virtualisation
+Uncontrolled terms: platform-as-a-service clouds - performance analysis - cost analysis - cloud computing - virtual resource allocation - scalable architecture solutions - cloud PaaS - session state management solutions - online shopping cart application - performance measurement - server-side session state providers - caching - SQL database - NoSQL database - software rearchitecture - Windows Azure platform
+Classification Code: C7180 Retailing and distribution computing - C6120 File organisation - C6110B Software engineering techniques - C6190J Internet software - C6110R Software performance evaluation
+IPC Code: G06F9/44 - G06F12/00 - G06Q30/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+47. Architectural Support for Model-Driven Performance Prediction of Distributed Real-Time Embedded Systems of Systems
+Chiprianov, V. (1); Falkner, K. (1); Szabo, C. (1); Puddy, G. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 357-64, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_30; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Sch. of Comput. Sci., Univ. of Adelaide, Adelaide, SA, Australia
+Abstract: Systems of systems (SoS) are large-scale systems composed of complex systems with difficult to predict emergent properties. One of the most significant challenges in the engineering of such systems is how to predict their non-functional properties such as performance, and more specifically, how to model non-functional properties when the overall system functionality is not available. In this paper, we define an approach to SoS performance prediction based on the modelling of system interactions and their impacts. We adopt an Event Driven Architecture to support this modelling, as it allows for more realistic and flexible performance simulation, which enables more accurate performance prediction. We introduce a generic architecture and present its instantiation in a software architecture for the performance prediction of defence SoS. Our architecture allows for loose coupling, interoperability, and adaptability and facilitates sustainable evolution of the performance model of the SoS. (18 refs)
+Inspec controlled terms: distributed processing - embedded systems - software architecture
+Uncontrolled terms: architectural support - model-driven performance prediction - distributed real-time embedded systems of systems - complex systems - nonfunctional properties - defense SoS performance prediction - system interaction modelling - event driven architecture
+Classification Code: C6190 Distributed systems software - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+48. Layered Connectors: Revisiting the Formal Basis of Architectural Connection for Complex Distributed Systems
+Bennaceur, A. (1); Issarny, V. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 283-99, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_25; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Open Univ., Milton Keynes, United Kingdom (2) Inria Paris-Rocquencourt, Alpines, France
+Abstract: The complex distributed systems of nowadays require the dynamic composition of multiple components, which are autonomous and so complex that they can be considered as systems in themselves. These components often use different application protocols and are implemented on top of heterogeneous middleware, which hamper their successful interaction. The explicit and rigorous description and analysis of components interaction is essential in order to enable the dynamic composition of these components. In this paper, we propose a formal approach to represent and reason about interactions between components using layered connectors. Layered connectors describe components interaction at both the application and middleware layers and make explicit the role of middleware in the realisation of this interaction. We provide formal semantics of layered connectors and present an approach for the synthesis of layered connectors in order to enable the dynamic composition of highly heterogeneous components. We validate our approach through a case study in the area of collaborative emergency management. (26 refs)
+Inspec controlled terms: distributed processing - middleware - software architecture
+Uncontrolled terms: architectural connection - complex distributed systems - layered connector synthesis - heterogeneous middleware - application protocols - component interaction analysis - formal approach - formal semantics - heterogeneous components - collaborative emergency management
+Classification Code: C6190Z Other distributed systems software - C6110B Software engineering techniques - C6110F Formal methods
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+49. Service Development and Architecture Management for an Enterprise SOA
+Kriechbaum, T. (1); Buchgeher, G. (2); Weinreich, R. (3)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 186-201, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_17; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) RACON Software GmbH, Austria (2) Software Competence Center Hagenberg, Austria (3) Johannes Kepler Univ. Linz, Linz, Austria
+Abstract: We report on service development and architecture management practices for an enterprise SOA in the financial domain. First we describe how services are currently developed by one of the largest service providers for the financial domain in Austria. Then we show how we have introduced various practices and tools for architecture management over the last years. We have specifically implemented support for architecture extraction, architecture visualization, automatic architecture analysis, and architecture reviews as part of quality gates in the service development process. Finally, we report on lessons learned both in the area of service development and architecture management as well as on existing challenges and future work in this area. (10 refs)
+Inspec controlled terms: financial data processing - program diagnostics - program visualisation - service-oriented architecture
+Uncontrolled terms: architecture management - enterprise SOA - financial domain - service providers - Austria - architecture extraction - architecture visualization - automatic architecture analysis - architecture reviews - service development process - service-oriented architecture
+Classification Code: C7120 Financial computing - C6110B Software engineering techniques - C6150G Diagnostic, testing, debugging and evaluating systems - C6115 Programming support - C0310F Software management
+IPC Code: G06F9/44 - G06F11/36 - G06Q30/00 - G06Q40/00
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+50. Effort estimation for architectural refactoring to introduce module isolation
+O�ztu�rk, F. (1); Sarili, E. (1); So�zer, H. (2); Aktemur, B. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 300-7, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_26; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Vestel Electron., Manisa, Turkey (2) Dept. of Comput. Sci., Ozyegin Univ., Istanbul, Turkey
+Abstract: The decomposition of software architecture into modular units is driven by both functional and quality concerns. Dependability and security are among quality concerns that require a software to be decomposed into separate units isolated from each other. However, it appears that this decomposition is usually not aligned with the decomposition based on functional concerns. As a result, introducing module isolation forced by quality attributes, while preserving the existing decomposition, is not trivial and requires a substantial refactoring effort. In this work, we introduce an approach and a toolset to predict this effort prior to refactoring activities. As such, a selection can be made among potential decomposition alternatives based on quantitative estimations. These estimations are obtained from scalable analysis of module dependencies based on a graph database and reusable query templates. We discuss our experiences and evaluate our approach on a code base used in a commercial Digital TV and Set-top Box software. (15 refs)
+Inspec controlled terms: digital television - graph theory - program diagnostics - query processing - set-top boxes - software architecture - software maintenance - software quality - software reusability
+Uncontrolled terms: architectural refactoring - effort estimation - module isolation - software architecture decomposition - modular units - quality concerns - functional concerns - quality attributes - quantitative estimations - scalable analysis - module dependency - graph database - reusable query templates - code base - commercial digital TV software - set-top box software
+Classification Code: C6110B Software engineering techniques - C6150G Diagnostic, testing, debugging and evaluating systems - C7410F Communications computing
+IPC Code: G06F9/44 - G06F11/36 - H04B5/00 - H04N5/44 - H04N21/40
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+51. Specification and Detection of SOA Antipatterns in Web Services
+Palma, F. (1); Moha, N. (2); Tremblay, G. (2); Gue�he�neuc, Y.-G. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 58-73, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_6; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) DGIGL, Ecole Polytech. de Montreal, Montreal, QC, Canada (2) Dept. d�Inf., Univ. du Quebec a Montreal, Montreal, QC, Canada
+Abstract: Service Based Systems, composed of Web Services (WSs), offer promising solutions to software development problems for companies. Like other software artefacts, WSs evolve due to the changed user requirements and execution contexts, which may introduce poor solutions-Antipatterns-may cause (1) degradation of design and quality of service (QoS) and (2) difficult maintenance and evolution. Thus, the automatic detection of antipatterns in WSs, which aims at evaluating their design and QoS requires attention. We propose SODA-W (Service Oriented Detection for Antipatterns in Web services), an approach supported by a framework for specifying and detecting antipatterns in WSs. Using SODA-W, we specify ten antipatterns, including God Object Web Service and Fine Grained Web Service, and perform their detection in two different corpora: (1) 13 weather-related and (2) 109 financial-related WSs. SODA-W can specify and detect antipatterns in WSs with an average precision of more than 75% and a recall of 100%. (22 refs)
+Inspec controlled terms: formal specification - object-oriented methods - quality of service - service-oriented architecture - Web services
+Uncontrolled terms: SOA antipattern detection - SOA antipattern specification - service-based systems - software development problems - software artefacts - design degradation - quality of service - QoS - automatic antipattern detection - SODA-W - service oriented detection for antipatterns in Web services - God Object Web Service - Fine Grained Web Service - weather-related WS - financial-related WS
+Classification Code: C6190J Internet software - C6110B Software engineering techniques - C6110F Formal methods
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+52. Generating EAST-ADL Event Chains from Scenario-based Requirements Specifications
+Koch, T. (1); Holtmann, J. (1); DeAntoni, J. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 146-53, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_14; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Project Group Mechatron. Syst. Design, Fraunhofer IPT, Paderborn, Germany (2) Univ. Nice Sophia Antipolis, Sophia Antipolis, France
+Abstract: Real-time software-intensive embedded systems complexity, as in the automotive domain, requires rigorous Requirements Engineering (RE) approaches. Scenario-based RE formalisms like Modal Sequence Diagrams (MSDs) enable an intuitive specification and the simulative validation of functional requirements. However, the dependencies between events occurring in different MSD scenarios are implicit so that it is difficult to find causes of requirements defects, if any. The automotive architecture description language EAST-ADL addresses this problem by relying on event chains, which make dependencies between events explicit. However, EAST-ADL event chains have a low abstraction level, and their relationship to functional requirements has seldom been investigated. Based on the EAST-ADL functional architecture, we propose to use its central notion of event to conciliate both approaches. We conceived an automatic transformation from the high abstraction level requirements specified in MSDs to the low abstraction level event chains. (17 refs)
+Inspec controlled terms: embedded systems - formal specification - programming languages - software architecture - traffic engineering computing
+Uncontrolled terms: EAST-ADL event chain generation - scenario-based requirement specifications - real-time software-intensive embedded system complexity - automotive domain - requirements engineering approach - scenario-based RE formalism approach - modal sequence diagrams - MSDs - automotive architecture description language - EAST-ADL functional architecture - low abstraction level event chains
+Classification Code: C7445 Traffic engineering computing - C6140 Programming languages - C6110F Formal methods - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+53. Enactment of components extracted from an object-oriented application
+Seriai, A. (1); Sadou, S. (1); Sahraoui, H.A. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 234-49, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_22; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) IRISA, Univ. de Bretagne Sud, Vannes, France (2) DIRO, Univ. de Montreal, Montre�al, QC, Canada
+Abstract: Software architecture plays an important role for the application understanding before its maintenance. Unfortunately, for legacy systems code often there is no corresponding (or up to date) architecture. So, several work tackle this problem by extracting components from the legacy system and define their links. Although these components allow to get an architectural view of the legacy system, they still can�t be easily implemented in a concrete framework. In fact, restructuring completely the legacy system facilitates the mapping between the architectural elements and their corresponding ones in the code. This paves the way to the future maintenance of the system. Our approach aims to reach this complete restructuring. Thus it goes beyond what exists in the state of the art by proposing a technique that makes components extracted from object-oriented applications implementable within a concrete component model. This is done by using class instances that compose the extracted components to infer possible instances the components. Thus, we propose for each extracted component its provided and required interfaces, and a way to construct its instances. We validated the feasibility of the proposed approach through the Spring framework and we illustrated it through a legacy Java application. (19 refs)
+Inspec controlled terms: object-oriented programming - software architecture - software maintenance
+Uncontrolled terms: object-oriented programming - component extraction enactment - software architecture - legacy system code - architectural elements - system maintenance - concrete component model - Spring framework - legacy Java application
+Classification Code: C6110J Object-oriented programming - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+54. Architecture Strategies for Cyber-Foraging: Preliminary Results from a Systematic Literature Review
+Lewis, G.A. (1); Lago, P. (2); Procaccianti, G. (2)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 154-69, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_15; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Carnegie Mellon Software Eng. Inst., United States (2) VU Univ. Amsterdam, Amsterdam, Netherlands
+Abstract: Mobile devices have become for many the preferred way of interacting with the Internet, social media and the enterprise. However, mobile devices still do not have the computing power and battery life that will allow them to perform effectively over long periods of time or for executing applications that require extensive communication or computation, or low latency. Cyber-foraging is a technique to enable mobile devices to extend their computing power and storage by offloading computation or data to more powerful servers located in the cloud or in single-hop proximity. This paper presents the preliminary results of a systematic literature review (SLR) on architectures that support cyber-foraging. The preliminary results show that this is an area with many opportunities for research that will enable cyber-foraging solutions to become widely adopted as a way to support the mobile applications of the present and the future. (67 refs)
+Inspec controlled terms: cloud computing - mobile computing - network servers - power aware computing - software architecture
+Uncontrolled terms: architecture strategies - mobile devices - computing power - computing storage - computation offloading - data offloading - cloud servers - single-hop proximity - systematic literature review - SLR - cyber-foraging solutions - mobile applications - battery life
+Classification Code: C6190J Internet software - C6110B Software engineering techniques - C6190V Mobile, ubiquitous and pervasive computing
+IPC Code: G06F1/32 - G06F9/44
+Treatment: Bibliography (BIB) - Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+55. Towards a Process to Design Architectures of Service-Oriented Robotic Systems
+Bueno Ruas Oliveira, L. (1); Leroux, E. (2); Romero Felizardo, K. (1); Oquendo, F. (2); Nakagawa, E.Y. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 218-25, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_20; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Dept. of Comput. Syst., Univ. of Sao Paulo - USP, Sa�o Carlos, Brazil (2) IRISA Res. Inst., Univ. of South Brittany, Vannes, France
+Abstract: Robots have supported several areas of society, making daily tasks easier and executing dangerous, complex activities. The increasing demand and complexity of these robots have challenged the design of robotic systems, i.e., the software systems that manage robots. In this context, Service-Oriented Architecture (SOA) has been pointed out as a promising architectural style to structure such systems, arising the Service-Oriented Robotic Systems (SORS). However, most of software architectures of SORS are still developed in an ad hoc manner. This lack of maturity reduces the potential of SOA in providing important quality attributes, such as reusability and maintainability, therefore affecting the overall quality of these systems. This paper presents ArchSORS, a systematic process that supports the design of software architectures for SORS. Experiment results have pointed out that ArchSORS can produce architectures with more quality, thus contributing to robotics and the areas of society that have gained with the use of robots. (11 refs)
+Inspec controlled terms: robots - service-oriented architecture - software maintenance - software quality - software reusability
+Uncontrolled terms: design architectures - service-oriented robotic systems - robot management - service-oriented architecture - SOA - software architectures - software quality attributes - software maintainability - software reusability - ArchSORS software architectures
+Classification Code: C3390 Robotics - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+56. Multi-tenant Architecture Comparison
+Kabbedijk, J. (1); Pors, M. (1); Jansen, S. (1); Brinkkemper, S. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 202-9, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_18; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Dept. of Inf. & Comput. Sci., Utrecht Univ., Utrecht, Netherlands
+Abstract: Software architects struggle to choose an adequate architectural style for multi-tenant software systems. Bad choices result in poor performance, low scalability, limited flexibility, and obstruct software evolution. We present a comparison of 12 Multi-Tenant Architecture (MTA) patterns that supports architects in choosing the most suitable architectural pattern, using 17 assessment criteria. Both patterns and criteria were evaluated by domain experts. Five architecture assessment rules of thumb are presented in the paper, aimed at making fast and efficient design decisions. The comparison provides architects with an effective method for selecting the applicable multi-tenant architecture pattern, saving them effort, time, and mitigating the effects of making wrong decisions. (14 refs)
+Inspec controlled terms: software architecture
+Uncontrolled terms: multitenant software architecture - multitenant software systems - software evolution - MTA patterns - assessment criteria - architecture assessment rules - design decisions - multitenant architecture pattern
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+57. A fresh look at codification approaches for SAKM: A systematic literature review
+Weinreich, R. (1); Groher, I. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 1-16, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_1; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Johannes Kepler Univ. Linz, Linz, Austria
+Abstract: The last 10 years have seen a rise of approaches for Software Architecture Knowledge Management (SAKM), with a focus on codification of architecture knowledge. Still there is no common meta-model for describing architectural knowledge nor is there a common terminology for the main concepts of such a model. While this might lead to the question whether such a common meta-model is even possible, it is certainly desirable. We decided to tackle this question based on the results of 10 years of research in this area. As part of a systematic literature survey we analyzed and compared model-based approaches for SAKM. Specifically we analyzed the models of SAKM approaches with the highest-rated evidence for different knowledge management activities like capturing, maintaining, reuse, sharing, and using. As a result we identified important aims and elements of proven SAKM approaches, which could be used as a driver for the next generation of AK codification approaches. (31 refs)
+Inspec controlled terms: knowledge management - software architecture - software management
+Uncontrolled terms: codification approaches - software architecture knowledge management - systematic literature review - model-based approaches - SAKM approaches - knowledge management activities - capturing activities - maintaining activities - reuse activities - sharing activities - using activities
+Classification Code: C0310F Software management - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+58. Integrating service matchers into a service market architecture
+Platenius, M.C. (1); Becker, S. (1); Scha�fer, W. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 210-17, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_19; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Software Eng. Group, Univ. of Paderborn, Paderborn, Germany
+Abstract: Service markets provide software components in the form of services. In order to enable a service discovery that satisfies service requesters and providers best, markets need automatic service matching: approaches for comparing whether a provided service satisfies a service request. Current markets, e.g., app markets, are limited to basic keyword-based search although many better suitable matching approaches are described in literature. However, necessary architectural decisions for the integration of matchers have a huge impact on quality properties like performance or security. Architectural decisions wrt. service matchers have rarely been discussed, yet, and systematic approaches for their integration into service markets are missing. In this paper, we present a systematic integration approach including the definition of requirements and a discussion on architectural tactics. As a benefit, the decision-making process of integrating service matchers is supported and the overall market success can be improved. (15 refs)
+Inspec controlled terms: decision making - object-oriented programming - software architecture - software quality
+Uncontrolled terms: service matchers - service market architecture - software components - service discovery - service requesters - service providers - automatic service matching - keyword-based search - architectural decisions - quality impact - systematic integration approach - architectural tactics - decision making process
+Classification Code: C6110B Software engineering techniques - C0310F Software management
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+59. Co-evolving Pattern Synthesis and Class Responsibility Assignment in Architectural Synthesis
+Yongrui Xu (1); Peng Liang (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 74-81, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_7; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) State Key Lab. of Software Eng., Wuhan Univ., Wuhan, China
+Abstract: Architectural synthesis (AS) activity plays a key role in architecture design as it essentially links the problem to the solution space. To reuse successful design experience, architects may use architectural patterns in AS to generate candidate solutions. In a pattern-based AS, there are two challenges: one is class responsibility assignment (CRA) when using specific patterns and the other is pattern synthesis which attempts to avoid the pattern constraint violations. In this paper, we propose a cooperative coevolution approach to assign class responsibility and synthesize pattern automatically in a pattern-based AS. We formally translate the problem of the automated pattern-based AS into a multi-objective optimization problem, and describe the approach in detail. (12 refs)
+Inspec controlled terms: evolutionary computation - software architecture
+Uncontrolled terms: co-evolving pattern synthesis - class responsibility assignment - architecture design - architectural pattern sythesis - CRA - pattern constraint violations - cooperative coevolution approach - automated pattern-based AS - multiobjective optimization problem - software-intensive system - software architecture
+Classification Code: C6110B Software engineering techniques - C1180 Optimisation techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA) - Theoretical or Mathematical (THR)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+60. RA-Ubi: A reference architecture for ubiquitous computing
+Machado, C.A. (1); Silva, E. (2); Batista, T. (2); Leite, J. (2); Nakagawa, E. (3)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 98-105, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_10; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Fed. Univ. of Paraiba, Joa�o Pessoa, Brazil (2) Fed. Univ. of Rio Grande do Norte, Natal, Brazil (3) Univ. of Sao Paulo, Sa�o Carlos, Brazil
+Abstract: Successful ubiquitous systems need to integrate several underlying technologies including different operating systems, advanced middleware, several Internet protocols, sensors, actuators, I/O drivers and many others elements. This scenario means that ubiquitous systems software should cope with different kinds of software/hardware components, programming languages, and interaction protocols. In order to easy software development in this heterogeneous context, software architecture elements provide high abstractions that hide the details of specific platforms. However, a clear and common understanding of the elements that compose a ubiquitous system architecture and their relationship is still missing. Reference Architectures have been used to provide a common ground and to give directions for the construction of software architectures for different classes of systems. In this paper, we propose RA-Ubi, a reference architecture for ubiquitous systems that was build based on PROSA-SA, a process for the establishment of new reference architectures. Following PROSA-SA�s steps, RA-Ubi defines the architectural requirements of ubiquitous systems by following the literature about this subject, applying literature systematic review technique. As main results, we present RA-Ubi reference architecture detailing the role of each element and their relationships. (12 refs)
+Inspec controlled terms: software architecture - ubiquitous computing
+Uncontrolled terms: literature systematic review technique - PROSA-SA steps - reference architecture for ubiquitous systems - ubiquitous system architecture - software architecture elements - software development - interaction protocols - programming languages - software-hardware components - ubiquitous system software - I/O drivers - actuators - sensors - Internet protocols - advanced middleware - operating systems
+Classification Code: C6190V Mobile, ubiquitous and pervasive computing - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+61. A consistency framework for dynamic reconfiguration in AO-middleware architectures
+Surajbali, B. (1); Grace, P. (2); Coulson, G. (3)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 398-405, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_34; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) Smart Res. Dev. Centre, CAS Software AG, Karlsruhe, Germany (2) IT Innovation, Univ. of Southampton, Southampton, United Kingdom (3) Sch. of Comput. & Commun., Lancaster Univ., Lancaster, United Kingdom
+Abstract: Aspect-oriented (AO) middleware is a promising technology for the realisation of dynamic reconfiguration in distributed systems. Similar to other dynamic reconfiguration approaches, AO-middleware based reconfiguration requires that the consistency of the system is maintained across reconfigurations. AO middleware based reconfiguration is an ongoing research topic and several consistency approaches have been proposed. However, most of these approaches tend to be targeted at specific narrow contexts, whereas for heterogeneous distributed systems it is crucial to cover a wide range of operating conditions. In this paper we address this problem by exploring a flexible, framework-based consistency management approach that cover a wide range of operating conditions ensuring distributed dynamic reconfiguration in a consistent manner for AO-middleware architectures. (15 refs)
+Inspec controlled terms: aspect-oriented programming - middleware - software architecture
+Uncontrolled terms: consistency framework - AO-middleware architectures - aspect-oriented middleware - system consistency - AO middleware-based reconfiguration - heterogeneous distributed systems - operating conditions - framework-based consistency management - distributed dynamic reconfiguration
+Classification Code: C6190Z Other distributed systems software - C6110B Software engineering techniques - C6110J Object-oriented programming
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+62. Towards a Coordination-Centric Architecture Metamodel for Social Web Applications
+Musil, J. (1); Musil, A. (1); Biffl, S. (1)
+Source: Software Architecture. 8th European Conference (ECSA 2014). Proceedings: LNCS 8627, p 106-13, 2014; ISBN-13: 978-3-319-09969-9; DOI: 10.1007/978-3-319-09970-5_11; Conference: Software Architecture. 8th European Conference (ECSA 2014), 25-29 Aug. 2014, Vienna, Austria; Publisher: Springer International Publishing, Cham, Switzerland
+Author affiliation: (1) CDL-Flex, Inst. of Software Technol. & Interactive Syst., Vienna Univ. of Technol., Vienna, Austria
+Abstract: Social web applications like wikis, social networks, and crowdsourcing markets have provided people with new dynamic forms of communication and collaboration. Although communities have widely adopted these systems, the methodological support for their architecting is still at the beginning. Since social web applications are mediation environments for human interaction, environment-based coordination models like stigmergy have increased in relevance. Therefore, we propose the concept of a Stigmergic Information System (SIS) architecture metamodel, which embeds a stigmergy-like coordination model. The metamodel defines key system elements and organizes a system into four layers: agent, artifact data, analysis & control and workflow. The metamodel should support the systematic investigation of common architecture elements, their relations and interdependencies, and future approaches for the description and modeling of social web applications. In this work we introduce the SIS architecture metamodel and evaluate the metamodel�s validity with preliminary results from a pilot survey on groupware systems. (19 refs)
+Inspec controlled terms: groupware - human computer interaction - information systems - Internet - social sciences computing - software architecture
+Uncontrolled terms: coordination-centric architecture metamodel - social Web applications - mediation environments - human interaction - environment-based coordination models - stigmergic information system - SIS architecture metamodel - stigmergy-like coordination model - artifact data - groupware systems
+Classification Code: C7810 Social and behavioural sciences computing - C7210N Information networks - C6110B Software engineering techniques - C6130G Groupware
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2014, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+77. Layered connectors revisiting the formal basis of architectural connection for complex distributed systems
+Bennaceur, Amel (1); Issarny, Val�rie (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 8627 LNCS, p 283-299, 2014, Software Architecture - 8th European Conference, ECSA 2014, Proceedings; ISSN: 03029743, E-ISSN: 16113349; ISBN-13: 9783319099699; DOI: 10.1007/978-3-319-09970-5-25; Conference: 8th European Conference on Software Architecture, ECSA 2014, August 25, 2014 - August 29, 2014; Publisher: Springer Verlag
+Author affiliation: (1) Open University, Milton Keynes, United Kingdom (2) Inria Paris-Rocquencourt, France
+Abstract: The complex distributed systems of nowadays require the dynamic composition of multiple components, which are autonomous and so complex that they can be considered as systems in themselves. These components often use different application protocols and are implemented on top of heterogeneous middleware, which hamper their successful interaction. The explicit and rigorous description and analysis of components interaction is essential in order to enable the dynamic composition of these components. In this paper, we propose a formal approach to represent and reason about interactions between components using layered connectors. Layered connectors describe components interaction at both the application and middleware layers and make explicit the role of middleware in the realisation of this interaction. We provide formal semantics of layered connectors and present an approach for the synthesis of layered connectors in order to enable the dynamic composition of highly heterogeneous components. We validate our approach through a case study in the area of collaborative emergency management. � 2014 Springer International Publishing Switzerland. (26 refs)
+Main heading: Middleware
+Controlled terms: Risk management - Semantics - Software architecture
+Uncontrolled terms: Application protocols - Architectural mismatches - Complex distributed system - Component interaction - Components interaction - Dynamic composition - Emergency management - Heterogeneous component
+Classification Code: 723.1 Computer Programming - 903.2 Information Dissemination - 922.1 Probability Theory
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+90. Towards a dynamic infrastructure for playing with systems of systems
+Schneider, Jean-Philippe (1); Teodorov, Ciprian (1); Senn, Eric (2); Champeau, Jo�l (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642834; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) ENSTA Bretagne, 2 rue Fran�ois Verny, 29806 Brest Cedex 9, France (2) Universit� Bretagne Sud, Rue de Saint-Maud�, 56321 Lorient Cedex, France
+Abstract: Systems of systems (SoS) are assemblies of systems working together to achieve a common goal. Each integrated system keeps its own project management and ability to work outside the SoS. Designing a SoS implies the ability to integrate design data coming from multiple sources most of the time in a heterogeneous design environment, involving a wide range of application domains, professions, methodologies and communication means. To define such systems, it is crucial to define an architecture that takes in account the functionalities required by all the stakeholders, and to enable their simulation as a mean to provide the stakeholders with a global view of a SoS before deployment. In this paper, we define some principles that drive the development of a new functional architecture simulator in the context of SoS engineering. To tame the heterogeneity of SoS components, design tools, and methodologies, we sketch a new model-transformation approach that unifies parsing and model transformation. � 2014 ACM. (15 refs)
+Main heading: Systems engineering
+Controlled terms: Computer simulation - Design - Digital storage - Project management - Software architecture
+Uncontrolled terms: Design environment - Dynamic infrastructure - Functional architecture - Integrated systems - Model transformation - Model-based system engineerings - Simulation - Systems of systems
+Classification Code: 408 Structural Design - 722.1 Data Storage, Equipment and Techniques - 723.5 Computer Applications - 912 Industrial Engineering and Management - 912.2 Management - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+91. Architectural concepts for federated embedded systems
+Axelsson, Jakob (1); Kobetski, Avenir (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2647716; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Swedish Institute of Computer Science (SICS), SE-164 29 Kista, Sweden
+Abstract: Federated embedded systems (FES) is an approach for systems-of-systems engineering in the domain of cyber-physical systems. It is based on the idea to allow dynamic addition of plug-in software in the embedded system of a product, and through communication between the plug-ins in different products, it becomes possible to build services on the level of a federation of products. In this paper, architectural concerns for FES are elicited, and are used as rationale for a number of decisions in the architecture of products that are enabled for FES, as well as in the application architecture of a federation. A concrete implementation of a FES from the automotive domain is also described, as a validation of the architectural concepts presented. � 2014 ACM. (21 refs)
+Main heading: Embedded systems
+Controlled terms: Software architecture
+Uncontrolled terms: Application architecture - Architectural concepts - Automotive domains - Cyber physical systems (CPSs) - Plug-in softwares - System architectures - Systems-of-systems
+Classification Code: 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+92. Hierarchical combination of internal and external domain-specific languages for scientific computing
+Johanson, Arne N. (1, 2); Hasselbring, Wilhelm (1, 2)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642820; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Software Engineering Group, Kiel University, Germany (2) Helmholtz Research School for Ocean System Science and Technology (HOSST), GEOMAR - Helmholtz Centre for Ocean Research, Kiel, Germany
+Abstract: To adapt established methods of software engineering for scientific computing, we propose a software development approach for interdisciplinary teams of scientists called Sprat. The approach is organized around a hierarchical architecture that combines internal and external domain-specific languages (DSLs). For its evaluation, Sprat is employed in the implementation of a marine ecosystem model. We highlight what is to be observed while integrating the DSLs into the hierarchy in order to enable a successful cooperation of scientists in interdisciplinary teams as well as to achieve a maintainable code base. � 2014 ACM. (21 refs)
+Main heading: Software design
+Controlled terms: Ecosystems - Problem oriented languages - Software architecture
+Uncontrolled terms: Domain specific languages - Domain-specific architectures - Hierarchical architectures - Interdisciplinary teams - ITS evaluation - Marine ecosystem - Software development approach
+Classification Code: 454.3 Ecology and Ecosystems - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+93. The reality of an associate model: Comparing partner activity in the eclipse ecosystem
+Aarnoutse, Floor (1); Renes, Cassandra (1); Snijders, Remco (1); Jansen, Slinger (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642811; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Utrecht University, Princetonplein 5, 3584 CC Utrecht, Netherlands
+Abstract: Two determinants of software ecosystem health are productivity of and value creation by the actors in the ecosystem. While keystone players use partnership models to orchestrate actors, the relationship between the type of partnership and activity has not been studied. To address this gap, we have researched the partnership model of the Eclipse Ecosystem and the activity of different types of partners. We have used Eclipse Dash and GitHub to gather data about the activity of Eclipse partners. The results show that a higher level of membership is related to more activity. However, it is also observed that non-member companies are more active than associate members, which suggests that Eclipse can and should improve their partnership model by motivating associate members and incorporating active non-member companies. In addition, other software ecosystems could use these results and implications to improve their own partnership models. � 2014 ACM. (13 refs)
+Main heading: Ecosystems
+Controlled terms: Software architecture
+Uncontrolled terms: Associate model - Eclipse - Membership - Partnership models - Software ecosystems - Value creation
+Classification Code: 454.3 Ecology and Ecosystems - 723.1 Computer Programming
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+94. Supporting software evolution by integrating DSL-based architectural abstraction and understandability related metrics
+Stevanetic, Srdjan (1); Haitzer, Thomas (1); Zdun, Uwe (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642822; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Software Architecture Research Group, University of Vienna, Austria
+Abstract: Software architecture erosion and architectural drift are well known software evolution problems. While there exist a number of approaches to address these problems, so far in these approaches the understandability of the resulting architectural models (e.g., component models) is seldom studied. However, reduced understandability of the architectural models might lead to problems similar to architecture erosion and architectural drift. To address this problem, we propose to extend our existing DSL-based architecture abstraction approach with empirically evaluated understandability metrics. While the DSL-based architecture abstraction approach enables software architects to keep source code and architecture consistent, the understandability metrics extensions enables them, while working with the DSL, to continuously judge the understandability of the architectural component models they create with the DSL. We studied the applicability of our approach in a case study of an existing open source system. � 2014 ACM. (25 refs)
+Main heading: Open systems
+Controlled terms: Abstracting - DSL - Erosion - Open source software - Software architecture
+Uncontrolled terms: Architectural Abstraction - Architectural components - Empirical evaluations - Software Evolution - Software metrics - Understandability
+Classification Code: 407 Maritime and Port Structures; Rivers and Other Waterways - 483 Soil Mechanics and Foundations - 716 Telecommunication; Radar, Radio and Television - 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications - 903.1 Information Sources and Analysis
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+95. A tool for security metrics modeling and visualization
+Latvala, Outi-Marja (1); Toivonen, Jyri (1); Kuusij�rvi, Jarkko (1); Evesti, Antti (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642806; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) VTT Technical Research Centre of Finland, Kaitov�yl� 1, 90571 Oulu, Finland
+Abstract: Measuring the security level of an information system to acquire reliable perception of its state requires the use of various different security metrics that can provide extensive security evidence of the system. Visualization can then be used to facilitate the management of the security metrics and measurements and to enhance understanding on their relationships. This paper introduces a tool for modeling and monitoring the security state of a system and focuses on the visualization aspects of the tool. The security metrics of a system are organized hierarchically in the tool, so that more general and conceptual security metrics on the higher levels are connected to detailed, low-level measurements. The tool helps bring meaningfulness to the security metrics and helps the user be more aware of the security state of the system during runtime use of the tool. By having organized security evidence from high-level objectives to low-level measurements the user is able to act on the security incidents more proficiently. � 2014 ACM. (15 refs)
+Main heading: Visualization
+Controlled terms: Flow visualization - Level measurement - Software architecture
+Uncontrolled terms: Cyber security - Low-level measurements - Runtimes - Security incident - Security level - Security metrics - Situation awareness
+Classification Code: 631.1 Fluid Flow, General - 723.1 Computer Programming - 902.1 Engineering Graphics - 943.2 Mechanical Variables Measurements
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+96. Probabilistic macro-architectural decision framework
+Petrov, Plamen (1); Nord, Robert L. (2); Buy, Ugo (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642830; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Department of Computer Science, University of Illinois at Chicago, Chicago, IL, United States (2) Software Engineering Institute, Carnegie Mellon University, Pittsburgh, PA, United States
+Abstract: Experience with system-level concerns demonstrates that fitness for context is a consideration that is equally significant in making architectural decisions as is fitness for purpose. This requires architects to consider contextual factors in making decisions. These decisions are probabilistic in nature and they represent the subjective belief of the architect or the prior probability which is likely to change as new evidence becomes available during the course of the system design. They serve as recommendations and directional inputs to other decisions in the design process. In this paper, we introduce a macro-architectural decision framework we developed to enable the architect for a software-reliant system to model and reason about contextual factors. At the core of our framework is an adaptation of a Bayesian belief network that is augmented with decision and utility nodes. The framework captures contextual factors and their influence on decisions and utilities. We applied our approach in the study of a software system implementation at a healthcare company. The results show promise that such decision support tools help explore the space of factors involved in decision making and provide sensible suggestions for making architectural decisions. � 2014 ACM. (12 refs)
+Main heading: Macros
+Controlled terms: Bayesian networks - Computer systems - Curricula - Decision making - Decision support systems - Industry - Network architecture - Software architecture
+Uncontrolled terms: Architecture decisions - Bayesian nets - Contextual factors - Decision network - Influence diagram - macro-architecture - Probabilistic graphical models
+Classification Code: 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications - 723.1 Computer Programming - 901.2 Education - 911 Cost and Value Engineering; Industrial Economics - 912 Industrial Engineering and Management - 912.2 Management - 913 Production Planning and Control; Manufacturing - 921.4 Combinatorial Mathematics, Includes Graph Theory, Set Theory
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+97. Domain specific language for deployment of parallel applications on parallel computing platforms
+Arkin, Ethem (1); Tekinerdogan, Bedir (2)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642819; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Aselsan, MGEO Division, Etlik, 06011 Ankara, Turkey (2) Bilkent University, Computer Engineering Department, Bilkent, 06800 Ankara, Turkey
+Abstract: To increase the computing performance the current trend is towards applying parallel computing in which parallel tasks are executed on multiple nodes. The deployment of tasks on the computing platform usually impacts the overall performance and as such needs to be modelled carefully. In the architecture design community the deployment viewpoint is an important viewpoint to support this mapping process. In general the derived deployment views are visual notations that are not amenable for run-time processing, and do not scale well for deployment of large scale parallel applications. In this paper we propose a domain specific language (DSL) for modeling the deployment of parallel applications and for providing automated support for the deployment process. The DSL is based on a metamodel that is derived after a domain analysis on parallel computing. We illustrate the application of the DSL for a traffic simulation system and provide a set of important scenarios for using the DSL. � 2014 ACM. (34 refs)
+Main heading: Parallel architectures
+Controlled terms: Computer programming languages - Parallel processing systems - Software architecture
+Uncontrolled terms: Architecture designs - Computing performance - Deployment - Domain specific languages - Parallel application - Parallel computing platform - Software languages - Traffic simulations
+Classification Code: 722 Computer Systems and Equipment - 722.4 Digital Computers and Systems - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+98. Exploring collective DSL integration in a large situated IS: Towards comprehensive language integration in information systems
+Aram, Michael (1); Neumann, Gustaf (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642823; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Institute for Information Systems and New Media, Vienna University of Economics and Business (WU Vienna), Welthandelsplatz 1, 1020 Vienna, Austria
+Abstract: In large situated information system instances, a great variety of stakeholders interact with each other via technology, constantly shaping and refining the information system. In the course of such a system�s history, a range of domain-specific languages may have been incorporated. These language means are often not sufficiently integrated on an ontological level leading to syntactical and conceptual redundancies and impeding a shared understanding of the systems� functionalities. In this paper, we present our ambitions towards a language integration approach that aims at mitigating this problem. We exemplify it in the context of an existing educational information system instance. � 2014 ACM. (39 refs)
+Main heading: Integration
+Controlled terms: DSL - Information systems - Problem oriented languages - Semantics - Software architecture
+Uncontrolled terms: Domain specific languages - Enterprise wiki - Language integration - Shared understanding - Via technologies
+Classification Code: 716 Telecommunication; Radar, Radio and Television - 723 Computer Software, Data Handling and Applications - 903.2 Information Dissemination - 921.2 Calculus
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+99. A quantitative analysis of developer information needs in software ecosystems
+Haenni, Nicole (1); Lungu, Mircea (1); Schwarz, Niko (1); Nierstrasz, Oscar (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642815; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) University of Bern, Switzerland
+Abstract: We present the results of an investigation into the nature of information needs of software developers who work in projects that are part of larger ecosystems. This work is based on a quantitative survey of 75 professional software developers. We corroborate the results identified in the survey with needs and motivations proposed in a previous survey and discover that tool support for developers working in an ecosystem context is even more meager than we thought: mailing lists and internet search are the most popular tools developers use to satisfy their ecosystem-related information needs. � 2014 ACM. (15 refs)
+Main heading: Ecosystems
+Controlled terms: Information science - Open source software - Open systems - Search engines - Software architecture - Surveys
+Uncontrolled terms: Internet searches - Mailing lists - Professional software - Program comprehension - programmer needs - Software developer - Software ecosystems - Tool support
+Classification Code: 454.3 Ecology and Ecosystems - 723 Computer Software, Data Handling and Applications - 903 Information Science - 903.1 Information Sources and Analysis
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+100. A multi-scale modelling perspective for SoS architectures
+Khlif, Ilhem (1); Kacem, Mohamed Hadj (2); Kacem, Ahmed Hadj (1); Drira, Khalil (3)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642833; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Research Laboratory ReDCAD, FSEGS, University of Sfax, Tunisia (2) Research Laboratory ReDCAD, ISIMS, University of Sfax, Tunisia (3) LAAS-CNRS, Univ. de Toulouse, France
+Abstract: Software architectures for System of Systems (SoS) is an important research area. The design of an SoS can be organized around a set of architectural transformation models. In this paper, we propose a multi-scale modeling approach for SoS architecture description mastering the description details complexity. The proposed design approach is founded on SysML (System modeling language) notations and uses block diagrams. The diagrams are subject to vertical and horizontal transformations for refinement, since reaching a fine-grain description representing the necessary details. The intermediate models provide a description with a given abstraction that allow the validation to be conducted significantly while remaining tractable w.r.t. complexity. The validation scope can involve intrinsic properties ensuring the model correctness w.r.t. SysML description (eg. interface compatibility). An SoS architecture will provide these intrinsic properties, to have a precise model of the SoS architecture (its constituents and the connections between them). We adopt a rule-oriented description technique. The rules manage the refinement process as a model transformation between the coarse-grain and the fine-grain descriptions. We experimented our approach by a case study modeling an Integrated Air Defense (IAD) SoS using SysML models. � 2014 ACM. (10 refs)
+Main heading: Systems engineering
+Controlled terms: Grain refinement - Software architecture
+Uncontrolled terms: Architectural transformation - Architecture description - Interface compatibilities - multi-scale descriptions - refinement - SySML notation - System modeling languages - System of systems
+Classification Code: 531.2 Metallography - 723.1 Computer Programming - 912 Industrial Engineering and Management - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+101. Deploy-DDS: Tool framework for supporting deployment architecture of data distribution service based systems
+Celik, Turgay (1); Koksal, Omer (2); Tekinerdogan, Bedir (3)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642838; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) MilSOFT Software Technologies, Ankara, Turkey (2) ASELSAN, Ankara, Turkey (3) Bilkent University, Dept. of Computer Engineering, Ankara, Turkey
+Abstract: Data Distribution Service (DDS) is the Object Management Group�s (OMG) new standard middleware after Common Object Request Broker Architecture (CORBA), which is becoming increasingly popular. One of the important problems in DDS Based Software Systems is the deployment configuration of DDS modules to the physical resources. In general, this can be done in many different ways whereby each deployment alternative will perform differently. Currently, the deployment configuration is decided after the coding phase and usually performed manually. For large configurations, finding the feasible deployment might require serious rework with costly and time consuming iterations. In this paper, we present the tool Deploy-DDS to support the selection and generation of deployment architectures of DDS based systems. The tool can be used to perform an evaluation during the design phase and generate the selected feasible configuration. � 2014 Authors. (10 refs)
+Main heading: Common object request broker architecture (CORBA)
+Controlled terms: Computer architecture - Information management - Middleware
+Uncontrolled terms: Data distribution services - Deployment architecture - Design phase - Object management groups - Physical resources - Research tools - Software systems
+Classification Code: 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications - 723.1 Computer Programming - 903.2 Information Dissemination
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+102. The merits of a meritocracy in open source software ecosystems
+Eckhardt, Evert (1); Kaats, Erwin (1); Jansen, Slinger (1); Alves, Carina (2)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642810; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Information and Computing Sciences, Utrecht University, Princetonplein 5, 3584 CC Utrecht, Netherlands (2) Center of Informatics, Federal University of Pernambuco, Recife, Brazil
+Abstract: The Eclipse open source ecosystem has grown from a small internal IBM project to one of the biggest Integrated Development Environments in the market. Open source communities and ecosystems do not follow the standard governance strategies typically used in large organizations. A meritocracy is a frequently occurring form of governance on different levels in open ecosystems. In this paper we investigate how this form of governance influences the health of projects within the Eclipse ecosystem in terms of the amount of commits within each month. We analyzed the hierarchy of Eclipse, how merits are conceptualized within the ecosystem and the effect of the appointments of mentors and project leads on the amount of commits. From our research, we can conclude that this system is not always as fair as it seems; merits are only a benefit in some cases. � 2014 ACM. (7 refs)
+Main heading: Ecosystems
+Controlled terms: Open source software - Open systems - Software architecture
+Uncontrolled terms: Ecosystem health - Integrated development environment - Large organizations - Meritocracy - Open source communities - Open sources - Software ecosystems
+Classification Code: 454.3 Ecology and Ecosystems - 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+103. Capturing and making architectural decisions: An open source online tool
+Tofan, Dan (1); Galster, Matthias (2)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642836; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) University of Groningen, Groningen, Netherlands (2) University of Canterbury, Christchurch, New Zealand
+Abstract: Architectural decisions (such as selecting patterns, technologies, or decomposing systems) and their rationale are a significant aspect of architectural knowledge. In this paper, we present a tool that helps architects capture tacit knowledge about architectural decisions. Furthermore, the tool helps architects and other stakeholders analyze decisions. Finally, the tool supports group decision making. The tool is based on theoretical and conceptual foundations created and evaluated in previous work. We developed the tool as a research tool in an academic environment, and we used the tool with industrial practitioners. The tool is web-based and available as an open source project. In this paper we highlight the underlying research contributions of the tool and show how research approaches and findings have been transferred into a working tool. � 2014 Authors. (19 refs)
+Main heading: Knowledge based systems
+Controlled terms: Decision making - Industrial research - Open source software - Software architecture - Tools
+Uncontrolled terms: Academic environment - Architectural decision - Architectural knowledge - Conceptual foundations - Group Decision Making - Industrial practitioners - Open source projects - Research approach
+Classification Code: 603 Machine Tools - 605 Small Tools and Hardware - 723 Computer Software, Data Handling and Applications - 912.1 Industrial Engineering - 912.2 Management
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+104. Using relax operators into an mde security requirement elicitation process for systems of systems
+Belloir, Nicolas (1); Chiprianov, Vanea (2); Ahmad, Manzoor (1); Munier, Manuel (2); Gallon, Laurent (2); Bruel, Jean-Michel (3)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642835; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) LIUPPA, University of Pau, BP1155, 640014 Pau, France (2) LIUPPA, University of Pau, BP 201, 40004 Mont-de-Marsan, France (3) CNRS/IRIT, Toulouse University, F-31062 Toulouse, France
+Abstract: Systems of systems (SoS) are large-scale systems composed of complex systems with difficult to elicit and model emergent properties. One of the most significant challenges in the engineering of such systems is how to elicit their non-functional requirements such as security. In this proposal paper we introduce a Model Driven Engineering (MDE) security requirement process for SoS. It is based on the Relax language to define invariant and relaxed security requirements. This enables taking into account security concerns early in the requirements phase of the SoS. We illustrate our process on a maritime safety and security case study. � 2014 ACM. (18 refs)
+Main heading: Systems engineering
+Controlled terms: Large scale systems - Requirements engineering - Software architecture
+Uncontrolled terms: MDE - Model-driven Engineering - Non-functional requirements - Requirement engineering - Requirements phase - Security - Security requirements - Systems of systems
+Classification Code: 723 Computer Software, Data Handling and Applications - 912 Industrial Engineering and Management - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+106. Supporting architects in mastering the complexity of open software ecosystems
+Knodel, Jens (1); Naab, Matthias (1); Rost, Dominik (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642816; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Fraunhofer Institute for Experimental Software Engineering, Fraunhofer-Platz 1, 67663 Kaiserslautern, Germany
+Abstract: Software ecosystems define a new class of systems where multiple organizations contribute in form of an open software system and its extensions. In this position paper, we characterize business, organizational, and in particular technical challenges, which the architect of such an open ecosystem has to address. One key challenge we identified is how to retain certain system qualities under the influence of multiple external system extensions. We provide an initial template with factors and potential values helping an architect in characterizing the open software system and its environment. Furthermore, we illustrate an open system by a fictional scenario from the agricultural domain. The discussion of the challenges, the characterization template and the example are significant steps towards a systematic engineering method establishing open ecosystems. � 2014 ACM. (17 refs)
+Main heading: Ecosystems
+Controlled terms: Computer software - Open systems - Software architecture
+Uncontrolled terms: External systems - Multiple organizations - Openness - Position papers - Potential values - Software ecosystems - Systematic engineering - Technical challenges
+Classification Code: 454.3 Ecology and Ecosystems - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+107. Investigating the model-driven development for systems-of-systems
+Graciano Neto, Valdemar Vicente (1, 2); Guessi, Milena (2); Oliveira, Lucas Bueno R. (2); Oquendo, Flavio (3); Nakagawa, Elisa Yumi (2)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642825; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Federal University of Goi�s, Go�nia, Brazil (2) University of S�o Paulo - USP, S�o Carlos, Brazil (3) IRISA, Universit� de Bretagne Sud (UBS), Vannes, France
+Abstract: Software-intensive systems have become increasingly large and complex and new techniques and methodologies are necessary to deal with such complexity. Model-Driven Development (MDD) has been used to deal with complex scenarios, since software models, despite details, facilitate the visualization of the whole. Moreover, MDD has been widely recognized as a way to assure quality, reducing time and effort, and making possible the automatic transformation of models to generate source code. In this direction, software-intensive Systems-of-Systems (SoS) is a class of software systems that have emerged over the iminence of large systems which have a high-level of complexity. Considering the success of MDD in other areas, we decided to investigate how MDD has been used in the context of SoS. This paper presents results of a Systematic Literature Review conducted to scrutinize and bring to light the state of the art in the field of MDD for SoS. Besides that, we discuss future research directions and perspectives, aiming at contributing to the development of SoS. � 2014 ACM. (33 refs)
+Main heading: Systems engineering
+Controlled terms: Software architecture
+Uncontrolled terms: Automatic transformations - Future research directions - Model driven development - Software generation - Software intensive systems - System-of-systems - Systematic literature review - Systems-of-systems
+Classification Code: 723.1 Computer Programming - 912 Industrial Engineering and Management - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+108. Dicto: A unified DSL for testing architectural rules
+Caracciolo, Andrea (1); Lungu, Mircea Filip (1); Nierstrasz, Oscar (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642824; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Software Composition Group, University of Bern, Switzerland
+Abstract: Software architecture consists of a set of design choices that can be partially expressed in form of rules that the implementation must conform to. Architectural rules are intended to ensure properties that fulfill fundamental non-functional requirements. Verifying architectural rules is often a non-trivial activity: available tools are often not very usable and support only a narrow subset of the rules that are commonly specified by practitioners. In this paper we present a new highly-readable declarative language for specifying architectural rules. With our approach, users can specify a wide variety of rules using a single uniform notation. Rules can get tested by third-party tools by conforming to pre-defined specification templates. Practitioners can take advantage of the capabilities of a growing number of testing tools without dealing with them directly. � 2014 ACM. (19 refs)
+Main heading: Software architecture
+Controlled terms: Computer applications - Computer programming - DSL
+Uncontrolled terms: Architectural rules - Declarative Languages - Non-functional requirements - Non-trivial - Testing tools - Third-party tools - Validation
+Classification Code: 716 Telecommunication; Radar, Radio and Television - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+109. Towards run-time verification of adaptive security for IoT in eHealth
+Torjusen, Arild B. (1); Abie, Habtamu (1); Paintsil, Ebenezer (2); Trcek, Denis (3); Skomedal, �smund (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642807; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Norwegian Computing Center, Blindern, NO-0314 Oslo, Norway (2) Point Transaction Systems AS, Pb 73 �kern, �stre Aker vei 24, N-0508 Oslo, Norway (3) University of Ljubljana, Trzaka c. 25, 1000 Ljubljana, Slovenia
+Abstract: This paper integrates run-time verification enablers in the feedback adaptation loop of the ASSET adaptive security framework for Internet of Things (IoT) in the eHealth settings and instantiates the resulting framework with Colored Petri Nets. The run-time enablers make machine-readable formal models of a system state and context available at run-time. In addition, they make requirements that define the objectives of verification available at run-time as formal specifications and enable dynamic context monitoring and adaptation. Run-time adaptive behavior that deviates from the normal mode of operation of the system represents a major threat to the sustainability of critical eHealth services. Therefore, the integration of run-time enablers into the ASSET adaptive framework could lead to a sustainable security framework for IoT in eHealth. � 2014 ACM. (37 refs)
+Main heading: Internet of things
+Controlled terms: Petri nets - Software architecture
+Uncontrolled terms: Adaptive security - Ehealth - Feedback adaptation - Formal Specification - Internet of Things (IOT) - IoT - Run-time verification - Security frameworks
+Classification Code: 723.1 Computer Programming - 921.4 Combinatorial Mathematics, Includes Graph Theory, Set Theory
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+110. Detecting emergent interference in integration of multiple self-adaptive systems
+Malakuti, Somayeh (1)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642826; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) Software Technology Group, Technische Universit�t Dresden, Germany
+Abstract: A system of systems (SoS) is a large-scale concurrent and distributed system whose components are complex systems. An example of SoS is in the domain of self-adaptive systems, where multiple self-adaptive systems must be integrated with each other. As for any other kind of SoS, we face the following question: is there any emergent interference as the result of such integration, which prevents the constituent self-adaptive systems to achieve their goals? Due to the inherent complexity of an SoS, it is not easy to detect emergent interference manually, if possible at all. We study the suitability of formal modeling and verification for detecting emergent interference in an example of SoS, i.e. integration of multiple self-adaptive systems. Model checking reveals that although constituent systems behave correctly when executed individually, they fail to provide correct behavior in an SoS context due to unforeseen interference that emerges. � 2014 ACM. (21 refs)
+Main heading: Mathematical models
+Controlled terms: Adaptive systems - Integration - Model checking - Software architecture - Systems engineering
+Uncontrolled terms: Concurrent and distributed systems - Formal modeling and verification - Inherent complexity - mergent behavior - Self-adaptive system - System of systems - Systems of systems - UPPAAL
+Classification Code: 723.1 Computer Programming - 731.1 Control Systems - 912 Industrial Engineering and Management - 921 Mathematics - 921.2 Calculus - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+111. On the development of systems-of-systems based on the internet of things: A systematic mapping
+Maia, Pedro (1); Cavalcante, Everton (1, 2); Gomes, Porf�rio (1); Batista, Thais (1); Delicato, Flavia C. (2); Pires, Paulo F. (3)
+Source: ACM International Conference Proceeding Series, 2014, Proceedings of the ECSA 2014 Workshops and Tool Demos Track - European Conference on Software Architecture, ECSAW 2014; ISBN-13: 9781450327787; DOI: 10.1145/2642803.2642828; Conference: 8th European Conference on Software Architecture Workshops, ECSAW 2014, August 25, 2014 - August 29, 2014; Sponsor: University of Vienna; Publisher: Association for Computing Machinery
+Author affiliation: (1) DIMAp, Federal University of Rio Grande Do Norte, Natal, Brazil (2) IRISA-UMR CNRS, Universit� de Bretagne-Sud, Vannes, France (3) DCC/PPGI, Universidade Federal Do Rio de Janeiro, Rio de Janeiro, Brazil
+Abstract: The Internet of Things (IoT) has emerged as a paradigm in which smart things actively collaborate among them and with other physical and virtual objects available in the Web in order to perform high level tasks. These things can be engaged in complex relationships including the composition and collaboration with other independent and heterogeneous systems in order to provide new functionalities, thus leading to the so-called systems-of-systems (SoS). In the context of integrating IoT-based systems in order to compose complex, large-scale SoS, this paper presents a systematic mapping aimed to discuss current scenarios and approaches in the development of IoT-based SoS, as well as some challenges and research opportunities in this context. � 2014 ACM. (29 refs)
+Main heading: Internet of things
+Controlled terms: Mapping - Software architecture - Systems engineering
+Uncontrolled terms: Complex relationships - Heterogeneous systems - Internet of thing (IOT) - IoT - Research opportunities - SoS - Systematic mapping - Systems-of-systems
+Classification Code: 723.1 Computer Programming - 902.1 Engineering Graphics - 912 Industrial Engineering and Management - 961 Systems Science
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+200000. end
+end

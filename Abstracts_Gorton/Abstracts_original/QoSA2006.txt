@@ -1,0 +1,239 @@
+1. Applying the ATAM to an architecture for decentralized control of a transportation system
+Boucke, N. (1); Weyns, D. (1); Schelfthout, K. (1); Holvoet, T. (1)
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 180-98, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Distrinet, KU Leuven, Belgium
+Abstract: For two years, we have been involved in a challenging project to develop a new architecture for an industrial transportation system. The motivating quality attributes to develop this innovative architecture were flexibility and openness. Taking these quality attributes into account, we proposed a decentralized architecture using multiagent systems (MASs). A MAS consists of multiple autonomous entities that coordinate with each other to achieve decentralized control. The typical advantages attributed to such decentralized architecture are flexibility and openness, the motivating quality attributes to apply MAS in this case. The architecture tradeoff analysis method (ATAM) was used to provide insights whether our architecture meets the expected flexibility and openness, and to identify tradeoffs with other quality attributes. Applying the ATAM proved to be a valuable experience. One of the main outcome of applying the ATAM was the identification of a tradeoff between flexibility and communication load that results from the use of a decentralized architecture. This paper describes our experiences in applying the ATAM to a MAS architecture, containing both the main outcomes of the evaluation and a critical reflection on the ATAM itself. (36 refs)
+Inspec controlled terms: control engineering computing - decentralised control - multi-agent systems - software architecture - software quality - traffic engineering computing - transportation
+Uncontrolled terms: software architecture - decentralized control - industrial transportation system - quality attributes - multiagent systems - architecture tradeoff analysis method
+Classification Code: C7445 Traffic engineering computing - C7420 Control engineering computing - C1340B Multivariable control systems - C3360 Transportation system control - C6110B Software engineering techniques - C6170 Expert systems and other AI software and techniques
+IPC Code: G05B15/00 - G05D1/00 - G06F9/44 - G06F15/18
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+2. Evaluating alternative COTS assemblies from imperfect component information
+Astudillo, H. (1); Pereira, J.; Lopez, C.
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 27-42, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Dept. de Inf., Univ. Tecnica Federico Santa Maria, Valparaiso, Chile
+Abstract: Component-based approaches to elaborate software must deal with the fact that in practical settings, components information may be incomplete, imprecise and uncertain, and requirements may be likewise. Architects wanting to evaluate candidate architectures regarding requirements satisfaction need to use whatever information available about components, however imperfect. Imperfect information can be dealt with using specialized analytical formalisms, such as fuzzy values for imprecision and rough sets for incompleteness; but if used, evaluations need to compare and rank using non-scalar, non-symbolic values. This article presents an approach to systematically describe components� imperfect information, and to evaluate and rank whole component assemblies, by using credibility values-based �support scores� that aggregate imperfect information about requirements, mechanisms and components. The approach builds on the Azimut framework, which offers progressive refinement of architectural entities via architectural policies, architectural mechanisms, components, and component assemblies. An example of the proposed approach and �what-if� analysis are illustrated. (28 refs)
+Inspec controlled terms: formal verification - object-oriented programming - program diagnostics - software architecture
+Uncontrolled terms: COTS assemblies - component-based software - component information - software architecture - requirement satisfaction - credibility values - Azimut framework - what-if analysis
+Classification Code: C6110J Object-oriented programming - C6110B Software engineering techniques - C6110F Formal methods - C6150G Diagnostic, testing, debugging and evaluating systems
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+3. Model transformation in software performance engineering
+Di Marco, A. (1); Mirandola, R.
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 95-110, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Dipt. di Inf., Univ. di L�Aquila, L�Aquila, Italy
+Abstract: Nowadays it is widely recognized the crucial role played in the software development process by the analysis of extra-functional properties (and especially performance) at the architectural level. To foster this kind of quantitative analysis we envisage the need to transform the performance model generation and analysis into a rigorous and sound discipline. To this end we intend to exploit the knowledge (acquired by other disciplines) in the area of model transformation, and import both reasoning and methodologies in the software performance engineering. In this paper we investigate the area of performance model derivation and analysis focusing on model transformation; we propose an initial taxonomy for the area of performance analysis at software architecture level and we delineate our suggestions towards a software performance model driven engineering. (34 refs)
+Inspec controlled terms: formal specification - reasoning about programs - software architecture - software performance evaluation
+Uncontrolled terms: model transformation - software performance engineering - software development - software architecture - quantitative analysis - reasoning - performance analysis
+Classification Code: C6110B Software engineering techniques - C6110R Software performance evaluation - C6110F Formal methods
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+4. A practical architecture-centric analysis process
+Bucchiarone, A. (1); Muccini, H.; Pelliccione, P.
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 127-44, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Ist. di Sci. e Tecnol. dell�Inf., Pisa, Italy
+Abstract: When engineering complex and distributed software and hardware systems (increasingly used in many sectors, such as manufacturing, aerospace, transportation, communication, energy and health-care), dependability has became a must, since failures can have economics consequences and can also endanger human life. Software architectures (SA) can help improving the overall system dependability, providing a system blueprint that can be validated and that can guide all phases of the system development. Even if much work has been done on this direction, three important topics require major investigation: how different analysis techniques can be integrated together, how results obtained with SA-based analysis can be related to requirements and coding, and how to integrate new methodologies in the industrial software development life-cycle. In this paper we propose an architecture-centric analysis process which allows formal analysis driven by model-based architectural specifications. This analysis process satisfies the industrial requirements, since it is tool supported and based on semi-formal (UML-based) specifications. (33 refs)
+Inspec controlled terms: formal specification - formal verification - program diagnostics - software architecture - software reliability - Unified Modeling Language
+Uncontrolled terms: architecture-centric analysis - software engineering - software architecture - system dependability - system blueprint - system development - formal analysis - model-based architectural specification - semiformal specification - UML-based specification
+Classification Code: C6150G Diagnostic, testing, debugging and evaluating systems - C6110B Software engineering techniques - C6110F Formal methods
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+5. Model-based software development with Eclipse
+Reussner, R. (1); Becker, S. (1)
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 5-6, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Karlsruhe Univ., Karlsruhe, Germany
+Abstract: Summary form only given. The tutorial consists of two parts. In the first part (45 min), Ralf Reussner focuses on the importance of an explicitly modelled software architecture. Besides an introduction into common architectural views, the role of the software architect is compared to �classical building� architects. As part of this, the often used comparison between building architecture and software architecture is critically reviewed. In particular, the role of an architect is discussed in model-driven software projects. During the second part of the tutorial (135 min), Steffen Becker demonstrates online model driven development tools based on Eclipse. First, an introduction is given on the metamodelling tools of the Eclipse Modelling Framework (EMF) and on the Graphical Modelling Framework (GMF) used to generate a domain specific editors for user defined (meta-)models. Additionally, the MDA framework of the OMG is presented and the concepts are applied to the introduced tools. A live demonstration of the capabilities of the introduced tools for model transformations shows finally how a domain specific modelling tool can be generated to a large extend automatically using an EMF-model instance and the generator of GMF. As a result, an editor based on the Eclipse Graphical Editing Framework (GEF) can be deployed and run using Eclipse. (0 refs)
+Inspec controlled terms: formal specification - software architecture
+Uncontrolled terms: model-based software development - software architecture - software project - metamodelling tools - Eclipse Modelling Framework - Graphical Modelling Framework - model transformation - Eclipse Graphical Editing Framework
+Classification Code: C6110F Formal methods - C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+6. Documentation principles and practices that you can live with
+Stafford, J. (1)
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 3-4, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Tufts Univ., Boston, MA, United States
+Abstract: Summary form only given. Software architecture has become a widely-accepted conceptual basis for the development of non-trivial software in all application areas and by organizations of all sizes. Effectively documenting an architecture is as important as crafting it; if the architecture is not understood, or worse, misunderstood, it cannot meet its goals as the unifying vision for software development. Development-based architecture strategies, such as Rational�s Unified Process, stop short of prescribing documentation standards. The views and beyond approach to software architecture provides practical guidance on the what, why, and how of creating IEEE 1471-2000 compliant documentation for your software architecture that will be used for years to come. The approach is based on the well-known concept of views and is presented in the context of prevailing prescriptive models for architecture, including the Unified Process and UML 2.0, which has improved support for representing key architectural elements over its predecessors. (0 refs)
+Inspec controlled terms: formal specification - software architecture - system documentation - Unified Modeling Language
+Uncontrolled terms: system documentation - software architecture - software development - Rational Unified Process - IEEE 1471-2000 compliant documentation - UML
+Classification Code: C6110B Software engineering techniques - C6110F Formal methods
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+7. Embedded systems architecture: evaluation and analysis
+Florentz, B. (1); Huhn, M. (1)
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 145-62, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Tech. Univ. of Braunschweig, Braunschweig, Germany
+Abstract: Short innovation cycles in software and hardware make architecture design a key issue in future development processes for embedded systems. The basis for architectural design decisions is a transparent architecture evaluation. Our model-based approach supports a uniform representation of hierarchies of quality attributes and an integration of different architecture evaluation techniques and methods. We present a metamodel for architecture evaluation as a basis for the precise description of the quality attribute structure and the evaluation methodology. By modelling architecture evaluation, the relationships between architectural elements and quality attributes and interdependences between quality attributes can be represented and investigated. Thereby, the architecture exploration process with its evaluations, decisions, and optimizations is made explicit, traceable, and analyzable. (20 refs)
+Inspec controlled terms: embedded systems - formal specification - program diagnostics - software architecture - software performance evaluation - software quality
+Uncontrolled terms: embedded systems architecture - system evaluation - system analysis - architecture design - system development - software quality - architecture evaluation metamodel
+Classification Code: C6110B Software engineering techniques - C6110R Software performance evaluation - C6150G Diagnostic, testing, debugging and evaluating systems - C6110F Formal methods
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+8. Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 4214 LNCS, 2006, Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers; ISSN: 03029743, E-ISSN: 16113349; ISBN-10: 3540488197, ISBN-13: 9783540488194; Conference: 2nd International Conference on Quality of Software Architectures, QoSA 2006, June 27, 2006 - June 29, 2006; Sponsor: University of Karlsruhe; Malardalen University; Vasteras City; Publisher: Springer Verlag
+Abstract: The proceedings contain 12 papers. The topics discussed include: expanding the scope of software product families: problems and alternative approaches; composing with style - components meet architecture; documentation principles and practices that you can live with; model-based software development with eclipse; software architecture analysis and evaluation; MEMS: a method for evaluating middleware architectures; evaluating alternative COTS assemblies from imperfect component information; building up and reasoning about architectural knowledge; managing architectural design decisions for safety-critical software systems; runtime prediction of queued behaviour; model transformation in software performance engineering; a practical architecture-centric analysis process; embedded systems architecture: evaluation and analysis; parameter dependent performance specifications of software components; and towards an integration of standard component-based safety evaluation techniques with SaveCCM.
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+11. Parameter dependent performance specifications of software components
+Koziolek, Heiko ; Happe, Jens ; Becker, Steffen
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 4214 LNCS, p 163-179, 2006, Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers; ISSN: 03029743, E-ISSN: 16113349; ISBN-10: 3540488197, ISBN-13: 9783540488194; DOI: 10.1007/11921998_15; Conference: 2nd International Conference on Quality of Software Architectures, QoSA 2006, June 27, 2006 - June 29, 2006; Sponsor: University of Karlsruhe; Malardalen University; Vasteras City; Publisher: Springer Verlag
+Abstract: Performance predictions based on design documents aim at improving the quality of software architectures. In component-based architectures, it is difficult to specify the performance of individual components, because it depends on the deployment context of a component, which may be unknown to its developers. The way components are used influences the perceived performance, but most performance prediction approaches neglect this influence. In this paper, we present a specification notation based on annotated UML diagrams to explicitly model the influence of parameters on the performance of a software component. The UML specifications are transformed into a stochastical model that allows the prediction of response times as distribution functions. Furthermore, we report on a case study performed on an online store. The results indicate that more accurate predictions could be obtained with the newly introduced specification and that the method was able to support a design decision on the architectural level in our scenario. � 2006 Springer-Verlag. (17 refs)
+Main heading: Software architecture
+Controlled terms: Computer software selection and evaluation - Distribution functions - Electronic commerce - Forecasting - Specifications
+Uncontrolled terms: Accurate prediction - Architectural levels - As distribution - Component-based architecture - Design decisions - Design documents - Individual components - Online store - Performance prediction - Performance specifications - Quality of softwares - Response time - Software component - UML diagrams - UML specifications
+Classification Code: 922.1 Probability Theory - 921 Mathematics - 912.2 Management - 911.4 Marketing - 922.2 Mathematical Statistics - 911.2 Industrial Economics - 723.5 Computer Applications - 723.1 Computer Programming - 723 Computer Software, Data Handling and Applications - 902.2 Codes and Standards
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+13. Runtime prediction of queued behaviour
+Duzbayev, Nurzhan (1); Poernomo, Iman (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 4214 LNCS, p 78-94, 2006, Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers; ISSN: 03029743, E-ISSN: 16113349; ISBN-10: 3540488197, ISBN-13: 9783540488194; DOI: 10.1007/11921998_10; Conference: 2nd International Conference on Quality of Software Architectures, QoSA 2006, June 27, 2006 - June 29, 2006; Sponsor: University of Karlsruhe; Malardalen University; Vasteras City; Publisher: Springer Verlag
+Author affiliation: (1) King�s College London, Strand, London, WC2R2LS, United Kingdom
+Abstract: Service-based software architectures are often modeled with queues and queuing networks. Such models are useful for performance evaluation and design. They can also assist in runtime maintenance and administration, but, in this context, it is often far more valuable to be able to forecast how QoS characteristics are likely to evolve in the near future. This is particularly important in cases where systems can be adapted to counter QoS constraint violations: in such systems, given predictions of likely future QoS characteristics, pre-emptive adaptation strategies can be implemented. This paper outlines an approach to runtime prediction of QoS characteristics of queued systems. Predictions are computed by applying ARIMA forecasting techniques to basic properties of a queued model, and then using the model to predict complex QoS characteristics. We outline how our methods integrate into our implementation framework for monitoring and pre-emptive adaptation of web service based systems. � 2006 Springer-Verlag. (19 refs)
+Main heading: Software architecture
+Controlled terms: Computer software maintenance - Computer software selection and evaluation - Technological forecasting - Web services
+Uncontrolled terms: Adaptation strategies - Basic properties - Forecasting techniques - Performance evaluation - QoS constraints - Queuing network - Runtimes - Service-based - Web service-based system
+Classification Code: 723 Computer Software, Data Handling and Applications - 723.1 Computer Programming - 723.5 Computer Applications - 901.4 Impact of Technology on Society - 903.4 Information Services - 912.2 Management
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+15. Managing architectural design decisions for safety-critical software systems
+Wu, Weihang (1); Kelly, Tim (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 4214 LNCS, p 59-77, 2006, Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers; ISSN: 03029743, E-ISSN: 16113349; ISBN-10: 3540488197, ISBN-13: 9783540488194; DOI: 10.1007/11921998_9; Conference: 2nd International Conference on Quality of Software Architectures, QoSA 2006, June 27, 2006 - June 29, 2006; Sponsor: University of Karlsruhe; Malardalen University; Vasteras City; Publisher: Springer Verlag
+Author affiliation: (1) Department of Computer Science, University of York, York YO10 5DD, United Kingdom
+Abstract: In this paper, we propose a negative scenario framework along with a mitigation action model as the linkage between safety quality attribute and architecture definition. The scenario framework provides an effective means of formulating safety concerns. The mitigation action model facilitates exploitation and codification of existing safety-critical system design knowledge. Finally, we present a series of steps that enable the justification of architectural design decisions that refine both requirements and architectures. We demonstrate and discuss the application of our framework by means of a case study. � 2006 Springer-Verlag. (19 refs)
+Main heading: Software architecture
+Controlled terms: Architectural design - Computer software selection and evaluation
+Uncontrolled terms: Action models - Safety concerns - Safety critical systems - Safety qualities - Safety-critical software systems
+Classification Code: 402 Buildings and Towers - 408.1 Structural Design, General - 723 Computer Software, Data Handling and Applications - 723.1 Computer Programming - 723.5 Computer Applications - 912.2 Management
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+16. Traveling architects - A new way of herding cats
+Corry, Aino Vonge (1); Hansen, Klaus Marius (1); Svensson, David (2, 3)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 4214 LNCS, p 111-126, 2006, Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers; ISSN: 03029743, E-ISSN: 16113349; ISBN-10: 3540488197, ISBN-13: 9783540488194; DOI: 10.1007/11921998_12; Conference: 2nd International Conference on Quality of Software Architectures, QoSA 2006, June 27, 2006 - June 29, 2006; Sponsor: University of Karlsruhe; Malardalen University; Vasteras City; Publisher: Springer Verlag
+Author affiliation: (1) Department of Computer Science, University of Aarhus, Aabogade 34, 8200 Aarhus M, Sweden (2) Department of Computer Science, Lund University, Ole R�mers v�g 3, 223 63 Lund, Sweden (3) PalCom Project
+Abstract: Making software developers work towards a common goal may be likened to herding cats. If we further spread developers around the globe, we run increased risks of being unable to design and impose coherent software architectures on projects, potentially leading to lower quality of the resulting systems. Based on our experiences in a large, distributed research and development project, PalCom, we propose that employing techniques from active user involvement in general (and from participatory design in particular) may help in designing and sharing quality software architectures. In particular, we present the Traveling Architects technique in which a group of architects visit development locations in order to engage developers and end users in software architecture work. We argue that using techniques such as these may potentially lead to higher quality of software architectures in particular for systems developed in a distributed setting. � 2006 Springer-Verlag. (22 refs)
+Main heading: Software architecture
+Controlled terms: Computer software selection and evaluation
+Uncontrolled terms: End users - Participatory design - Quality of softwares - Quality software - Research and development projects - Software developer - User involvement
+Classification Code: 723 Computer Software, Data Handling and Applications - 723.1 Computer Programming - 723.5 Computer Applications - 912.2 Management
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+17. MEMS: A method for evaluating middleware architectures
+Liu, Yan (1); Gorton, Ian (1); Bass, Len (2); Hoang, Cuong (3); Abanmi, Suhail (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 4214 LNCS, p 9-26, 2006, Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers; ISSN: 03029743, E-ISSN: 16113349; ISBN-10: 3540488197, ISBN-13: 9783540488194; DOI: 10.1007/11921998_6; Conference: 2nd International Conference on Quality of Software Architectures, QoSA 2006, June 27, 2006 - June 29, 2006; Sponsor: University of Karlsruhe; Malardalen University; Vasteras City; Publisher: Springer Verlag
+Author affiliation: (1) National ICT Australia (NICTA), School of Computer Science and Engineering, University of New South Wales, Australia (2) Software Engineering Institute, United States (3) Engineering Faculty, University of Technology Sydney
+Abstract: Middleware architectures play a crucial role in determining the overall quality of many distributed applications. Systematic evaluation methods for middleware architectures are therefore important to thoroughly assess the impact of design decisions on quality goals. This paper presents MEMS, a scenario-based evaluation approach. MEMS provides a principled way of evaluating middleware architectures by leveraging generic qualitative and quantitative evaluation techniques such as prototyping, testing, rating, and analysis. It measures middleware architectures by rating multiple quality attributes, and the outputs aid the determination of the suitability of alternative middleware architectures to meet an application�s quality goals. MEMS also benefits middleware development by uncovering potential problems at early stage, making it cheaper and quicker to fix design problems. The paper describes a case study to evaluate the security architecture of grid middleware architectures for managing secure conversations and access control. The results demonstrate the practical utility of MEMS for evaluating middleware architectures for multiple quality attributes. � 2006 Springer-Verlag. (26 refs)
+Main heading: Software architecture
+Controlled terms: Access control - Computer software selection and evaluation - MEMS - Microelectromechanical devices - Middleware - Quality control
+Uncontrolled terms: Design decisions - Design problems - Distributed applications - GRID middleware - Middleware architecture - Multiple quality - Overall quality - Potential problems - Prototyping - Quality goals - Quantitative evaluation - Scenario-based evaluation - Security Architecture - Systematic evaluation
+Classification Code: 912.2 Management - 732.1 Control Equipment - 723.5 Computer Applications - 723.1 Computer Programming - 913.3 Quality Assurance and Control - 723 Computer Software, Data Handling and Applications - 704.2 Electric Equipment - 704.1 Electric Components - 601.1 Mechanical Devices - 714 Electronic Components and Tubes
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+21. Building up and reasoning about architectural knowledge
+Kruchten, Philippe (1); Lago, Patricia (2); Van Vliet, Hans (2)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 4214 LNCS, p 43-58, 2006, Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers; ISSN: 03029743, E-ISSN: 16113349; ISBN-10: 3540488197, ISBN-13: 9783540488194; DOI: 10.1007/11921998_8; Conference: 2nd International Conference on Quality of Software Architectures, QoSA 2006, June 27, 2006 - June 29, 2006; Sponsor: University of Karlsruhe; Malardalen University; Vasteras City; Publisher: Springer Verlag
+Author affiliation: (1) University of British Columbia, Vancouver, BC, Canada (2) Vrije Universiteit, Amsterdam, Netherlands
+Abstract: Architectural knowledge consists of architecture design as well as the design decisions, assumptions, context, and other factors that together determine why a particular solution is the way it is. Except for the architecture design part, most of the architectural knowledge usually remains hidden, tacit in the heads of the architects. We conjecture that an explicit representation of architectural knowledge is helpful for building and evolving quality systems. If we had a repository of architectural knowledge for a system, what would it ideally contain, how would we build it, and exploit it in practice? In this paper we describe a use-case model for an architectural knowledge base, together with its underlying ontology. We present a small case study in which we model available architectural knowledge in a commercial tool, the Aduna Cluster Map Viewer, which is aimed at ontology-based visualization. Putting together ontologies, use cases and tool support, we are able to reason about which types of architecting tasks can be supported, and how this can be done. � 2006 Springer-Verlag. (27 refs)
+Main heading: Software architecture
+Controlled terms: Computer software selection and evaluation - Knowledge based systems - Knowledge representation - Ontology
+Uncontrolled terms: Architectural knowledge - Architectural knowledge base - Architecture designs - Commercial tools - Design decisions - Explicit representation - Ontology-based - Particular solution - Quality systems - Tool support - Use case model
+Classification Code: 912.2 Management - 903 Information Science - 723.5 Computer Applications - 723.4.1 Expert Systems - 723.4 Artificial Intelligence - 723.1 Computer Programming - 723 Computer Software, Data Handling and Applications
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+22. Towards an integration of standard component-based safety evaluation techniques with SaveCCM
+Grunske, Lars (1)
+Source: Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), v 4214 LNCS, p 199-213, 2006, Quality of Software Architectures - Second International Conference on Quality of Software Architectures, QoSA 2006, Revised Papers; ISSN: 03029743, E-ISSN: 16113349; ISBN-10: 3540488197, ISBN-13: 9783540488194; DOI: 10.1007/11921998_17; Conference: 2nd International Conference on Quality of Software Architectures, QoSA 2006, June 27, 2006 - June 29, 2006; Sponsor: University of Karlsruhe; Malardalen University; Vasteras City; Publisher: Springer Verlag
+Author affiliation: (1) School of Information Technology and Electrical Engineering, ARC Centre for Complex Systems, University of Queensland, St.Lucia, QLD 4072, Australia
+Abstract: To deliver complex functionalities in a cost effective manner, embedded software should ideally be developed with standardized interoperable components. At the same time, most of these embedded systems must be demonstrably safe and reliable. This paper aims to extend SaveCCM, a modelling language for component-based embedded systems, with standard safety evaluation models. Based on this extension, failure and hazard probabilities can be estimated early in the development process and can be used to check if a system can fulfil its safety requirements. The procedure of the safety evaluation is demonstrated with the case study of a computer assisted braking system. � 2006 Springer-Verlag. (34 refs)
+Main heading: Computer software selection and evaluation
+Controlled terms: Embedded software - Embedded systems - Software architecture
+Uncontrolled terms: Braking system - Component based - Computer assisted - Cost effective - Development process - Modelling language - Safety evaluations - Safety requirements - Standard components
+Classification Code: 722 Computer Systems and Equipment - 723 Computer Software, Data Handling and Applications - 723.1 Computer Programming - 723.5 Computer Applications - 912.2 Management
+Database: Compendex
+Compilation and indexing terms, Copyright 2015 Elsevier Inc.
+Data Provider: Engineering Village
+
+23. Composing with style - components meet architecture (invited talk)
+Szyperski, C. (1)
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 2, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Microsoft Res., Redmond, WA, United States
+Abstract: Summary form only given. Composability itself is probably the least composable term in the theory of computer science. In this talk, I�ll explore some of the troubling reasons why we have succeeded only so-so when it comes to the creation of composable software - and thus software components. Architecture can often come to the rescue, but only when applied with great style. (0 refs)
+Inspec controlled terms: object-oriented programming - software architecture
+Uncontrolled terms: software composition - software components - software architecture
+Classification Code: C6110B Software engineering techniques - C6110J Object-oriented programming
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+24. Software architecture analysis and evaluation
+Zullighoven, H. (1); Lilienthal, C. (1); Bennicke, M.
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 7-8, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Hamburg Univ., Hamburg, Germany
+Abstract: Summary form only given. A software architecture describes the structure of a software system on an abstract implementation independent level. In forward engineering it serves as a blueprint to prescribe the intended software structure (so-called architecture model). In reverse engineering it can provide an abstract view of the actual code structure of the existing software system (so-called code architecture). Architecture models and actual code architectures play a vital role for all comprehension and communication tasks during the development and evolution of large software systems. Therefore, architecture models and code architectures have to be explicitly represented and consistently maintained during the development, maintenance, and reengineering processes. The need to insure compliance of the architecture model and the actual code architecture has drawn considerable attention in recent years. In order to facilitate maintainability and enhancement of a software system the compliance of the architecture model and the actual code architecture is essential. Various tools have been developed to analyse and evaluate the deviation of code architecture and architecture model. In this tutorial we present static analysis tools that may be used for architectural analyses. We demonstrate how these tools can create useful architectural views for different evaluation tasks such as identification of reconstruction scope, critical architectural elements and potential design irregularities. If possible we will analyse a software system provided by a participant of the workshop in a life demonstration. (0 refs)
+Inspec controlled terms: program diagnostics - software architecture - software maintenance
+Uncontrolled terms: software architecture analysis - software system - software structure - code structure - code architecture - software maintainability - software enhancement - static analysis
+Classification Code: C6110B Software engineering techniques - C6150G Diagnostic, testing, debugging and evaluating systems
+IPC Code: G06F9/44 - G06F11/36
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+25. Expanding the scope of software product families: problems and alternative approaches
+Bosch, J. (1)
+Source: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers (Lecture Notes in Computer Science Vol.4214), p 1, 2006; ISBN-10: 3-540-48819-7; Conference: Quality of Software Architectures. Second International Conference on Quality of Software Architectures, QoSA 2006. Revised Papers, 27-29 June 2006, Vasteras, Sweden; Publisher: Springer, Berlin, Germany
+Author affiliation: (1) Software & Appl. Technol. Lab., Nokia Res. Center, Helsinki, Finland
+Abstract: Summary form only given. Software product families have found broad adoption in the embedded systems industry. Product family thinking has been prevalent in this context for mechanics and hardware and adopting the same for software has been viewed as a logical approach. During recent years, however, the trends of convergence, end-to-end solutions, shortened innovation and R&D cycles and differentiator through software engineering capabilities have lead to a development where organizations are stretching the scope of their product families far beyond the initial design. Failing to adjust the product family approach, including the architectural and process dimensions when the business strategy is changing is leading to several challenging problems that can be viewed as symptoms of this approach. The keynote discusses the key symptoms, the underlying causes for these symptoms as well as solutions for realigning the product family approach with the business strategy. (0 refs)
+Inspec controlled terms: DP industry - embedded systems - software architecture
+Uncontrolled terms: software product families - embedded systems - software engineering - software architecture
+Classification Code: C6110B Software engineering techniques
+IPC Code: G06F9/44
+Treatment: Practical (PRA)
+Database: Inspec
+Copyright 2007, The Institution of Engineering and Technology
+Data Provider: Engineering Village
+
+200000. end
+end

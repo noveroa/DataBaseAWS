@@ -1,0 +1,251 @@
+1. Architecture Design Recovery of a Family of Embedded Software Systems An Experience Report
+Lars Bratthall; Per Runeson
+Author affiliation: (1) Dept. of Communication Systems, Lund University, Sweden.
+P.O. Box 118, S-221 00 Lund, Sweden.
+Phone: +46-462229668., Fax +46-46145823. Email {lars.bratthalllper.runeson}@tts.lth.se.
+Controlled terms: Architectural design recovery, experience report, qualitative evaluation
+Abstract: Understandability of the current system is a key issue in most reengineering processes. An architecture description of the system may increase its understandability. This paper presents experiences from architectural design recovery in a product family of large distributed, embedded systems. Automated recovery tools were hard to apply due to the nature of the source code. A qualitative evaluation procedure was applied on the performance of the recovery process. The results suggest that producing the necessary architectural documentation during the recovery project costs eight to twelve times as much as producing the same set of documentation during the original development project. By applying a common architectural style for all members of the product family, the component reuse made possible decreased source code volume by 65%.
+
+2. A Software Architecture Reconstruction Method
+George Yanbing Guo1, Joanne M. Atlee1, Rick Kazman2
+Author affiliation: (1) Department of Computer Science, University of Waterloo, Waterloo, ON, Canada (2) Software Engineering Institute, Carnegie Mellon University, Pittsburgh, PA, U.S.A
+yguo@ se.math.uwaterloo.ca, jmatlee@dragon. uwaterloo.ca, rkazman@ sei.cmu. edu
+Controlled terms: Design recovery, reverse engineering, software architecture analysis, design patterns, pattern recognition
+Abstract: Changes to a software system during implementation and maintenance can cause the architecture of a system to deviate from its documented architecture. If design documents are to be useful , maintenance programmers must be able to easily evaluate how closely the documents conform to the code they are meant to describe. Software architecture recovery, which deals with the extraction and analysis of a system's architecture, has gained more tool support in the past few years. However, there is little research on developing effective and efficient architectural conformance methods. In particular, given the increasing emphasis on patterns and styles in the software engineering community, a method needs to explicitly aid a user in identifying architectural patterns. This paper presents a semi-automatic method, called ARM (Architecture Reconstruction Method), that guides a user in the reconstruction of software architectures based on the recognition of patterns. Once the system' s actual architecture has been reconstructed, we can analyze conformance of the software to the documented design patterns.
+
+3. Behaviour Analysis of Software Architectures
+Jeff Magee, Jeff Kramer, Dimitra Giannakopoulou
+Author affiliation: (1) Department of Computing, Imperial College of Science, Technology and Medicine, 180 Queensgate, London, SW7 2BZ, U.K.
+{jnm,dgl,jkj@doc.ic.ac.uk
+Controlled terms: Software architecture, behaviour analysis
+Abstract: The overall structure of a system described by a set of components and their interconnections is termed its software architecture. In this paper, we associate behavioural specifications with components and use these specifications to analyze the overall system architecture . The approach is based on the use of Labelled Transition Systems to specify behaviour and Compositional Reachability Analysis to check composite system models. The architecture description of a system is used directly in the construction of the model used for analysis. Analysis allows a designer to check whether an architecture satisfies the properties required of it. The paper uses examples to illustrate the approach and discusses some open questions arising from the work.
+
+4. Rearchitecting Legacy Systems-Concepts and Case Study
+Wolfgang Pree1, Kai Koskirnies2
+Author affiliation: (1) University of Constance, Gennany & 2Nokia Research Center, Helsinki, Finland
+pree@acm.org, kai.koskimies@ research.nokia.com
+Controlled terms: Creation and evolution of architectures, product line architectures, framelets, automated configuration, dynamic architectures
+Abstract: Legacy systems, no matter which architectural style they rely on, contain numerous pieces of source code with very similar functionality. We see these system aspects as a good starting point for rearchitecting legacy systems. The goal is the evolution of the legacy system architecture towards a product line architecture which incorporates the originally replicated system aspects as reusable, ideally self-configuring components. This paper presents the concepts which we regard as necessary and/or useful for such an evolution: Framelets form small architectural building blocks that can be easily understood, modified and combined. Reflection together with a high-level definition of semantic aspects allow the construction of partially self configuring components. A case study corroborates that this constitutes a viable approach for rearchitecting legacy systems in practice.
+
+5. Checking the Correctness of Architectural Transformation Steps via Proof-Carrying Architectures
+R. A. Riemenschneider, 
+Author affiliation: (1) Computer Science Laboratory, SRI International, Menlo Park, CA, USA
+rar@csl.sri.com
+Controlled terms: Software architectures, architecture hierarchies, transformation, refinement verification, proof-carrying architectures
+Abstract: The end product of architecting is an architectural hierarchy, a collection of architectural descriptions linked by mappings that interpret the more abstract descriptions in the more concrete descriptions. Formalized transformational approaches to architecture refinement and abstraction have been proposed. One argument in favor of formalization is that it can result in architectural implementations that are guaranteed to be correct, relative to the abstract descriptions. If these are correct with respect to one another, conclusions obtained by reasoning from an abstract architectural description will also apply to the implemented architecture. But this correctness guarantee is achieved by requiring that the implementer use only verified transformations, i.e., ones that have been proven to produce correct results when applied. This paper explores an approach that allows the implementer to use transformations that have not been proven to be generally correct, without voiding the correctness guarantee. Checking means determining that application of the transformation produces the desired result. It allows the use of transformations that have not been generally verified, even ones that are known to sometimes produce incorrect results, by showing that they work in the particular case.
+
+6. Developing Dependable Systems Using Software Architecture
+Titos Saridakis & Valerie Issamy
+Author affiliation: (1)  INRIA/IR/SA, Campus de Beaulieu, 35042 Rennes Cedex, France
+{ saridaki, Valerie.Issamy}@ irisa.fr
+Abstract: The construction of dependable software systems is recognized as a complex task: the system developer has to address the usage of fault tolerance techniques in addition to the design of the functional aspects that are specific to the system. This paper proposes a framework aimed at easing the development of dependable systems by providing software designers with a repository of dependable software architectures. A dependable software architecture shows how to integrate a fault tolerance technique with a given system so as to make the system dependable. Furthermore, the dependability behaviors of architectures are formally specified, which allows to unambiguously interpreting the various fault tolerance techniques as well as to organize the repository of corresponding architectures into a refinement-based lattice structure.
+Controlled terms: Dependability, formal specification, software architecture, software reuse, specification refinement.
+
+7. Specification and Refinement of Dynamic Software Architectures
+Calos Canal, Emesto PimenteP, Jose M. Troya
+Author affiliation: (1)  Depto. de Lenguajes y Ciencias de Ia Computaci6n, Universidad de Malaga, Spain
+E-mail: {canal, emesto, troyaj@lcc.uma.es
+Controlled terms: Software architecture, architecture description languages, 7t-calculus, compatibility, inheritance of behaviour, prototyping
+Abstract: Several notations and languages for software architectural specification have been recently proposed. However, some important aspects of composition,extension, and reuse deserve further research. These problems are particularly relevant in the context of open systems, where system structure can evolve dynamically, either by incorporating new components, or by replacing existing components with compatible ones. Our approach tries to address some of these open problems by combining the use of formal methods, particularly processalgebras, with concepts coming from the object-oriented domain. In this paper we present LEDA, an Architecture Description Language for the specification, validation, prototyping and construction of dynamic software systems. Systems specified in LEDA can be checked for compatibility, ensuring that the behaviour of their components conforms to each other and that the systems can be safely composed. A notion of polymorphism of behaviour is used to extend and refine components while maintaining their compatibility, allowing the parameterisation of architectures, and encouraging reuse of architectural designs.
+
+8. Modeling Software Architectures and Styles with Graph Grammars and Constraint Solving
+Dan Hirsch, Paola Inverardi, Ugo Montanari
+Author affiliation: (1) Departamento de Computation, Universidad de Buenos Aires, Ciudad Universitaria, Pab.l, (1428), Buenos Aires, Argentina, dhirsch@dc.uba.ar 2 Dip. Di Mat. Pura ed Applicata, Universita dell 'Aquila, Via Vetoio, Localita' Coppito, L'Aquila, ltalia, inverard@univaq.it 3 Dipartimento di Informatica, Universita di Pisa, Corso ltalia 40, (56125), Pisa, ltalia, ugo@di.unipi.it
+Controlled terms: Architectural descriptions, graph rewriting, styles, dynamic architectures, reconfiguration
+Abstract: A software architecture style is a class of architectures exhibiting a common pattern. The description of a style must include the structure model of the components and their interactions (i.e., structural topology), the Jaws governing the dynamic changes in the architecture, and the communication pattern. A simple and natural way to describe a system is by using graphs, and as an extension of this, by using grammars to describe styles. The construction and dynamic evolution of the style will be represented as context-free productions and graph rewriting. To model the evolution of the system we use techniques of constraint solving already applied in the representation of distributed systems. From this approach we obtain an intuitive way to model systems, and a unique language to describe the style (but still a clear a separation of coordination and configuration). With these we have a direct way of following the evolution of the system and proving its properties.
+
+9. Describing Software Architecture with UML
+C. Hofmeister, R. L. Nord, D. Soni
+Author affiliation: (1)  Siemens Corporate Research, Princeton, New Jersey, USA
+{chofmeister, mord, dsonij@scr.siemens.com
+Controlled terms: Software architecture, UML, architecture descriptions, multiple views
+Abstract: This paper describes our experience using UML, the Unified Modeling Language, to describe the software architecture of a system. We found that it works well for communicating the static structure of the architecture: the elements of the architecture, their relations, and the variability of a structure. These static properties are much more readily described with it than the dynamic properties. We could easily describe a particular sequence of activities, but not a general sequence. In addition, the ability to show peer-topeer communication is missing from UML.
+
+10. Assessing the Suitability of a Standard Design Method for Modeling Software Architectures
+Nenad Medvidovic, David S. Rosenblum
+Author affiliation: (1)  Department of Information and Computer Science University of California, Irvine Irvine, CA 92697-3425, U.S.A.
+{neno,dsr}@ics.uci.edu
+Controlled terms: Software architecture, architectural style, object-oriented design, architecture description languages, Unified Modeling Language
+Abstract: Software architecture descriptions are high-level models of software systems. Most existing special-purpose architectural notations have a great deal of expressive power but are not well integrated with common development methods. Conversely, mainstream development methods are accessible to developers, but lack the semantics needed for extensive analysis. In our previous work, we described an approach to combining the advantages of these two ways of modeling architectures. While this approach suggested a practical strategy for bringing architectural modeling into wider use, it introduced specialized extensions to a standard modeling notation, which could also hamper wide adoption of the approach. This paper attempts to assess the suitability of a standard design method "as is " for modeling software architectures
+
+11. Software Architecture and Java Beans
+Sylvia Stuurman
+Author affiliation: (1)  Delft University of Technology
+Department of Computer Science,
+P.O. Box 356, 2600AJ The Netherlands
+S.Stuurman@twi.tudelft.nl
+Controlled terms: Java Beans, software architecture, component based development
+Abstract: In theory, software architecture and component-based development make an ideal match: the concerns of software architecture are high level design, interaction, and configuration of components, while component-based development is centered on the implementation and specification of reusable components. Together, these concerns seem to be the yin and yang for the development of complex systems out of existing components. However, several authors have already explained that in reality, there is a gap between the two areas. In this paper, we investigate the relation between Java Beans and a software architecture description : may Java Beans simply be used as ready-to-use implementations of a software architecture? What restrictions do they impose on the software architecture? Where are the mismatches?
+
+12. Architectural Styles as Adaptors
+Don Batory i, Yannis Smaragdakis; Lou Coglianese;;
+Author affiliation: (1) Department of Computer Sciences, The University of Texas, Austin, TX 78712 i & LGA, /nc. ,/2500 Fair Lakes Circle, Suite 130, Fairfax, Virginia ii
+{batory, smaragdj@cs.utexas.edu, lou@lga-inc.com
+Controlled terms: architectural styles, product-line architectures, GenVoca model, adaptors, software refinements, program transformations.
+Abstract: The essence of architectural styles is component communication. In this paper, we relate architectural styles to adaptors in the Gen Voca model of software construction. GenVoca components are refinements that have a wide range of implementations, from binaries to rule-sets of program transformation systems. We explain that architectural styles can (I) be understood as refinements (like other GenVoca components) and (2) that they are generalizations of the 00 concept of adaptors. By implementing adaptors as program transformations, complex architectural styles can be realized in GenVoca that simply could not be expressed using less powerful implementation techniques (e.g., object adaptors). Examples from avionics are given.
+
+13. Attribute-Based Architecture Styles
+Mark H. Klein, Rick Kazman, Len Bass, Jeromy Carriere, Mario Barbacci, and Howard Lipson
+Author affiliation: (1) Software Engineering Institute, Carnegie Mellon University, Pittsburgh, PA 15213
+{mk, rkazman, ljb, sjc, mrb, hjlj@sei.cmu.edu
+Controlled terms: Architecture, architecture styles, quality attributes
+Abstract: Architectural styles have enjoyed widespread popularity in the past few years, and for good reason: they represent the distilled wisdom of many experienced architects and guide less experienced architects indesigning their architectures. However, architectural styles employqualitative reasoning to motivate when and under what conditions they should be used. In this paper we present the concept of an ABAS (Attribute-Based Architectural Style) which includes a set of components and connectors along with their topology, but which addsto this a quality attribute specific model that provides a method of reasoning about the behavior of component types that interact in the defined pattern. We will define ABASs in this paper, show how they are used, and argue for why this extension to the notion of architectural style is an important step toward creating a true engineering discipline of architectural design.
+
+14. A Framework for Describing Software Architectures for Reuse�
+Ezra Kaahwa Mugisa1, TomS. E. Maibaum2
+Author affiliation: (1) 1 Department of Mathematics and Computer Science; University of the West Indies (Mona);
+Kingston 7, Jamaica; phone/fax: +876 977 1810; e-mail: ekmugisa@uwimona.edu.jm:
+(2) Department of Computing; Imperial College of Science, Technology and Medicine; /80
+Queen's Gate, London SW7 2BZ, UK; phone: +44171 594 8274;fa.x : +44 171 5818024;
+e-mail: tsem@doc.ic.ac.uk
+Controlled terms: Systematic softwate reuse, softwate atchitectures, object calculus, category theory, component, interconnection, objects, patterns
+Abstract: We present a formal description of softwate atchitectures for softwate reuse to support a view of systematic softwate reuse as the plugging of components into an architecture. The components ate object descriptions in the object calculus. Interconnection between the components is defined via synchronisation morphisms within a framework based on category theory. Component composition is defined via the pushout construction, giving the atchitecture as a "calculated" component, from which the atchitecture's properties may be derived. We show that the architectures described ate reusable in our Reuse Triplet that forms the motivation for our on-going work on systematic softwate reuse. This work provides further support for the suggestion that category theory provides the appropriate level of mathematical abstraction to describe softwate atchitectures.
+
+15. Modeling Software Architecture Using Domain Specific Patterns
+J. P. Riegel, C. Kaesling, M. Schiitze
+Author affiliation: (1) Dep. of Computer Science, University of Kaiserslautem, Germany,
+{riegel, kaesling, schuetze}@informatik.uni-kl.de
+Controlled terms: architectural design patterns, domain-specific modeling support, code generation
+Abstract: In this paper we present a domain-specific modeling approach for application components. We use class diagrams and design patterns as major modeling notations and utilize code generation techniques to create an application. Certain architectural aspects of these applications can explicitly be modeled using concrete versions of architectural patterns. As an example, an adaptation of the Pipes and Filters pattern (see Buschmann et al ., 1996) is presented, which can be used as an architectural modeling entity and which is
+supported by a code generator for automatic implementation of different data flow mechanisms.
+
+16. ImageBuilder Software A Framework Development Experience Report
+Dwayne Towell, 
+Author affiliation: (1)ImageBuilder Software 6650 SW Redwood Lane, Suite 200 Portland, OR 97224
+dwayne@imagebuilder. com
+Controlled terms: Framework, experience, object-oriented, cross-platform, multimedia, reuse, education, domain, team, architects, development
+Abstract: Six years ago lmageBuilder Software chose to develop an object-oriented , cross-platform, multimedia framework to promote code reuse and therefore increase profits. Today, it continues to be used and extended; it is profitable and a major company asset. This paper documents how it was developed, describes how we use it today, evaluates its success, and makes recommendations for others based on our experience
+
+17. Event-Based Execution Architectures for Dynamic Software Systems
+James Vera, Louis Perrochon, David C. Luckham
+Author affiliation: (1) Computer Systems Laboratory Stanford University Stanford, CA 94305, USA
+{vera,perrochon,dclj@pavg.stanford.edu
+Controlled terms: Evolutionary software architectures, software artifacts, component engineering.
+Abstract: Distributed systems' runtime behavior can be difficult to understand. Concurrent, distributed activity make notions of global state difficult to grasp. We focus on the runtime structure of a system, its execution architecture, and propose representing its evolution as a partially ordered set of predefined architectural event types. This representation allows a system's topology to be visualized, analyzed and constrained. The use of a predefined event types allows the execution architectures of different systems to be readily compared
+
+18. Evolution and Composition of Reusable Assets in Product-Line Architectures: A Case Study
+Jan Bosch, 
+Author affiliation: (1) University of Karlskrona/Ronneby Department of Computer Science and Business Administration S-372 25 Ronneby, Sweden
+e-mail: Jan.Bosch@ide.hk-r.se
+www:http://www.ide.hk-r.sel-bosch
+Controlled terms: Reusable assets, product-line architectures, software composition, software evolution, case study
+Abstract: In this paper, a case study investigating the experiences from evolution and modification of reusable assets in product-line architectures is presented involving two Swedish companies, Axis Communications AB and Securitas Larm AB. Key persons in these organisations have been interviewed and information has been collected from documents and other sources. The study identified problems related to multiple versions of reusable assets, dependencies between assets and the use of assets in new contexts. The problem causes have been identified and analysed, including the early intertwining of functionality, the organizational model, the time to market pressure, the lack of economic models and the lack of encapsulation boundaries and required interfaces.
+
+19. Flexibility of the ComB AD* Architecture
+N.H. Lassing, D.B.B. Rijsenbrij, J.C. van Vliet 
+Author affiliation: (1) Vrije Universiteit, Faculty of Sciences De Boelelaan 1081a, 1081 HV, Amsterdam, The Netherlands
+tel: +31 (0)20 44 47769,/ax: +31 (0)20 44 47653
+e-mail: {nlassing, daan, hans}@cs.vu.nl
+Controlled terms: Software architecture, software frameworks, software quality, quality assessment, flexibility, adaptability, portability, reusability
+Abstract: Software architecture is nowadays regarded as the first step to achieving software quality. The architect's main task is to translate quality requirements into a software architecture. An important step is to assess whether the architecture actually satisfies these quality requirements. The purpose of this paper is to explore which architectural choices support flexibility and how flexibility can be assessed. To that end, we explored the ComB AD architecture, whose main objective is flexibility. We investigated the architectural choices made and assessed whether flexibility was achieved. This will not only increase our insight into flexibility in general, but particularly into the assessment of this quality attribute. We use the term flexibility in the broadest sense of the word: to denote adaptability, portability and reusability. Adaptability can be regarded as flexibility in the narrow sense, portability as the flexibility to use a system in various technical environments, and reusability as the flexibility to reuse part of a system in another system.
+
+20. Medical Product Line Architectures 12 years of experience
+B.J. Pronk
+Author affiliation: (1) Philips Medical Systems
+P.O. Box 10,000, 5600 DA Best, The Netherlands
+bpronk@best.ms.philips.com
+Controlled terms: Example architectures, product line architectures, styles and patterns
+Abstract: The product line architectures for diagnostic imaging equipment like CT. MRI and conventional X-Ray have to cope with large variations (in hardware and application functions) combined with a high level of integration between their embedded applications. Therefore a primary goal of these architectures is to avoid monolithic applications while retaining the required integrated behaviour. Furthermore, an easy and independent variation of the constituting components is essential. The product line architecture described in this paper gives one recent example solution to this problem. This example presents a layered, event-driven, resource-restricted system based on the model-viewcontroller pattern. Its technical implementation relies heavily on state of the artdesktop (Windows NTTM) and component techniques (DCOM). For this architecture, orthogonality and (binary) variation have been the key design goals. Three views of this architecture-the conceptual, technical, and process models-are discussed. In all three views the rationale of the chosen concepts and their relation to the problems indicated above is shown.
+
+21. Kaleidoscope A Reference Architecture for Monitoring and Control Systems
+Andrea Savigni, Francesco Tisato
+Author affiliation: (1)  DSI Universita di Milano Via Comelico 39/41 20153 Milano, Italy
+emails: {savigniitisato}@dsi.unimi.it
+voice: +39 2 55006231
+fax: +39 2 55006249
+Controlled terms: Software architecture, monitoring and control systems, connectors, strategy, object orientation
+Abstract: Although monitoring and control systems can be applied to a great variety of application domains, they exhibit a number of common characteristics, particularly the extensive use of abstraction layers and information streams. This paper presents a reference architecture upon which a number of monitoring and control systems for a wide range of application domains can be designed. The architecture is described in terms of components and connectors, and the UML methodology is employed to specify class diagrams. The architecture is specifically conceived to be made of reusable components; to that aim, a clear separation is made between information components and strategic components, so that the former can be reused under different strategies. Conceptual images are information components that model concepts of the application domain, and are specialised in terms of concrete images, such as acquisition, processing, and presentation. The major task of the system is to align concrete images, which takes place via transfer of objects (facets) through particular connectors (projectors). This mechanism allows construction of systems where very little is hard-coded at compile time, and a lot is left to configuration, which can usually be performed by a domain expert rather than a software engineer.
+
+22. Segregating the Layers of Business Information Systems An interface-based approach
+Johannes Siedersleben 1, Gerhard Albers2, Peter Fuchs 1, Johannes Weigend 1
+Author affiliation: 1 University of Applied Sciences of Rosenheim, Marienberger Str. 26, D-83024 Rosenheim, Germany; +49/806719122 (phone), +491806719123 (fax) (2) Software Design & Management, Thomas-Dehler-Str. 27, D-81737 Munich, Germany;
++49189163812-0 (phone), +49/89163812-150 (fax)
+johannes.siedersleben@ t-online.de
+Controlled terms: Business information systems, external representations, interfaces, layers, reusability
+Abstract: This paper presents a refined layered architecture for business information systems of any size. It allows a strict separation of application logic, databasea access, and user interface and is largely independent of programming languages, database management systems, operating systems, and middleware.
+
+23. Security Issues with the Global Command and Control System (GCCS)
+Shawn A. Butler, 
+Author affiliation: (1) Computer Science Department, Carnegie Mellon University Pittsburgh, PA 15213
+shawn. butler@ cs.cmu. edu
+Controlled terms: Architecture, security, command and control, common operating environment , COE,GCCS
+Abstract: The Global Command and Control System (GCCS) was one of the most ambitious and largest software integration tasks in the history of the Department of Defense. As the Chief Systems Engineer for GCCS , I found architectural differences among command and control systems presented unique integration and interoperability challenges. In this paper I present 3 security-related examples of specific problems I encountered when I attemptedto integrate several system s into GCCS. I also discuss the problem of systemlevelsecurity analysis and introduce a framework that software engineers can  use to evaluate security
+
+24. Architecture for Software Construction by Unrelated Developers
+W.M. Gentleman, 
+Author affiliation: (1) National Research Council, Institute for Information Technology, Ottawa, Ontario, Canada.
+phone (613) 993-90/0,fax(613) 952-0074,
+e-mail Morven. Gentleman@ /IT. NRC. CA
+Controlled terms: Software architecture, COTS, unrelated developers
+Abstract: Suppose one COTS (Commercial Off the SheiO software supplier provides an interpreter for a problem oriented language, another provides an application generator for producing numerical solvers for a class of partial differential equations, and a third produces a visualization package. A team of domain specialists writes scripts in the problem-oriented language to define cases to be solved, uses the application generator to produce an appropriate solver, solves the generated PDE, and uses the visualization package to analyze the results and adjust the description of cases. Such examples illustrate that large andlong-lived software systems can result from the  combined efforts of various unrelated development organizations, organizations not even known to one another. No single design authority, to which the others report, has overall system responsibility. Such examples also illustrate the importance of including in software architecture the relationships between entities that exist and are used during the construction process, instead of focusing only on relationships between entities that exist at run time. The needs for software architecture for such systems are not well met by the existing literature.
+
+25. Integration of Heterogenous Software Architectures - An Experience Report
+Volker Gruhn, Ursula Wellen
+Author affiliation: (1) University of Dortmund, Software Technology, D-44227 Dortmund, Germany
+( gruhn, wellenj@helsinki.informatik.uni-dortmund.de
+Controlled terms: Software architecture, database integration, distributed objects, components, migration, software landscape
+Abstract: In this article we describe our experience with a software migration project in a telecommunication company. We started from a set of heterogeneous software systems (described by rather different types of software architectures) and we defined a migration path towards an integrated software architecture. On this path several intermediate versions of the software architecture were implemented. We discuss the purpose of these intermediate versions and the problems encountered in the migration path.
+
+26. Structural Analysis of the Software Architecture - A Maintenance Assessment Case Study
+Catherine Blake Jaktman, John Leaney, and Ming Liu
+Author affiliation: (1) Computer Systems Engineering, Faculty of Engineering, University of Technology, Sydney,
+Australia
+{cjaktman, jleaney, mliu} @eng.uts.edu.au
+Controlled terms: Software architecture, software evolution, maintenance measurements, experience report, architectural erosion.
+Abstract: Architectural erosion is a sign of reduced architectural quality. Quality characteristics of an architecture, such as its ability to accommodate change, are critical for an evolving product. The structure of an architecture is said to be eroded when the software within the architecture becomes resistant to change or changes become risky and time consuming. The objective of our work is to understand the signs of architectural erosion that contribute to decreased maintainability. A maintenance assessment case study is described in which we apply structural measurements to a product to determine signs of architectural erosion. It provides an understanding of a product's quality by examining the structure of its architecture. The ability to assess architectural erosion in an evolving software product allows the quality of the architecture to be monitored to ensure its business and maintenance goals are achieved.
+
+27. Architectural Evolution Nokia Mobile Phone Case
+Juha Kuusela
+Author affiliation: (1) Nokia Research Center, Helsinki, Finland
+juha.kuusela@ research.nokia.com
+Controlled terms: Architectural evolution, product family, and organization.
+Abstract: Similar software products can be developed as a product family. Common architecture, addressing all common requirements of products in the family,provides the basis for wide scale reuse within the family. When independentproducts continue their evolution, they face new requirements that may prove to have wider scope and need addressing at the family level. However, changes on the family level may be very costly for the product projects. Our experience shows that architectural evolution is possible and practical if each change has been carefully planned, taking into account its organizational aspects. Then the change has to be carried out so that the product line does not stop. Large architectural changes are high-risk operations; even when they succeed, they tend to take much longer than expected.
+
+28. Building Systems from Parts in the Real World Everything's Possible, But Nothing is Easy
+Roy R Wei!
+Author affiliation: (1) Michael Baker Corporation, 4301 Dutch Ridge Road, Beaver, PA 15009
+WeilR@acm.org
+Controlled terms: Component reuse, software integration, component packaging, configuration management
+Abstract: As manager of the software support group for a full-service civil engineeringfirm, my major challenge is in composing project-specific software solutions from pre-existing parts. Too often, the available parts are not quite right for the task; or the parts work individually but make incompatible assumptions about interaction, representation, or other aspects of integration; or a solution works on prototypes but does not scale up for production. For seven example cases, I describe the architectural integration problems and what we did about them. None of the specific examples presents a major challenge- my real problem is that each such example must currently be solved as a special case. The architecture research community could help me most by developing general methods and tools to help me identify and resolve these integration problems systematically and routinely.
+
+29. Architectural Concerns in Automating Code Generation
+L. F. Andrade, J. C. Gouveia, P. J. Xardone and J. A. Camara
+Author affiliation: (1) OBLOG Software S.A.
+Alameda Antonio Sergio 7- 1 A, 2795 Linda-a-Velha, Portugal
+{landrade, jgouveia, pxardone, jcamara} @oblog.pt,
+tel: +351-14146930, fax:+351-I-4144125
+Controlled terms: Code generation, object-oriented modelling, contract-based architectural style
+Abstract: We report on the problems (and solutions) that we have been facing in defining an architecture that enables us to automatically synthesise production code (COBOL, CICS, SQL) from a higher level specification language that includes both primitives that handle business and architectural requirements. Our experience has been drawn from a real-life project in the banking industry where object-oriented models for large-scale projects were used. With these models, the application architecture was conceived to be robust to change, accommodating new behaviour in a systematic and encapsulated way.
+
+30. The MBASE Life Cycle Architecture Milestone Package No Architecture Is An Island
+Barry Boehm, Dan Port, Alexander Egyed, and Marwan Abi-Antoun
+Author affiliation: (1) Center for Software Engineering, University of Southern California, Los Angeles, CA 90089 {boehm, dport, aegyed, marwan}@sunset.usc.edu
+Controlled terms: Software architecture, systems architecting, architecture evaluation, modelbased development, rationale capture.
+Abstract: This paper summarizes the primary criteria for evaluating software system architectures in  of key system stakeholders concerns. It describes the Model Based Architecting and Software Engineering (MBASE) approach for concurrent definition of a systems architecture, requirements, operational concept, prototypes, and life cycle plans. It summarizes our experiences in using and refining the MBASE approach on 31 digital library projects. It concludes that a Feasibility Rationale demonstrating consistency and feasibility of the various specifications and plans is an essential part of the architectures definition, and presents the current MBASE annotated outline and guidelines for developing such a Feasibility Rationale.
+
+31. Software Architecture at Siemens: The challenges, our approaches, and some open issues
+Lothar Borrmann, Frances Newbery Paulisch
+Author affiliation: (1)  Siemen s AG, Corporate Technology, Software and Engineering, D-81730 Munich, Germany . Lothar.Borrman@mchp.siemens.de, Francis .Paulisch@mchp .siemens.de
+Controlled terms: Software architecture, software process, frameworks , architecture assessment, product families, evolution of software architectures
+Abstract: The importance of software architecture in the design of large software systems is unquestioned in both the academic and industrial software engineering communities. At Siemens, software is an important , often dominant, factor in the success of our products and this trend towards softwa re is increasing as software becomes even more prevalent in our product spectrum. Our experience indicates clearly that attention to three aspects - to people, to process , and, in particular, to architecture - are important for successful product developments. This paper lists some of the challenges that we face in the area of software architecture, what approaches we have taken as well as a set of issues that require further attention in future .
+
+32. Architectural Design to Meet Stakeholder Requirements
+L. Chung1, D. Gross 2,  E. Yu 2
+Author affiliation: 1 Computer S cience Program, University ofTe:ms, Dallas, USA & 1 Faculty of Information Studies, University of Toronto, Toronto, Ontario, Canada chung@utdallas.edu, (gross, yuj@jis.utoronto.ca
+Controlled terms: Software architecture, rationale, stakeholders, organization modeling, requirements, quality attributes, architectural properties, non-functional requirements, process-oriented, softgoal, satisficing, design re asoning
+Abstract: Architectural design occupies a pivotal position in software engineering . It is during architectural design that crucial requirements such as performance, reliability, costs, etc ., must be addressed . Yet the task of achieving these properties remains a difficult one and it is made even more difficult with the shift in software engineering paradigm from monolithic , stand-alone, builtfrom- scratch systems to componentized, evolvable, standards-based, and product line oriented systems. Many well-established design strategies need to be reconsidered as new requirements such as evolvability, reusability, time-tomarket, etc., become more important. This paper outlines an approach that formulates architectural properties such as modifiability and performance as " softgoals" which are incrementally refined. Tradeoffs are made as conflicts and synergies are discovered. Architectural decisions are traced to stakeholders and their dependency relationships. Knowledge-based tool support for the process would provide guidance during design as well as records of design rationales to facilitate understanding and change management.
+
+33. The Software Architect -and the Software Architecture Team
+Philippe Kruchten
+Author affiliation: (1) Rational Software, 650 West 41st Avenue #638, Vancouver, B.C., V5Z 2M9 Canada pbk@ rational.com
+Controlled terms: Architecture, architect, team, process
+Abstract: Much has been written recently about software architecture, how to represent it, and where design fits in the software development process. In this article I will focus on the people who drive this effort: the architect or a team of architects-the software architecture team. Who are they, what special skills do they have, how do they organise themselves, and where do they fit in the project or the organisation?
+
+34. Aspect Design with the Building Block Method
+Jtirgen K. Miiller
+Author affiliation: (1) Philips Research Laboratories, Prof Holstlaan 4 (WLp ), NL - 5656 AA Eindhoven mueller@ nat lab. research.com
+Controlled terms: Software architecture, software component, object-oriented modelling, function-oriented modelling, design method
+Abstract: Aspects are a way to supplement object-oriented modelling with function oriented modelling. The Building Block Method (BBM) identifies 3 dimensions of independent design. Besides an object dimension and a process dimension also an aspect dimension is present. Object design, process design and function design are done independently. Building Blocks (BB), which are software components, cluster functionality according to criteria such as configurability in a product family and incremental system integration. The BBM is used to design families of telecommunication infrastructure, digital broadcasting and medical imaging systems. The paper introduces the concept of aspects and shows how they are identified and used in the BBM.
+
+200000. end
+end

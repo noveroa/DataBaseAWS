@@ -1,0 +1,122 @@
+1. MAP - mining architectures for product line evaluations
+Stoermer, C., O'Brien, L.
+Author affiliation: (1) Robert Bosch Corp Carnegie Mellon University
+Controlled terms: data processing - software architecture - systems analysis - architectural styles - architecture reconstruction - mining architectures - product line evaluations
+Abstract: Product lines evolve out of existing products. In order to evaluate the potential of creating a product line from existing products, it is necessary to 'mine' their architectures and analyze the commonalities and variabilities across those architectures. To manage the evaluation process in a disciplined way the paper introduces the MAP (Mining Architectures for Product Lines) method. MAP outlines a bottom-up approach for mining the architecture of the existing products, a top-down approach to mapping architectural styles and attributes onto the mined architectures and an approach to analyzing their commonalities and variabilities. It combines well-known architecture reconstruction and product line analysis techniques. A case study is presented showing the application of the method and its benefits are outlined
+
+2. A compositional approach for constructing connectors
+Spitznagel, B. Garlan, D.
+Author affiliation: (1) Carnegie Mellon University
+Controlled terms: protocols, software architecture, composition, connector construction, extra-functional properties, Client-server system3. 
+Abstract: Increasingly, systems are composed from independently developed parts, and mechanisms that allow those parts to interact (connectors). In many situations, specialized forms of interaction are needed to bridge component mismatches or to achieve extra-functional properties (e.g., security, performance, reliability), making the design and implementation of these interaction mechanisms a critical issue. Unfortunately, system developers have few options: they must live with available, but often inadequate, generic support for interaction (such as RPC), or they must handcraft specialized mechanisms at great cost. The authors describe a partial solution to this problem, whereby interaction mechanisms are constructed compositionally. Specifically, we describe a set of operators that can transform generic communication mechanisms (such as RPC and publish-subscribe) to incrementally add new capabilities. We show how these transformations can be used to realize complex interactions (such as Kerberized RPC) and to generate implementations of the new connector types at relatively low cost
+
+3. When system boundaries dissolve: research opportunities in software architectures for ubiquitous computing and communication
+Shaw, M
+Author affiliation: (1) Carnegie Mellon University
+Controlled terms: Pervasive computing, Software architecture, Software engineering, Software systems, Ubiquitous computing
+Abstract: Not Available
+
+4. An object-oriented RBAC model for distributed system
+Chang, N.Z., Cungang Yang
+Author affiliation: (1) Regina University
+Controlled terms: authorisation, distributed object management, shared memory systems, access control, distributed system, security
+Abstract: In distributed computing environments, users would like to share resources and communicate with each other to perform their jobs more efficiently. For better performance, it is important to keep resources and information integrity from unexpected use by unauthorized users. Therefore, there is a strong demand for access control of distributed shared resources. Role-Based-Access-Control (RBAC) has been introduced and offers a powerful means for specifying access control decisions. The authors propose an object oriented RBAC model for distributed system (ORBAC), it efficiently represents the real world. Moreover, under the decentralized ORBAC management architecture, an implementation of the model has realized multiple-domain access control. Finally, statically and dynamically role authorization is considered and a method to deal with the problem of separation of duties is presented
+
+5. Is architecture a product that can be packaged and sold?
+Kozaczynski, W
+Author affiliation: (1) Rational Software Corp
+Controlled terms: Application software, Software engineering, Software packages
+Abstract: With the maturation of this field, companies are now in a position to describe, package and reuse application architectures. This is exactly what Rational Software is trying to do for what we call solution stacks. A solution stack is defined by the selection of a problem domain, a deployment infrastructure, a development infrastructure and various project characteristics. For such a point in the development space it seems possible to pre-built an entire application framework capturing the key architectural decisions for that application. The talk will describe how we can approach that task and what the outcome may look like. 
+
+6. Interface-centric architecture descriptions
+Jonkers, H.
+Author affiliation: (1) Philips Research Labs
+Controlled terms: software architecture, architectural description, component based software architectures, component specification, composition
+Abstract: The paper presents an approach to defining component-based software architectures in which interfaces rather than components play the key role. Architectural descriptions are built from 'i-specs' that define interface-level interaction patterns. An i-spec can be seen as a contract defining the rights and obligations of 'roles' that can be played in interface-based interactions. We introduce the 'closed world assumption' for i-specs, leading to a compositional approach to defining software architectures. We show how i-specs can be composed and how component specifications can be constructed from i-specs
+
+7. A highly-extensible, XML-based architecture description language
+Dashofy, E.M., van der Hoek, A., Taylor, R.N
+Author affiliation: (1) California University, Irvine
+Controlled terms: hypermedia markup languages, software architecture, software reusability, architecture description languages
+Abstract: Software architecture research focuses on models of software architectures as specified in architecture description languages (ADLs). As research progresses in specific areas of software architectures, more and more architectural information is created. Ideally, this information can be stored in the model. An extensible modeling language is crucial to experimenting with and building tools for novel modeling constructs that arise from evolving research. Traditional ADLs typically support a small set of modeling constructs very well, but adapt to others poorly. XML provides an ideal platform upon which to develop an extensible modeling language for software architectures. Previous XML-based ADLs successfully leveraged XML's large base of off-the-shelf tool support, but did not take advantage of its extensibility. To give software architecture researchers more freedom to explore new possibilities and modeling techniques, while maximizing reuse of tools and modeling constructs, we have developed xADL 2.0, a highly extensible XML-based ADL. xADL 2.0 supports run-time and design time modeling, architecture configuration management and model-based system instantiation. Additionally, xADL 2.0 has a set of extensible infrastructure tools that support the creation, manipulation, and sharing of xADL 2.0 documents
+
+8. Collaboration-based design - exemplified by the Internet Session Initiation Protocol (SIP) 
+Geppert, B. and Rossler, F
+Author affiliation: (1) Software Technology Research
+Controlled terms: software agents, distributed system, Collaborative work 
+Abstract: The concept of collaborations capturing dynamic aspects of a distributed system across agent boundaries is introduced. Some ways of composing collaborations are illustrated, with collaborations being implicitly represented as state machine fragments. The concepts are exemplified by the Internet Session Initiation Protocol (SIP) and consequences for a potential SIP implementation are discussed
+
+9. An architecture for distributing the computation of software clustering algorithms
+Mitchell, B.; Traverso, M.; Mancoridis, S. 
+Author affiliation: (1) Drexel University
+Controlled terms: distributed programming, software architecture, software engineering tool
+Abstract: Collections of general purpose networked workstations offer processing capability that often rivals or exceeds supercomputers. Since networked workstations are readily available in most organizations, they provide an economic and scalable alternative to parallel machines. The authors discuss how individual nodes in a computer network can be used as a collection of connected processing elements to improve the performance of a software engineering tool that we developed. Our tool, called Bunch, automatically clusters the structure of software systems into a hierarchy of subsystems. Clustering helps developers understand complex systems by providing them with high-level abstract (clustered) views of the software structure. The algorithms used by Bunch are computationally intensive and, hence, we would like to improve our tool's performance in order to cluster very large systems. The paper describes how we designed and implemented a distributed version of Bunch, which is useful for clustering large systems
+
+10. Layers, decisions, patterns, styles, and architectures
+Schwanke, R.W
+Author affiliation: (1) Siemans Corp
+Controlled terms: real-time systems, software architecture, architecture patterns
+Abstract: The pattern-composition diagram and the attribute/decision graph summarize an architecture and its rationale, respectively. The paper introduces, defines, and discusses these notations, with an example of a reference architecture for a broad class of real-time systems. The design patterns organizing the infrastructure of the example system would be highly recommended for most large systems today, and are therefore nominated as "foundational architectural patterns"
+
+11. Towards fault-tolerant software architectures
+Sotirovski, D.
+Author affiliation: (1) Raytheon Systems
+Controlled terms: software architecture, fault tolerance, object oriented design, Software safety
+Abstract: "Software engineering has produced no effective methods to eradicate latent software faults. " This sentence is, of course, a stereotype, but it is as true as a stereotype can get. And yet, it begs some questions. If it is not possible to construct a large software system without residual faults, is it at least possible to construct it to degrade gracefully if and when a latent fault is encountered? This paper presents the approach adopted on CAATS (Canadian Automated Air Traffic System), and argues that OO design and certain architectural properties are the enabling elements towards a true fault-tolerant software architecture
+
+12. The role of SW architecture in solving fundamental problems in object-oriented development of large embedded SW systems
+Laine, P.K.
+Author affiliation: (1) Nokia Research
+Controlled terms: embedded systems, software architecture, Failure analysis, Performance analysis
+Abstract: The article approaches SW (software) architecture through the needs and problems of object oriented SW development. It is widely perceived that the OO approach, despite its generally acknowledged strengths, has so far failed to fully deliver its promises. Based on experiences from the development of several large embedded SW systems, an analysis of common practical and conceptual problems in OO SW development is performed and a solution is suggested The analysis indicates a need for SW architecture as a separate concept. The discussion of the solution concentrates on the nature of SW architecture in this context, on the methodological implications of combining SW architecture work with OO approach and on the role of the architecture task in the entirety of SW construction
+
+13. Techniques for independent deployment to build product populations
+van Ommering, R.
+Author affiliation: (1) Philipps Research, Netherlands
+Controlled terms: software architecture, software development management, software portability, software reusability,independent component deployment, software components
+Abstract: When building small product families, software should be shared between different members of the family, but the software can still be created as one system (with variation points) with a single architecture. For large and diverse product families (product populations), the software can no longer be developed in one context and at one moment in time. Instead, one must combine software components of which the development is separated in space and in time, each with their own evolution path. In other words, we need independent deployment of components. We discuss four aspects of independent deployment. Two of these aspects: upward and downward compatibility, deal with variation in time. The other two: reusability and portability, deal with variation in space. For each aspect, we indicate the relevance, provide some examples, and list several techniques to deal with it. The paper can thus be seen as a guide for product population development
+
+14. SPIN-ning software architectures: a method for exploring complex systems
+Kloukinas, C. and Issarny, V.
+Author affiliation: (1) Inst. Nat. de Recherche en Inf. et Autom., Le Chesnay, France
+Controlled terms: program verification, software reusability, SPIN, architecture discovery, architecture transformation
+Abstract: When designing complex software systems that provide multiple non-functional properties, it is usual to try to reuse (and finally compose) simpler existing designs, which deal with each of these properties in solitude. The paper describes a method for automatically and quickly identifying all the different ways one can compose such designs, with the aid of a model checker
+
+15. Why we need a different view of software architecture
+Baragry, J. and Reed, K., 
+Author affiliation: (1) La Trobe University, Australia
+Controlled terms: software architecture, software architecture view
+Abstract: The definition and understanding of software architectures and architecture views still shows considerable disagreement in the software engineering community. The paper argues that the problems we face exist because our understanding is based on specious analogies with traditionally engineered artefacts. A review of the history of ideas shows the evolution of this understanding. A detailed examination is then presented of the differences that exist between the nature of the systems, the content of their large-scale representations, and how they are used in practice in the respective disciplines. These differences seriously undermine the analogies used to develop our understanding and this is discussed in terms of software engineering as a whole
+
+16. Detecting architectural mismatches in process algebraic descriptions of software systems
+Bernardo, M., Ciancarini, P., Donatiello, L.
+Author affiliation: (1) Dipt. di Inf., Torino Univ., Italy 
+Controlled terms: concurrency, formal specification, software architecture, architectural compatibility, software components, Architecture description languages
+Abstract: Formalizing the description of software systems helps to detect the presence of architectural mismatches that can arise when assembling software components together. The authors identify three causes of architectural mismatches: incompatibility between two components due to a single interaction, incompatibility between two components due to the combination of several interactions, and lack of interoperability among a set of components forming a cyclic topology. We then show how to deal with all of them within a uniform, process algebraic framework. We begin with the first two causes by strengthening a previously defined architectural compatibility check based on observational equivalences, in order to achieve a deadlock freedom result for the set of components interacting via a certain connection. We subsequently concentrate on the third cause by defining a novel architectural interoperability check based on observational equivalences, which guarantees absence of deadlock within a set of interacting components forming a cyclic topology. We finally assess the adequacy of our architectural interoperability check by applying it to the description of a cruise control system
+
+17. Statechart simulator for modeling architectural dynamics
+Egyed, A. and Wile, D.
+Author affiliation: (1) Teknowledge Corp., Marina del Rey, CA, USA
+Controlled terms: simulation languages, software architecture, specification languages, virtual machines, Architecture Description Languages
+Abstract: Software development is a constant endeavor to optimize qualities like performance and robustness while ensuring functional correctness. Architecture Description Languages (ADLs) form a foundation for modeling and analyzing functional and non-functional properties of software systems, but, short of programming, only the simulation of those models can ensure certain desired qualities and functionalities. The paper presents an adaptation to statechart simulation, as pioneered by D. Harel (1987). This extension supports architectural dynamism: the creation, replacement, and destruction of components. We distinguish between design-time dynamism, where system dynamics are statically proscribed (e.g., creation of a predefined component class in response to a trigger), and run-time dynamism, where the system is modified while it is running (e.g., replacement of a faulty component without shutting down the system). Our enhanced simulation language, with over 100 commands, is tool-supported
+
+18. Focus: a light-weight, incremental approach to software architecture recovery and evolution
+Lei Ding and Medvidovic, N.
+Author affiliation: (1) Dept. of Comput. Sci., Univ. of Southern California, Los Angeles, CA, USA 
+Controlled terms: software architecture, software prototyping, architecture recovery, architectural erosion
+Abstract: During the past decade (1991-2001), object-orientation (OO) has become the dominant software development methodology, accompanied by a number of modeling notations, programming languages, and development environments. OO applications of today are increasingly complex and user driven. They are also developed more rapidly and evolved more frequently than was the case with software systems of the past. All of these factors contribute to a plethora of potential problems when maintaining and evolving an OO application. These problems are caused by architectural erosion, where the initial architecture of an application is (arbitrarily) modified to the point where its key properties no longer hold. We propose an approach, called Focus, whose goal is to enable effective evolution of such an application with minimal effort, by recovering its architecture and using it as the basis of evolution. Focus allows engineers to direct their primary attention to the part of the system that is directly impacted by the desired change; subsequent changes will incrementally uncover additional parts of the system's architecture. We have applied Focus to four off-the-shelf applications to date. We discuss its key strengths and point out several open issues that will frame our future work
+
+19. On the notion of variability in software product lines
+van Gurp, J., Bosch, J. and Svahnberg, M.
+Author affiliation: (1) Dept. of Math. & Comput. Sci., Groningen Univ., Netherlands 
+Controlled terms: software development management, variability patterns, ;software product lines
+Abstract: The authors discuss the notion of variability. We have experienced that this concept has so far been underdefined, although we have observed that variability techniques become increasingly important. A clear indication of this trend is the recent emergence of software product lines. Software product lines are large, industrial software systems intended to specialize into specific software products. The authors provide a framework of terminology and concepts regarding variability. In addition, they present three recurring patterns of variability. Finally, they suggest a method for managing variability in software product lines
+
+20. Annotating reusable software architectures with specialization patterns
+Hakala, M., Hautamaki, J., Koskimies, K., Paakki, J.,  Viljamaa, A., Viljamaa, J. 
+Author affiliation: (1) Software Syst. Lab., Tampere Univ. of Technol., Finland 
+Controlled terms: software architecture, software reusability, application frameworks
+Abstract: An application framework is a collection of classes implementing the shared architecture of a family of applications. It is shown how the specialization interface ("hot spots") of a framework can be annotated with specialization patterns to provide task-based guidance for the framework specialization process. The specialization patterns define various structural, semantic, and coding constraints over the applications derived from the framework. We also present a tool that supports both the framework development process and the framework specialization process, based on the notion of specialization patterns. We outline the basic concepts of the tool and discuss techniques to identify and specify specialization patterns as required by the tool. These techniques have been applied in realistic case studies for creating programming environments for application frameworks
+
+200000. end
+end
