@@ -24,6 +24,7 @@
         <th>paperID</th>
         <th>Title</th>
         <th>Abstract</th>
+          <th>Delete the Paper</th>
       </thead>
       <tbody>
       </tbody>
@@ -46,6 +47,8 @@
                 { "data": "paperID"},
                 { "data": "Title"},
                 { "data" : "Abstract"},
+                { "data" : "DeletePaper"}
+                
             ],
             "ajax": {
         "url":"/jsonconfyrpapers/{{entry[0]}}/{{entry[1]}}",

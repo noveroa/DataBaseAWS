@@ -23,7 +23,7 @@ app = Flask(__name__)
 
 #current Databases being accessed:
 DATABASE = '/var/www/html/flaskapp/EmpData.db'
-DATABASE2 = '/var/www/html/flaskapp/Abstracts_aug4.db'
+DATABASE2 = '/var/www/html/flaskapp/Abstracts_aug14.db'
 
 DEBUG = True
 
@@ -239,7 +239,9 @@ def getPapersConfYr(year, conf):
                 entry = {}
                 entry['paperID'] = subgroup.loc[idx]['paperID']
                 entry['Title'] = subgroup.loc[idx]['title']
-                entry['Abstract'] = subgroup.loc[idx]['abstract']    
+                entry['Abstract'] = subgroup.loc[idx]['abstract']
+                html = "/deletePaper/"+ str(subgroup.loc[idx]['paperID'])
+                entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html
                 mytable.append(entry)
        
             return jsonify( dict(data = mytable))
@@ -249,9 +251,13 @@ def getPapersConfYr(year, conf):
             entry = {'paperID': 'NoConference',
                      'Title': 'NoConference',
                      'Abstract': 'NoConference',
-                     }
-            mytable = [entry]
-            return jsonify(dict(data = mytable))
+                     'DeletePaper': 'NoConference'
+                     }               
+                
+            mytable.append(entry)
+       
+            return jsonify( dict(data = mytable))
+    
         
 @app.route("/confyrpapers/<year>/<conf>", methods = ('GET',))
 def jsonConfYrPaper(year, conf):
@@ -318,7 +324,9 @@ def search_params(year, conf):
                 entry = {}
                 entry['paperID'] = subgroup.loc[idx]['paperID']
                 entry['Title'] = subgroup.loc[idx]['title']
-                entry['Abstract'] = subgroup.loc[idx]['abstract']    
+                entry['Abstract'] = subgroup.loc[idx]['abstract'] 
+                html = "/deletePaper/"+ str(subgroup.loc[idx]['paperID'])
+                entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html
                 mytable.append(entry)
        
             return jsonify( dict(data = mytable))
@@ -327,6 +335,7 @@ def search_params(year, conf):
             entry = {'paperID': 'NoConference',
                      'Title': 'NoConference',
                      'Abstract': 'NoConference',
+                     'DeletePaper': 'NoConference'
                      }
             mytable = [entry]
             return jsonify(dict(data = mytable))
@@ -488,6 +497,8 @@ def search_kw_params(param):
             entry['Title'] = subgroup.loc[idx]['title']
             entry['Conference'] = subgroup.loc[idx]['confName']   
             entry['PublicationYear'] = subgroup.loc[idx]['pubYear'] 
+            html = "/deletePaper/"+ str(subgroup.loc[idx].paperID)
+            entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html 
             mytable.append(entry)
        
         return jsonify(dict(data = mytable))
@@ -496,7 +507,8 @@ def search_kw_params(param):
         entry = {'paperID': 'No Keyword Found',
                      'Title': 'No Keyword Found',
                      'Conference': 'No Keyword Found',
-                     'PublicationYear': 'No Keyword Found'
+                     'PublicationYear': 'No Keyword Found',
+                     'DeletePaper': 'No Keyword Found'
                      }
         mytable = [entry]
         return jsonify(dict(data = mytable))
@@ -653,9 +665,10 @@ def searchAffiliation(term):
             entry = {}
             entry['paperID'] = datadf.loc[idx]['paperID']
             entry['affiliation'] = datadf.loc[idx]['affiliation']
-            html2 = "PaperID/"+ str(datadf.loc[idx]['paperID'])
-            entry['getPaper'] =  "<a href='%s'<button>Paper Information</button>></a>" %html2  
-            
+            html1 = "PaperID/"+ str(datadf.loc[idx]['paperID'])
+            entry['getPaper'] =  "<a href='%s'<button>Paper Information</button>></a>" %html1  
+            html2 = "/deletePaper/"+ str(datadf.loc[idx]['paperID'])
+            entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html2 
             mytable.append(entry)
         
         return jsonify(dict(data = mytable))
@@ -834,6 +847,8 @@ def getauthorsbyID(paperID):
     
     for row in ap.as_matrix():
         entry = {key: value for (key, value) in zip(ap.columns, row)}
+        html = "/deletePaper/"+ paperID
+        entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html 
         entries.append(entry)
     return jsonify(dict(data = entries))
 
@@ -856,6 +871,8 @@ def getauthorsbyname(name):
     
     for row in ap.as_matrix():
         entry = {key: value for (key, value) in zip(ap.columns, row)}
+        html = "/delete/AUTHORS/authorName/"+ str(entry['authorName']).replace('%',' ')
+        entry['DeleteAuthor'] = "<a href='%s'<button>Delete Author</button></a>" %html
         entries.append(entry)
     return jsonify(dict(data = entries))
 
@@ -1053,26 +1070,35 @@ def seeJsonDF(jfile):
     '''
     f = openJfile(jfile)
     
-    return RESTful.jsonDF(f).to_html()
+    result =  RESTful.jsonDF(f)
+
+    return render_template('view.html',
+                           tables=[ result.to_html(classes='ECSA')], 
+                           titles = ['na', 'jSON file'])
 
 @app.route('/insertJfile/<jfile>', methods=['GET'])
-def insertJFiletoDB(jfile, db = DATABASE2):
+def insertJFiletoDB(jfile):
     '''
         : param jfile str/unicode : json file name (located in static folder/data)
         : output : Opens and renders json file as pandas dataframe in html format
     '''
     f = openJfile(jfile)
     
-    return RESTful.entryintotables(db, f).to_html()
-
+    result =  RESTful.entryintotables(db = DATABASE2, jsonfile = f)
+    
+    return render_template('view.html',
+                           tables=[ result.to_html(classes='ECSA')], 
+                           titles = ['na', 'Inserted JsonFile'])
 
 @app.route('/delete/<table>/<cn>/<param>', methods=['GET'])
-def deletefromDB(table, cn, param, db = DATABASE2):
-#        : param  db str : Database name to connect to
-#        : param  table str : Table Name to delete from
-#        : param  cn str : column name being used for deletion comparason
-#        : param  param int/str : value to lok up and delete row
-    
+def deleteRow(table, cn, param):
+    '''
+        : param  db str : Database name to connect to
+        : param  table str : Table Name to delete from
+        : param  cn str : column name being used for deletion comparason
+        : param  param int/str : value to lok up and delete row
+    '''
+    db = DATABASE2
     result = 'ERROR IN STR DELETION, look at column name or str value'
     if str(param).isdigit():
         try:          
@@ -1084,7 +1110,23 @@ def deletefromDB(table, cn, param, db = DATABASE2):
             result = RESTful.deleteRowOTHER(db, table, cn,  param)
         except:
             pass
-    return result
+    
+    return render_template('view.html', 
+                           tables = [result.to_html(classes = 'QoSA')], 
+                           titles = ['na', 'DELETED'])
+
+@app.route('/deletePaper/<paperID>', methods=['GET'])
+def deletePaperfromDB(paperID):
+    '''Delete  a paper from the database, (composites, CASCADE)
+        : param  paperID int/str : value to look up and delete record from database
+        : output : deleted paper as dataframe
+    '''
+    
+    result = RESTful.deleteFromDB_PaperID(int(paperID), db = DATABASE2)
+    
+    return render_template('view.html',
+                           tables=[ result.to_html(classes='ECSA')], 
+                           titles = ['na', 'DELETED'])
 
 if __name__ == '__main__':
    

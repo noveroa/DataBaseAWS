@@ -1,11 +1,13 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+'''Scripts to insert/delete json file into database'''
 import sys
 import sqlite3 as sql
 import pandas as pd
+import deletionbyPaperID as delP
+DEFAULTDB = '/var/www/html/flaskapp/Abstracts_aug14.db'
 
-DEFAULTDB = '/var/www/html/flaskapp/Abstracts_aug1.db'
 
 
 def jsonDF(jsonFile):
@@ -57,7 +59,10 @@ def insert_toTable(db, df, table = 'ABSTRACTSTOTAL'):
     param table str : Table Name to insert into, if does not exist will create
     output : new entry inserted
     '''
+    print('in entry')
+    
     with sql.connect(db) as con:
+        print('db open')
         df.to_sql(table, con, flavor='sqlite', 
                       schema=None, if_exists='append',
                       index=False, index_label=None,
@@ -169,6 +174,21 @@ def getPK(db, table, pkCol):
         key = cursor.fetchone()[0]
 
         return key
+
+def getPaper(paperID, db = DEFAULTDB, pkcol = 'paperID', table = 'PAPER'):
+    '''return the paper as pandas dataframe
+    param paperID int : paperID
+    param  db str : Database name to connect to
+    param pkcol str : primary column name being used,
+    param table str : Table Name to delete from
+    output: paper as a pandas dataframe
+    '''
+    with sql.connect(db) as con:
+        sqlcmd = "SELECT * FROM {tn} WHERE {cn} = {my_id} ".format(tn = table , cn = pkcol, my_id = paperID)
+        
+        df = pd.read_sql_query(sqlcmd, con)
+       
+        return df    
     
 def deleteRowPK(db, table, pkcol, entryID):
     '''Deleting a Record by PRIMARY KEY
@@ -192,9 +212,11 @@ def deleteRowOTHER(db, table, cn, entry):
     param entry str : the str to be used to find and remove records (removes all records
     '''
     with sql.connect(db) as con:
-        con.execute("DELETE FROM {tn} WHERE {idf}='%s'".format(tn=table, idf=cn)%entry)
-        return 'deleted {col} : {e}  from {tn}'.format(tn = table, col = cn, e = entry)
+        sqlcmd = "FROM {tn} WHERE {cn} = '{my_id}'".format(tn = table , cn = cn, my_id = entry)
+        df = pd.read_sql_query("SELECT *" + sqlcmd, con)
+        con.execute('DELETE ' + sqlcmd)
         con.commit()
+        return df
         
         
 def entryintotables(db, jsonfile):
@@ -249,41 +271,13 @@ def entryintotables(db, jsonfile):
     
     return sqlCMDToPD('ABSTRACTSTOTAL', db).tail()
 
-def retrievals(db, table_name, column_2, column_3, id_column, some_id ):
-    entries = []
-    with sql.connect(db) as con:
-        c =  cursor = con.cursor()
-        # 1) Contents of all columns for row that match a certain value in 1 column
-        c.execute('SELECT * FROM {tn} WHERE {cn}="ECSA"'.\
-                  format(tn=table_name, cn=column_2))
-        all_rows = c.fetchall()
-        entries.append(('1):', all_rows))
 
-    # 2) Value of a particular column for rows that match a certain value in column_1
-        c.execute('SELECT ({coi}) FROM {tn} WHERE {cn}="ECSA"'.\
-                  format(coi=column_2, tn=table_name, cn=column_2))
-        all_rows = c.fetchall()
-        entries.append(('2):', all_rows))
-
-    # 3) Value of 2 particular columns for rows that match a certain value in 1 column
-        c.execute('SELECT {coi1},{coi2} FROM {tn} WHERE {coi1}="ECSA"'.\
-                  format(coi1=column_2, coi2=column_3, tn=table_name, cn=column_2))
-        all_rows = c.fetchall()
-        entries.append(('3):', all_rows))
-
-    # 4) Selecting only up to 10 rows that match a certain value in 1 column
-        c.execute('SELECT * FROM {tn} WHERE {cn}="ECSA" LIMIT 10'.\
-                  format(tn=table_name, cn=column_2))
-        ten_rows = c.fetchall()
-        entries.append(('4):', ten_rows))
-
-    # 5) Check if a certain ID exists and print its column contents
-        c.execute("SELECT * FROM {tn} WHERE {idf}={my_id}".\
-                  format(tn=table_name, cn=column_2, idf=id_column, my_id=some_id))
-        id_exists = c.fetchone()
-        if id_exists:
-            entries.append(('5): {}'.format(id_exists)))
-        else:
-            entries.append(('5): {} does not exist'.format(some_id)))
-        
-        return entries
+def deleteFromDB_PaperID(paperID, db = DEFAULTDB):
+    '''Deleting a Record from given Database by PaperID
+    param paperID int : paperID integer to delete from DataBase
+    param  db str : Database name to connect to
+    '''
+    deletedPaper = getPaper(paperID, db)
+    delP.deletebyPaper(paperID, 'paperID', db)
+    
+    return deletedPaper
