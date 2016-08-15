@@ -5,7 +5,7 @@
 import sys
 import sqlite3 as sql
 import pandas as pd
-import deletionbyPaperID as delP
+import f_deletionbyPaperID as delP
 DEFAULTDB = '/var/www/html/flaskapp/Abstracts_aug14.db'
 
 

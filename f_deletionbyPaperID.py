@@ -1,7 +1,7 @@
 import sys
 import sqlite3 as sql
 import pandas as pd
-import RESTful as r
+import f_RESTful as r
 
 ''' Delete by PaperID : removes instances of the given paperID from the composite tables, paper table and
 the TOTALABSTRACTS table.  Not removed from the others as they are not unqiue to given paper'''

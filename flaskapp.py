@@ -14,10 +14,9 @@ import time
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
 from flask import abort,  jsonify
 
-import images as images
-images = reload(images)
-import wordcloud_generator2 as wcg
-wcg = reload(wcg)
+import f_images as images
+import f_wordcloudmaker as wcg
+import f_RESTful as RESTFUL
 
 app = Flask(__name__)
 
@@ -1037,7 +1036,6 @@ def seeAuthorsArea():
         print logError(True)
         return render_template('extras/error.html')
         
-import RESTful
 
 def openJfile(jfile):
 #        : param jfile str/unicode : json file name (located in static folder/data)
