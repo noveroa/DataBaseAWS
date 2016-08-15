@@ -10,7 +10,7 @@ import numpy as np
 import seaborn
 import matplotlib.pyplot as plt
 from collections import Counter
-
+import time
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
 from flask import abort,  jsonify
 
@@ -74,19 +74,11 @@ def close_db(error):
     if hasattr(g, DATABASE2):
         g.sqlite_db.close()
 
-@app.route('/countme/<input_str>')
-def count_me(input_str):
-    input_counter = Counter(input_str)
-    response = []
-    for letter, count in input_counter.most_common():
-        response.append('"{}": {}'.format(letter, count))
-    return '<br>'.join(response)
-
 @app.route('/')
 def index():
 #    Renders aboutme page html for '/' the index page
     
-    return render_template('index.html')
+    return render_template('extras/index.html', entry = time.strftime("%c"))
 
 @app.route('/aboutme/')
 def aboutme():
@@ -1072,7 +1064,7 @@ def seeJsonDF(jfile):
     
     result =  RESTful.jsonDF(f)
 
-    return render_template('view.html',
+    return render_template('extras/view.html',
                            tables=[ result.to_html(classes='ECSA')], 
                            titles = ['na', 'jSON file'])
 
@@ -1086,9 +1078,13 @@ def insertJFiletoDB(jfile):
     
     result =  RESTful.entryintotables(db = DATABASE2, jsonfile = f)
     
-    return render_template('view.html',
+    return render_template('extras/view.html',
                            tables=[ result.to_html(classes='ECSA')], 
                            titles = ['na', 'Inserted JsonFile'])
+
+@app.route('/insertingJsonFiles')
+def directionstoInsertJFile():
+    return render_template("extras/directions.html")
 
 @app.route('/delete/<table>/<cn>/<param>', methods=['GET'])
 def deleteRow(table, cn, param):
@@ -1111,7 +1107,7 @@ def deleteRow(table, cn, param):
         except:
             pass
     
-    return render_template('view.html', 
+    return render_template('extras/view.html', 
                            tables = [result.to_html(classes = 'QoSA')], 
                            titles = ['na', 'DELETED'])
 
@@ -1124,11 +1120,14 @@ def deletePaperfromDB(paperID):
     
     result = RESTful.deleteFromDB_PaperID(int(paperID), db = DATABASE2)
     
-    return render_template('view.html',
+    return render_template('extras/view.html',
                            tables=[ result.to_html(classes='ECSA')], 
                            titles = ['na', 'DELETED'])
 
+
+
 if __name__ == '__main__':
+
    
     app.debug=True
     app.run(debug = True)
