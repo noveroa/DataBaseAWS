@@ -1,0 +1,39 @@
+<!-- Index template and html, extends master.html -->
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-12" />
+  <title>NEU: Abstracts Database</title>
+  <link type="text/css" rel="stylesheet"
+        href="{{ url_for('static',
+              filename='welcome.css')}}" />
+</head>
+<body>
+
+{% extends "master.html" %}
+
+{% block content %}
+    <h2>Index: {{entry}}</h2>
+    <h3>Hosted by Flask and AWS.</h3>
+<table BORDER="1">
+    <CAPTION>Let's Look Around</CAPTION>
+        <tr> 
+             <td > <a href="{{ url_for('jsonContents') }}"><button>DataBase Datum and Tables</button></a></td>
+             <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdowns by Year</button></a></td>
+             <td > <a href="{{ url_for('jsonContentsconf') }}"><button>Visual Conference Breakdown</button></a></td>
+             <td > <a href="{{ url_for('jsonPaperKW') }}"><button>Papers and their Keywords</button></a></td>
+             <td > <a href="{{ url_for('search_kw') }}"><button>Search Keywords</button></a></td>
+             <td > <a href="{{ url_for('seeKWTrends') }}"><button>Find and See A KeyWord's Trend</button></a></td>
+             <td > <a href="{{ url_for('topKW') }}"><button>See Top 20 Trend</button></a></td>
+             <td > <a href="{{ url_for('authoredpapers') }}"><button>Authors and their Papers</button></a></td>
+             <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Paper's Authors by ID</button></a></td>
+             <td > <a href="{{ url_for('seeAuthorsName') }}"><button>Find Author's Papers by Name</button></a></td>
+             <td > <a href="{{ url_for('seeCountryCounts') }}"><button>Table of Country Counts</button></a></td>
+             <td > <a href="{{ url_for('seeCountries') }}"><button>Visualize Country Counts</button></a></td>
+             <td > <a href="{{ url_for('seeAffil') }}"><button>Search Affiliations by Term</button></a></td>
+        </tr>
+</table>
+{% endblock %}
+
+</body>
+</html>
