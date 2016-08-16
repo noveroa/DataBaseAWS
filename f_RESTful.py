@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 
 '''Scripts to insert/delete json file into database'''
-import sys
+import sys,os
 import sqlite3 as sql
 import pandas as pd
 import f_deletionbyPaperID as delP
 DEFAULTDB = '/var/www/html/flaskapp/Abstracts_aug14.db'
-
+DEFAULTJSONDIRECTORY = '/var/www/html/flaskapp/static/data'
 
 
 def jsonDF(jsonFile):
@@ -271,6 +271,23 @@ def entryintotables(db, jsonfile):
     
     return sqlCMDToPD('ABSTRACTSTOTAL', db).tail()
 
+def iterativeJsoninsert(db, directory = DEFAULTJSONDIRECTORY):
+    '''Inserting Mulitple Json Files from the given directory
+    param  db str : Database name to connect to
+    param directory str : Path to the location of the Json files to be inserted
+    output : list of files entered into the database.
+    '''
+    entries = []
+    for subdir, dirs, files in os.walk(directory):
+        for f in files:
+            filepath = subdir + os.sep + f
+            if filepath.endswith(".json"):
+                print ("Entering : %s")%filepath
+                entryintotables(db,filepath)
+                
+                entries.append(f)
+        
+        return pd.DataFrame(entries).rename(columns = {0:'File Entered'})
 
 def deleteFromDB_PaperID(paperID, db = DEFAULTDB):
     '''Deleting a Record from given Database by PaperID

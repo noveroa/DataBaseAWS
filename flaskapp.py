@@ -16,7 +16,7 @@ from flask import abort,  jsonify
 
 import f_images as images
 import f_wordcloudmaker as wcg
-import f_RESTful as RESTFUL
+import f_RESTful as RESTful
 
 app = Flask(__name__)
 
@@ -1079,6 +1079,21 @@ def insertJFiletoDB(jfile):
     return render_template('extras/view.html',
                            tables=[ result.to_html(classes='ECSA')], 
                            titles = ['na', 'Inserted JsonFile'])
+
+@app.route('/insertmultipleJson', methods=['GET'])
+def insertMultiJFiles():
+    '''
+        : param jfile str/unicode : json file name (located in static folder/data)
+        : output : Opens and renders json file as pandas dataframe in html format
+    '''
+    
+    json_directory = os.path.join(app.static_folder,  "data")
+    
+    result = RESTful.iterativeJsoninsert(DATABASE2, json_directory)
+    
+    return render_template('extras/view.html',
+                     tables=[ result.to_html(classes='WICSA')], 
+                     titles = ['na', 'Inserted JsonFiles'])
 
 @app.route('/insertingJsonFiles')
 def directionstoInsertJFile():
