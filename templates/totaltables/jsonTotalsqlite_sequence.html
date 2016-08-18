@@ -1,0 +1,40 @@
+<!-- extend tablej layout -->
+{% extends "tablej.html" %}
+
+{% block title %}Tables{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="Tables" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>Primary Table Names</th>
+        <th>Count</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#Tables').dataTable( {
+            "colReorder" : true,
+            "rowReorder" : true,
+            "ajax" : '/api/data',
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "name" },
+                { "data": "seq" }
+            ],
+            "ajax": {
+            "url":"/jsonTotal/sqlite_sequence",
+            },
+         });   
+        });   
+   </script>
+{% endblock %}
