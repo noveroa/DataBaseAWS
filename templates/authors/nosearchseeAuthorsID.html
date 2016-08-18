@@ -1,0 +1,46 @@
+<!-- extend tablej layout Returns a table of Authors and their associated papers by conference and year The count is the total number of papers the author has been ascribed over the entirety of the database -->
+{% extends "tablej.html" %}
+
+{% block title %}Authors of Paper: {{entry}}{% endblock %}
+
+{% block contents %}
+  <body>
+      <table id="AuthoredPapers" class="dataTable sig-datatable" width="100%">
+      <thead>
+        <th>Author</th>
+        <th>Paper Title</th>
+        <th>Conference</th>
+        <th>Published Year</th>
+        <th>PaperCount</th>
+        <th>Delete Paper</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </body>
+  <script>
+        $(document).ready(function(){
+            $('#AuthoredPapers').dataTable( {
+            "bLengthChange": false,
+            "bFilter": true,
+            "bSort": true, 
+            "aaSorting": [],
+            "bInfo": false,
+            "bJQueryUI": true,
+            "bAutoWidth": true,
+            "columns":  [
+                { "data": "authorName" },
+                { "data": "title" },
+                { "data": "confName" },
+                { "data": "pubYear" },
+                { "data": "counts" },
+                { "data": "DeletePaper"}
+                ],
+            "ajax": {
+            "url":"/getauthorsbyID/{{entry}}",
+            },
+         });   
+        });   
+   </script>
+
+{% endblock %}
