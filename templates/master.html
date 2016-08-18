@@ -39,13 +39,15 @@
             <td > <a href="{{ url_for('index') }}"><button>Home</button></a></td>
             <td>  <a href="{{ url_for('getUsers') }}"><button>Users</button></a></td>
             <td > <a href="{{ url_for('aboutme') }}"><button>AboutMe!</button></a></td>
-            <td > <a href="{{ url_for('jsonContents') }}"><button>What Do We Have?</button></a></td>   
+            <td > <a href="{{ url_for('jsonContents') }}"><button>DataBase Datum and Tables</button></a></td> 
+            <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdowns by Year</button></a></td>
+            <td > <a href="{{ url_for('jsonContentsconf') }}"><button>Visual Conference Breakdown</button></a></td>   
         </tr>
         <tr>
-            <td > <a href="{{ url_for('confbreakdown') }}"><button>Conference Breakdown</button></a></td>
             <td > <a href="{{ url_for('jsonContentsconf') }}"><button>Visual Conference Breakdown</button></a></td>
             <td > <a href="{{ url_for('jsonPaperKW') }}"><button>Papers and their Keywords</button></a></td>
-            <td > <a href="{{ url_for('seeKWTrends') }}"><button>Find a Keyword</button></a></td>
+            <td > <a href="{{ url_for('search_kw') }}"><button>Search and View Keywords</button></a></td>
+            <td > <a href="{{ url_for('seeKWTrends') }}"><button>See a Keyword Trend</button></a></td>
             <td > <a href="{{ url_for('KWcloud') }}"><button>A Keyword Cloud</button></a></td>
             <td > <a href="{{ url_for('directionstoSearchCloud') }}"><button>Getting a parsed Keyword Cloud</button></a></td>
         </tr>
