@@ -6,6 +6,7 @@ import sys,os
 import sqlite3 as sql
 import pandas as pd
 import f_deletionbyPaperID as delP
+import f_SqlScripts as sqlCMDS
 DEFAULTDB = '/var/www/html/flaskapp/Abstracts_aug14.db'
 DEFAULTJSONDIRECTORY = '/var/www/html/flaskapp/static/data'
 
@@ -184,7 +185,7 @@ def getPaper(paperID, db = DEFAULTDB, pkcol = 'paperID', table = 'PAPER'):
     output: paper as a pandas dataframe
     '''
     with sql.connect(db) as con:
-        sqlcmd = "SELECT * FROM {tn} WHERE {cn} = {my_id} ".format(tn = table , cn = pkcol, my_id = paperID)
+        sqlcmd = sqlCMDS.sqlSelectRowbyID(table, pkcol, paperID)
         
         df = pd.read_sql_query(sqlcmd, con)
        
@@ -216,8 +217,7 @@ def deleteRowOTHER(db, table, cn, entry):
         df = pd.read_sql_query("SELECT *" + sqlcmd, con)
         con.execute('DELETE ' + sqlcmd)
         con.commit()
-        return df
-        
+        return df        
         
 def entryintotables(db, jsonfile):
     '''Inserting a Record from a JsonFile
@@ -294,6 +294,7 @@ def deleteFromDB_PaperID(paperID, db = DEFAULTDB):
     param paperID int : paperID integer to delete from DataBase
     param  db str : Database name to connect to
     '''
+    paperID = int(paperID)
     deletedPaper = getPaper(paperID, db)
     delP.deletebyPaper(paperID, 'paperID', db)
     

@@ -146,7 +146,7 @@ def getContents():
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
         mytables = (cursor.fetchall())
         myt = []
-        for x in mytables[1:]:
+        for x in mytables:
             table_entry = {}
             table_name = x[0]
             table_entry['name'] = table_name
@@ -231,8 +231,10 @@ def getPapersConfYr(year, conf):
                 entry['paperID'] = subgroup.loc[idx]['paperID']
                 entry['Title'] = subgroup.loc[idx]['title']
                 entry['Abstract'] = subgroup.loc[idx]['abstract']
-                html = "/deletePaper/"+ str(subgroup.loc[idx]['paperID'])
-                entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html
+                html1 = "/PaperID/"+ str(subgroup.loc[idx]['paperID'])
+                entry['viewpaper'] =  "<a href='%s'<button>View Paper</button></a>" %html1
+                html2 = "/deletePaper/"+ str(subgroup.loc[idx]['paperID'])
+                entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html2
                 mytable.append(entry)
        
             return jsonify( dict(data = mytable))
@@ -242,6 +244,7 @@ def getPapersConfYr(year, conf):
             entry = {'paperID': 'NoConference',
                      'Title': 'NoConference',
                      'Abstract': 'NoConference',
+                     'viewpaper': 'NoConference',
                      'DeletePaper': 'NoConference'
                      }               
                 
@@ -316,8 +319,10 @@ def search_params(year, conf):
                 entry['paperID'] = subgroup.loc[idx]['paperID']
                 entry['Title'] = subgroup.loc[idx]['title']
                 entry['Abstract'] = subgroup.loc[idx]['abstract'] 
-                html = "/deletePaper/"+ str(subgroup.loc[idx]['paperID'])
-                entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html
+                html1 = "/PaperID/"+ str(subgroup.loc[idx]['paperID'])
+                entry['viewpaper'] =  "<a href='%s'<button>View Paper</button></a>" %html1
+                html2 = "/deletePaper/"+ str(subgroup.loc[idx]['paperID'])
+                entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html2
                 mytable.append(entry)
        
             return jsonify( dict(data = mytable))
@@ -326,6 +331,7 @@ def search_params(year, conf):
             entry = {'paperID': 'NoConference',
                      'Title': 'NoConference',
                      'Abstract': 'NoConference',
+                     'viewpaper' : 'NoConference',
                      'DeletePaper': 'NoConference'
                      }
             mytable = [entry]
@@ -368,11 +374,18 @@ def getpaperbyID(paperid):
         cur = con.cursor()
         cur.execute(sqlcmd)
         entries = cur.fetchall()
+        html1 = '/seeauthorsbyID/' + str(paperid)
+        aref1 =  "<a href='%s'<button>View Authors</button></a>" %html1
+        entries[0]['authors'] = aref1
+        html2 = "/deletePaper/"+ str(paperid)
+        aref2 =  "<a href='%s'<button>Delete Paper!</button></a>" %html2
+        entries[0]['paperID'] = aref2
     return jsonify(dict(data=entries))
 
 @app.route("/PaperID/<paperid>", methods = ('GET',))
 def PaperID(paperid):
 #   Renders jsonPaperID(id) as html    
+
     return render_template('/papers/paperbyID.html', entry = paperid)
     
 @app.route("/jsonContentskeys/<conf>/<year>", methods = ('GET',))
@@ -488,19 +501,22 @@ def search_kw_params(param):
             entry['Title'] = subgroup.loc[idx]['title']
             entry['Conference'] = subgroup.loc[idx]['confName']   
             entry['PublicationYear'] = subgroup.loc[idx]['pubYear'] 
-            html = "/deletePaper/"+ str(subgroup.loc[idx].paperID)
-            entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html 
+            html1 = "/PaperID/"+ str(subgroup.loc[idx]['paperID'])
+            entry['viewpaper'] =  "<a href='%s'<button>View Paper</button></a>" %html1
+            html2 = "/deletePaper/"+ str(subgroup.loc[idx].paperID)
+            entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html2
             mytable.append(entry)
        
         return jsonify(dict(data = mytable))
     except:
         print (param, 'subgroupfail')
         entry = {'paperID': 'No Keyword Found',
-                     'Title': 'No Keyword Found',
-                     'Conference': 'No Keyword Found',
-                     'PublicationYear': 'No Keyword Found',
-                     'DeletePaper': 'No Keyword Found'
-                     }
+                 'Title': 'No Keyword Found',
+                 'Conference': 'No Keyword Found',
+                 'PublicationYear': 'No Keyword Found',
+                 'viewpaper': 'No Keyword Found',
+                 'DeletePaper': 'No Keyword Found'
+                  }
         mytable = [entry]
         return jsonify(dict(data = mytable))
 
@@ -838,10 +854,18 @@ def getauthorsbyID(paperID):
     
     for row in ap.as_matrix():
         entry = {key: value for (key, value) in zip(ap.columns, row)}
-        html = "/deletePaper/"+ paperID
-        entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html 
+        html1 = "/PaperID/"+ paperID
+        entry['viewpaper'] =  "<a href='%s'<button>Paper Information</button>></a>" %html1  
+        html2 = "/deletePaper/"+ paperID
+        entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html2 
         entries.append(entry)
     return jsonify(dict(data = entries))
+@app.route('/seeauthorsbyID/<paperID>', methods=('GET',))
+def seeauthorsbyID(paperID):
+#    '''
+#    Renders getAuthors() as non search
+#    '''
+    return render_template('authors/nosearchseeAuthorsID.html', entry = paperID)
 
 @app.route('/authors/seeAuthorsID', methods=('GET',))
 def seeAuthorsID():
@@ -935,7 +959,11 @@ def confYrAuthor2(conf, year):
             entry['Author'] = merged.loc[idx]['authorName']
             entry['paperID'] = merged.loc[idx]['paperID']
             entry['Title'] = merged.loc[idx]['title']
-            entry['AuthorYrCount'] = merged.loc[idx]['IndivCt']    
+            entry['AuthorYrCount'] = merged.loc[idx]['IndivCt']
+            html1 = "/PaperID/"+ merged.loc[idx]['paperID']
+            entry['viewpaper'] =  "<a href='%s'<button>Paper Information</button>></a>" %html1  
+            html2 = "/deletePaper/"+ merged.loc[idx]['paperID']
+            entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html2 
             
             mytable.append(entry)
         
@@ -946,7 +974,10 @@ def confYrAuthor2(conf, year):
         mytable = {entry['Author'] : 'No Conference Data',
                    entry['paperID'] : 'No Conference Data',
                    entry['Title'] : 'No Conference Data',
-                   entry['AuthorYrCount'] : 'No Conference Data'
+                   entry['AuthorYrCount'] : 'No Conference Data',
+                   entry['viewpaper'] : 'No Conference Data',
+                   entry['DeletePaper'] : 'No Conference Data'
+                   
                    }
         return jsonify(dict(data = mytable))
 

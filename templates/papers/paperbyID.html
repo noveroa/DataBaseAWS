@@ -10,7 +10,9 @@
         <th>Title</th>
         <th>Conference</th>  
         <th>Publication Year</th>
-        <th>abstract</th>
+        <th>Abstract</th>
+        <th>See Authors</th>
+        <th>Delete The Paper</th>
       </thead>
       <tbody>
       </tbody>
@@ -33,11 +35,12 @@
                 { "data": "title" },
                 { "data": "confName" },
                 { "data": "pubYear" },
-                { "data": "abstract" }
-                
+                { "data": "abstract" },
+                { "data": "authors" },
+                { "data": 'paperID'}
             ],
             "ajax": {
-        "url":"/jsonPaperID/{{entry}}",
+                "url":"/jsonPaperID/{{entry}}",
             },
          });   
         });   
@@ -46,7 +49,6 @@
 <table BORDER="1">
         <tr>
             <td > <a href="{{ url_for('seeAuthorsID') }}"><button>Find Paper's Authors by ID</button></a></td>
-
         </tr>
 </table>
 {% endblock %}

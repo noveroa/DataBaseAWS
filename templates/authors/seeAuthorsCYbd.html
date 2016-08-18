@@ -12,6 +12,8 @@
         <th>paperID</th>
         <th>Title</th>
         <th>AuthorCt</th>
+        <th>ViewPaper</th>
+        <th>DeletePaper</th>
       </thead>
       <tbody>
       </tbody>
@@ -37,7 +39,9 @@
                 { "data": "Author"},
                 { "data" : "paperID"},
                 { "data": "Title"},
-                { "data": "AuthorYrCount"}
+                { "data": "AuthorYrCount"},
+                { "data": "viewpaper"},
+                { "data": "DeletePaper"}
             ],
             "ajax": {
         "url":"/confyrAuthor_bd/{{entry[0]}}/{{entry[1]}}",
