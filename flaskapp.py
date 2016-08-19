@@ -960,9 +960,9 @@ def confYrAuthor2(conf, year):
             entry['paperID'] = merged.loc[idx]['paperID']
             entry['Title'] = merged.loc[idx]['title']
             entry['AuthorYrCount'] = merged.loc[idx]['IndivCt']
-            html1 = "/PaperID/"+ merged.loc[idx]['paperID']
+            html1 = "/PaperID/"+ str(merged.loc[idx]['paperID'])
             entry['viewpaper'] =  "<a href='%s'<button>Paper Information</button>></a>" %html1  
-            html2 = "/deletePaper/"+ merged.loc[idx]['paperID']
+            html2 = "/deletePaper/"+ str(merged.loc[idx]['paperID'])
             entry['DeletePaper'] =  "<a href='%s'<button>Delete Paper!</button></a>" %html2 
             
             mytable.append(entry)
