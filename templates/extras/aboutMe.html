@@ -30,10 +30,18 @@
 <table>
 <CAPTION>Links</CAPTION>
     <tr>
-
-    <td><p class="outset"><a href="https://www.linkedin.com/in/aileen-novero-7a814615" ><button>LinkedIn</button></a></p></td>
-    <td><p class="outset"><a href="https://github.com/noveroa"><button>GitHub</button></a><p></td>
-    <td><p class="outset"><a href="mailto:novero.a@gmail.com?Subject=Hello%20from%20DatabaseApp" target="_top">Send Mail</a></p></td>
-    </tr>    
+        <td><p class="outset"><a href="{{ url_for('static', filename = 'Novero_IndependentMastersProject.pdf') }}">Read About the Project</a></p></td>
+        <td><p class="outset"><a href="{{ url_for('static', filename = 'DB_UML.pdf') }}">UML of DataBase</a></p></td>
+    </tr> 
+    <tr>
+        <td><p class="outset"><a href="https://www.linkedin.com/in/aileen-novero-7a814615" ><button>LinkedIn</button></a></p></td>
+        <td><p class="outset"><a href="mailto:novero.a@gmail.com?Subject=Hello%20from%20DatabaseApp" target="_top">Send Mail</a></p></td>
+        <td><p class="outset"><a href="{{ url_for('static', filename = 'Novero_ResumeAug2016.pdf') }}">My Resume Aug2016</a></p></td>
+    </tr> 
+    <tr>
+        <td><p class="outset"><a href="https://github.com/noveroa"><button>GitHub</button></a><p></td>
+        <td><p class="outset"><a href="https://github.com/noveroa/DataBases" ><button>Local Flask Git</button></a></p></td>
+        <td><p class="outset"><a href="https://github.com/noveroa/DataBaseAWS" ><button>AWS Flask Git</button></a></p></td>
+    </tr>   
 </table>    
 {% endblock %}
